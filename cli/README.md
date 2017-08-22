@@ -1,3 +1,11 @@
+# Resources
+
+https://www.learnenough.com/command-line-tutorial
+
+man pages - for example `man grep`
+
+# Exercise
+
 Show the name of your home directory.
 
 Navigate to the "Challenge 1" folder.
