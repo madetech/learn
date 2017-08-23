@@ -14,7 +14,7 @@ How could you write the following SQL statements in ActiveRecord format?
 - `SELECT * FROM movies`
 - `SELECT * FROM movies WHERE name='Die Hard'`
 - `SELECT * FROM movies WHERE release_year=2000 AND genre='Action'`
-- `SELECT COUNT(*) FROM movies WHERE genre='Romantic'`
+- `SELECT COUNT(*) FROM movies WHERE genre='Romance'`
 
 Can you visualise and draw a table diagram for a movie rating site with the following requirements?
 - Directors have many movies
