@@ -59,3 +59,5 @@ Write tests to ensure ratings have a score of 1-5 and will not be created if the
 Write tests for returning all of a movies ratings and it's average rating and make these pass
 
 Write tests for returning the Director whos movies have the highest average ratings and make these pass
+
+Open a pull request and ask for a review when you're done
