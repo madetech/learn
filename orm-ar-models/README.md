@@ -36,7 +36,7 @@ What do `db:create`, `db:setup`, `db:seed`, `db:schema:load` and `db:migrate` do
 
 ## Exercise
 
-Clone down the academy-workshop-application repo
+Fork the [academy-workshop-application](https://github.com/madetech/academy-workshop-application) repo
 
 Set up the database and ensure any existing tests are passing
 
