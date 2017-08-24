@@ -63,3 +63,11 @@ Write tests to handle viewing all Movies via a HTTP request and make these pass
 Write tests to handle editing and updating a Movie via a HTTP request and make these pass (be sure to include tests for failing validation)
 
 Add tests for error messages for creating and updating a Movie and return these to the user from the controller
+
+Write tests to handle viewing a Movie via a HTTP request and make these pass
+
+Refactor the above to do the loading of the Movie before the method is called and make sure your tests still pass
+
+Add tests for handling when a Movie doesn't exist and returning a message with the correct status code and make these pass
+
+Open a pull request and ask for a review when you're done
