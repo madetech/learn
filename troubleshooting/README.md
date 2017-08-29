@@ -13,7 +13,8 @@
 ## Workshop
 
 In the given stacktrace identify the most likely source of the error:
-```NoMethodError: undefined method `title' for nil:NilClass
+```console
+NoMethodError: undefined method `title' for nil:NilClass
   from lib/sparqa/use_cases/all_resources.rb:10:in `block in call'
   from active_record/relation/delegation.rb:41:in `each'
   from active_record/relation/delegation.rb:41:in `each'
