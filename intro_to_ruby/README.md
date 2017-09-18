@@ -2,11 +2,17 @@
 
 ## Resources
 
-- https://www.ruby-lang.org/en/
+### Required reading
+
 - http://tryruby.org/levels/1/challenges/0
+- https://rubymonk.com/ (primer and primer ascent)
+
+### If you want to go further
+
+- https://www.ruby-lang.org/en/
 - https://www.ruby-lang.org/en/documentation/quickstart/
 - http://ruby-doc.org/docs/Tutorial/
-- https://rubymonk.com/ (primer and primer ascent)
+- https://ruby-doc.org/core-2.4.1/Enumerable.html
 
 ## Workshop
 
