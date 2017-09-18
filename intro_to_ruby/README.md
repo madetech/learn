@@ -63,4 +63,5 @@ What are some ways to add all of the values together?
 
 ## Exercise
 
-Coming soon
+- Set up [exercism](http://exercism.io/clients/cli)
+- Fetch a [ruby problem](http://exercism.io/languages/ruby/about), work on it and submit your solution.
