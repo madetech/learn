@@ -27,6 +27,8 @@ Under the hood macOS is a Unix operating system with it's roots in BSD.
 
 In order to compile source code you need some tools that will do compilation.
 
+While Ruby code isn't compiled, the most accepted way to install Ruby itself is to compile it from source. You will also find that homebrew needs to compile some things.
+
 On macOS the accepted way of doing this is by installing xcode
 
 `$ xcode-select --install`
