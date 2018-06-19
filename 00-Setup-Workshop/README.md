@@ -80,8 +80,11 @@ _Hint_ can you use `man` on your own? ;)
 ## Install common software
 
 `$ brew cask install slack`
+
 `$ brew cask install google-chrome`
+
 `$ brew cask install firefox`
+
 `$ brew cask install lastpass`
 
 ## Install Ruby version managers
@@ -172,6 +175,7 @@ You will also need Bundler. This is a tool that manages your Ruby Gems on a per 
 ## Finalizing Last Pass
 
 `$ cd /usr/local/Caskroom/lastpass/latest/`
+
 `$ open Lastpass\ Installer.app`
 
 # You should now be all setup
