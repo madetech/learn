@@ -9,7 +9,7 @@ Since you will be using macOS, and this might be your first time we will take it
 3) [Your Shell](./Your-Shell.md)
 4) [Common Tools](./Common-Tools.md)
 5) [Ruby Version Manager](./Ruby-Version-Manager.md)
-6) [Ruby]***(./Ruby.md)
+6) [Ruby](./Ruby.md)
 
 # You should now be all setup
 
