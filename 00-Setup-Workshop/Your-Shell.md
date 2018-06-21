@@ -14,3 +14,19 @@ This will install a fairly comprehensive and useful set of helper plugins that m
 
 On top of this zsh is a superset of bash, so the two are largely interchangeable.
 
+You will also need make zsh your default shell.
+
+`$ chsh -s /usr/local/bin/zsh`
+
+There is an exhaustive guide [here](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) if you get stuck.
+
+## Stop and understand
+
+* What is `chsh`? 
+
+## To Do
+
+* Work through section 1.4, 1.5 and 1.6 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Our first command").
+* Install an alternative shell (zsh)
+* Install some plugins (oh-my-zsh)
+* Make zsh your default shell

@@ -23,3 +23,9 @@ You will also need Bundler. This is a tool that manages your Ruby Gems on a per 
 
 `$ gem install bundler`
 
+## To Do
+
+* Install a version of Ruby
+* Set your default ruby version
+* Install bundler
+* Work through section 2 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Our first command").

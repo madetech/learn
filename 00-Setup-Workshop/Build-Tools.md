@@ -20,6 +20,7 @@ You can install it by running
 
 `$ curl -fsS 'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby`
 
+
 ### Stop and understand
 
 * What does `-fsS` do?
@@ -29,3 +30,10 @@ _Hint_
 
 * `$ man curl` - look up the flags
 * `$ man bash` - look up pipelines
+
+
+## To Do
+
+* Work through section 1.2 and 1.3 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Our first command").
+* Install xcode cli tools
+* Install Homebrew
