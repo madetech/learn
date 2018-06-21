@@ -24,6 +24,14 @@ _Hint_ can you use `man` on your own? ;)
 
 # Finalizing Last Pass
 
+We use lastpass to store and share passwords for shared services.
+
 `$ cd /usr/local/Caskroom/lastpass/latest/`
 
 `$ open Lastpass\ Installer.app`
+
+# To Do
+
+* Enable cask
+* Install some common software (incl. last pass)
+

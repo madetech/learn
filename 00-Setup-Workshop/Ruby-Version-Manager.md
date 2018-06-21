@@ -58,3 +58,8 @@ Phew! That was a lot.
 * What does `~` mean in a path?
 * What does source do? Is it a command or a builtin?
 
+## To Do
+
+* Install rbenv
+* Add rbenv to your zshrc file
+
