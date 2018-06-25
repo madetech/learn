@@ -33,5 +33,5 @@ We use lastpass to store and share passwords for shared services.
 # To Do
 
 * Enable cask
-* Install some common software (incl. last pass)
+* Install some common software (including last pass)
 

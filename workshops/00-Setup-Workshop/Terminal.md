@@ -12,7 +12,7 @@ You will see this `$` at the beginning of command. You shouldn't include it when
 
 The `$` does have a meaning!
 
-- `$` signifies you should run a command as your "unpriviledged user"
+- `$` signifies you should run a command as your "unprivileged user"
 - `#` signifies you should run that command as root
 
 # To Do
