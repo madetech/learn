@@ -59,7 +59,7 @@ Another angle to look at retrospectives is using the six thinking hats approach.
 * White hat - Discuss _facts_ from the last iteration. (10 mins)
 * Yellow Hat - Discuss only good things from the last iteration. (10 mins)
 * Black Hat - Discuss only the bad things that happened. (10 mins)
-* Green Hat - Discuss solving problems. Blue sky thinking encourages. (10 mins)
+* Green Hat - Discuss solving problems. Blue sky thinking encouraged. (10 mins)
 * Red Hat - On the shared board, write down 2 emotive statements for each issue / solution. (5 mins)
 
 Spend some time looking at the Red Hat output. 
