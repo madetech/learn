@@ -17,5 +17,5 @@ The `$` does have a meaning!
 
 # To Do
 
-* Read up to 1.1 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Our first command").
+* Read up to (and including) 1.1 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Our first command").
 * Download an install an alternative terminal
