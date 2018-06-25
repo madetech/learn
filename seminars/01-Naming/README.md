@@ -1,5 +1,7 @@
 # Names
 
+[Presentation](https://docs.google.com/presentation/d/1-yh9S1I4wdVXJcrOhftJshmlFuDQmq3Rt7vrdfpVvEY/edit?usp=sharing)
+
 * Pronounceable
 * Reveal Intent / Avoid Disinformation
 * Avoid Lack of Specificity
