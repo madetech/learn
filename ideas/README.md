@@ -77,3 +77,11 @@ If you have a burning desire to build something, do so.
 
 Make sure you're building it well, though.
 
+Remember:
+
+* Open small pull requests - less than ~400 lines (At Made Tech you can drop a link into #engineering or #learntech)
+* Make lots of mistakes
+* TDD your code
+* Put into practice your ever growing knowledge
+* Ask for help when stuck 
+
