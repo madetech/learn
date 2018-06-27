@@ -2,27 +2,28 @@
 
 You probably have already done some refactoring as part of code katas.
 
-Small changes to your code to leave it just a little bit better.
+Refactorings are small changes to your code to leave it just a little bit better.
 
-Refactoring, like TDD is a discipline skill with rules.
+Refactoring, like TDD, is a disciplined skill with rules.
 
 * Good tests<sup>[1]</sup> are essential to refactoring. Disciplined TDD is a great way to have a reliable test suite.
 * _Small changes_ from a [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear)
+* Your tests should be passing before and after each refactoring
 
 # What is a small change?
 
-Small reversible operations. 
+Small reversible operations. They should have a name, and a clearly defined end state.
 
-* When mobbing or pairing it's useful to be able to immediately describe a refactoring.
+When mobbing or pairing it's useful to be able to immediately describe a refactoring.
 
 ## The process
 
-Here is the process for performing the **Extract Method* refactoring.
+Here is the process for performing the **Extract Method** refactoring.
 
 1. Run your tests. Do they pass? If they don't you need to solve that first.
 2. Apply the refactoring
 
-*Starting Code*
+**Before**
 ```ruby
 class PayslipPrinter
   def print(payslip)
@@ -32,7 +33,7 @@ class PayslipPrinter
   end
 end
 ```
-  ____
+  \_\_ __
  |    |
  |    | 
  |    |
@@ -41,7 +42,7 @@ end
   \  / 
    \/
 
-*Resultant Code*
+**After**
 ```ruby
 class PayslipPrinter
   def print(payslip)
@@ -71,3 +72,4 @@ practice applying small refactoring from the [catalog of refactorings](https://r
 # Notes
 
 * [1] - https://www.madetech.com/blog/semantically-stable-test-suites
+
