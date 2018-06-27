@@ -1,6 +1,6 @@
 # Install a Ruby version manager
 
-It is possible to install Ruby itself as a standalone package, but this creates one _a small_ problem: It common to have multiple projects that require different versions of Ruby.
+It is possible to install Ruby itself as a standalone package, but this creates _a small_ problem: It common to have multiple projects that require different versions of Ruby.
 
 _To the rescue [rbenv](https://github.com/rbenv/rbenv)_
 
