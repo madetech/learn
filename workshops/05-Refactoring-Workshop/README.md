@@ -77,7 +77,7 @@ end
 # To Do
 
 Using the [Yatzy Refactoring Kata](https://github.com/emilybache/Yatzy-Refactoring-Kata) by Emily Bache, 
-practice applying small refactoring from the [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear).
+practice applying refactorings from the [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear).
 
 # Notes
 
