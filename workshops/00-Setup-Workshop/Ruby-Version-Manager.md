@@ -12,8 +12,8 @@ You can install rbenv by running
 
 We still need to do two things:
 
-* 1) Configure your shell to work with rbenv
-* 2) Install a version of Ruby
+1. Configure your shell to work with rbenv
+2. Install a version of Ruby
 
 # rbenv init
 
