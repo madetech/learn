@@ -1,18 +1,48 @@
 # Gem Packaging
 
-In Ruby we use Gems to distribute reusable components.
+In Ruby we use Gems to "distribute reusable components". What this means is that we can share portions of code so that we can reuse them in many projects.
 
-For example, `rspec` is distributed as a Gem.
+Common Ruby libraries or framework (e.g. Sinatra, Rails, Rubocop, ActiveRecord, etc) are all Gems.
 
-When we install a gem by invoking `gem install rspec` we download a package from RubyGems.org.
+You've already seen Gem that have been created by others, for example, `rspec` is distributed as a Gem and we have already used that.
 
-If we are using Bundler with a Gemfile, we are able to download a specific version of a Gem. This version management is important for the stability of your project.
+When we install a gem by invoking `$ gem install rspec` it downloads a package (a .gem file) from RubyGems.org and stores this on your computer.
+
+Ruby knows where to find these Gems, and once installed you can "require" them (roughly equivilent to import) in our code. 
+
+For example:
+
+```Ruby
+require 'chronic'
+
+date = Chronic.parse('may seventh '97 at three in the morning')
+```
+
+Although we are able to install Gems using `$ gem install <gem name>`, we usually want to tie our project to specific version of a Gem.
+
+## Bundler to the rescue
+
+Bundler allows us to "lock" our project to a particular version of a Gem.
+
+To do so, it relies on two files in your project root directory: `Gemfile` and `Gemfile.lock`. 
+
+Your `Gemfile` can specify versions, or version ranges, and your `Gemfile.lock` specifies the exact version.
+
+In the case of an application, you should commit both of these files to Git.
+
+In the case of a library (your project is to be released as a Gem itself), you should only commit the `Gemfile`.
+
+### Stop and understand
+
+* Why is it desirable to lock to a particular Gem version?
+* For what reasons would we specify versions in our Gemfile?
+* Why should libraries not have a `Gemfile.lock` committed?
 
 ## Creating your first library
 
 We're going to be creating a Gem to allow anyone to wrap text onto new lines.
 
-We need a name for our Gem - and we need to make sure it's not already in use so check [rubygems.org](https://rubygems.org/) to make sure.
+We need a name for our Gem - we can search [rubygems.org](https://rubygems.org/) to make sure it's not already in use.
 
 Next we will want to scaffold a blank project within which we're going to add our code.
 
@@ -78,4 +108,20 @@ Users of your command line application are happy, but they are asking you to imp
 `$ cat wrapped.txt | wwrap --undo`
 
 Implement this change, ensuring your business logic lives in your Gem. You are expected to release a new version.
+
+## Dependency upgrade path
+
+Suppose we only built the command line application, and we reused the word wrap Gem that someone else wrote.
+
+Let's also imagine that the upstream development team are regularly patching the Gem to resolve bugs and add new features.
+
+Let us also suppose that the word wrap Gem releases frequently (once per day or per week).
+
+We want to take advantage of those bug fixes and new features, but we must also ensure the quality of our application for our users.
+
+What part of our development process ensures that we can update the Gems without breaking our application?
+
+Can you describe the steps you'd take to when first requiring and upgrading Gems?
+
+Did you build your command line application to have an easy dependency upgrade path?
 
