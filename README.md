@@ -4,6 +4,6 @@ A collection of katas, workshops and other learning materials.
 
 * [Ideas](./ideas) for self directed learning.
 * [Katas](./katas)
-* [Koans](./koans)
+* [Sparring](./sparring)
 * [Workshops](./workshops)
 * [Seminars](./seminars)
