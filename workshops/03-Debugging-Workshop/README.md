@@ -30,7 +30,7 @@ Outline the process you would follow to try to resolve the above error.
 
 It's possible you will encounter legacy projects which you need to run, and may contain bugs.
 
-In some cases, you may not be able to trust the code - naming and behaviour might not line up. A read_file method might read AND write back to a file, or read from a database instead.
+In some cases, you may not be able to trust the code - naming and behaviour might not line up. A `read_file` method might read AND write back to a file, or read from a database instead.
 
 Assumptions are dangerous. If the results you are getting are confusing, try to examine and investigate what you might be assuming.
 

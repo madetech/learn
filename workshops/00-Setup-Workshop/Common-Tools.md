@@ -8,7 +8,7 @@ To enable cask:
 
 ## Stop and understand
 
-* What is `tap`?
+* Describe what `tap` does
 
 _Hint_ can you use `man` on your own? ;)
 
