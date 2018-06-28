@@ -1,8 +1,6 @@
 # Troubleshooting and Debugging
 
-## Exercises
-
-### 1. Stacktraces
+## 1. Stacktraces
 
 In the given stacktrace identify the most likely source of the error:
 ```console
@@ -28,7 +26,7 @@ NoMethodError: undefined method `title' for nil:NilClass
 
 Outline the process you would follow to try to resolve the above error.
 
-### 2. Practice
+## 2. Practice
 
 It's possible you will encounter legacy projects which you need to run, and may contain bugs.
 
@@ -38,7 +36,7 @@ Assumptions are dangerous. If the results you are getting are confusing, try to 
 
 Use a disciplined approach - ask yourself if you've made an assumption, and test those assumptions one by one.
 
-#### 2.1 Understand and get it running
+## 2.1 Understand and get it running
 
 Open "BuggyProject" up in a text editor
 
@@ -48,7 +46,15 @@ Use Make to run it in the browser. Fix any bugs that prevent it from loading.
 
 Use Make to run the tests, fix the code as you see fit.
 
-#### 2.2 Deliver some value
+### Make?
+
+Woah, we've just introduced a new tool: `Make`.
+
+Run `$ man make` and have a read.
+
+* Describe to your pair what you think it does. Do you both agree?
+
+## 2.2 Deliver some value
 
 Now you have it running, and the tests are passing have a look at how it looks in the browser.
 
@@ -56,7 +62,7 @@ Identify issues and create a backlog of problems on post it notes.
 
 Work through the issue you think is of the highest priority to a potential user.
 
-### 3. Build deeper knowledge 
+# 3. Build deeper knowledge 
 
 What are some steps you could take to resolve errors in a gem?
 
