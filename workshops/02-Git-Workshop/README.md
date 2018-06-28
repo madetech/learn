@@ -13,13 +13,13 @@ What is the purpose of source control?
 
 How does git differ from other source control tools?
 
-Can you explain the git tree visually?
+Explain the git tree visually
 
 Draw a git tree that has 8 commits, where a branch was created off of the second commit and merged back in after 3 further commits.
 
-Can you explain what the difference between `git pull` and `git fetch`?
+Explain what the difference between `git pull` and `git fetch` is
 
-Can you draw and explain how `git merge` works compared to `git rebase`?
+Draw and explain how `git merge` works compared to `git rebase`
 
 ## Exercises
 

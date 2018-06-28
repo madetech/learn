@@ -23,8 +23,8 @@ You can install it by running
 
 ### Stop and understand
 
-* What does `-fsS` do?
-* What does the `|` operator do?
+* Describe what `-fsS` does
+* Describe what the `|` operator does
 
 _Hint_
 
@@ -37,3 +37,4 @@ _Hint_
 * Work through section 1.2 and 1.3 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Our first command").
 * Install xcode cli tools
 * Install Homebrew
+
