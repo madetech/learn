@@ -2,17 +2,17 @@
 
 You probably have already done some refactoring as part of code katas.
 
-Refactorings are small changes to your code to leave it just a little bit better.
-
 Refactoring, like TDD, is a disciplined skill with rules.
 
+* Refactoring leaves the external behaviour of code the same.
 * Good tests<sup>[1]</sup> are essential to refactoring. Disciplined TDD is a great way to have a reliable test suite.
-* _Small changes_ from a [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear)
-* Your tests should be passing before and after each refactoring
+* A single refactoring is a _small change_ from a [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear).
+* Your tests should be passing before and after each refactoring.
+* By performing multiple refactorings in a row it is possible to significantly change the structure of your code.
 
-# What is a small change?
+# A Single Refactoring: what is a small change?
 
-Small reversible operations. They should have a name, and a clearly defined end state.
+Small reversible operations. They should have a name, with a clearly defined before and after state.
 
 When mobbing or pairing it's useful to be able to immediately describe a refactoring.
 
