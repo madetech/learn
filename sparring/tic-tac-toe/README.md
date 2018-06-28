@@ -2,9 +2,7 @@
 
 This is an exercise in Software Design and Changing Requirements.
 
-Don't peek ahead at the later steps of this koan, as part of the point of this is to deal with changing requirements.
-
-This Koan is written assuming you will be using Ruby.
+Don't peek ahead at the later steps of this challenge, as part of the point of this is to deal with changing requirements.
 
 ## Requirements
 
