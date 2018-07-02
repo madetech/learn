@@ -20,16 +20,6 @@ _Hint_ can you use `man` on your own? ;)
 
 `$ brew cask install firefox`
 
-`$ brew cask install lastpass`
-
-# Finalizing Last Pass
-
-We use lastpass to store and share passwords for shared services.
-
-`$ cd /usr/local/Caskroom/lastpass/latest/`
-
-`$ open Lastpass\ Installer.app`
-
 # To Do
 
 * Enable cask
