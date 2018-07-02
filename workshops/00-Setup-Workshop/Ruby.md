@@ -10,7 +10,7 @@ _Hint_ you might find `rbenv` doesn't have a man page. If you find this the case
 
 You can set your default ruby version by creating a file `~/.ruby-version` with the version number in it.
 
-`cd ~ ; echo "2.5.0" >> ~/.ruby_version`
+`cd ~ ; echo "2.5.0" >> ~/.ruby-version`
 
 ## Stop and understand
 
