@@ -39,7 +39,7 @@ You don't need to fully understand this yet, but to break it down:
 
 **We're not done yet!**
 
-Running `$ eval "$(rebenv init -)"` will work, but it isn't persistent. 
+Running `$ eval "$(rbenv init -)"` will work, but it isn't persistent. 
 
 We want it to run automatically every time we restart our machines and open a Terminal.
 
