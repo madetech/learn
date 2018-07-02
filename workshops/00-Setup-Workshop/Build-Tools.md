@@ -12,6 +12,8 @@ On macOS the accepted way of doing this is by installing xcode
 
 `$ xcode-select --install`
 
+_if you already installed homebrew, this will say that you've already got it installed._
+
 ## Homebrew
 
 macOS does not come with it's own package manager (like Linux does), however there is a community that has put one together. 
@@ -19,7 +21,6 @@ macOS does not come with it's own package manager (like Linux does), however the
 You can install it by running
 
 `$ curl -fsS 'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby`
-
 
 ### Stop and understand
 
