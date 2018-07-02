@@ -23,5 +23,4 @@ _Hint_ can you use `man` on your own? ;)
 # To Do
 
 * Enable cask
-* Install some common software (including last pass)
-
+* Install some common software
