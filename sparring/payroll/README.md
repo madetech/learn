@@ -11,16 +11,16 @@ Using the discipline of TDD, and Acceptance Testing, build a Payroll system.
 Architectural design is up to you, but design wisely! Avoid a big ball of mud!
 
 * The payroll system should calculate pay for salaried employees.
-* Salaries employees can receive their pay weekly or monthly.
-* There should be a web interface.
+* Salaried employees can receive their pay weekly or monthly.
 * Payslips should calculate the amount of tax deductable
 * Payslips should be viewable via a web interface
 * If an employee is a member of a union, their union dues should be deducted from their post-tax salary.
 * The tax year is January 2nd to January 1st.
+* There should be a web interface.
 
 ## Tax Rules
 
-* Up to £10,000, tax is tax-free.
+* Up to £10,000, pay is tax-free.
 * For the sum of pay between £10,000-25,000 tax is deducted at a rate of 20%.
 * For the remainder amount over £25,000 tax is deducted at a rate of 40%.
 
