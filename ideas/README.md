@@ -11,7 +11,6 @@ Or from one of the following sources:
 * [Coding Dojo Kata](https://codingdojo.org/kata/)
 * [sleepyfox London Code Dojo](https://github.com/sleepyfox?utf8=%E2%9C%93&tab=repositories&q=dojo)
 * [Code Kata](http://codekata.com/)
-* [Code Katas](http://www.codekatas.org/)
 
 ## Repeat Code Katas
 
