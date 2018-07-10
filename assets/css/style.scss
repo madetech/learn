@@ -1,0 +1,291 @@
+---
+---
+@charset "UTF-8";
+@import "rouge-github";
+
+@font-face {
+  font-family: 'NeuzeitGro-Lig';
+  src: url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_3.eot);
+  src: url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_3.eot?#iefix) format("embedded-opentype"), url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_3.woff) format("woff"), url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_3.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal
+}
+
+@font-face {
+  font-family: 'NeuzeitGro-Reg';
+  src: url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_5.eot);
+  src: url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_5.eot?#iefix) format("embedded-opentype"), url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_5.woff) format("woff"), url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_5.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal
+}
+
+@font-face {
+  font-family: 'NeuzeitGro-Bol';
+  src: url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_4.eot);
+  src: url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_4.eot?#iefix) format("embedded-opentype"), url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_4.woff) format("woff"), url(https://s3-eu-west-1.amazonaws.com/madetech-assets/assets/17687E_4.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal
+}
+
+
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block
+}
+
+audio, canvas, video {
+  display: inline-block
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+[hidden], template {
+  display: none
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+a {
+  background: transparent
+}
+
+a:focus {
+  outline: thin dotted
+}
+
+a:active, a:hover {
+  outline: 0
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0
+}
+
+abbr[title] {
+  border-bottom: 1px dotted
+}
+
+b, strong {
+  font-weight: bold
+}
+
+dfn {
+  font-style: italic
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0
+}
+
+mark {
+  background: #ff0;
+  color: #000
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em
+}
+
+pre {
+  white-space: pre-wrap
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"
+}
+
+small {
+  font-size: 80%
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sup {
+  top: -0.5em
+}
+
+sub {
+  bottom: -0.25em
+}
+
+img {
+  border: 0
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+figure {
+  margin: 0
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+  border: 0;
+  padding: 0
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0
+}
+
+button, input {
+  line-height: normal
+}
+
+button, select {
+  text-transform: none
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+  cursor: default
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+html {
+  font-family: "NeuzeitGro-Lig", Helvetica, Arial, sans-serif;
+  font-variant-ligatures: none;
+  line-height: 1.7;
+  background-color: rgb(235, 235, 235);
+}
+
+.bar {
+  margin-bottom: 1.8em;
+  .mission {
+    font-size: 0.8em;
+    font-weight: 300;
+  }
+}
+
+header {
+  margin: 0 auto;
+  padding: 1em 3% 2em 3%;
+  text-align: left;
+  min-width: 480px;
+  max-width: 680px;
+  width: 33%;
+  background-color: rgb(255, 255, 255);
+  
+  .header-text {
+    margin-bottom: 1.8em;
+    h1 {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    p {
+      width: 100%;
+    }
+  }
+
+  .back {
+    line-height: 1.5em;
+    font-size: 1.0em;
+  }
+
+  img {
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 1.4em;
+  }
+
+}
+
+a {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.25);
+  color: #333;
+  text-decoration: none;
+}
+
+section {
+  h1:first-child {
+    margin-top: 0;
+  }
+
+  padding: 1.4em 3% 100px 3%;
+  margin: 0 auto;
+  min-width: 480px;
+  max-width: 680px;
+  width: 33%;
+  background-color: rgb(249, 249, 249);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 25px;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  .footer-logo {
+    height: 1.0em;
+  }
+}
