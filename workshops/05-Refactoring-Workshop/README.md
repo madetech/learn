@@ -18,7 +18,7 @@ When mobbing or pairing it's useful to be able to immediately describe a refacto
 
 ## The process
 
-Here is the process for performing the **Extract Method** refactoring.
+Here is the process for performing the **Extract Method** refactoring, which is a _single refactoring_ that you can find in the [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear).
 
 1. Run your tests. Do they pass? If they don't you need to solve that first.
 2. Apply the refactoring
