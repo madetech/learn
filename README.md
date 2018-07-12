@@ -2,11 +2,12 @@
 
 A collection of katas, workshops and other learning materials.
 
-* [Ideas](./ideas) for self directed learning.
-* [Katas](./katas)
-* [Sparring](./sparring)
-* [Workshops](./workshops)
-* [Seminars](./seminars)
+* [Ideas](./ideas) for self-directed learning.
+* [Koans](./koans) for learning new programming languages.
+* [Katas](./katas) for focussed practice.
+* [Sparring](./sparring) for practicing with simulated real world problems. 
+* [Workshops](./workshops) for learning specific skills.
+* [Seminars](./seminars) for delivering theoretical knowledge.
 
 # Recognition
 
