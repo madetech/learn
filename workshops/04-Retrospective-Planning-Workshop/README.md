@@ -49,7 +49,7 @@ with formats. To make the retrospective _fun_.
 
 There are a number of plans on the [retrospectivewiki.org](http://retrospectivewiki.org/index.php?title=Retrospective_Plans).
 
-However it also possible to build your own plans, either free form, or by using other resources such as [Liberating Structures](liberatingstructures.com).
+However it also possible to build your own plans, either free form, or by using other resources such as [Liberating Structures](http://liberatingstructures.com).
 
 ## Six thinking hats.
 
