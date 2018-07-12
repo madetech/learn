@@ -6,8 +6,8 @@ Refactoring, like TDD, is a disciplined skill with rules.
 
 * Refactoring leaves the external behaviour of code the same.
 * Good tests<sup>[1]</sup> are essential to refactoring. Disciplined TDD is a great way to have a reliable test suite.
-* A single refactoring is a _small change_ from a [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear).
-* Your tests should be passing before and after each refactoring.
+* We refactor by applying _small changes_ to our code (a single refactoring) from a [catalog of refactorings](https://refactoring.com/catalog/?filter=books-rubyref,books-radio-appear), or by generalising code e.g. turning duplicated if statements into a loop
+* Your tests should be passing before and after each refactoring or generalisation.
 * By performing multiple refactorings in a row it is possible to significantly change the structure of your code.
 
 # A Single Refactoring: what is a small change?
@@ -15,6 +15,14 @@ Refactoring, like TDD, is a disciplined skill with rules.
 Small reversible operations. They should have a name, with a clearly defined before and after state.
 
 When mobbing or pairing it's useful to be able to immediately describe a refactoring.
+
+# Generalising code: I can't find it in the catalog!
+
+While in the blue phase (refactoring step) we should look for appropriate generalisations to make.
+
+A good rule of thumb is the [RuleOfThree](http://wiki.c2.com/?RuleOfThree) - if you see the same thing duplicated three times, create a more general solution.
+
+Generalising code is part of refactoring. However, they do not result in like-for-like behaviour, so you will not find them in the catalog.
 
 ## The process
 
