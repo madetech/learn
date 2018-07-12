@@ -302,6 +302,7 @@ section {
 
 header, section {
   width: 33%;
+  min-width: 400px;
   max-width: 680px;
   margin: 0 auto;
   > * {
@@ -311,6 +312,7 @@ header, section {
 
   @media only screen and (max-width: 900px) {
     width: 100%;
+    min-width: 0;
     box-sizing: border-box;
   
     > * {
