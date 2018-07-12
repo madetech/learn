@@ -215,31 +215,32 @@ html {
   background-color: rgb(235, 235, 235);
 }
 
-.bar {
-  margin-bottom: 1.8em;
-  .mission {
-    font-size: 0.8em;
-    font-weight: 300;
-  }
-}
 
 header {
-  margin: 0 auto;
-  padding: 1em 3% 2em 3%;
   text-align: left;
-  min-width: 480px;
-  max-width: 680px;
-  width: 33%;
   background-color: rgb(255, 255, 255);
-  
+  overflow: hidden;
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  h2 img {
+    height: 1em;
+  }
+
   .header-text {
     margin-bottom: 1.8em;
-    h1 {
-      width: 100%;
-      margin-bottom: 0;
-    }
-    p {
-      width: 100%;
+  }
+
+  .bar {
+    margin-bottom: 1.8em;
+
+    .mission {
+      text-align: left;
+      font-size: 0.8em;
+      font-weight: 300;
     }
   }
 
@@ -248,13 +249,14 @@ header {
     font-size: 1.0em;
   }
 
-  img {
-    width: 50%;
-    display:block;
-    margin: 0 auto;
-    margin-bottom: 1.4em;
+  @media only screen and (max-width: 900px) {
+    .bar {
+      display: none;
+    }
+    h2 {
+      text-align: center;
+    }
   }
-
 }
 
 a {
@@ -264,6 +266,10 @@ a {
 }
 
 section {
+  padding: 1.4em 0 100px 0;
+  background-color: rgb(249, 249, 249);
+  overflow-wrap: break-word;
+
   h1:first-child {
     margin-top: 0;
   }
@@ -272,12 +278,46 @@ section {
     width: 100%;
   }
 
-  padding: 1.4em 3% 100px 3%;
-  margin: 0 auto;
-  min-width: 480px;
-  max-width: 680px;
+  > .highlighter-rouge {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgba(136, 226, 101, 0.122);
+
+    .highlight {
+      background: transparent;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    > .highlighter-rouge {
+      padding-left: 6%;
+      padding-right: 6%;
+    }
+  }
+}
+
+header, section {
   width: 33%;
-  background-color: rgb(249, 249, 249);
+  max-width: 680px;
+  margin: 0 auto;
+  > * {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+    box-sizing: border-box;
+  
+    > * {
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+  }
 }
 
 footer {
@@ -290,6 +330,19 @@ footer {
   background: rgba(255, 255, 255, 0.8);
 
   .footer-logo {
-    height: 1.0em;
+    height: 1em;
+  }
+
+  @media only screen and (max-width: 900px) {
+    padding: 0 12px;
+
+    p {
+      line-height: 1em;
+      font-size: 0.6em;
+    }
+
+    .footer-logo {
+      height: 0.5em;
+    }
   }
 }
