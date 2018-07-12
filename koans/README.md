@@ -4,7 +4,7 @@ The word Koan comes from Zen Practice, there it is used to provoke the "great do
 
 In programming, we use Koans to provoke "great doubt" in our knowledge of how to wield programming languages.
 
-You can usually find Koans for languages by Googling "<language name> koans", but here we have comprised a list of Koans that we have found particularly helpful.
+You can usually find Koans for languages by Googling "\<language name\> koans", but here we have comprised a list of Koans that we have found particularly helpful.
 
 * [Ruby](http://rubykoans.com/)
 * [Elixir](https://github.com/elixirkoans/elixir-koans)
