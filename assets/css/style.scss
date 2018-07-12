@@ -221,6 +221,12 @@ header {
   background-color: rgb(255, 255, 255);
   overflow: hidden;
 
+  .logotype {
+    letter-spacing: 6px;
+    font-family: "NeuzeitGro-Bol", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+  }
+
   h1 {
     font-size: 3em;
     text-align: center;
