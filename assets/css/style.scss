@@ -276,7 +276,7 @@ a {
 }
 
 section {
-  padding: 1.4em 0 100px 0;
+  padding: 1.4em 0 1.4em 0;
   background-color: rgb(249, 249, 249);
   overflow-wrap: break-word;
 
@@ -288,13 +288,17 @@ section {
     width: 100%;
   }
 
+  h1, h2, h3 {
+    color: #40C842;
+  }
+
   > .highlighter-rouge {
     margin-left: 0;
     margin-right: 0;
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
     background-color: rgba(136, 226, 101, 0.122);
 
     .highlight {
@@ -304,20 +308,21 @@ section {
 
   @media only screen and (max-width: 900px) {
     > .highlighter-rouge {
-      padding-left: 6%;
-      padding-right: 6%;
+      padding-left: 12%;
+      padding-right: 12%;
     }
   }
 }
 
-header, section {
-  width: 33%;
+header, section, footer {
+  width: 40%;
   min-width: 400px;
   max-width: 680px;
   margin: 0 auto;
+
   > * {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   @media only screen and (max-width: 900px) {
@@ -326,20 +331,15 @@ header, section {
     box-sizing: border-box;
   
     > * {
-      margin-left: 6%;
-      margin-right: 6%;
+      margin-left: 12%;
+      margin-right: 12%;
     }
   }
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0 25px;
-
-  background: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
 
   .footer-logo {
     height: 1em;
