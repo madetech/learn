@@ -8,7 +8,7 @@ The scoring system is rather simple:
 
 2. If you have 40 and you win the ball you win the game, however there are special rules.
 
-3. If both have 40 the players are deuce. a. If the game is in deuce, the winner of a ball will have advantage and game ball. b. If the player with advantage wins the ball he wins the game c. If the player without advantage wins they are back at deuce.
+3. If both have 40 the players are deuce. a. If the game is in deuce, the winner of a ball will have advantage and game ball. b. If the player with advantage wins the ball they win the game c. If the player without advantage wins they are back at deuce.
 
 ===== Alternate description of the rules per Wikipedia ( http://en.wikipedia.org/wiki/Tennis#Scoring ):
 
@@ -18,7 +18,7 @@ The scoring system is rather simple:
 
 3. If at least three points have been scored by each player, and the scores are equal, the score is “deuce”.
 
-4. If at least three points have been scored by each side and a player has one more point than his opponent, the score of the game is “advantage” for the player in the lead.
+4. If at least three points have been scored by each side and a player has one more point than their opponent, the score of the game is “advantage” for the player in the lead.
 
 ## Reference
 
