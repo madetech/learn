@@ -67,7 +67,7 @@ What we do is think about potential tests we can write, and instead of going for
 
 ## To Do
 
-Do the Word Wrap Kata - but this time really focus on the list of transformations, and pay attention to their priority.
+Find a pair to do the Word Wrap Kata with - as a pair, this time, really focus on the list of transformations, and pay attention to their priority.
 
 The interesting part about the Word Wrap Kata is that it is really easy to get stuck.
 
