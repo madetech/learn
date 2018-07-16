@@ -260,6 +260,7 @@ header {
   .back {
     line-height: 1.5em;
     font-size: 1.0em;
+    margin-bottom: 1em;
   }
 
   @media only screen and (max-width: 900px) {
@@ -374,9 +375,7 @@ footer {
   }
 
   @media only screen and (max-width: 900px) {
-    padding: 0 12px;
-
-    p {
+    p.tag-line {
       line-height: 1em;
       font-size: 0.6em;
     }
