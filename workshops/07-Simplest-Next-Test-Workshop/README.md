@@ -1,4 +1,4 @@
-# Transformation Priority Premise
+# Simplest Next Test
 
 This workshop assumes that you have practiced the discipline of Test Driven Development.
 
@@ -16,27 +16,27 @@ However, we don't want to have to imagine the whole algorithm as that would be c
 
 In order to incrementally refactor the code to become more generic we must avoid _getting stuck_. 
 
-In order to ensure that our code is maintainable we must avoid complexity.
+The biggest risk that prevents practicing TDD well is diving into too much complexity too early.
+
+We must avoid unnecessary complexity at all costs.
 
 ## The stages of TDD
 
-We already have a name for first stage of TDD, it's called Testing. We also already have a name for the last stage of TDD, it's called Refactoring.
+We already have a name for structural changes that have no affect on behaviour, we call this Refactoring.
 
-What we haven't named is the middle stage, "Make it pass".
+What we haven't named is the act of making behavioural changes to code.
 
-**What are we doing in that step?** We could say that we are _Transforming code_. 
+We can call this **Transforming code**.
 
-Leaving us with a nice symmetrical list of names for each stage:
+1. Transform the test code _and watch it fail._
+2. Transform the production code _and watch it pass._
+3. Refactor the code _and ensure it still passes._
 
-1. Testing
-2. Transforming
-3. Refactoring
+## The Transformation Priority Premise
 
-## A list of transformation
+When we **transform our test code** to create a failing test we force ourselves to **transform our production code** to make our test pass.
 
-When we write a failing test we force ourselves to Transform our code to make it pass.
-
-Here is a non-exhaustive list of transformations:
+Not all transformations are documented, but this is a good guide:
 
 1. ({} → nil) no code at all → code that employs nil
 2. (nil → constant)
@@ -52,6 +52,74 @@ Here is a non-exhaustive list of transformations:
 12. (expression → function) replacing an expression with a function or algorithm
 13. (variable → assignment) replacing the value of a variable.
 14. (case) adding a case (or else) to an existing switch or if
+
+The premise is that if you follow this priority of transformations, you will avoid getting stuck.
+
+Furthermore, the premise is that you will also avoid inefficient algorithms, which can mean the difference between ending up with a bubblesort vs quicksort.
+
+If you find this not to be the case, we'd very much like you to [share your experience](https://github.com/madetech/learn/issues).
+
+This premise was developed by Robert C. Martin, there are links to some original content on this topic in the footer.
+
+### ({} -> nil)
+
+The test code...
+
+```ruby
+# {} (no code)
+```
+
+transforms to code that employs nil:
+
+```ruby
+describe Wrapper do
+  expect(Wrapper.wrap(nil)).to eq('')
+end
+```
+
+> This fails because there is no Wrapper class.
+
+We must first define that
+
+```ruby
+# {} (no code)
+```
+
+transforms to code that employs nil:
+
+```ruby
+class Wrapper
+  def wrap
+    nil
+  end
+end
+```
+
+We then check that this fails for the correct reason. It should be because we don't get `''`
+
+### (nil -> constant)
+
+To make this pass we must transform from nil to constant
+
+```ruby
+class Wrapper
+  def wrap
+    nil
+  end
+end
+```
+
+```ruby
+class Wrapper
+  def wrap
+    ''
+  end
+end
+```
+
+> Now our first test passes.
+
+If you want to read more about this, the blog post in the [references](#References) continues this story.
 
 ## Choosing the next failing test
 
