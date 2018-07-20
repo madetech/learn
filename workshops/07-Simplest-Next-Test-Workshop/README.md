@@ -119,7 +119,7 @@ end
 
 > Now our first test passes.
 
-If you want to read more about this, the blog post in the [references](#References) continues this story.
+If you want to read more about this, the blog post in the [references](#references) continues this story.
 
 ## Choosing the next failing test
 
