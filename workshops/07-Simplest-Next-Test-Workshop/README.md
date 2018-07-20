@@ -89,7 +89,7 @@ transforms to code that employs nil:
 
 ```ruby
 class Wrapper
-  def wrap
+  def self.wrap
     nil
   end
 end
@@ -103,7 +103,7 @@ To make this pass we must transform from nil to constant
 
 ```ruby
 class Wrapper
-  def wrap
+  def self.wrap
     nil
   end
 end
@@ -111,7 +111,7 @@ end
 
 ```ruby
 class Wrapper
-  def wrap
+  def self.wrap
     ''
   end
 end
