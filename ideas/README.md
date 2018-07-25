@@ -44,7 +44,7 @@ Focus on applying that new knowledge in practice.
 
 ### Read
 
-Pick up a book and read, here are a few that are invaluable
+Pick up a book and read. In no particular order, here are a few that are invaluable
 
 * Test Driven Development: By Example (Kent Beck)
 * Growing Object-Oriented Software Guided By Tests (Steve Freeman, Nat Pryce)
@@ -64,7 +64,7 @@ Watch screencasts and other programming related videos
 
 * [Destroy All Software](https://www.destroyallsoftware.com/screencasts)
 * [Clean Coders](https://cleancoders.com/videos)
-* [Rails Casts](http://railscasts.com/)
+* [Rails Casts](http://railscasts.com/) some _free videos are outdated_
 
 ### Go back over workshops
 
