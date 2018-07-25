@@ -2,7 +2,7 @@
 
 No matter how much experience, there is always more to learn or practice.
 
-Remember, _[practice must be deliberate](./deliberate-practice.md)_.
+Remember, practice must be deliberate.
 
 If you have some free time to learn by yourself, or in a pair, or even a mob, here are some ideas to help you use your time fruitfully.
 
@@ -11,6 +11,7 @@ If you have some free time to learn by yourself, or in a pair, or even a mob, he
 * [learn how to setup a Ruby development environment](./learn-how-to-setup-ruby.md)
 * [learn a new language](./learn-a-new-language.md)
 * [learn more about software architecture](./learn-software-architecture.md)
+* [learn to TDD](./learn-to-tdd.md)
 * [practice TDD](./practice-tdd.md)
 * [get feedback on my code style](./get-feedback-on-code.md)
 
