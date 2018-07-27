@@ -8,4 +8,5 @@
 * [Refactoring Workshop](./05-Refactoring-Workshop) _refactoring_
 * [Gem Packaging Workshop](./06-Gem-Packaging-Workshop) _gems_, _bundler_
 * [Simplest Next Test Workshop](./07-Simplest-Next-Test-Workshop) _tdd_
- 
+* [Continuous Integration Workshop](./08-Continuous-Integration-Workshop) _ci_  
+
