@@ -1,6 +1,10 @@
 # Polymorpism
 
-One fundamental feature of object-oriented programming is _polymorpism_.
+One fundamental feature of object-oriented programming is _polymorphism_.
+
+Polymorphism is a fancy term to describe how multiple Concrete types can conform to an Abstract Interface, and be used to switch out behaviours at runtime.
+
+Let's explore this with an example.
 
 Consider the following code:
 
@@ -42,15 +46,19 @@ Where an example usage looks like:
 AccountingDocument.new(type: :purchase, total: '100.00')
 ```
 
+This code is not Polymorphic. 
+
+
 ## The problem
 
-Every time we add a new type of `AccountingDocument` this switch statement will become more complicated.
+It violates the Open-Closed Principle. Potentially, it also the Single Responsibility too.
 
-Not only that - our AccountingDocument class will only ever grow in complexity as we discover more journal types.
+Every time we need to introduce a new type of `AccountingDocument`, we're going to need to modify this class. 
+What's more it will be a magnet for an ever growing number of journal representations, for an ever growing number of those document types.
 
 ## An alternative
 
-Instead, we can use polymorpism:
+Instead, we can use polymorphism:
 
 ```ruby
 class AccountingDocument
@@ -108,6 +116,9 @@ end
 ```
 
 But wait! We still need something which can convert `data` into `behaviour`
+
+If we want to reconstruct polymorphic behaviours from data stored in a database,
+we need a mapping between the `data`: type (a string) and the `behaviour`: the appropriate Ruby object.  
 
 ```ruby
 class JournalDispositionFactory
