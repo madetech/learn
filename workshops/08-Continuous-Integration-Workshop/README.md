@@ -47,12 +47,17 @@ This is the investment needed to make Continuous Integration work.
 * Build new functionality in small increments, by employing a good software architecture and a [comprehensive suite of tests](https://www.madetech.com/blog/semantically-stable-test-suites).
 * Use an automated build tool (e.g. Jenkins, Travis, Gitlab CI, CircleCI, etc) to run tests every time a new commit is pushed to `origin/master`
 * Use an automated build tool to run tests every time a new commit is pushed to a Pull Request branch, and also run the tests as an "Integration" with master. (More on this later) 
+
+**Not covered in this workshop**
+
+* Have automated deployment into a 1-click deploy.
 * Use [branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html) and [feature toggles](https://martinfowler.com/bliki/FeatureToggle.html) to decouple release from deployment.
-* Have automated deployment into a 1-click deploy (this is not covered in this workshop)
 
 ## Automating Tests
 
-Pick a project to automate tests on. **If you have built this project with someone else, pair with them through this part of the workshop.**
+We're going to use Travis CI to automate some tests.
+
+First, you'll need to pick a project to automate tests on. **If you have built this project with someone else, pair or mob with them through this part of the workshop.**
 
 If your project is open-sourced you can use a cloud-hosted build tool such as Travis CI for free, otherwise you'll need to pay a subscription.
 
