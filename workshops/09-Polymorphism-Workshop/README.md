@@ -51,10 +51,10 @@ This code is not Polymorphic.
 
 ## The problem
 
-It violates the Open-Closed Principle. Potentially, also the Single Responsibility too.
+It violates the Open-Closed Principle. Potentially, also the Single Responsibility Principle too.
 
 Every time we need to introduce a new type of `AccountingDocument`, we're going to need to modify this class. 
-What's more it will be a magnet for an ever growing number of journal representations, for an ever growing number of those document types.
+What's more, it will be a magnet for an ever growing number of journal representations, for an ever growing number of those document types.
 
 ## An alternative
 
