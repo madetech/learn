@@ -31,4 +31,7 @@ Are 1.5 for the first 3 days, and 1.5 for each day thereafter.
 
 You earn 1 frequent renter point no matter the length of the rental.
 
+# References
+
+This Kata is based upon an example in Martin Fowler's Refactoring book, and is also covered in Episode 3 of [Clean Coders](https://cleancoders.com).
 
