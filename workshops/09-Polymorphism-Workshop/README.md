@@ -111,7 +111,7 @@ But wait! We still need something which can convert `data` into `behaviour`
 
 ```ruby
 class JournalDispositionFactory
-  def self.create(type)
+  def create(type)
     case type
     when :sale
       SaleJournalDisposition.new
@@ -129,7 +129,8 @@ end
 As an example usage:
 
 ```ruby
-AccountingDocument.new(journal_disposition: JournalDispositionFactory.create(:sale), total: '56.23')
+journal_disposition_factory = JournalDispositionFactory.new
+AccountingDocument.new(journal_disposition: journal_disposition_factory.create(:sale), total: '56.23')
 ```
 
 ## But wait, that's more code!
@@ -146,5 +147,5 @@ Instead, it is desirable to break code apart into lego bricks. (We will cover th
 
 ## Exercises
 
-* Use the Tennis Kata.
+* Do the [Video Store Kata](./katas/video-store), and consider how you could build taking advantage of polymorphism.
 
