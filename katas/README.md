@@ -8,4 +8,5 @@
 * [Turnstile](./turnstile)
 * [Word Wrap](./word-wrap)
 * [Test Framework](./test-framework)
+* [Mars Rover](./mars-rover)
 
