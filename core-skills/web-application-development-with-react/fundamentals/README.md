@@ -12,11 +12,7 @@ of the state).
 
 The first two sections of React's documentation, [JSX](https://reactjs.org/docs/introducing-jsx.html) and [Rendering](https://reactjs.org/docs/rendering-elements.html) are important reading.
 
-### Components and Props
-[Components and Props](https://reactjs.org/docs/components-and-props.html)
-### State and Lifecycle
-[State](https://reactjs.org/docs/state-and-lifecycle.html)
-### Children
-[Children](https://mxstbr.blog/2017/02/react-children-deepdive/)
-### Events
-[Event Handling](https://reactjs.org/docs/handling-events.html)
+- [Components and Props](https://reactjs.org/docs/components-and-props.html)
+- [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+- [Children](https://mxstbr.blog/2017/02/react-children-deepdive/)
+- [Event Handling](https://reactjs.org/docs/handling-events.html)
