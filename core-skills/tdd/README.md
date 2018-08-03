@@ -99,23 +99,25 @@ Is the chirps tweet deleted feature?
 
 ![Dragon](./dragon.jpg)
 
-Refactor dem code.
+Refactor an existing test suite to improve performance.
 
-- [ ] Does not TDD markup.
-  - Required - No example of this, unless explained with good reason
+- [ ] Can write an acceptance test around an existing feature.
+  - Required - Write an acceptance test around a feature of an existing application which verifies the feature works as intended.
 
-- [ ] Can identify smells within code they have written
+- [ ] Can identify smells within somebody else's code.
+  - Required - Can list three valid smells per the invigilator's guide.
 
-- [ ] Can identify smells within somebody else's code
+- [ ] Can describe why test suite performance is important.
+  - Required - See invigilator's guide.
 
-- [ ] Can explain the balancing act of achieving conciseness of a test suite
+- [ ] Can identify causes of poor performance in a test suite.
+  - Required - Identify three of the secret causes of poor performance.
+  - Required - Explain one potential structural cause of bad performance in a test suite.
+  - Required - Explain one other potential cause of bad performance in a test suite.
 
-- [ ] Can describe why test suite performance is important
+- [ ] Can refactor poorly written test suite to remove duplication.
+  - Required - Can identify and remove three areas of duplication in the test suite.
 
-- [ ] Can identify structural defects that result in poor test suite performance
-
-- [ ] Can identify that a test suite has poor test suite performance
-
-- [ ] Can refactor a poorly written test suite to remove duplication
-
-- [ ] Can improve the performance of a slow test suite
+- [ ] Can improve the performance of a slow test suite.
+  - Required - Test suite run time is reduced 80% while maintaining the same amount of coverage.
+  - Required - Test suite should remain as useful.
