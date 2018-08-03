@@ -55,6 +55,13 @@ Show me some chirps.
 - [ ] Can describe expected behaviours from the perspective of the user.
   - Required - Can write test names which describe the behaviour of the software from a user’s perspective.
 
+- [ ] Can describe the situations where using triangulation helps improve test quality.
+  - Required - Can explain what the potential flaws of not including triangulation are.
+  - Required - Can explain how triangulation overcomes these flaws.
+
+- [ ] Can demonstrate triangulation when TDDing an example piece of code.
+  - Required - Production code cannot be easily slimed, due to the use of triangulation.
+
 ### Wolf
 
 ![Wolf](./wolf.jpg)
@@ -81,11 +88,11 @@ Is the chirps tweet deleted feature?
 - [ ] Can implement an appropriate method of testing a remote service.
   - Required - Passing test code which handles a remote service adequately.
 
-- [ ] Can describe the situations where using triangulation helps improve test quality.
+- [ ] **DEPRECATED, BUT MUST BE ACHIEVED IF NOT DONE IN GIRAFFE** - Can describe the situations where using triangulation helps improve test quality.
   - Required - Can explain what the potential flaws of not including triangulation are.
   - Required - Can explain how triangulation overcomes these flaws.
 
-- [ ] Can demonstrate triangulation when TDDing an example piece of code.
+- [ ] **DEPRECATED, BUT MUST BE ACHIEVED IF NOT DONE IN GIRAFFE** - Can demonstrate triangulation when TDDing an example piece of code.
   - Required - Production code cannot be easily slimed, due to the use of triangulation.
 
 ### Dragon
