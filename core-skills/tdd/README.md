@@ -82,7 +82,7 @@ Is the chirps tweet deleted feature?
   - Required - Passing test code which handles a remote service adequately. 
 
 - [ ] Can describe the situations where using triangulation helps improve test quality.
-  - Required - Can explain what the potential flaws of not including triangulation are. m
+  - Required - Can explain what the potential flaws of not including triangulation are.
   - Required - Can explain how triangulation overcomes these flaws.
 
 - [ ] Can demonstrate triangulation when TDDing an example piece of code.
