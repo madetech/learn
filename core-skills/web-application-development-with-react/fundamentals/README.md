@@ -10,9 +10,13 @@ An Engineer who has passed this core skill would be expected to understand what 
 parts are, and when to use one over the other (i.e. When should you put something in a prop instead
 of the state).
 
-### Components
-### Props
-### State
+The first two sections of React's documentation, [JSX](https://reactjs.org/docs/introducing-jsx.html) and [Rendering](https://reactjs.org/docs/rendering-elements.html) are important reading.
+
+### Components and Props
+[Components and Props](https://reactjs.org/docs/components-and-props.html)
+### State and Lifecycle
+[State](https://reactjs.org/docs/state-and-lifecycle.html)
 ### Children
+[Children](https://mxstbr.blog/2017/02/react-children-deepdive/)
 ### Events
-### Lifecycle
+[Event Handling](https://reactjs.org/docs/handling-events.html)
