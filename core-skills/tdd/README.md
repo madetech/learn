@@ -5,7 +5,7 @@
 1. Can demonstrate using the discipline of TDD by doing it.
 2. Can describe a broad range of strategies to achieve an acceptable test-suite performance.
 3. Can describe the family of Test Doubles and can demonstrate how to hand-roll those Test Doubles. Can describe the problems introduced by Test Doubles on Test Design.
-4. Is able to refactor test to make it follow the 4 components of a single Test and also in relation to a suite of tests.
+4. Is able to refactor a test to make it follow the 4 components of a single Test and also in relation to a suite of tests.
 5. Can identify smells in test code, and describe why each smell is a problem.
 6. Can demonstrate strategies to achieve Simulation of a "Remote Service". Can weigh up contextual appropriateness of common tooling (e.g. WebMock, VCR)
 7. Can describe practical scenarios when TDD is not appropriate. Can explain what to look for when discovering new impractical scenarios.
@@ -26,7 +26,7 @@
 
 In combination with [madetech/core-skill-tdd](https://github.com/madetech/core-skill-tdd) repository.
 
-### Giraffe 
+### Giraffe
 
 ![Giraffe](./giraffe.jpg)
 
@@ -44,15 +44,15 @@ Show me some chirps.
 - [ ] Watches the passing test pass before moving onto refactoring
   - Required - Several examples of this.
 
-- [ ] Refactors tests 
+- [ ] Refactors tests
   - Required - One example of refactoring tests, describing why they are.
 
 - [ ] Refactors production code
   - Required - One example of refactoring production code.
   - Can write tests which follow the AAAT (Arrange, Act, Assert, Teardown)
-  - Required - Demonstration of setting up some state first, making an action, and asserting on that action. Teardown is optional if it is not required by the test suite (e.g. RSpec)
+  - Required - Demonstration of setting up some state first, making an action, and asserting on that action. Teardown is optional if it is not required by the test suite (e.g. RSpec).
 
-- [ ] Can describe expected behaviours from the perspective of the user
+- [ ] Can describe expected behaviours from the perspective of the user.
   - Required - Can write test names which describe the behaviour of the software from a user’s perspective.
 
 ### Wolf
@@ -72,17 +72,17 @@ Is the chirps tweet deleted feature?
   - Required - one example of when a test double is NOT useful.
 
 - [ ] Can explain why minimizing the number of test doubles a single test case uses is desirable
-  - Required - a sensible example of how having too many test doubles can cause to problems/problematic tests.
+  - Required - a sensible example of how having too many test doubles can cause problems/problematic tests.
 
 - [ ] Can explain benefits of the different ways of testing remote services.
   - Required - Can identify three methods of remote testing.
   - Required - Can explain the pros and cons of each.
 
 - [ ] Can implement an appropriate method of testing a remote service.
-  - Required - Passing test code which handles a remote service adequately. 
+  - Required - Passing test code which handles a remote service adequately.
 
 - [ ] Can describe the situations where using triangulation helps improve test quality.
-  - Required - Can explain what the potential flaws of not including triangulation are. m
+  - Required - Can explain what the potential flaws of not including triangulation are.
   - Required - Can explain how triangulation overcomes these flaws.
 
 - [ ] Can demonstrate triangulation when TDDing an example piece of code.
@@ -95,21 +95,20 @@ Is the chirps tweet deleted feature?
 Refactor dem code.
 
 - [ ] Does not TDD markup.
-  - Required - No example of this, unless explained with good reason.
+  - Required - No example of this, unless explained with good reason
 
-- [ ] Can identify smells within code they have written.
+- [ ] Can identify smells within code they have written
 
-- [ ] Can identify smells within somebody else's code.
+- [ ] Can identify smells within somebody else's code
 
 - [ ] Can explain the balancing act of achieving conciseness of a test suite
 
-- [ ] Can describe why test suite performance is important.
+- [ ] Can describe why test suite performance is important
 
-- [ ] Can identify structural defects that result in poor test suite performance.
+- [ ] Can identify structural defects that result in poor test suite performance
 
-- [ ] Can identify that a test suite has poor test suite performance.
+- [ ] Can identify that a test suite has poor test suite performance
 
-- [ ] Can refactor poorly written test suite to remove duplication
+- [ ] Can refactor a poorly written test suite to remove duplication
 
-- [ ] Can improve the performance of a slow test suite.
-
+- [ ] Can improve the performance of a slow test suite
