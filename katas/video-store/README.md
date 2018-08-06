@@ -9,7 +9,7 @@ Rental Record for Customer Name
   Crazynotes  2.0
   Teeth  2.0
   The Web  3.5
-You owned 7.5
+You owe 7.5
 You earned 3 frequent renter points
 ```
 
