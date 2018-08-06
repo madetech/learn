@@ -8,5 +8,5 @@
 * [Turnstile](./turnstile)
 * [Word Wrap](./word-wrap)
 * [Test Framework](./test-framework)
+* [Video Store](./video-store)
 * [Mars Rover](./mars-rover)
-
