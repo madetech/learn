@@ -1,4 +1,4 @@
-# Polymorpism
+# Polymorphism
 
 One fundamental feature of object-oriented programming is _polymorphism_.
 
@@ -159,5 +159,5 @@ Instead, it is desirable to break code apart into lego bricks. (We will cover th
 
 ## Exercises
 
-* Do the [Video Store Kata](./katas/video-store), and consider how you could build taking advantage of polymorphism.
+* Do the [Video Store Kata](../../katas/video-store), and consider how you could build taking advantage of polymorphism.
 
