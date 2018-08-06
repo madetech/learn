@@ -112,6 +112,7 @@ end
 
 ```ruby
 class NoJournalDisposition
+  def get_journal(_); end
 end
 ```
 
