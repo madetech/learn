@@ -27,7 +27,9 @@ Learning the fundamentals - How not to hurt yourself with React
 
 - [ ] Can demonstrate an understanding of the benefits of using React
 - [ ] Creates an application with the following:
-  - [ ] The application can be run on any machine (e.g. Using Docker)
+  - The application can be run on any machine:
+    - [ ] The application has `make` recipes for `serve` and `test` which
+      only depend on the host machine having docker installed
   - Setup/Tooling
     - The candidate has setup the project with the following tools:
       - [ ] A sandbox environment to quickly prototype components within (e.g. Storybook)
