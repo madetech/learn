@@ -149,7 +149,7 @@ AccountingDocument.new(journal_disposition: journal_disposition_factory.create(:
 
 Sure - there is more code after our refactoring. 
 
-However, software design is more that just reducing lines of code.
+However, software design is more than just reducing lines of code.
 
 * Whenever we change a file, we risk breaking other things in the same file.
 * Whenever we change a file that someone else is working on, we risk a merge.
