@@ -1,5 +1,9 @@
 # Web Application Development with React
 
+## Aim
+
+This course is intended to guide learning to a level where you could write and contribute to a functional, maintainable React application. Starting with the basics of React, through to designing, building and testing in a maintainable way.
+
 ## Summary
 
 1. Can describe situations where you should/shouldn't decide to use React for a project
