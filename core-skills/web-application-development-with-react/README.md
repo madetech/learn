@@ -34,7 +34,7 @@ Learning the fundamentals - How not to hurt yourself with React
     - The candidate has setup the project with the following tools:
       - [ ] A sandbox environment to quickly prototype components within (e.g. Storybook)
       - [ ] Hot-reloading
-      - [ ] Tests (The ability to write them, writing one is not a requirement at this stage)
+      - [ ] Tests - Which can be run using make test (evidenced by a failing test)'
   - Components
     - The candidate is able to explain what the following are:
       - [ ] A component
