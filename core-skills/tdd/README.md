@@ -24,91 +24,104 @@
 
 ## Mark Scheme
 
-In combination with [madetech/core-skill-tdd](https://github.com/madetech/core-skill-tdd) repository.
-
 ### Giraffe
 
 ![Giraffe](./giraffe.jpg)
 
-Show me some chirps.
+#### Assessment
 
-- [ ] Writes a failing test before writing production code
+TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark scheme below.
+
+- Writes a failing test before writing production code
   - Required - Several examples of this.
 
-- [ ] Watches the failing test fail for the right reason before writing production code
+- Watches the failing test fail for the right reason before writing production code
   - Required - Several examples of this.
 
-- [ ] Writes only the minimum production code for a test to pass
+- Writes only the minimum production code for a test to pass
   - Required - Several examples of sliming production code, or writing very minimal production code, until necessary to change by future tests. Examples of writing small tests to expose these.
 
-- [ ] Watches the passing test pass before moving onto refactoring
+- Watches the passing test pass before moving onto refactoring
   - Required - Several examples of this.
 
-- [ ] Refactors tests
+- Refactors tests
   - Required - One example of refactoring tests, describing why they are.
 
-- [ ] Refactors production code
+- Refactors production code
   - Required - One example of refactoring production code.
   - Can write tests which follow the AAAT (Arrange, Act, Assert, Teardown)
   - Required - Demonstration of setting up some state first, making an action, and asserting on that action. Teardown is optional if it is not required by the test suite (e.g. RSpec).
 
-- [ ] Can describe expected behaviours from the perspective of the user.
+- Can describe expected behaviours from the perspective of the user.
   - Required - Can write test names which describe the behaviour of the software from a user’s perspective.
+
+- Can describe the situations where using triangulation helps improve test quality.
+  - Required - Can explain what the potential flaws of not including triangulation are.
+  - Required - Can explain how triangulation overcomes these flaws.
+
+- Can demonstrate triangulation when TDDing an example piece of code.
+  - Required - Production code cannot be easily slimed, due to the use of triangulation.
 
 ### Wolf
 
 ![Wolf](./wolf.jpg)
 
-Is the chirps tweet deleted feature?
+You will be shown some preprepared test code, and will need to identify the test double used inside it.
 
-- [ ] Can identify the type of test double from code they haven’t written.
+You will need to create a test using each of the 5 test doubles, a Dummy, a Stub, a Fake, a True Mock and a Spy.
+
+You will need to TDD a feature which interacts with a remote service of your choice, e.g. a class which retrieves Tweets from twitter.
+
+- Can identify the type of test double from code they haven’t written.
   - Required - an explanation of a single test double in the existing test suite, including what it is and the purpose it serves in the test.
 
-- [ ] Can hand-write each of the test doubles.
+- Can hand-write each of the test doubles.
   - Required - write an example of a Dummy, a Stub, a Fake, a True Mock and a Spy, describing the purpose each serves.
 
-- [ ] Can explain when you should and shouldn’t use test doubles.
+- Can explain when you should and shouldn’t use test doubles.
   - Required - one example of when a test double is useful.
   - Required - one example of when a test double is NOT useful.
 
-- [ ] Can explain why minimizing the number of test doubles a single test case uses is desirable
+- Can explain why minimizing the number of test doubles a single test case uses is desirable
   - Required - a sensible example of how having too many test doubles can cause problems/problematic tests.
 
-- [ ] Can explain benefits of the different ways of testing remote services.
+- Can explain benefits of the different ways of testing remote services.
   - Required - Can identify three methods of remote testing.
   - Required - Can explain the pros and cons of each.
 
-- [ ] Can implement an appropriate method of testing a remote service.
+- Can implement an appropriate method of testing a remote service.
   - Required - Passing test code which handles a remote service adequately.
 
-- [ ] Can describe the situations where using triangulation helps improve test quality.
+- **DEPRECATED, BUT MUST BE ACHIEVED IF NOT DONE IN GIRAFFE** - Can describe the situations where using triangulation helps improve test quality.
   - Required - Can explain what the potential flaws of not including triangulation are.
   - Required - Can explain how triangulation overcomes these flaws.
 
-- [ ] Can demonstrate triangulation when TDDing an example piece of code.
+- **DEPRECATED, BUT MUST BE ACHIEVED IF NOT DONE IN GIRAFFE** - Can demonstrate triangulation when TDDing an example piece of code.
   - Required - Production code cannot be easily slimed, due to the use of triangulation.
 
 ### Dragon
 
 ![Dragon](./dragon.jpg)
 
-Refactor dem code.
+Review and refactor a preprepared test suite to improve performance.
 
-- [ ] Does not TDD markup.
-  - Required - No example of this, unless explained with good reason
+- Can write an acceptance test around an existing feature.
+  - Required - Write an acceptance test around a feature of an existing application which verifies the feature works as intended.
 
-- [ ] Can identify smells within code they have written
+- Can identify smells within somebody else's code.
+  - Required - Can list three valid smells per the invigilator's guide.
 
-- [ ] Can identify smells within somebody else's code
+- Can describe why test suite performance is important.
+  - Required - See invigilator's guide.
 
-- [ ] Can explain the balancing act of achieving conciseness of a test suite
+- Can identify causes of poor performance in a test suite.
+  - Required - Identify three of the secret causes of poor performance.
+  - Required - Explain one potential structural cause of bad performance in a test suite.
+  - Required - Explain one other potential cause of bad performance in a test suite.
 
-- [ ] Can describe why test suite performance is important
+- Can refactor poorly written test suite to remove duplication.
+  - Required - Can identify and remove three areas of duplication in the test suite.
 
-- [ ] Can identify structural defects that result in poor test suite performance
-
-- [ ] Can identify that a test suite has poor test suite performance
-
-- [ ] Can refactor a poorly written test suite to remove duplication
-
-- [ ] Can improve the performance of a slow test suite
+- Can improve the performance of a slow test suite.
+  - Required - Test suite run time is reduced 80% while maintaining the same amount of coverage.
+  - Required - Test suite should remain as useful.
