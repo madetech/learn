@@ -60,7 +60,7 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
   - Required - Can explain how triangulation overcomes these flaws.
 
 - Can demonstrate triangulation when TDDing an example piece of code.
-  - Required - Production code cannot be easily slimed, due to the use of triangulation.
+  - Required - Production code is generalised only when there are failing tests that require generalised production code.
 
 ### Wolf
 
@@ -97,7 +97,7 @@ You will need to TDD a feature which interacts with a remote service of your cho
   - Required - Can explain how triangulation overcomes these flaws.
 
 - **DEPRECATED, BUT MUST BE ACHIEVED IF NOT DONE IN GIRAFFE** - Can demonstrate triangulation when TDDing an example piece of code.
-  - Required - Production code cannot be easily slimed, due to the use of triangulation.
+  - Required - Production code is generalised only when there are failing tests that require generalised production code.
 
 ### Dragon
 
