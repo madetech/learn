@@ -20,8 +20,18 @@ with React components
 1. [React - Why and when should I use it?](./why-and-when.md)
 2. [Setting up a React project](./setup.md)
 3. [React Fundamentals](./fundamentals/README.md)
-4. [Prototyping React Components](./prototyping.md)
-5. [Styling React Components](./prototyping.md)
+4. Prototyping React Components - Coming soon
+5. Styling React Components - Coming soon
+
+## Assessment Style
+
+This core skill assessment is split into two parts. The first of which being an application which will be written
+during Learn Tech and brought along with you, and the second being questions to test your understanding of React.
+
+Each section of the mark scheme will be separated into their respective categories.
+
+Example answers for the questions be found on the hidden marking guide, however we do not require exact matches. It 
+is up to the assessor to determine whether or not the candidate has adequetly answered the question. 
 
 ## Mark Scheme
 
@@ -29,30 +39,32 @@ with React components
 
 Learning the fundamentals - How not to hurt yourself with React
 
-- [ ] Can demonstrate an understanding of the benefits of using React
-- [ ] Creates an application with the following:
-  - The application can be run on any machine:
-    - [ ] The application has `make` recipes for `serve` and `test` which
-      only depend on the host machine having docker installed
-  - Setup/Tooling
-    - The candidate has setup the project with the following tools:
-      - [ ] A sandbox environment to quickly prototype components within (e.g. Storybook)
-      - [ ] Hot-reloading
-      - [ ] Tests - Which can be run using make test (evidenced by a failing test)'
-  - Components
-    - The candidate is able to explain what the following are:
-      - [ ] A component
-      - [ ] The use of props within components
-      - [ ] The use of state within components
-      - [ ] The use of children within components
-      - [ ] Responding to user events
-- Demonstrating understanding of React fundamentals
-  - The candidate can explain the following:
-      - [ ] How to style components
-      - [ ] The lifecycle of components
-      - [ ] Managing application state
+#### Application
+
+The candidate has:
+- [ ] Has created an application that is independent of the node install on the candidates machine 
+- [ ] Has a make recipe for serve, which runs the application in development mode
+- [ ] Has a make recipe for test, which runs the tests for the application
+- [ ] Has a sandbox environment which allows them to quickly prototype components
+- [ ] Has the ablity to hot-reload based on changes 
+- [ ] Has a failing test that appears when running make test
+
+#### Understanding
+
+The candidate can describe:
+
+- [ ] Situations in which using React would be a benefit
+- [ ] What a React component is
+- [ ] What are props within a component
+- [ ] What is state within a component
+- [ ] What children are within a component
+- [ ] How React allows you to respond to user events
+- [ ] One approach to styling react components
+- [ ] The component lifecyle
+- [ ] An approach to managing Application state
 
 ### Fox
+
 - Components
   - The candidate has created components demonstrating the following:
     - [ ] A component without any props or state
