@@ -75,6 +75,7 @@ Do you need to follow the guide, or can you remember what to do?
 
 ### Shadow others
 
+If you're currently not on a delivery team. 
 If possible, arrange to shadow a team actively developing software.
 
 ### Code Review
@@ -94,8 +95,9 @@ Make sure you're building it well, though.
 Remember:
 
 * Open small pull requests - less than ~400 lines (At Made Tech you can drop a link into #engineering or #learntech)
-* Make lots of mistakes
-* TDD your code
+* Make lots of mistakes, and don't fear them.
+* ATDD your code
+* Refactor relentlessly
 * Put into practice your ever growing knowledge
 * Ask for help when stuck 
 
