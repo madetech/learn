@@ -68,11 +68,23 @@ All sections are required.
 * Demonstrate setting the default upstream branch for a local branch
 * Demonstrate force pushing rebases into isolated upstream Pull Request branches
 
+## Ignoring files
+
+* Demonstrate using .gitignore files
+* Explain what types of files should be ignored
+
 ## GitHub
 
 * Demonstrate opening a Pull Request
 * Demonstrate cleaning up merged branches
 * Demonstrate appropriate rebasing of isolated branches
+* With reference to Continuous Integration, can explain why every commit should pass all tests.
+
+## Pull Request Etiquette
+
+* Explain aims of code reviews
+* Explain best practices around leaving reviews
 * Explain the impact of the diff size of a Pull Request
 * Explain the impact of long-lived Pull Requests
+
 
