@@ -19,3 +19,11 @@ With carefully designed assessments that are aimed to ensure a strong set of pra
 * Web Application Development with React _coming soon..._ 
 * Frontend Development _coming soon..._
 
+# Additional Skills
+
+These more lightweight assessments are intended to test knowledge at the end of a period of mentoring.
+
+They are designed to be used as a tool to help mentors and mentees ensure that content has been covered.
+
+* [Git + GitHub](./additional-skills/git)
+
