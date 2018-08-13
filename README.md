@@ -2,7 +2,7 @@
 
 A collection of katas, workshops and other learning materials.
 
-* [Ideas](./ideas) for self-directed learning.
+* [Start here](./ideas) for self-directed learning ideas.
 * [Koans](./koans) for learning new programming languages.
 * [Katas](./katas) for focussed practice.
 * [Sparring](./sparring) for practicing with simulated real world problems. 
