@@ -16,7 +16,7 @@ These assessments are the first step on our shared path to mastery.
 With carefully designed assessments that are aimed to ensure a strong set of practical skills, we want to recognise progress of note towards mastery.
 
 * [Test Driven Development](./core-skills/tdd/README.md)
-* Web Application Development with React _coming soon..._ 
+* [Web Application Development with React](./core-skills/web-application-development-with-react/README.md)
 * Frontend Development _coming soon..._
 
 # Additional Skills
