@@ -20,7 +20,9 @@ It is up to the assessor to determine whether or not the candidate has adequetly
 
 As this isn't an assessment about scaffolding an application, and gathering resources we have built the (base application)[https://github.com/madetech/core-skill-frontend]
 
-## Reading Material
+## Core Concepts
+Each of the sections below contain reading material and links to related resources and tools to help you on your way. Some of them wont be assessed but are good things to know about.
+
 - [Grids](#)
 - [Semantic HTML](#)
 - [Responsive Design](#)
@@ -32,3 +34,12 @@ As this isn't an assessment about scaffolding an application, and gathering reso
 - [Progressive Enhancement](#)
 - [Web Performance](#)
 - [SEO](#)
+
+## Assessment Levels
+
+### Rhino
+
+### Narwhal
+
+### Unicorn
+
