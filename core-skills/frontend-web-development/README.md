@@ -18,7 +18,7 @@ In addition to the deliverables, at each level you are expected to demonstrate:
 
 It is up to the assessor to determine whether or not the candidate has adequetly achieved the above in addition to the deliverables. 
 
-As this isn't an assessment about scaffolding an application, and gathering resources we have built the (base application)[https://github.com/madetech/core-skill-frontend]
+As this isn't an assessment about scaffolding an application, and gathering resources we have built the (base application)[https://github.com/madetech/core-skill-frontend]. At this time this repo is private to Made Tech members, we're working to open source this too.
 
 ## Core Concepts
 Each of the sections below contain reading material and links to related resources and tools to help you on your way. Some of them wont be assessed but are good things to know about.
