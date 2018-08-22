@@ -68,7 +68,7 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
 
 You will be shown some preprepared test code, and will need to identify the test double used inside it.
 
-You will need to create a test using each of the 5 test doubles, a Dummy, a Stub, a Fake, a True Mock and a Spy.
+You will need to create a test using each of the [5 test doubles](https://nirajrules.wordpress.com/2011/08/27/dummy-vs-stub-vs-spy-vs-fake-vs-mock/), a Dummy, a Stub, a Fake, a True Mock and a Spy.
 
 You will need to TDD a feature which interacts with a remote service of your choice, e.g. a class which retrieves Tweets from twitter.
 
