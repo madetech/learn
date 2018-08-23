@@ -53,6 +53,18 @@ All sections are required.
 * Demonstrate performing an interactive rebase of a branch
   * Demonstrate using all possible rebase options
 
+## Cherry Picking 
+
+* Demonstrate cherry picking a single commit from another branch
+* Demonstrate recording the original commit hash in the commit message
+* Demonstrate cherry picking multiple commits
+* Explain at least one situation when a cherry pick would be appropriate
+
+## Hunks
+
+* Demonstrate using git add to stage parts of unstaged files (not whole files)
+  * Both using the patch subcommand and interactive mode
+
 ## Visualizing Commits
 
 * Can draw a git tree on paper
@@ -67,6 +79,8 @@ All sections are required.
 * Explain the difference between `origin/master` and `master`
 * Demonstrate setting the default upstream branch for a local branch
 * Demonstrate force pushing rebases into isolated upstream Pull Request branches
+* Demonstrate force pushing with lease 
+  * Can explain what this does and why it is useful.
 
 ## Ignoring files
 
