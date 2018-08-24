@@ -1,7 +1,7 @@
-# Frontend web developement [HTML/CSS]
+# Frontend web development [HTML/CSS]
 
 ## Aim
-This course is intended to guide learning to a level where you can write and contribute semanitic, and maintainable HTML and CSS to a project.
+This course is intended to guide learning to a level where you can write and contribute semantic, and maintainable HTML and CSS to a project.
 
 The course guides you through a typical "first page" build of any green field project. This encompasses selecting/creating a responsive CSS grid, building core shared components for your new site, and finally delivering an accessible, SEO optimised, lightning fast loading product detail page.
 
