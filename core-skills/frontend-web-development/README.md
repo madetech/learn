@@ -28,6 +28,7 @@ Each of the sections below contain reading material and links to related resourc
 - [Responsive Design](#)
 - [CSS Architecture](#)
 - [Web Typography](#)
+- [Icons](#)
 - [Cross Browser Testing](#)
 - [Web Accessibility](#)
 - [HTML/CSS Standards](#)
