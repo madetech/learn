@@ -38,9 +38,58 @@ Each of the sections below contain reading material and links to related resourc
 
 ## Assessment Levels
 
+For every level, as we should be "production ready" at every staging a candidate is expect to deliver:
+
+- Responsive "mobile first" HTML/CSS
+- Pixel perfect components in their main browser at defined breakpoints, however when resizing the built html should reflow.
+- Cross Browser tested
+- Semantic HTML
+- Maintainable well architected CSS
+
 ### Rhino
+
+To obtain rhino a candidate has to present the following to the examiner:
+
+- A grid
+- A sticky header (remembering we're not testing JS)
+- Footer
+- Creation of any additional assets
+
+While presenting their pages, candidates should explain the following:
+
+- Their choice to use (or not use) an off the shelf grid?
+- Their initial CSS structure, and how they plan to keep it maintainable?
+- What tools if any did you use to make the icons?
 
 ### Narwhal
 
+To obtain narwhal a candidate has to present the following to the examiner:
+
+- Related Products
+- Promotions area
+- Main product image, and thumbnails
+
+While presenting their pages, candidates should explain the following:
+
+- Did you have to DRY up any CSS as you found common patterns?
+- What additional SEO features have you added?
+
+
 ### Unicorn
+
+To obtain unicorn a candidate has to present the following to the examiner:
+
+- Cart form
+- Accessible
+- Page load optimisations
+- SEO
+
+While presenting their pages, candidates should explain the following:
+
+- Did you have to change any of your previous HTML to follow accessibility guidelines?
+- What techniques did you use to speed up the page load?
+- How did you keep your form accessible whilst applying custom styling?
+
+
+
 
