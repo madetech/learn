@@ -23,6 +23,7 @@ As this isn't an assessment about scaffolding an application, and gathering reso
 ## Core Concepts
 Each of the sections below contain reading material and links to related resources and tools to help you on your way. Some of them wont be assessed but are good things to know about.
 
+- [Working with Photoshop](#)
 - [Grids](#)
 - [Semantic HTML](#)
 - [Responsive Design](#)
@@ -57,23 +58,27 @@ To obtain rhino a candidate has to present the following to the examiner:
 
 While presenting their pages, candidates should explain the following:
 
-- Their choice to use (or not use) an off the shelf grid?
-- Their initial CSS structure, and how they plan to keep it maintainable?
+- What image format did you pick for Logo
 - What tools if any did you use to make the icons?
+- Their initial CSS structure, and how they plan to keep it maintainable?
+- Their choice to use (or not use) an off the shelf grid?
 
 ### Narwhal
 
-To obtain narwhal a candidate has to present the following to the examiner:
+To obtain Narwhal a candidate has to present the following to the examiner:
 
 - Related Products
 - Promotions area
 - Main product image, and thumbnails
+- SEO
 
 While presenting their pages, candidates should explain the following:
 
 - Did you have to DRY up any CSS as you found common patterns?
-- What additional SEO features have you added?
-
+- What additional SEO features have you added? (HINT: Microformats)?
+- How would open graph meta tags help discoverability?
+- Which image format have you chosen to use? How would you optimize them if you had to?
+- The client wants a new promotion on the page and the design shows white text on a very light background. What would you recommend in this situation? If anything?
 
 ### Unicorn
 
@@ -82,13 +87,14 @@ To obtain unicorn a candidate has to present the following to the examiner:
 - Cart form
 - Accessible
 - Page load optimisations
-- SEO
 
 While presenting their pages, candidates should explain the following:
 
 - Did you have to change any of your previous HTML to follow accessibility guidelines?
 - What techniques did you use to speed up the page load?
 - How did you keep your form accessible whilst applying custom styling?
+- If you had to stop flash of unstyled content (FOUC) how would you have gone about it?
+- If a client requested the page structure to remain consistant while the page loaded how would you do that?
 
 
 
