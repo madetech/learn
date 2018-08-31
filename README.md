@@ -1,3 +1,13 @@
+> “In this way you must understand how laughable it is to say, ‘Tell me what to do!’ 
+> What advice could I possibly give? 
+> No, a far better request is, 
+> ‘Train my mind to adapt to any circumstance.’ […] 
+> In this way, if circumstances take you off script […] 
+> you won’t be desperate for new prompting.“
+
+> – Epictetus, _Discourses_, 2.2.20b-1;24b-25a (~108 CE)
+
+
 # Learn
 
 A collection of katas, workshops and other learning materials.
