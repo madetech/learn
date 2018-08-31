@@ -23,19 +23,19 @@ As this isn't an assessment about scaffolding an application, and gathering reso
 ## Core Concepts
 Each of the sections below contain reading material and links to related resources and tools to help you on your way. Some of them wont be assessed but are good things to know about.
 
-- [Working with Photoshop](#)
-- [Grids](#)
-- [Semantic HTML](#)
-- [Responsive Design](#)
-- [CSS Architecture](#)
-- [Web Typography](#)
-- [Icons](#)
-- [Cross Browser Testing](#)
-- [Web Accessibility](#)
-- [HTML/CSS Standards](#)
-- [Progressive Enhancement](#)
-- [Web Performance](#)
-- [SEO](#)
+- [Working with Photoshop](./resources/working-with-photoshop.md)
+- [Grids](./resources/grids.md)
+- [Semantic HTML](./resources/semantic-html.md)
+- [Responsive Design](./resources/responsive-design.md)
+- [CSS Architecture](./resources/css-architecture.md)
+- [Web Typography](./resources/web-typography.md)
+- [Icons](./resources/icons.md)
+- [Cross Browser Testing](./resources/cross-browser-testing.md)
+- [Web Accessibility](./resources/web-accessibility.md)
+- [HTML/CSS Standards](./resources/html-css-standards.md)
+- [Progressive Enhancement](./resources/progressive-enhancement.md)
+- [Web Performance](./resources/web-performance.md)
+- [SEO](./resources/seo.md)
 
 ## Assessment Levels
 
