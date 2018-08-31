@@ -2,6 +2,9 @@
 
 ### Useful links
 
-https://moz.com/learn/seo/schema-structured-data
-http://schema.org/
-http://microformats.org/
+- https://moz.com/learn/seo/schema-structured-data
+
+### Useful references
+
+- http://schema.org/
+- http://microformats.org/
