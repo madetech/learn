@@ -22,7 +22,7 @@ If not using floats or flexbox, then you could use a grid layout system, such as
 
 Frameworks like Bootstrap are great, but sometimes you don’t need the kitchen sink i.e.bloat, tag soup. The engineer should know when to be pragmatic about the use of a framework, and when to handwrite CSS.
 
-Reading material
+### Reading material
 
 - [CSS layouts](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
 - [Floats for CSS layouts](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
