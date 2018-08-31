@@ -5,6 +5,15 @@
 - https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/
 - https://css-tricks.com/what-are-the-benefits-of-using-a-css-framework/
 
+## Semantic CSS
+
+- https://maintainablecss.com/chapters/semantics/
+- https://css-tricks.com/when-using-important-is-the-right-choice/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- http://getbem.com/
+- http://atomicdesign.bradfrost.com/table-of-contents/
+- https://smacss.com/book/
+
 ## SASS
 
 - https://designmodo.com/introduction-sass/
