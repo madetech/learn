@@ -105,9 +105,6 @@ You will need to TDD a feature which interacts with a remote service of your cho
 
 Review and refactor a preprepared test suite to improve performance.
 
-- Can write an acceptance test around an existing feature.
-  - Required - Write an acceptance test around a feature of an existing application which verifies the feature works as intended.
-
 - Can identify smells within somebody else's code.
   - Required - Can list three valid smells per the invigilator's guide.
 
