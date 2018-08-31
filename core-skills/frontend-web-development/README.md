@@ -20,7 +20,7 @@ It is up to the assessor to determine whether or not the candidate has adequetly
 
 As this isn't an assessment about scaffolding an application, and gathering resources we have built the (base application)[https://github.com/madetech/core-skill-frontend]. At this time this repo is private to Made Tech members, we're working to open source this too.
 
-All PSDs and assets can be downloaded from https://drive.google.com/drive/u/0/folders/1Qz7CXgspS7XYVpSXJEUcrrWwHklqNtb7
+All PSDs and assets can be downloaded from https://drive.google.com/open?id=1Qz7CXgspS7XYVpSXJEUcrrWwHklqNtb7
 
 ## Core Concepts
 Each of the sections below contain reading material and links to related resources and tools to help you on your way. Some of them wont be assessed but are good things to know about.
