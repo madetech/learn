@@ -59,6 +59,8 @@ To obtain rhino a candidate has to present the following to the examiner:
 While presenting their pages, candidates should explain the following:
 
 - What image format did you pick for Logo
+- What are the different values of `position` and what do they do.
+- What are the different values of `display` and what do they do.
 - What tools if any did you use to make the icons?
 - Their initial CSS structure, and how they plan to keep it maintainable?
 - Their choice to use (or not use) an off the shelf grid?
