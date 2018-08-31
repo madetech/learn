@@ -37,15 +37,23 @@ Each of the sections below contain reading material and links to related resourc
 - [Web Performance](./resources/web-performance.md)
 - [SEO](./resources/seo.md)
 
+## Resources
+
+- PSD sources - 
+- Icons - https://drive.google.com/drive/u/2/folders/0B6NzAMil8jKlMFZXTUxtVHRQdjA
+- Flags - https://drive.google.com/drive/u/2/folders/0B6NzAMil8jKla2xraHJ3QVp4d28
+
 ## Assessment Levels
 
-For every level, as we should be "production ready" at every staging a candidate is expect to deliver:
+For every level, as we should be "production ready" at every stage a candidate is expect to deliver:
 
-- Responsive "mobile first" HTML/CSS
+- Responsive "mobile first" HTML/CSS (breakpoints at 320px, 768px, & 1024px)
 - Pixel perfect components in their main browser at defined breakpoints, however when resizing the built html should reflow.
 - Cross Browser tested
 - Semantic HTML
 - Maintainable well architected CSS
+
+**Javascript is not required to complete any level.**
 
 ### Rhino
 
