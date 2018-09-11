@@ -17,7 +17,7 @@ For the purposes of this workshop we have provided a premade docker setup that p
 #### To Do
 
 * Clone [madetech/relational-database-workshop](https://github.com/madetech/relational-database-workshop)
-* Follow the README.
+* Follow the README for pgcli. **We will get to the Koans later.**
 
 ![Screencapture of Workshop](./screen-cap-workshop.gif)
 
@@ -391,28 +391,40 @@ CREATE INDEX ON fruit (discounted_on);
 
 Now rerun the same `EXPLAIN ANALYSE`, you will see a plan with `Index Scan using fruit_discounted_on_idx on fruit` which is much more efficient.
 
-Since postgres is so fast that even at 1500 rows, it's unlikely you will see any performance difference.
+Since postgres is so fast, even at 1500 rows it's unlikely you will see any performance difference.
 
-## In Ruby
+#### Adding Indexes to Large Tables
 
-We will be using a gem called `sequel` for the first part of this.
+Adding indexes to large existing tables, for example to fix a performance issue in production caused by a missing index can be incredibly problematic.
 
-### Database Connections
+* By default `ADD INDEX` will lock a table for writes.
 
-### Migrations
+For large tables, adding an index could take several hours. This is problematic as this is effectively downtime from the perspective of your customers.
 
-### Querying
+Always add indexes as early as possible as it's easier to add indexes to small datasets.
 
-### Object-relational Mapping
+Postgres does provide a way to `CREATE INDEX CONCURRENTLY` which doesn't lock the table. There are a few caveats to this approach.
 
+* Postgres may silently fail to create the index.
+  * These broken indexes still cause a penalty to writes
+* Creating an index concurrently is more expensive and may slow down queries (since it uses CPU/Memory).
 
+You can read about this in more depth on the postgres docs.
 
+## Ruby + Sequel Koans
 
+We will be using a gem called `sequel` to provide a nice API to interact with PostgreSQL.
 
-* Wrapper libraries
+Follow the section in the [madetech/relational-database-workshop](https://github.com/madetech/relational-database-workshop) repository readme to start working on the Koans.
 
-* Sequel
+### Useful Documentation Links
 
-* Migrations
+You can get to [Sequel documentation here](http://sequel.jeremyevans.net/documentation.html).
 
-* ORMs
+These specific pages might be useful to you.
+
+* [Database Connections](http://sequel.jeremyevans.net/rdoc/files/doc/opening_databases_rdoc.html)
+* [Migrations](http://sequel.jeremyevans.net/rdoc/files/doc/migration_rdoc.html)
+* [Dataset Basics](http://sequel.jeremyevans.net/rdoc/files/doc/dataset_basics_rdoc.html) 
+* [Virtual Row Blocks](http://sequel.jeremyevans.net/rdoc/files/doc/virtual_rows_rdoc.html)
+
