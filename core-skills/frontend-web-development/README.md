@@ -16,7 +16,7 @@ In addition to the deliverables, at each level you are expected to demonstrate:
 - Semantic HTML (i.e. no [Tag Soup](https://en.wikipedia.org/wiki/Tag_soup) )
 - Logical CSS naming
 
-It is up to the assessor to determine whether or not the candidate has adequetly achieved the above in addition to the deliverables.
+It is up to the assessor to determine whether or not you have adequately achieved the above in addition to the deliverables for each level.
 
 As this isn't an assessment about scaffolding an application, and gathering resources we have built the (base application)[https://github.com/madetech/core-skill-frontend]. At this time this repo is private to Made Tech members, we're working to open source this too.
 
@@ -41,7 +41,7 @@ Each of the sections below contain reading material and links to related resourc
 
 ## Assessment Levels
 
-For every level, as we should be "production ready" at every stage a candidate is expect to deliver:
+For every level, as we should be "production ready" at every stage a you must deliver:
 
 - Responsive "mobile first" HTML/CSS (breakpoints at 320px, 768px, & 1024px)
 - Pixel perfect components in their main browser at defined breakpoints, however when resizing the built html should reflow.
@@ -53,14 +53,14 @@ For every level, as we should be "production ready" at every stage a candidate i
 
 ### Rhino
 
-To obtain rhino a candidate has to present the following to the examiner:
+To obtain rhino you must present the following:
 
 - A grid, either bespoke or off the shelf.
 - A sticky header (remembering we're after a CSS solution)
 - Footer
 - Creation of any additional assets
 
-While presenting their pages, candidates should explain the following:
+While presenting your page, you should be able to explain the following:
 
 - What are the different values of `position` and what do they do, and when you would use them.
 - What are the different values of `display` and what do they do, and when you would use them.
@@ -70,14 +70,14 @@ While presenting their pages, candidates should explain the following:
 
 ### Narwhal
 
-To obtain Narwhal a candidate has to present the following to the examiner:
+To obtain Narwhal you must present the following:
 
 - Related Products
 - Promotions area
 - Main product image, and thumbnails
 - SEO
 
-While presenting their pages, candidates should explain the following:
+While presenting your page, you should be able to explain the following:
 
 - Did you have to DRY up any CSS as you found common patterns?
 - What additional SEO features have you added? (HINT: Microformats)?
@@ -87,19 +87,19 @@ While presenting their pages, candidates should explain the following:
 
 ### Unicorn
 
-To obtain unicorn a candidate has to present the following to the examiner:
+To obtain unicorn you must present the following:
 
 - Cart form
 - Accessible
 - Page load optimisations
 
-While presenting their pages, candidates should explain the following:
+While presenting your page, you should be able to explain the following:
 
 - Did you have to change any of your previous HTML to follow accessibility guidelines?
 - What techniques did you use to speed up the page load?
 - How did you keep your form accessible whilst applying custom styling?
 - If you had to stop flash of unstyled content (FOUC) how would you have gone about it?
-- If a client requested the page structure to remain consistant while the page loaded how would you do that?
+- If a customer requested the page structure to remain consistant while the page loaded how would you do that?
 
 
 
