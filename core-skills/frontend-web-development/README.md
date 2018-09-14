@@ -55,16 +55,15 @@ For every level, as we should be "production ready" at every stage a candidate i
 
 To obtain rhino a candidate has to present the following to the examiner:
 
-- A grid
-- A sticky header (remembering we're not testing JS)
+- A grid, either bespoke or off the shelf.
+- A sticky header (remembering we're after a CSS solution)
 - Footer
 - Creation of any additional assets
 
 While presenting their pages, candidates should explain the following:
 
-- What image format did you pick for Logo
-- What are the different values of `position` and what do they do.
-- What are the different values of `display` and what do they do.
+- What are the different values of `position` and what do they do, and when you would use them.
+- What are the different values of `display` and what do they do, and when you would use them.
 - What tools if any did you use to make the icons?
 - Their initial CSS structure, and how they plan to keep it maintainable?
 - Their choice to use (or not use) an off the shelf grid?
