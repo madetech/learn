@@ -3,7 +3,7 @@
 ## Aim
 This course is intended to guide learning to a level where you can write and contribute semantic, and maintainable HTML and CSS to a project.
 
-The course guides you through a typical "first page" build of any green field project. This encompasses selecting/creating a responsive CSS grid, building core shared components for your new site, and finally delivering an accessible, SEO optimised, lightning fast loading product detail page.
+The course guides you through a typical "first page" build of any green field project. This encompasses selecting/creating a responsive CSS grid, building core shared components for your new application, and finally delivering an accessible, SEO optimised, lightning fast loading product detail page.
 
 ## Assessment Style
 This core skill assessment is split into two parts. Firstly, you'll take a design from PSD to HTML/CSS during Learn Tech. This is assessed over three levels; Rhino, Narwhal, and Unicorn. Secondly, before completing each level as HTML/CSS is quite subjective you'll be asked to talk about the decisions you made whilst building out the deliverables for each level.
@@ -16,7 +16,7 @@ In addition to the deliverables, at each level you are expected to demonstrate:
 - Semantic HTML (i.e. no [Tag Soup](https://en.wikipedia.org/wiki/Tag_soup) )
 - Logical CSS naming
 
-It is up to the assessor to determine whether or not the candidate has adequetly achieved the above in addition to the deliverables. 
+It is up to the assessor to determine whether or not the candidate has adequetly achieved the above in addition to the deliverables.
 
 As this isn't an assessment about scaffolding an application, and gathering resources we have built the (base application)[https://github.com/madetech/core-skill-frontend]. At this time this repo is private to Made Tech members, we're working to open source this too.
 
@@ -84,7 +84,7 @@ While presenting their pages, candidates should explain the following:
 - What additional SEO features have you added? (HINT: Microformats)?
 - How would open graph meta tags help discoverability?
 - Which image format have you chosen to use? How would you optimize them if you had to?
-- The client wants a new promotion on the page and the design shows white text on a very light background. What would you recommend in this situation? If anything?
+- The customer wants a new promotion on the page and the design shows white text on a very light background. What would you recommend in this situation? If anything?
 
 ### Unicorn
 
