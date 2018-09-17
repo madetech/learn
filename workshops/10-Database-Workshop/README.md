@@ -378,7 +378,7 @@ For example consider this query which uses our unindexed column `discounted_on`.
 
 ```sql
 EXPLAIN ANALYSE SELECT * FROM fruit 
-  WHERE discounted_on > '2020-01-01';
+  WHERE discontinued_on > '2020-01-01';
 ```
 
 You will see postgres will plan with `Seq Scan on fruit`.
@@ -386,10 +386,10 @@ You will see postgres will plan with `Seq Scan on fruit`.
 If you add an index to this column
 
 ```sql
-CREATE INDEX ON fruit (discounted_on);
+CREATE INDEX ON fruit (discontinued_on);
 ```
 
-Now rerun the same `EXPLAIN ANALYSE`, you will see a plan with `Index Scan using fruit_discounted_on_idx on fruit` which is much more efficient.
+Now rerun the same `EXPLAIN ANALYSE`, you will see a plan with `Index Scan using fruit_discontinued_on_idx on fruit` which is much more efficient.
 
 Since postgres is so fast, even at 1500 rows it's unlikely you will see any performance difference.
 
