@@ -14,6 +14,12 @@ Docker adds an additional layer of complexity into your workflow. So why oh why 
 
 We will be using Docker in conjunction with Docker Compose.
 
+Some useful links
+
+* [Docker Hub](https://hub.docker.com/) for Docker images
+* [Dockerfile Docs](https://docs.docker.com/engine/reference/builder/) 
+* [Docker Compose Docs](https://docs.docker.com/compose/compose-file/)
+
 ### CoW all the way down.
 
 Docker images package up a full Linux distribution as part of the container image
@@ -129,7 +135,6 @@ docker-compose run --rm --service-ports web bundle exec rspec
 * What does `--service-ports` do?
 * Research what `docker-compose up` does.
 * Research what `docker-compose down` does.
-
 
 ## Challenge
 
