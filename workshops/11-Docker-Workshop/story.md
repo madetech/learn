@@ -47,20 +47,20 @@ We'd still need to:
 
 ## Virtual Machine
 
-Eventually the desire to obtain full production parity - and remove operating system level differences - will lead to [VirtualBox](https://www.virtualbox.org/) (or similar).
+Eventually the desire to obtain full production parity - and remove operating system level differences - led us to [VirtualBox](https://www.virtualbox.org/) (or similar).
 
 What VirtualBox does is it emulates a full system architecture inside your Operating System, so you can run the same Linux distribution or macOS, Windows or your favorite Linux flavor.
 
 **Vagrant!**
 
-Vagrant lets you define a `Vagrantfile` in the root of your project which will automatically setup a Virtual Machine.
+[Vagrant](https://www.vagrantup.com/docs/) lets you define a `Vagrantfile` in the root of your project which will automatically setup a Virtual Machine.
 
 **Virtual Machines...**
 
 The trouble with virtual machines
 
 * They are really slow (especially if you're running a GUI).
-* They use a lot of memory (expect 400+MB).
+* They use a lot of memory (expect 400MB+).
 * They use a lot of disk space (a whole operating system).
 * They will drain your battery.
 
