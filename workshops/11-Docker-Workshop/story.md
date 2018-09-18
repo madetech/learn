@@ -34,7 +34,7 @@ They quickly fix their machines and all is well again.
 
 All in all they spent three days scratching their heads.
 
-# What could this team do better?
+## What could this team do better?
 
 **Have a set of scripts in version control for setting up Linux and macOS.**
 
@@ -45,5 +45,52 @@ We'd still need to:
 * Maintain 2 versions (macOS and Linux), which could grow for different Linux flavors or Windows.
 * Deal with Operating System level differences.
 
-# An Operating System difference
+## Virtual Machine
+
+Eventually the desire to obtain full production parity - and remove operating system level differences - will lead to [VirtualBox](https://www.virtualbox.org/) (or similar).
+
+What VirtualBox does is it emulates a full system architecture inside your Operating System, so you can run the same Linux distribution or macOS, Windows or your favorite Linux flavor.
+
+**Vagrant!**
+
+Vagrant lets you define a `Vagrantfile` in the root of your project which will automatically setup a Virtual Machine.
+
+**Virtual Machines...**
+
+The trouble with virtual machines
+
+* They are really slow (especially if you're running a GUI).
+* They use a lot of memory (expect 400+MB).
+* They use a lot of disk space (a whole operating system).
+* They will drain your battery.
+
+You also can't (easily) rely on your Virtual Machine setup to machine production.
+
+## LXC
+
+Before Docker there was [LXC](https://en.wikipedia.org/wiki/LXC), which provides a way to spin up a whole "Virtual Machine" with none of the overhead. 
+
+Early versions of Docker even relied on LXC as the containerization engine!
+
+Coming from Virtual Machines, LXC was amazing since you could have a whole Linux distribution running inside 4MB of RAM!
+
+**Downsides...**
+
+* Only ran on Linux
+* Required really arbitrarily specific versions of Linux kernels 
+* \*Really\* complex to configure, maintain and manage.
+* Production parity, but hard to manage and deploy configurations
+
+## Then Docker came along
+
+It aims to be a fast way to run your applications in the same environment, everywhere.
+
+* Fast
+* Low disk space usage
+* Low memory footprint
+* Runs on Windows, macOS and Linux
+* Easy to configure and manage - configuration as code!
+* Production parity - run your Dockerfile everywhere
+
+The downside is that we have to use Docker everywhere - which means adding overhead to our development process.
 
