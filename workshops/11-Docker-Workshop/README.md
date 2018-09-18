@@ -24,15 +24,16 @@ Some useful links
 
 Docker images package up a full Linux distribution as part of the container image
 
-What this means that if we built a Docker image for our application and we could base that image off of Ubuntu (which is roughly 300 megabytes).
+What this means that we can build a Docker image for our application and base that image off of Ubuntu (which is roughly 300 megabytes).
+This gives us the ability to build our application around Ubuntu's packages, and particular quirks.
 
 Docker uses a Copy-on-Write file system to build a series of layers, in order to save space.
 
+Let's examine a full example to find out how that works...
+
 #### Alpine Dockerfile
 
-Alpine Linux is a lightweight distribution (about 30MB), which is a popular choice for applications run inside containers.
-
-Let's understand how this Copy-on-Write thing works, though:
+Alpine Linux is a lightweight distribution (about 30MB), which is a popular choice for applications run inside containers (to save space).
 
 Take a look at the [Alpine Linux 3.7's Dockerfile here](https://github.com/gliderlabs/docker-alpine/blob/master/versions/library-3.7/x86_64/Dockerfile).
 
@@ -50,7 +51,11 @@ Looking at the [Dockerfile for Ruby 2.5.1 built ontop of Alpine 3.7](https://git
 
 You will notice it specifies `FROM alpine:3.7` as the parent Docker image, which we just saw.
 
-* [Ruby on Docker Hub](https://hub.docker.com/_/ruby/)
+Docker will automatically pull down that `alpine:3.7` image from Docker Hub, and then pull down the `ruby:alpine3.7` layer from Docker Hub.
+
+Once it has done so, it can then reconstruct the full filesystem to be able to create containers based off the `ruby:alpine3.7` image.
+
+You can find the [Ruby Docker image here](https://hub.docker.com/_/ruby/).
 
 #### Ok, ok, but what does CoW mean?
 
@@ -65,6 +70,8 @@ In practice, if you build the Ruby docker image yourself, it will first pull dow
 Multiple images can be layered ontop of Alpine - you can have `python:alpine3.7` and `ruby:alpine3.7` and they will both share the same Alpine image on your disk.
 
 This not only saves disk space, but it means that you don't have to rebuild Alpine or Ruby every time you build your own Dockerfiles.
+
+* If I run a container using `ruby:alpine3.7` and I then run `python:alpine3.7` how much total disk space will be used?
 
 ### Dockerfile
 
