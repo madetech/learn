@@ -103,7 +103,7 @@ You will need to TDD a feature which interacts with a remote service of your cho
 
 ![Dragon](./dragon.jpg)
 
-Review and refactor a preprepared test suite to improve performance.
+Review, refactor and improve an existing test suite.
 
 - Can identify smells within somebody else's code.
   - Required - Can list three valid smells per the invigilator's guide.
@@ -122,3 +122,10 @@ Review and refactor a preprepared test suite to improve performance.
 - Can improve the performance of a slow test suite.
   - Required - Test suite run time is reduced 80% while maintaining the same amount of coverage.
   - Required - Test suite should remain as useful.
+
+- Can write tests around an untested piece of code.
+  - Required - Write a suite of tests around a feature of an existing application which
+    verifies the feature behaves in the way it does.
+  - Required - Does not change the production code before the test suite has been written.
+  - Required - Demonstrates that the tests written allow developers to now safely refactor
+    the production code.
