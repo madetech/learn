@@ -72,19 +72,31 @@ The candidate can describe:
 
 ### Fox
 
-Getting crafty with React - Creating some components for your users
+#### Getting crafty with React - Creating some components for your users
+
+For this level you will be expected to bring along with you an application which contains a set of components which meet the marking criteria.
+
+During the assessment, the reviewer will go through your application with you asking for demonstrations of the crtieria, and ask some follow up questions.
+
+#### Application
 
 - The candidate has created an application which contains:
   - A component without any props or state
+  - A use of the `key` prop
+  - A component which makes use of a function passed in as a prop
+  - A component which renders differently based on state changes
+  - A component which changes state in response to an onClick event
+  - A component which has been styled without the use of global styles
   - A component which renders differently based on the following prop types being passed in:
     - A boolean
     - A string
-    - A function
     - The `children` prop
-  - An appropriate use of the `key` prop
-  - A component which renders differently based on state changes
-  - A component which changes state in response to an onClick event
-  - A component which has been styled without global styles
+
+#### Understanding
+
+The candidate can describe:
+
+- What the `key` prop is used for.
 
 ### Owl
 
