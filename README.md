@@ -7,6 +7,7 @@
 
 > – Epictetus, _Discourses_, 2.2.20b-1;24b-25a (~108 CE)
 
+There are exercises on this website that challenge Software Engineers [starting their career](https://www.madetech.com/careers/academy), and also those who are writing the [best code of their career, but are still learning every day](https://www.madetech.com/careers/lead-engineer).
 
 # Learn
 
