@@ -13,12 +13,14 @@ There are exercises on this website that challenge Software Engineers [starting 
 
 A collection of katas, workshops and other learning materials.
 
-* [Start here](./ideas) for self-directed learning ideas.
-* [Koans](./koans) for learning new programming languages.
+* [Goals](./goals) for goal directed learning.
 * [Katas](./katas) for focussed practice.
+* [Koans](./koans) for learning new programming languages.
+* [Lots of ideas](./ideas) for stretching skills.
+* [Screencasts](./screencasts) for observing others practice skills.
+* [Seminars](./seminars) for delivering theoretical knowledge.
 * [Sparring](./sparring) for practicing with simulated real world problems. 
 * [Workshops](./workshops) for learning specific skills.
-* [Seminars](./seminars) for delivering theoretical knowledge.
 
 # Recognition
 
