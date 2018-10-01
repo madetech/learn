@@ -6,24 +6,24 @@ As we know, in order to do Deliberate Practice our learning must be **Goal Direc
 
 In order of priority, here is a (non-exhaustive) short-list of some skills that we think that Software Engineers should know:
 
-1) A range of skills which enable working in a team that is:
+1. A range of skills which enable working in a team that is:
   - regularly showcasing productionized software to customers
   - keeping it's commitments
   - is building the right thing
   - continuously improving
   - is enjoyable to work with
-2) [Test Driven Development](../core-skills/tdd/)
-3) Acceptance Testing
-4) Software Architecture
-5) [Web Application Development with React](../core-skills/web-application-development-with-react/)
-6) [Frontend Development](../core-skills/frontend-web-development/)
-7) Continuous Delivery / Continuous Integration / DevOps
+2. [Test Driven Development](../core-skills/tdd/)
+3. Acceptance Testing
+4. Software Architecture
+5. [Web Application Development with React](../core-skills/web-application-development-with-react/)
+6. [Frontend Development](../core-skills/frontend-web-development/)
+7. Continuous Delivery / Continuous Integration / DevOps
   - Using a PaaS
   - Using CI Tooling
   - 12 Factor
   - Philosophy of DevOps
   - Infrastructure as Code
-8) Containerization
+8. Containerization
   - Docker
   - Kubernetes
 
@@ -36,14 +36,14 @@ you will spend some time with a mentor focussing on skills relevant to delivery 
 
 As a high level summary, we will cover the following -
 
-1) Watch the [introduction to TDD screencast](../screencasts/tennis.md).
-2) Pair with a mentor on some katas using Test Driven Development discipline.
-3) Take a look at subcutaneous acceptance testing, and ATDD discipline.
-4) Explore the three central components Clean Architecture 
+1. Watch the [introduction to TDD screencast](../screencasts/tennis.md).
+2. Pair with a mentor on some katas using Test Driven Development discipline.
+3. Take a look at subcutaneous acceptance testing, and ATDD discipline.
+4. Explore the three central components Clean Architecture 
   - Use Cases
   - Gateways (Adapter Pattern)
   - Domain Driven Design
-5) Be introduced to the [Tic Tac Toe sparring exercise](../sparring/tic-tac-toe/)
+5. Be introduced to the [Tic Tac Toe sparring exercise](../sparring/tic-tac-toe/)
 
 ## Core Skills
 
