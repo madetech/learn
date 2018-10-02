@@ -86,6 +86,7 @@ All sections are required.
 
 * Demonstrate using .gitignore files.
 * Explain what types of files should be ignored.
+* Demonstrate the utility of global git ignores  `git config --global core.excludesfile ~/.gitignore`
 
 ## GitHub
 
