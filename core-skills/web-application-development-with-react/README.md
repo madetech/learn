@@ -48,12 +48,12 @@ Learning the fundamentals - How not to hurt yourself with React
 
 The candidate has:
 
-- created an application that is independent of the node install on the candidates machine
-- a make recipe for serve, which runs the application in development mode
-- a make recipe for test, which runs the tests for the application
-- a sandbox environment which allows them to quickly prototype components
-- the ablity to hot-reload based on changes
-- a failing test that appears when running make test
+- Created an application that is independent of the node install on the candidates machine
+- A make recipe for serve, which runs the application in development mode
+- A make recipe for test, which runs the tests for the application
+- A sandbox environment which allows them to quickly prototype components
+- The ablity to hot-reload based on changes
+- A failing test that appears when running make test
 
 #### Understanding
 
