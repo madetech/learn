@@ -105,23 +105,21 @@ You will need to TDD a feature which interacts with a remote service of your cho
 
 Review, refactor and improve an existing test suite.
 
-- Can identify smells within somebody else's code.
-  - Required - Can list three valid smells per the invigilator's guide.
+- Can identify smells within the sample apps test code.
+  - Required - Can list and explain three valid smells per the invigilator's guide.
 
 - Can describe why test suite performance is important.
   - Required - See invigilator's guide.
 
 - Can identify causes of poor performance in a test suite.
-  - Required - Identify three of the secret causes of poor performance.
+  - Required - Identify two of the secret causes of poor performance.
   - Required - Explain one potential structural cause of bad performance in a test suite.
-  - Required - Explain one other potential cause of bad performance in a test suite.
-
-- Can refactor poorly written test suite to remove duplication.
-  - Required - Can identify and remove three areas of duplication in the test suite.
 
 - Can improve the performance of a slow test suite.
   - Required - Test suite run time is reduced 80% while maintaining the same amount of coverage.
   - Required - Test suite should remain as useful.
+  - Required - Where any changes have been made to the behaviour of the test suite, the candidate
+    should make a well reasoned explination for why they made that change.
 
 - Can write tests around an untested piece of code.
   - Required - Write a suite of tests around a feature of an existing application which
