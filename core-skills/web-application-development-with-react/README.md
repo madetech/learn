@@ -107,7 +107,7 @@ components and any business logic used for communicating with remote services. I
 also cover demonstrating best practice around the separation of business logic and UI
 logic.
 
-During the asessement, your reviewer will go through your application asking for
+During the assessment, your reviewer will go through your application asking for
 demonstrations of the critera.
 
 #### Application - Mark scheme
@@ -125,11 +125,9 @@ The candidate should create a React application which satisfies the following.
   - Candidate should walk assessor through tests which give maintainers confidence 
     that the component submits the data from the form to the API.
 - There should be a JS layer of indirection between the components and the API
-  - Candidate should showcase a class which makes HTTP API requests, and tests which
+  - Candidate should showcase standalone code which makes HTTP API requests, and tests which
     cover this.
-  - Candidate should showcase tests for the component which mocks boundary between the
-    component and model.
-- The application should have component tests should have minimal coupling to the HTML
-  structure they render.
-  - Candidate should showcase their use of test specific attributes in the test suite
+  - Candidate should showcase tests which prove minimal coupling between the component and API interface.
+- The application should have component tests should have minimal coupling to markup they render.
+  - Candidate should showcase their use of test specific html attributes in the test suite
     to achieve this.
