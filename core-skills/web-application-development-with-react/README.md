@@ -30,7 +30,7 @@ during Learn Tech and brought along with you, and the second being questions to 
 
 Each section of the mark scheme will be separated into their respective categories.
 
-Example answers for the questions be found on the hidden marking guide, however we do not require exact matches. It
+Example answers for the questions can be found on the hidden marking guide; however, we do not require exact matches. It
 is up to the assessor to determine whether or not the candidate has adequetly answered the question.
 
 ### The Application
@@ -48,12 +48,12 @@ Learning the fundamentals - How not to hurt yourself with React
 
 The candidate has:
 
-- Has created an application that is independent of the node install on the candidates machine
-- Has a make recipe for serve, which runs the application in development mode
-- Has a make recipe for test, which runs the tests for the application
-- Has a sandbox environment which allows them to quickly prototype components
-- Has the ablity to hot-reload based on changes
-- Has a failing test that appears when running make test
+- Created an application that is independent of the node install on the candidates machine
+- A make recipe for serve, which runs the application in development mode
+- A make recipe for test, which runs the tests for the application
+- A sandbox environment which allows them to quickly prototype components
+- The ablity to hot-reload based on changes
+- A failing test that appears when running make test
 
 #### Understanding
 
@@ -66,7 +66,7 @@ The candidate can describe:
 - What `props.children` refers to
 - How React allows you to respond to user events
 - One approach to styling react components
-- What causes a component to rerender?
+- What causes a component to rerender
 - Describe a lifecycle method that you can hook into and perform actions on
 - An approach to managing Application state
 
@@ -76,7 +76,7 @@ The candidate can describe:
 
 For this level you will be expected to bring along with you an application which contains a set of components which meet the marking criteria.
 
-During the assessment, the reviewer will go through your application with you asking for demonstrations of the crtieria, and ask some follow up questions.
+During the assessment, the reviewer will go through your application with you, asking for demonstrations of the crtieria, and ask some follow up questions.
 
 #### Application
 
