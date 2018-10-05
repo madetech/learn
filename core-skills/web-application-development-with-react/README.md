@@ -121,13 +121,15 @@ The candidate should create a React application which satisfies the following.
 - Has a form component which takes information from the user and submits said information
   to an API.
   - Candidate should showcase their form to assessor.
-  - Candidate should demonstrate that the API has recieved information successfully
+  - Candidate should open the network tools and show that on form submission, a request is
+    made by the browser to the API endpoint with a JSON encoded request body containing
+    the form data.
   - Candidate should walk assessor through tests which give maintainers confidence 
     that the component submits the data from the form to the API.
 - There should be a JS layer of indirection between the components and the API
   - Candidate should showcase standalone code which makes HTTP API requests, and tests which
     cover this.
   - Candidate should showcase tests which prove minimal coupling between the component and API interface.
-- The application should have component tests should have minimal coupling to markup they render.
+- The application should have component tests that have minimal coupling to markup they render.
   - Candidate should showcase their use of test specific html attributes in the test suite
     to achieve this.
