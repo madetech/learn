@@ -47,7 +47,7 @@ As a high level summary, we will cover the following -
 
 ## Core Skills
 
-Our team has put together a set of [Core Skills with associated animal badges](../#recognition), which are [continuously evolving](https://github.com/madetech/learn/issues).
+Our team has put together a set of [Core Skills with associated animal badges](../core-skills), which are [continuously evolving](https://github.com/madetech/learn/issues).
 
 These are designed to enable new joiners deliberately practice skills which are valuable to delivery teams.
 
