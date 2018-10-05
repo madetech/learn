@@ -14,6 +14,7 @@ explain which type you are using.
 ## Reading material
 
 * [Mocks Aren't Stubs - Martin Fowler](https://martinfowler.com/articles/mocksArentStubs.html)
+* [Understanding Test Double Types](https://nirajrules.wordpress.com/2011/08/27/dummy-vs-stub-vs-spy-vs-fake-vs-mock/)
 
 ## Marking scheme
 
