@@ -36,7 +36,7 @@ is up to the assessor to determine whether or not the candidate has adequetly an
 ### The Application
 
 Build an app which communicates with an API, either one you write your own (you dont need to implement the API)
-or one that already exists, see: https://github.com/toddmotto/public-apis
+or one that already exists, see: [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis)
 
 ## Mark Scheme
 
