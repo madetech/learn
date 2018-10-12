@@ -78,7 +78,7 @@ For this level you will be expected to bring along with you an application which
 
 During the assessment, the reviewer will go through your application with you, asking for demonstrations of the crtieria, and ask some follow up questions.
 
-#### Application
+#### Application - Mark scheme
 
 - The candidate has created an application which contains:
   - A component without any props or state
@@ -92,7 +92,7 @@ During the assessment, the reviewer will go through your application with you, a
     - A string
     - The `children` prop
 
-#### Understanding
+#### Understanding - Mark scheme
 
 The candidate can describe:
 
@@ -100,21 +100,36 @@ The candidate can describe:
 
 ### Owl
 
-**Coming soon - Notes for the future**
+#### Getting wise with React - Integrating with remote services
 
-Owl is intended to demonstrate the ability to write tests for your application, and to integrate with external services in
-order to make a more feature rich application.
+For this level you are expected to demonstrate the ability to test both your React 
+components and any business logic used for communicating with remote services. It will
+also cover demonstrating best practice around the separation of business logic and UI
+logic.
 
-Will also test componentDidMount calling APIs
+During the assessment, your reviewer will go through your application asking for
+demonstrations of the critera.
 
-Forms for posting
+#### Application - Mark scheme
 
-- Architecture
-  - The candidate can explain the following;
-    - Communicating with APIs
-    - Division of business logic, domain, rendering and state
-    - How to test component rendering
-    - How to test business logic
+The candidate should create a React application which satisfies the following.
 
-**Coming Soon - Owl is intended to demonstrate ability to put understanding of advanced architecture
-principles and testing strategy into practice**
+- Has a component which displays data to the user which has been fetched from an API
+  - Candidate should showcase their component to assessor.
+  - Candidate should walk assessor through tests which give maintainers confidence
+    that the component displays data from an API.
+- Has a form component which takes information from the user and submits said information
+  to an API.
+  - Candidate should showcase their form to assessor.
+  - Candidate should open the network tools and show that on form submission, a request is
+    made by the browser to the API endpoint with a JSON encoded request body containing
+    the form data.
+  - Candidate should walk assessor through tests which give maintainers confidence 
+    that the component submits the data from the form to the API.
+- There should be a JS layer of indirection between the components and the API
+  - Candidate should showcase standalone code which makes HTTP API requests, and tests which
+    cover this.
+  - Candidate should showcase tests which prove minimal coupling between the component and API interface.
+- The application should have component tests that have minimal coupling to markup they render.
+  - Candidate should showcase their use of test specific html attributes in the test suite
+    to achieve this.
