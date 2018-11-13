@@ -2,7 +2,7 @@
 
 ## Made Learning Day
 
-The Made Learning Day format is our oldest 100% learning-focussed full day format. 
+The Made Learning Day format is our oldest 100% learning-focused full day format. 
 
 The goal of a Made Learning Day is to focussed on learning outcomes, unlike hack days or similar.
 
