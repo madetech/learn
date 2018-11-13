@@ -1,16 +1,21 @@
 # Tennis
 
-This Kata is about implementing a simple tennis game. I came up with it while thinking about Wii tennis, where they have simplified tennis, so each set is one game.
+This Kata is about implementing a simple tennis game. 
 
-The scoring system is rather simple:
+Rather than using standard Tennis scoring, **we consider scoring in Wii tennis**, which has a simplified version of tennis, so each set is one game.
+
+The scoring system is as follows:
 
 1. Each player can have either of these points in one game 0 15 30 40
 
 2. If you have 40 and you win the ball you win the game, however there are special rules.
 
-3. If both have 40 the players are deuce. a. If the game is in deuce, the winner of a ball will have advantage and game ball. b. If the player with advantage wins the ball they win the game c. If the player without advantage wins they are back at deuce.
+3. If both have 40 the players are deuce. 
+  - a. If the game is in deuce, the winner of a ball will have advantage and game ball. 
+  - b. If the player with advantage wins the ball they win the game 
+  - c. If the player without advantage wins they are back at deuce.
 
-===== Alternate description of the rules per Wikipedia ( http://en.wikipedia.org/wiki/Tennis#Scoring ):
+## Alternative description of rules
 
 1. A game is won by the first player to have won at least four points in total and at least two points more than the opponent.
 
