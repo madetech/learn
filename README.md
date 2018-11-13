@@ -22,6 +22,10 @@ A collection of katas, workshops and other learning materials.
 * [Sparring](./sparring) for practicing with simulated real world problems. 
 * [Workshops](./workshops) for learning specific skills.
 
+# Events
+
+* [Event plans](./event-plans) for running learning oriented events.
+
 # Recognition
 
 These assessments are the first step on our shared path to mastery. 
