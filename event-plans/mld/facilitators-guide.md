@@ -9,6 +9,14 @@
 - Pomodoro Technique
 - Overview of MLD Specific Skills (e.g. TDD)
 
+## Agenda
+
+- Presentation
+- Learning (repeat pomodoros until lunch)
+- 1 hour lunch
+- Learning (repeat pomodors until show & tell)
+- 30 minute Show & Tell
+
 ## Self-organisation
 
 Figure out target mentor group e.g. if doing a MLD on TDD, this could be all the people who have done some TDD before.
@@ -43,4 +51,16 @@ Go around and look for common anti-patterns, examples:
   - Ask them thought provoking open-ended questions
   - Challenge any assumptions that they have made
   - If possible, question any opinions that they have
+- Mention to individuals interesting things you've noticed that could make good Show & Tells
+- Nudge people about Show & Tells gently
 
+## Show & Tell
+
+Invite people to talk a little about what they learned
+
+Have a screen ready to make it possible for people to show code.
+
+- This could be to show their favourite feature
+- Could be to show some code
+- Could be to talk about things that they don't like or found surprising. 
+- Could be to get criticism on code written during the day 
