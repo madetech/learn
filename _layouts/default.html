@@ -1,60 +1,120 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ site.lang | default: "en-GB" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="bar">
-          <h1 class="mission">Improving software delivery in every organisation</h1>
-        </div> 
-        <h1 class="logotype">Learn&hairsp;Tech</h1>
-        <h2><a href="https://www.madetech.com/">by <img src="/made-tech-logo.svg" title="Made Tech" /></a></h2>
-        <div class="header-text">
-          <a class="back" href="{{ "/" | absolute_url }}">&#8617; overview</a>
-          &nbsp;&nbsp;
-          <a href="{{ site.github.repository_url }}">source</a>
-          &nbsp;&nbsp;
-          <a href="https://www.madetech.com/blog">blog</a>
-          &nbsp;&nbsp;
-          <a href="{{ "/remote-test" | absolute_url }}">remote test</a>
-        </div>
-      </header>
-      <section>
+  <link rel="stylesheet" href="{{ "/assets/css/madetech-frontend.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
 
-      {{ content }}
+<body>
+  <div class='top_bar'>
+    <div class='top_bar__inner'>
+      <div class='container'>
+        <div class='d-flex justify-content-between'>
+          <div>
+            Improving software delivery in every organisation
+          </div>
 
-      </section>
-      <footer>
-        <div class="sales-banner">
-          <h3>How effective is your business at software delivery?</h3>
-          <p>
-            Answer these 20 questions and find out where the principal software delivery challenges lie within your organisation.
-          </p>
-          <a href="https://madetech.typeform.com/to/d2Emvz" class="cta-button">Get started now</a>
+          <nav>
+            <a href='https://www.madetech.com'>Who is Made Tech?</a>
+            <span class='space'></span>
+            <a href='https://www.madetech.com/blog'>Blog</a>
+            <span class='space'></span>
+            <a href='https://www.madetech.com/careers'>Careers</a>
+            <span class='space'></span>
+            <a href='https://www.madetech.com/contact'>Contact Us</a>
+          </nav>
         </div>
-        <p class="tag-line">This project is maintained by <a href="{{ site.github.owner_url }}"><img class="footer-logo" src="/made-tech-logo.svg" title="{{ site.github.owner_name }}" /></a></p>
-      </footer>
+      </div>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
+  </div>
+
+  <header class='header'>
+    <div class='header__inner'>
+      <div class='navbar navbar-expand-lg p-0'>
+        <a href="/" class='navbar-brand mr-auto d-flex align-items-center'>
+          <span class="logotype">Learn&hairsp;Tech</span>
+          <span class="px-3">by</span>
+          <img alt='Made Tech' itemProp='logo' src='/assets/images/made-tech-logo-colour.png' width='120px' />
+        </a>
+
+        <button
+          class='header__toggler d-lg-none'
+          type='button'
+          data-toggle='collapse'
+          data-target='#navbarNavDropdown'
+          aria-controls='navbarNavDropdown'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          >
+          <span class='header__toggler_icon'></span>
+        </button>
+
+        <div class='collapse navbar-collapse' id='navbarNavDropdown'>
+          <div class='ml-auto'>
+            <div class='header_nav'>
+              <nav class='navbar-nav align-items-center'>
+                <a href='{{ "/" | absolute_url }}' class='nav-link'>
+                  Getting Started
+                </a>
+
+                <a href='{{ site.github.repository_url }}' class='nav-link'>
+                  View Source
+                </a>
+
+                <a href='{{ "/remote-test" | absolute_url }}' class='nav-link'>
+                  Remote Test
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        {{ content }}
+      </div>
+    </div>
+  </main>
+
+  <div class="sales-banner">
+    <h3>How effective is your business at software delivery?</h3>
+    <p>
+      Answer these 20 questions and find out where the principal software delivery challenges lie within your organisation.
+    </p>
+    <a href="https://madetech.typeform.com/to/d2Emvz" class="cta-button">Get started now</a>
+  </div>
+
+  <footer class="text-center p-5">
+    This project is maintained by <a href="{{ site.github.owner_url }}"><img class="footer-logo" src="/made-tech-logo.svg" title="{{ site.github.owner_name }}" /></a></p>
+  </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  <script src="{{ "/assets/js/madetech-frontend.js" | relative_url }}"></script>
+
+  {% if site.google_analytics %}
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
 </html>
