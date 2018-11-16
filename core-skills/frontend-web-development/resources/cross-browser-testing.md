@@ -1,6 +1,6 @@
 # Cross Browser Testing
 
-An engineer should be able to validate their front end across multiple browsers and devices in order to product a perfect design.
+A software engineer should be able to validate their front end across multiple browsers and devices in order to ensure that their HTML/CSS looks correct in many browsers.
 
 An engineer should use tools like [caniuse.com](https://caniuse.com/) to ensure the CSS properties they want to use will be supported by all their target browsers, before even cutting some CSS.
 
