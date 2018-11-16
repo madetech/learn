@@ -27,6 +27,8 @@ IE11 is recommended as its the last version of IE pre-installed on Windows machi
 
 ## A Caveat, and its controversial.
 
-While we should always strive to realise a Designer’s vision, there will always be some elements of the page (mainly typography) that will never match up.
+While we should always strive to realise a Designer’s vision, there will be some elements of the page (mainly typography) that will be harder to replicate in code. There are situations where the cost of implementing perfect typography outweighs the value derived.
+
+When working closely with Designers, it is beneficial to help them understand the technical limitations of HTML & CSS. Often, for aspects of a design where perfect typography matters, a designer should be advised to provide SVG assets instead.
 
 Using the example of Typography an engineer should match the common sense things like `line-height`, `font-size`, `font-family`, there are some things they wont be able to control in a scenario where dynamic text is being used. Kerning is the best example of this. An engineer can broadly apply a `letter-spacing` to all the letters but doing this on a per letter basis is not scalable when the copy is liable to change.
