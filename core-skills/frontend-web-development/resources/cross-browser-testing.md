@@ -4,7 +4,9 @@ An engineer should be able to validate their front end across multiple browsers 
 
 An engineer should use tools like [caniuse.com](https://caniuse.com/) to ensure the CSS properties they want to use will be supported by all their target browsers, before even cutting some CSS.
 
-Often an engineer will be missing some of the browsers they need to test against [Mainly IE] for this they'd install a Virtual Machine (VM). Microsoft make their VMs available on [modern.ie](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). However, an Engineer could also use PaaS like [BrowserStack](https://www.browserstack.com) to test without having a myriad of devices and browsers.
+Often an engineer will be missing some of the browsers they need to test against [Mainly IE] for this they'd install a Virtual Machine (VM). Microsoft make their VMs available on [modern.ie](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). 
+
+An easy approach is to use a SaaS tool such a [BrowserStack](https://www.browserstack.com) which allows testing on a myriad of real devices and browsers, without requiring physical access to those devices or those browsers installed on your own machine.
 
 While testing their front end an Engineer should use a tool like [Pixel Perfect](http://www.welldonecode.com/perfectpixel/) to overlay the expected design, and then adjust their HTML/CSS using the browsers web inspector.
 
