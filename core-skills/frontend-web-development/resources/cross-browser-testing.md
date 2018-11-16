@@ -10,7 +10,7 @@ While testing their front end an Engineer should use a tool like [Pixel Perfect]
 
 ## Which browsers to test
 
-Usually a team will agree to a list of supported browsers an engineer should test on. However, as a rule of thumb they should always test against:
+Usually, delivery teams will agree with the customer a list of supported browsers an engineer should test on. However, as a rule of thumb they should always test against:
 
 - [Firefox](https://www.mozilla.org/en-GB/firefox/new/)
 - [Google Chrome](https://www.google.co.uk/chrome/)
