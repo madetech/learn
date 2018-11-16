@@ -43,7 +43,7 @@ Each of the sections below contain reading material and links to related resourc
 
 For every level, as we should be "production ready" at every stage a you must deliver:
 
-- Responsive "mobile first" HTML/CSS (breakpoints at 320px, 768px, & 1024px)
+- Responsive, mobile-first, HTML/CSS for Mobile (320px) & Desktop (1024px)
 - Pixel perfect components in their main browser at defined breakpoints, however when resizing the built html should reflow.
 - Cross Browser tested
 - Semantic HTML
