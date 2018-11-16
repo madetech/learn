@@ -36,7 +36,7 @@ With carefully designed assessments that are aimed to ensure a strong set of pra
 
 * [Test Driven Development](./core-skills/tdd/README.md)
 * [Web Application Development with React](./core-skills/web-application-development-with-react/README.md)
-* Frontend Development _coming soon..._
+* [Frontend Development](./core-skills/frontend-web-development/)
 
 ## Additional Skills
 
