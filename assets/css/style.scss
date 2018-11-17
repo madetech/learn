@@ -7,16 +7,6 @@ html {
   background-color: rgb(235, 235, 235);
 }
 
-.logotype {
-  font-family: "neuzeit-gro-bold";
-  font-size: 1.4em;
-  font-weight: normal;
-
-  @media only screen and (max-width: var(--breakpoint-md)) {
-    font-size: 1.8em;
-  }
-}
-
 .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
   color: #000;
 }

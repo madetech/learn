@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico?v=" | relative_url }}">
 
 {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/madetech-frontend.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/madetech-frontend.min.css?v=" | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -39,10 +40,12 @@
   <header class='header'>
     <div class='header__inner'>
       <div class='navbar navbar-expand-lg p-0'>
-        <a href="/" class='navbar-brand mr-auto d-flex align-items-center'>
-          <span class="logotype">Learn&hairsp;Tech</span>
-          <span class="px-3">by</span>
-          <img alt='Made Tech' itemProp='logo' src='/assets/images/made-tech-logo-colour.png' width='120px' />
+        <a href="/" class='navbar-brand mr-auto'>
+          <span class="header_logo_type">
+            <span class="header_logo_type__text">Learn&hairsp;Tech</span>
+            <span class="px-3">by</span>
+            <img alt='Made Tech' itemProp='logo' src='/assets/images/made-tech-logo-colour.png' width='120px' />
+          </span>
         </a>
 
         <button
