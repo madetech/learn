@@ -13,4 +13,5 @@ Made Learning Days can be focused around learning any skill.
 ## Worksheets
 
 * [GNU Smalltalk](./mld/gnu-smalltalk)
+* [Common Lisp](./mld/common-lisp)
 
