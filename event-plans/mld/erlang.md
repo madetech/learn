@@ -16,6 +16,8 @@ Create a process that can
 * Lookup a piece of data by it’s key
 * Fetch all pieces of data held
 
+- You can use [this scaffold project](https://github.com/madetech/erlang-scaffold) as a basis for TDDing in Erlang.
+
 ### Retrospect
 
 * Is your public API easy to use? Any improvements?
