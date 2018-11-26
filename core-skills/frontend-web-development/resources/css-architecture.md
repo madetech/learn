@@ -47,7 +47,11 @@ Block Element Modifier.
 
 ## CSS Frameworks
 
-Once you have blahed
+On the one hand, CSS Frameworks are usually battle-tested in multiple browsers. Leveraging one can provide the benefit of support in many browsers. It is also much faster to get going with a CSS Framework, as many common components are likely implemented for you.
+
+The downside is that many CSS frameworks are usually very large slabs of CSS code, which will have a significant impact on the size of your CSS assets - larger assets mean that your page load times will become slower.
+
+Another criticism is that CSS frameworks allow you to do things their way, but provide little-to-no help when you want to implement a custom set of styles, and can sometimes hinder this process.
 
 - https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/
 - https://css-tricks.com/what-are-the-benefits-of-using-a-css-framework/
