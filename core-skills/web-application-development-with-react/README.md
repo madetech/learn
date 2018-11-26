@@ -118,7 +118,7 @@ The candidate should create a React application which satisfies the following.
   - Candidate should showcase their component to assessor.
   - Candidate should walk assessor through tests which give maintainers confidence
     that the component displays data from an API.
-  - Testing this component should include unit tests that demonstrate the boundary between the view logic and domain logic,
+  - Testing this component should include unit tests that demonstrate up to the boundary between the view logic and domain logic,
     and acceptance (end to end) testing that demonstrates data retrieved is shown in the UI.
 - Has a form component which takes information from the user and submits said information
   to an API.
