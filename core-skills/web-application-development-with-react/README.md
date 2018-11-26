@@ -129,7 +129,7 @@ The candidate should create a React application which satisfies the following.
   - Candidate should walk assessor through tests which give maintainers confidence 
     that the component submits the data from the form to the API.
   - Testing this component should include unit tests that demonstrate the boundary between the view logic and domain logic,
-    and acceptance (end to end) testing that demonstrates data retrieved is shown in the UI.
+    and acceptance (end to end) testing that demonstrates that all components (which are unit tested independently) interact with each other correctly.
 - There should be a JS layer of indirection between the components and the API
   - Candidate should showcase standalone code which makes HTTP API requests, and tests which
     cover this.
