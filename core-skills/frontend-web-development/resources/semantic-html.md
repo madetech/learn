@@ -1,17 +1,20 @@
-# Resources on Semantic HTML
+# Semantic HTML
 
+## What do we mean by 'Semantic'?
 Semantic HTML is the use of HTML markup emphasising the _meaning_ of the information that it contains.
 
 This is in contrast to markup that focuses on _presentation_ or _visual structure_.
 
-For example, a `<li>` (list) element shouldn't be used because you want bullet points - it should be used because you have items that _make sense_ in a list.
+### Why worry about being 'Semantic'?
 
-For a second example, notice the introduction of `<strong>` and `<em>` tags, preferred over `<b>` and `<i>`, because they describe the intent - "I want to emphasis this content" rather than "I want this content to look a certain way".
+- It helps produce clearer, simpler code, which reduces total cost of ownership.
 
-Semantic HTML has positive effects on accessibility, too - not everyone will consume your content the same way, so describing things more clearly will help.
+- It helps you, your team, and any of the next readers of your code, as they will find it easier to understand your original intent.
 
-[Some further expanation from Wikipedia](https://en.wikipedia.org/wiki/Semantic_HTML)
+- It has benefits for [accessibility](/core-skills/frontend-web-development/resources/web-accessibility) - not everyone will consume your content the same way, so describing things more clearly will help.
 
-[An article with some excellent examples](https://internetingishard.com/html-and-css/semantic-html/)
+## Examples
 
-[In-depth docs on HTML components from Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[This article](https://internetingishard.com/html-and-css/semantic-html/) has excellent examples of using the HTML5 semantic elements to produce more meaningful markup.
+
+Mozilla highlights [some of these new elements](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantic_elements), and has [references and tutorials around their use](https://developer.mozilla.org/en-US/docs/Web/HTML)
