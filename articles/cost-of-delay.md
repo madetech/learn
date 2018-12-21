@@ -9,6 +9,7 @@
 **Related:**
 
 - [Sunk Costs](./sunk-costs.md)
+- [WSJF](./weighted-shortest-job-first.md)
 
 ## Definition
 
@@ -20,9 +21,11 @@ It is the difference between the value that would be available if a work item we
 
 In reality, it is rare to be able to calculate both the Value and Cost (and therefore also Cost of Delay), so we estimate them.
 
+Teams can use Cost of Delay estimation to prioritise and schedule work items as part of [WSJF](./weighted-shortest-job-first.md) priortisation. 
+
 There are a number of standard plots to Cost vs Time on a graph, here are some described with examples.
 
-#### Expedite**
+#### Expedite
 
 Steep linearly increasing cost with no end in sight.
 
