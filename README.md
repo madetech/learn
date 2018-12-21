@@ -15,6 +15,7 @@ There are exercises on this website that challenge Software Engineers [starting 
 
 A collection of katas, workshops and other learning materials.
 
+* [Articles](./articles) for reading about various topics.
 * [Goals](./goals) for goal directed learning.
 * [Katas](./katas) for focussed practice.
 * [Koans](./koans) for learning new programming languages.
