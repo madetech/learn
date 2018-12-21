@@ -68,7 +68,7 @@ The candidate can describe:
 - One approach to styling react components
 - What causes a component to rerender
 - Describe a lifecycle method that you can hook into and perform actions on
-- An approach to managing Application state
+- How would you manage state that's shared amongst multiple components, avoiding passing state between many components?
 
 ### Fox
 
