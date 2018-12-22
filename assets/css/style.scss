@@ -2,32 +2,11 @@
 ---
 @charset "UTF-8";
 
-
-html {
-  background-color: rgb(235, 235, 235);
-}
-
 .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
   color: #000;
 }
 
 main {
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
-  overflow-wrap: break-word;
-
-  h1:first-child {
-    margin-top: 0;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  h1, h2, h3, h4 {
-    color: #40C842;
-  }
-
   > .highlighter-rouge {
     margin-left: 0;
     margin-right: 0;
@@ -46,26 +25,6 @@ main {
     > .highlighter-rouge {
       padding-left: 12%;
       padding-right: 12%;
-    }
-  }
-}
-
-footer {
-  overflow: hidden;
-  background: rgba(255, 255, 255, 1);
-
-  .footer-logo {
-    height: 1em;
-  }
-
-  @media only screen and (max-width: 900px) {
-    p.tag-line {
-      line-height: 1em;
-      font-size: 0.6em;
-    }
-
-    .footer-logo {
-      height: 0.5em;
     }
   }
 }

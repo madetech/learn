@@ -15,65 +15,59 @@
 </head>
 
 <body>
-  <div class='top_bar'>
-    <div class='top_bar__inner'>
-      <div class='container'>
-        <div class='d-flex justify-content-between'>
-          <div>
+  <div class="top_bar">
+    <div class="top_bar__inner">
+      <div class="container">
+        <div class="d-md-flex justify-content-md-between">
+          <div class="d-none d-md-block">
             Improving software delivery in every organisation
           </div>
 
           <nav>
-            <a href='https://www.madetech.com'>Who is Made Tech?</a>
-            <span class='space'></span>
-            <a href='https://www.madetech.com/blog'>Blog</a>
-            <span class='space'></span>
-            <a href='https://www.madetech.com/careers'>Careers</a>
-            <span class='space'></span>
-            <a href='https://www.madetech.com/contact'>Contact Us</a>
+            <span class="top_bar__item">
+              <a href="https://www.madetech.com">Who are Made Tech?</a>
+            </span>
+
+            <span class="top_bar__item">
+              <a href="https://www.madetech.com/blog">Blog</a>
+            </span>
+
+            <span class="top_bar__item">
+              <a href="https://learn.madetech.com">Learn</a>
+            </span>
+
+            <span class="top_bar__item">
+              <a href="https://www.madetech.com/careers">Careers</a>
+            </span>
           </nav>
         </div>
       </div>
     </div>
   </div>
 
-  <header class='header'>
-    <div class='header__inner'>
-      <div class='navbar navbar-expand-lg p-0'>
-        <a href="/" class='navbar-brand mr-auto'>
-          <span class="header_logo_type">
-            <span class="header_logo_type__text">Learn&hairsp;Tech</span>
-            <span class="px-3">by</span>
-            <img alt='Made Tech' itemProp='logo' src='/assets/images/made-tech-logo-colour.png' width='120px' />
-          </span>
-        </a>
+  <header class="header">
+    <div class="header__inner">
+      <div class="navbar navbar-expand p-0 flex-column flex-lg-row">
+        <div class="navbar-brand mr-lg-auto">
+          <a href="{{ "/" | relative_url }}" class="header__logo_link">
+            <span class="header_logo_type">
+              <span class="header_logo_type__text">Frontend</span>
+              <span class="px-3">by</span>
+              <img alt="Made Tech" itemProp="logo" src="{{ "/assets/images/made-tech-logo-colour.png" | relative_url }}" width="120px" />
+            </span>
+          </a>
+        </div>
 
-        <button
-          class='header__toggler d-lg-none'
-          type='button'
-          data-toggle='collapse'
-          data-target='#navbarNavDropdown'
-          aria-controls='navbarNavDropdown'
-          aria-expanded='false'
-          aria-label='Toggle navigation'
-          >
-          <span class='header__toggler_icon'></span>
-        </button>
+        <div class="header_nav">
+          <nav class="navbar-nav align-items-center">
+            <a href='{{ "/" | absolute_url }}' class='nav-link'>
+              Getting Started
+            </a>
 
-        <div class='collapse navbar-collapse' id='navbarNavDropdown'>
-          <div class='ml-auto'>
-            <div class='header_nav'>
-              <nav class='navbar-nav align-items-center'>
-                <a href='{{ "/" | absolute_url }}' class='nav-link'>
-                  Getting Started
-                </a>
-
-                <a href='{{ site.github.repository_url }}' class='nav-link'>
-                  View Source
-                </a>
-              </nav>
-            </div>
-          </div>
+            <a href='{{ site.github.repository_url }}' class='nav-link'>
+              GitHub
+            </a>
+          </nav>
         </div>
       </div>
     </div>
@@ -95,8 +89,34 @@
     <a href="https://madetech.typeform.com/to/d2Emvz" class="cta-button">Get started now</a>
   </div>
 
-  <footer class="text-center p-5">
-    This project is maintained by <a href="{{ site.github.owner_url }}"><img class="footer-logo" src="/made-tech-logo.svg" title="{{ site.github.owner_name }}" /></a></p>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 d-none d-lg-block">
+          © <span itemProp="copyrightYear">2018</span> <span itemProp="copyrightHolder" itemScope itemType="http://schema.org/Organization"><span itemProp="name">Made Tech Limited.</span></span>
+        </div>
+
+        <div class="col-7 col-lg-4 text-left text-lg-center">
+          <a class="footer__logo" href="https://www.madetech.com" rel="home">
+            <img src="{{ "/assets/images/made-tech-logo-wht.png" | relative_url }}" height="25" alt="Made Tech" />
+          </a>
+        </div>
+
+        <nav class="col-5 col-lg-4 text-right">
+          <a class="footer__social_link" href="https://www.madetech.com/ext/linkedin">
+            <img src="{{ "/assets/images/icons/linkedin.svg" | relative_url }}" alt="LinkedIn" height="25" />
+          </a>
+
+          <a class="footer__social_link" href="https://www.madetech.com/ext/twitter">
+            <img src="{{ "/assets/images/icons/twitter.svg" | relative_url }}" alt="Twitter" height="25" />
+          </a>
+
+          <a class="footer__social_link" href="https://www.madetech.com/ext/github">
+            <img src="{{ "/assets/images/icons/github.svg" | relative_url }}" alt="GitHub" height="25" />
+          </a>
+        </nav>
+      </div>
+    </div>
   </footer>
 
   <script
