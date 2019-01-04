@@ -34,8 +34,7 @@ Even if your site isn't heavily used on mobile right now, it's still worth consi
 
 ## Where can I learn more?
 
-[Responsive Web Design Basics
-](https://developers.google.com/web/fundamentals/design-and-ux/responsive) from Google's "Web Fundamentals" guide.
+[Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive) from Google's "Web Fundamentals" guide.
 
 Ethan Marcotte, coiner of the term "Responsive Design", [going into some detail about why it's important](https://alistapart.com/article/responsive-web-design).
 
