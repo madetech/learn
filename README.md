@@ -23,6 +23,7 @@ A collection of katas, workshops and other learning materials.
 * [Seminars](./seminars) for delivering theoretical knowledge.
 * [Sparring](./sparring) for practicing with simulated real world problems.
 * [Workshops](./workshops) for learning specific skills.
+* [Certifications](./certifications) for learning about AWS (for now).
 
 ## Events
 
