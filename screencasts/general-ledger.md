@@ -5,5 +5,6 @@ This series is designed to demonstrate using ATDD discipline to build a .NET Cor
 [Source code is available](https://github.com/madetech/dotnet-general-ledger)
 
 1. [Part 1 - Start with acceptance testing](https://drive.google.com/open?id=1eNRRkTVf3OSDtGHGQZpnzUwJTxKeg-Zb)
-2. _coming soon._
+2. [Part 2 - Emerging Domain](https://drive.google.com/open?id=1_aO22OssMKkpyBzdhzyEvBsanErdPYgh)
+3. _coming soon_
 
