@@ -7,5 +7,6 @@ This series is designed to demonstrate using ATDD discipline to build a .NET Cor
 1. [Part 1 - Start with acceptance testing](https://drive.google.com/open?id=1eNRRkTVf3OSDtGHGQZpnzUwJTxKeg-Zb)
 2. [Part 2 - Emerging Domain](https://drive.google.com/open?id=1_aO22OssMKkpyBzdhzyEvBsanErdPYgh)
 3. [Part 3 - Second passing acceptance test!](https://drive.google.com/open?id=12lIbf598kHet5m0-LdHstvJVEdzQw4Xv)
-4. _coming soon_
+4. [Part 4 - Another Use Case?](https://drive.google.com/open?id=1seqKZi9JRM8BEYsKIPuRM9TV3aiLCfOk)
+5. _coming soon_
 
