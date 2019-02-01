@@ -81,3 +81,62 @@ to change the ID for any reason (for example, to keep it unique on the page).
 To avoid this brittleness, we can use an attribute specifically for identifying DOM elements within a page,
 which in the above example is the `data-test` attribute. This allows us to change CSS classes, ID's, or even the entire structure of the page, without causing test breakages. Allowing for much quicker development whilst
 still ensuring your test suite provides good coverage.
+
+### Example two - A click counter component
+
+Testing a component which increments the number displayed on the page when the user clicks a button
+
+**ClickCounter/index.js**
+
+```jsx
+import React from "react";
+
+export default class ClickCounter extends React.Component {
+  constructor() {
+    super();
+    this.state = { count: 0 };
+  }
+
+  render() {
+    return (
+      <div>
+        <div>
+          Total Count = <span data-test="total-count">{this.state.count}</span>
+        </div>
+        <button
+          onClick={() => this.setState({ count: this.state.count + 1 })}
+          data-test="increment-button"
+        >
+          Click me
+        </button>
+      </div>
+    );
+  }
+}
+```
+
+**ClickCounter/clickCounter.test.js**
+
+```jsx
+import React from "react";
+import { mount } from "enzyme";
+import ClickCounter from ".";
+
+describe("<ClickCounter>", () => {
+  it("Displays an initial count of 0", () => {
+    let counter = mount(<ClickCounter />);
+
+    expect(counter.find({ "data-test": "total-count" }).text()).toEqual("0");
+  });
+
+  it("Increments the count when clicking the button", () => {
+    let counter = mount(<ClickCounter />);
+
+    counter.find({ "data-test": "increment-button" }).simulate("click");
+
+    counter.update();
+
+    expect(counter.find({ "data-test": "total-count" }).text()).toEqual("1");
+  });
+});
+```
