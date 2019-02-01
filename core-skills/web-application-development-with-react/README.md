@@ -20,8 +20,9 @@ This course is intended to guide learning to a level where you could write and c
 1. [React - Why and when should I use it?](./why-and-when.md)
 2. [Setting up a React project](./setup.md)
 3. [React Fundamentals](./fundamentals/README.md)
-4. Prototyping React Components - Coming soon
-5. Styling React Components - Coming soon
+4. [Testing in React](./testing/README.md)
+5. Prototyping React Components - Coming soon
+6. Styling React Components - Coming soon
 
 ## Assessment Style
 
