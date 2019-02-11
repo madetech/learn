@@ -1,26 +1,26 @@
 # Mumbling Kata
 
-The goal of this kata is to implement the `accum()` method which takes a string as input and returns a formatted output string.
+The goal of this kata is to implement the `mumble_letters()` method which takes a string as input and returns a formatted output string.
 
-The following examples illustrate the `accum()` method:
+The following examples illustrate the `mumble_letters()` method:
 
 ```ruby
-accum("a")
+mumble_letters("a")
 => "A"
 
-accum("abC")
+mumble_letters("abC")
 => "A-Bb-Ccc"
 
-accum("aBCd")
+mumble_letters("aBCd")
 => "A-Bb-Ccc-Dddd"
 
-accum("QWERTY")
+mumble_letters("QWERTY")
 => "Q-Ww-Eee-Rrrr-Ttttt-Yyyyyy"
 ```
 
 ## Rules
 
-Note that your `accum()` implementation should also handle an empty string input appropriately.
+Note that your `mumble_letters()` implementation should also handle an empty string input appropriately.
 
 ## References
 
