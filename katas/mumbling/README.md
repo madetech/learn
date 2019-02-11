@@ -5,10 +5,17 @@ The goal of this kata is to implement the `accum()` method which takes a string 
 The following examples illustrate the `accum()` method:
 
 ```ruby
-accum("a") = "A"
-accum("abC") = "A-Bb-Ccc"
-accum("aBCd") = "A-Bb-Ccc-Dddd"
-accum("QWERTY") = "Q-Ww-Eee-Rrrr-Ttttt-Yyyyyy"
+accum("a")
+=> "A"
+
+accum("abC")
+=> "A-Bb-Ccc"
+
+accum("aBCd")
+=> "A-Bb-Ccc-Dddd"
+
+accum("QWERTY")
+=> "Q-Ww-Eee-Rrrr-Ttttt-Yyyyyy"
 ```
 
 ## Rules
