@@ -119,7 +119,7 @@ Review, refactor and improve an existing test suite.
   - Required - Test suite run time is reduced 80% while maintaining the same amount of coverage.
   - Required - Test suite should remain as useful.
   - Required - Where any changes have been made to the behaviour of the test suite, the candidate
-    should make a well reasoned explination for why they made that change.
+    should make a well reasoned explanation for why they made that change.
 
 - Can write tests around an untested piece of code.
   - Required - Write a suite of tests around a feature of an existing application which
