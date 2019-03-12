@@ -12,6 +12,7 @@ You can usually find Koans for languages by Googling "\<language name\> koans", 
 * [Kotlin](https://github.com/Kotlin/kotlin-koans)
 * [Java](https://github.com/matyb/java-koans)
 * [C# (.NET Core)](https://github.com/NotMyself/DotNetCoreKoans) / [.NET](https://github.com/CoryFoy/DotNetKoans) / [C# (MSTest)](https://github.com/jtigger/csharp-koans)
+* [F#](https://github.com/craigjbass/FSharpKoans)
 * [Clojure](https://github.com/functional-koans/clojure-koans)
 * [GNU Smalltalk](https://github.com/craigjbass/gnu_smalltalk_koans)
 * [Common Lisp](https://github.com/craigjbass/lisp-koans)

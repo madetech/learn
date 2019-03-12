@@ -15,4 +15,5 @@ Made Learning Days can be focused around learning any skill.
 * [GNU Smalltalk](./mld/gnu-smalltalk)
 * [Common Lisp](./mld/common-lisp)
 * [Erlang](./mld/erlang)
+* [F#](./mld/fsharp)
 
