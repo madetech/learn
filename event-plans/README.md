@@ -8,7 +8,7 @@ The goal of a Made Learning Day is to focus on learning outcomes, unlike hack da
 
 Made Learning Days can be focused around learning any skill.
 
-* [Faciliator Guide](./mld/facilitators-guide)
+* [Facilitator Guide](./mld/facilitators-guide)
 
 ## Worksheets
 
