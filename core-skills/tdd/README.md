@@ -2,7 +2,7 @@
 
 ## Summary
 
-1. Can demonstrate using the discipline of TDD by doing it.
+1. Can practically demonstrate disciplined TDD.
 2. Can describe a broad range of strategies to achieve an acceptable test-suite performance.
 3. Can describe the family of Test Doubles and can demonstrate how to hand-roll those Test Doubles. Can describe the problems introduced by Test Doubles on Test Design.
 4. Is able to refactor a test to make it follow the 4 components of a single Test and also in relation to a suite of tests.
@@ -22,34 +22,30 @@
 7. [Inappropriate TDD](./inappropriate.md)
 8. [Triangulation](./triangulation.md)
 
-## Mark Scheme
+## Badges
 
-### Giraffe
-
-![Giraffe](./giraffe.jpg)
-
-#### Assessment
-
+{% capture giraffe_description %}
 TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark scheme below.
 
 - Writes a failing test before writing production code
-  - Required - Several examples of this.
+  - Required - Several examples
 
 - Watches the failing test fail for the right reason before writing production code
-  - Required - Several examples of this.
+  - Required - Several examples
 
 - Writes only the minimum production code for a test to pass
-  - Required - Several examples of sliming production code, or writing very minimal production code, until necessary to change by future tests. Examples of writing small tests to expose these.
+  - Required - Several examples of sliming production code, or writing very minimal production code, until necessary to change by future tests. (this is way too long)  
+  - Required - Examples of writing small tests to expose these.  
 
 - Watches the passing test pass before moving onto refactoring
-  - Required - Several examples of this.
+  - Required - Several examples
 
 - Refactors tests
   - Required - One example of refactoring tests, describing why they are.
 
 - Refactors production code
   - Required - One example of refactoring production code.
-  - Can write tests which follow the AAAT (Arrange, Act, Assert, Teardown)
+  - Required - Can write tests which follow the AAAT (Arrange, Act, Assert, Teardown)
   - Required - Demonstration of setting up some state first, making an action, and asserting on that action. Teardown is optional if it is not required by the test suite (e.g. RSpec).
 
 - Can describe expected behaviours from the perspective of the user.
@@ -61,11 +57,10 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
 
 - Can demonstrate triangulation when TDDing an example piece of code.
   - Required - Production code is generalised only when there are failing tests that require generalised production code.
+{% endcapture %}
+{% include assessment_container.html name="Giraffe" description=giraffe_description img="./giraffe.jpg" %}
 
-### Wolf
-
-![Wolf](./wolf.jpg)
-
+{% capture wolf_description %}
 You will be shown some preprepared test code, and will need to identify the test double used inside it.
 
 You will need to create a test using each of the 5 test doubles, a Dummy, a Stub, a Fake, a True Mock and a Spy.
@@ -98,11 +93,10 @@ You will need to TDD a feature which interacts with a remote service of your cho
 
 - **DEPRECATED, BUT MUST BE ACHIEVED IF NOT DONE IN GIRAFFE** - Can demonstrate triangulation when TDDing an example piece of code.
   - Required - Production code is generalised only when there are failing tests that require generalised production code.
+{% endcapture %}
+{% include assessment_container.html name="Wolf" description=wolf_description img="./wolf.jpg" %}
 
-### Dragon
-
-![Dragon](./dragon.jpg)
-
+{% capture dragon_description %}
 Review, refactor and improve an existing test suite.
 
 - Can identify smells within the sample apps test code.
@@ -127,3 +121,5 @@ Review, refactor and improve an existing test suite.
   - Required - Does not change the production code before the test suite has been written.
   - Required - Demonstrates that the tests written allow developers to now safely refactor
     the production code.
+{% endcapture %}
+{% include assessment_container.html name="Dragon" description=dragon_description img="./dragon.jpg" %}

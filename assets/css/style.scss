@@ -270,3 +270,22 @@ main {
 .container img {
   max-width: 100%;
 }
+
+li li {
+  font-style: italic;
+}
+
+.Assessment {
+  margin: 1%;
+  display: inline-block;
+  max-width: 29%;
+}
+.Assessment[open] {
+  max-width: 100%;
+}
+.Assessment[open] .BadgeImg {
+  max-width: 50%;
+}
+.Assessment[open] .Name {
+  font-size: 2em;
+}
