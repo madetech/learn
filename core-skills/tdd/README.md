@@ -1,7 +1,6 @@
 # Test Driven Development
 
-## Summary
-
+{% capture criteria %}
 1. Can practically demonstrate disciplined TDD.
 2. Can describe a broad range of strategies to achieve an acceptable test-suite performance.
 3. Can describe the family of Test Doubles and can demonstrate how to hand-roll those Test Doubles. Can describe the problems introduced by Test Doubles on Test Design.
@@ -10,9 +9,10 @@
 6. Can demonstrate strategies to achieve Simulation of a "Remote Service". Can weigh up contextual appropriateness of common tooling (e.g. WebMock, VCR)
 7. Can describe practical scenarios when TDD is not appropriate. Can explain what to look for when discovering new impractical scenarios.
 8. Can demonstrate Triangulation and describe its relationship to TDD discipline.
+{% endcapture %}
+{% include skill_header.html criteria=criteria %}
 
-## Sections
-
+{% capture resources %}
 1. [Demonstrating the Discipline](./discipline.md)
 2. [Test Suite Performance](./performance.md)
 3. [Test Doubles](./test-doubles.md)
@@ -21,6 +21,8 @@
 6. [Testing remote services](./remote-services.md)
 7. [Inappropriate TDD](./inappropriate.md)
 8. [Triangulation](./triangulation.md)
+{% endcapture %}
+{% include skill_resources.html resources=resources %}
 
 ## Badges
 

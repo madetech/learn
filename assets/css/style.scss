@@ -289,3 +289,11 @@ li li {
 .Assessment[open] .Name {
   font-size: 2em;
 }
+
+/* Will need to deal with smaller windows here */
+aside {
+  margin-left: -37%;
+  top: 3em;
+  float: left;
+  position: absolute;
+}
