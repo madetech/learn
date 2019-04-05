@@ -290,6 +290,22 @@ li li {
   font-size: 2em;
 }
 
+/*When hovering over the summary*/
+.Assessment:not([open]) summary .BadgeImg {
+  padding: 10%;
+}
+.Assessment:not([open]) summary:hover .BadgeImg {
+  padding: 0;
+}
+
+/* Hides default decoration for summaries */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary {
+  list-style-type: none;
+}
+
 /* Will need to deal with smaller windows here */
 aside {
   margin-left: -37%;
