@@ -36,8 +36,10 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
   - Required - Several examples
 
 - Writes only the minimum production code for a test to pass
-  - Required - Several examples of sliming production code, or writing very minimal production code, until necessary to change by future tests. (this is way too long)  
-  - Required - Examples of writing small tests to expose these.  
+  - Required - Several examples of:  
+    - Sliming production code  
+    - Writing very minimal production code, until necessary to change by future tests  
+  - Required - Examples of writing small tests to expose these  
 
 - Watches the passing test pass before moving onto refactoring
   - Required - Several examples
@@ -47,8 +49,12 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
 
 - Refactors production code
   - Required - One example of refactoring production code.
-  - Required - Can write tests which follow the AAAT (Arrange, Act, Assert, Teardown)
-  - Required - Demonstration of setting up some state first, making an action, and asserting on that action. Teardown is optional if it is not required by the test suite (e.g. RSpec).
+  - Required - Can write tests which follow AAAT (Arrange, Act, Assert, Teardown)
+  - Required - Demonstration of:  
+    - Setting up some state first  
+    - Making an action  
+    - Asserting on that action  
+    - Teardown (if applicable)  
 
 - Can describe expected behaviours from the perspective of the user.
   - Required - Can write test names which describe the behaviour of the software from a user’s perspective.
@@ -114,8 +120,8 @@ Review, refactor and improve an existing test suite.
 - Can improve the performance of a slow test suite.
   - Required - Test suite run time is reduced 80% while maintaining the same amount of coverage.
   - Required - Test suite should remain as useful.
-  - Required - Where any changes have been made to the behaviour of the test suite, the candidate
-    should make a well reasoned explanation for why they made that change.
+  - Required - Well reasoned explanations for all changes to test suite behaviour
+
 
 - Can write tests around an untested piece of code.
   - Required - Write a suite of tests around a feature of an existing application which

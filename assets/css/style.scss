@@ -271,10 +271,6 @@ main {
   max-width: 100%;
 }
 
-li li {
-  font-style: italic;
-}
-
 .Assessment {
   margin: 1%;
   display: inline-block;
@@ -304,6 +300,14 @@ details > summary::-webkit-details-marker {
 }
 details > summary {
   list-style-type: none;
+}
+
+.Assessment > ul > li {
+  margin-top: -0.5em;
+  padding: 0.5em;
+}
+.Assessment li li {
+  font-style: italic;
 }
 
 /* Will need to deal with smaller windows here */
