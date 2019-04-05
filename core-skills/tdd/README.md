@@ -1,14 +1,15 @@
 # Test Driven Development
 
 {% capture criteria %}
-1. Can practically demonstrate disciplined TDD.
-2. Can describe a broad range of strategies to achieve an acceptable test-suite performance.
-3. Can describe the family of Test Doubles and can demonstrate how to hand-roll those Test Doubles. Can describe the problems introduced by Test Doubles on Test Design.
-4. Is able to refactor a test to make it follow the 4 components of a single Test and also in relation to a suite of tests.
-5. Can identify smells in test code, and describe why each smell is a problem.
-6. Can demonstrate strategies to achieve Simulation of a "Remote Service". Can weigh up contextual appropriateness of common tooling (e.g. WebMock, VCR)
-7. Can describe practical scenarios when TDD is not appropriate. Can explain what to look for when discovering new impractical scenarios.
-8. Can demonstrate Triangulation and describe its relationship to TDD discipline.
+Test driven development is a practice we make ample use of here at Made Tech. By the end of this course you should be able to:  
+1. Practically demonstrate disciplined TDD.
+2. Describe a broad range of strategies to achieve an acceptable test-suite performance.
+3. Describe the family of Test Doubles and can demonstrate how to hand-roll those Test Doubles. Can describe the problems introduced by Test Doubles on Test Design.
+4. Refactor a test to make it follow the 4 components of a single Test and also in relation to a suite of tests.
+5. Identify smells in test code, and describe why each smell is a problem.
+6. Demonstrate strategies to achieve Simulation of a "Remote Service". Can weigh up contextual appropriateness of common tooling (e.g. WebMock, VCR)
+7. Describe practical scenarios when TDD is not appropriate. Can explain what to look for when discovering new impractical scenarios.
+8. Demonstrate Triangulation and describe its relationship to TDD discipline.
 {% endcapture %}
 {% include skill_header.html criteria=criteria %}
 
