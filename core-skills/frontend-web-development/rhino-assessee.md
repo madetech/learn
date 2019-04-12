@@ -1,0 +1,42 @@
+# Rhino
+
+This assessment is composed of 3 discrete parts.
+
+## Semantic HTML
+
+The first stage is an assessment of your ability to use semantic HTML.
+
+We have [prepared a HTML page][rhino-semantic-html-page],
+and you will need to change the HTML for more semantic version.
+
+Replace the existing tags with 5 more semantic ones.
+For each change, explain what meaning you thought the original HTML was to convey, and why you chose the semantic tag.
+
+[rhino-semantic-html-page]: https://codepen.io/kjdchapman/pen/zXzQYw
+
+## Basic CSS
+
+You're provided with some [unstyled HTML][rhino-unstyled-html-page],
+which you'll need to add styles such that it looks like the below screenshot.
+
+*Note the whitespace around the content.*
+
+![How the webpage should look](resources/rhino-expected-styles.png)
+
+[rhino-unstyled-html-page]: https://codepen.io/kjdchapman/pen/mgwYKZ
+
+## Accessibility
+
+You are giving a number of issues identified by an accessibility expert, you'll need to resolve each issue.
+
+For each issue explain what kind of user would have trouble with the webpage,
+and why your change made it easier for them.
+
+* [Low contrast][rhino-bad-contrast]
+* [Colour to communicate meaning][rhino-inaccessible-example]
+* [Actions labelled by icons][rhino-inaccessible-example]
+* [“Click here” link text][rhino-inaccessible-example]
+* [Tiny button][rhino-inaccessible-example]
+
+[rhino-bad-contrast]: https://codepen.io/anon/pen/RdEZyv
+[rhino-inaccessible-example]: https://codepen.io/anon/pen/BbvdMy
