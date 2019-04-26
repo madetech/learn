@@ -4,8 +4,7 @@
 
 This course is intended to guide learning to a level where you could write and contribute to a functional, maintainable React application. Starting with the basics of React, through to designing, building and testing in a maintainable way.
 
-## Summary
-
+{% capture criteria %}
 1. Can describe situations where you should/shouldn't decide to use React for a project
 2. Can setup a React project from scratch in a repeatable way
 3. Can describe the different parts of the Javascript ecosystem (e.g. NPM, Webpack, etc)
@@ -14,14 +13,6 @@ This course is intended to guide learning to a level where you could write and c
    with React components
 6. Can demonstrate applying sensible styling to React components
 7. Can demonstrate strategies and tools to run tests against an API within a React application
-
-## Sections
-
-1. [React - Why and when should I use it?](./why-and-when.md)
-2. [Setting up a React project](./setup.md)
-3. [React Fundamentals](./fundamentals/README.md)
-4. Prototyping React Components - Coming soon
-5. Styling React Components - Coming soon
 
 ## Assessment Style
 
@@ -38,10 +29,21 @@ is up to the assessor to determine whether or not the candidate has adequetly an
 Build an app which communicates with an API, either one you write your own (you dont need to implement the API)
 or one that already exists, see: [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis)
 
+{% endcapture %}
+{% include skill_header.html criteria=criteria %}
+
+{% capture resources %}
+1. [React - Why and when should I use it?](./why-and-when.md)
+2. [Setting up a React project](./setup.md)
+3. [React Fundamentals](./fundamentals/README.md)
+4. Prototyping React Components - Coming soon
+5. Styling React Components - Coming soon
+{% endcapture %}
+{% include skill_resources.html resources=resources %}
+
 ## Mark Scheme
 
-### Hedgehog
-
+{% capture hedgehog_description %}
 Learning the fundamentals - How not to hurt yourself with React
 
 #### Application
@@ -69,9 +71,10 @@ The candidate can describe:
 - What causes a component to rerender
 - Describe a lifecycle method that you can hook into and perform actions on
 - How would you manage state that's shared amongst multiple components, avoiding passing state between many components?
+{% endcapture %}
+{% include assessment_container.html name="Hedgehog" description=hedgehog_description img="./hedgehog.jpg" %}
 
-### Fox
-
+{% capture fox_description %}
 #### Getting crafty with React - Creating some components for your users
 
 For this level you will be expected to bring along with you an application which contains a set of components which meet the marking criteria.
@@ -97,12 +100,13 @@ During the assessment, the reviewer will go through your application with you, a
 The candidate can describe:
 
 - What the `key` prop is used for.
+{% endcapture %}
+{% include assessment_container.html name="Fox" description=fox_description img="./fox.jpg" %}
 
-### Owl
-
+{% capture owl_description %}
 #### Getting wise with React - Integrating with remote services
 
-For this level you are expected to demonstrate the ability to test both your React 
+For this level you are expected to demonstrate the ability to test both your React
 components and any business logic used for communicating with remote services. It will
 also cover demonstrating best practice around the separation of business logic and UI
 logic.
@@ -124,7 +128,7 @@ The candidate should create a React application which satisfies the following.
   - Candidate should open the network tools and show that on form submission, a request is
     made by the browser to the API endpoint with a JSON encoded request body containing
     the form data.
-  - Candidate should walk assessor through tests which give maintainers confidence 
+  - Candidate should walk assessor through tests which give maintainers confidence
     that the component submits the data from the form to the API.
 - There should be a JS layer of indirection between the components and the API
   - Candidate should showcase standalone code which makes HTTP API requests, and tests which
@@ -133,3 +137,5 @@ The candidate should create a React application which satisfies the following.
 - The application should have component tests that have minimal coupling to markup they render.
   - Candidate should showcase their use of test specific html attributes in the test suite
     to achieve this.
+{% endcapture %}
+{% include assessment_container.html name="Owl" description=owl_description img="./owl.jpg" %}
