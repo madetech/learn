@@ -1,18 +1,16 @@
 # Web Application Development with React
 
-## Aim
-
-This course is intended to guide learning to a level where you could write and contribute to a functional, maintainable React application. Starting with the basics of React, through to designing, building and testing in a maintainable way.
-
 {% capture criteria %}
-1. Can describe situations where you should/shouldn't decide to use React for a project
-2. Can setup a React project from scratch in a repeatable way
-3. Can describe the different parts of the Javascript ecosystem (e.g. NPM, Webpack, etc)
-4. Can demonstrate using TDD on business logic within a React code base
-5. Can demonstrate strategies to achieve clear separation of business logic and display logic
+React is a web framework we make use of here at Made Tech. By the end of this course you should be able to:
+
+1. Describe situations where you should/shouldn't decide to use React for a project
+2. Setup a React project from scratch in a repeatable way
+3. Describe the different parts of the Javascript ecosystem (e.g. NPM, Webpack, etc)
+4. Demonstrate using TDD on business logic within a React code base
+5. Demonstrate strategies to achieve clear separation of business logic and display logic
    with React components
-6. Can demonstrate applying sensible styling to React components
-7. Can demonstrate strategies and tools to run tests against an API within a React application
+6. Demonstrate applying sensible styling to React components
+7. Demonstrate strategies and tools to run tests against an API within a React application
 
 ## Assessment Style
 
@@ -33,11 +31,9 @@ or one that already exists, see: [https://github.com/toddmotto/public-apis](http
 {% include skill_header.html criteria=criteria %}
 
 {% capture resources %}
-1. [React - Why and when should I use it?](./why-and-when.md)
+1. [React - Why and when?](./why-and-when.md)
 2. [Setting up a React project](./setup.md)
 3. [React Fundamentals](./fundamentals/README.md)
-4. Prototyping React Components - Coming soon
-5. Styling React Components - Coming soon
 {% endcapture %}
 {% include skill_resources.html resources=resources %}
 
@@ -54,23 +50,23 @@ The candidate has:
 - A make recipe for serve, which runs the application in development mode
 - A make recipe for test, which runs the tests for the application
 - A sandbox environment which allows them to quickly prototype components
-- The ablity to hot-reload based on changes
+- The ability to hot-reload based on changes
 - A failing test that appears when running make test
 
 #### Understanding
 
 The candidate can describe:
 
-- Situations in which using React would be a benefit
+- Situations where React would be beneficial
 - What a React component is
-- What are props within a component
-- What is state within a component
+- What component props are
+- What component state is
 - What `props.children` refers to
 - How React allows you to respond to user events
 - One approach to styling react components
 - What causes a component to rerender
-- Describe a lifecycle method that you can hook into and perform actions on
-- How would you manage state that's shared amongst multiple components, avoiding passing state between many components?
+- A lifecycle method that you can hook into and perform actions on
+- How to manage state shared between multiple components, avoiding passing state between many components
 {% endcapture %}
 {% include assessment_container.html name="Hedgehog" description=hedgehog_description img="./hedgehog.jpg" %}
 
@@ -83,17 +79,17 @@ During the assessment, the reviewer will go through your application with you, a
 
 #### Application - Mark scheme
 
-- The candidate has created an application which contains:
-  - A component without any props or state
-  - A use of the `key` prop
-  - A component which makes use of a function passed in as a prop
-  - A component which renders differently based on state changes
-  - A component which changes state in response to an onClick event
-  - A component which has been styled without the use of global styles
-  - A component which renders differently based on the following prop types being passed in:
-    - A boolean
-    - A string
-    - The `children` prop
+- The candidate has created an application which contains a component:
+    - That uses makes use of the `key` prop
+    - Without any props of state
+    - Which makes use of a function passed in as a prop
+    - Which renders differently based on state
+    - Which changes state in response to an onClick event
+    - Which has been styled without the use of global styles
+    - A component which renders differently based on the following prop types being passed in:
+      - A boolean
+      - A string
+      - The `children` prop
 
 #### Understanding - Mark scheme
 
@@ -112,7 +108,7 @@ also cover demonstrating best practice around the separation of business logic a
 logic.
 
 During the assessment, your reviewer will go through your application asking for
-demonstrations of the critera.
+demonstrations of the criteria.
 
 #### Application - Mark scheme
 
@@ -124,17 +120,15 @@ The candidate should create a React application which satisfies the following.
     that the component displays data from an API.
 - Has a form component which takes information from the user and submits said information
   to an API.
-  - Candidate should showcase their form to assessor.
-  - Candidate should open the network tools and show that on form submission, a request is
-    made by the browser to the API endpoint with a JSON encoded request body containing
-    the form data.
-  - Candidate should walk assessor through tests which give maintainers confidence
-    that the component submits the data from the form to the API.
+  - Showcase the form component to the assessor.
+  - On form submission the browser should send JSON to the API endpoint.
+  - Walk the assessor through tests that give maintainers confidence that the
+    component submits the data to the API.
 - There should be a JS layer of indirection between the components and the API
-  - Candidate should showcase standalone code which makes HTTP API requests, and tests which
+  - Showcase standalone code which makes HTTP API requests, and tests which
     cover this.
-  - Candidate should showcase tests which prove minimal coupling between the component and API interface.
-- The application should have component tests that have minimal coupling to markup they render.
+  - Showcase tests which prove minimal coupling between the component and API interface.
+- Component tests should have minimal coupling to the markup they render.
   - Candidate should showcase their use of test specific html attributes in the test suite
     to achieve this.
 {% endcapture %}
