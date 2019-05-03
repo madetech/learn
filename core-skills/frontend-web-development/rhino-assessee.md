@@ -4,7 +4,6 @@ This assessment is composed of 3 discrete parts.
 
 ## Semantic HTML
 
-The first stage is an assessment of your ability to use semantic HTML.
 
 We have [prepared a HTML page][rhino-semantic-html-page],
 and you will need to change the HTML for more semantic version.
