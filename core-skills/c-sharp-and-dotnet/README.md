@@ -72,7 +72,7 @@ Eagle is a space to demonstrate a deeper understanding of OO programming and imp
  - Can explain intermediate language and compilation
 - Can explain common performance detriments in C# code and some potential ways to write performant C#
 
-- Can demonstrate some function programming in C#
+- Can demonstrate some functional programming in C#
  - Can demonstrate use of delegates
 
 Expected deliverable - A C# application that showcases some understanding of all the above points (this is intentionally open ended to allow for some flexing!)
