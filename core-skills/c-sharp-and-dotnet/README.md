@@ -32,6 +32,7 @@ Coming soon
 ### Mantis Shrimp
 
 - Can explain the difference between .NET, .NET Core and Framework
+- Can explain what the .NET Standard is 
 - Can explain the difference between C#, Visual Basic and F#
 - Can explain what assemblies and artefacts are
 - Can explain the concept of classes with examples of usage
@@ -50,7 +51,7 @@ Expected deliverable - simple application with a test that satisfies the above
 
 ### Goat
 
-- Can explain the concept of generics with examples of usage
+- Can explain the concept of generics and generic type constraints with examples of usage
 - Can explain the concept of abstraction with examples of usage
 - Can explain the concept of polymorphism with examples of usage
 
