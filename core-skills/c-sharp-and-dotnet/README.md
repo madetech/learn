@@ -3,7 +3,7 @@
 ## Who is this skill for?
 
 This skill is intended for developers who have already completed the TDD core skill, and who have not worked with .NET previously (or want to brush up) and are likely to join a delivery team that is working in C#.
-Through this course, we'll be making some assumptions that you're already familiar with core Made Tech processes and at least one programming language (static typed or dynamic).
+Through this course, we'll be making some assumptions that you're already familiar with at least one programming language (static typed or dynamic).
 
 ## Summary
 ### Mantis Shrimp
@@ -14,7 +14,7 @@ Through this course, we'll be making some assumptions that you're already famili
 
 ### Goat
 1. Understands some deeper object oriented programming concepts
-2. Able to demonstrate common core patterns implemented using C# language features
+2. Able to demonstrate common design patterns implemented using C# language features
 3. Understands how to build API functionality using common frameworks (MVC, EF)
 4. Understands how to use the dotnet command line utilities to perform common tasks
 5. Can effectively debug using the interactive debugger (IDE)
@@ -54,11 +54,13 @@ Expected deliverable - simple application with a test that satisfies the above
 - Can explain the concept of abstraction with examples of usage
 - Can explain the concept of polymorphism with examples of usage
 
+- Can demonstrate using the `dotnet` command line utility to build and run the project and tests
+- Can demonstrate the use of IDE tooling for refactoring code
+
 - Can demonstrate understanding and implementation of exception handling
 - Can demonstrate understanding and implementation of asynchronous programming
 - Can demonstrate understanding and implementation of LINQ query syntax and method syntax
 - Can demonstrate understanding and implementation of data persistence
-- Can demonstrate understanding and implementation of SOLID principles
 - Can demonstrate effectively debugging using an interactive debugging tool
 
 Expected deliverable - HTTP API that can take a request and persist some data from that request demonstrating the above
@@ -67,6 +69,8 @@ Expected deliverable - HTTP API that can take a request and persist some data fr
 Disclaimer - The C# skill is not a core skill, it is advanced learning. If the goal is to know enough to join a delivery, this is satisfied having achieved Goat.
 Eagle is a space to demonstrate a deeper understanding of OO programming and implementing clean, maintainable code in C#.
 
+- TODO: This line is here to remind us to flesh out and write the requirement for explaining and understanding some common ways that complexity can creep into .NET projects and why, and what we can do to try and avoid this.
+
 - Can explain at a high level how the .NET virtual machine works
  - Can explain memory management and garbage collection
  - Can explain intermediate language and compilation
@@ -74,5 +78,6 @@ Eagle is a space to demonstrate a deeper understanding of OO programming and imp
 
 - Can demonstrate some functional programming in C#
  - Can demonstrate use of delegates
+- Can demonstrate writing code that follows SOLID principles in C#, using for example, Clean Architecture
 
 Expected deliverable - A C# application that showcases some understanding of all the above points (this is intentionally open ended to allow for some flexing!)
