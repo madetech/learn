@@ -8,7 +8,7 @@ Through this course, we'll be making some assumptions that you're already famili
 ## Summary
 ### Mantis Shrimp
 1. Can set up a working project in .NET using an IDE
-2. Can install and manage dependancies for the project
+2. Can install and manage dependencies for the project
 3. Can create and run unit tests using a test framework
 4. Understands basic concepts of the C# language and ecosystem
 
