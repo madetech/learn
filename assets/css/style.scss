@@ -310,11 +310,17 @@ details > summary {
   font-style: italic;
 }
 
-/* Will need to deal with smaller windows here */
-aside {
-  margin-left: -37%;
-  top: 3em;
-  float: left;
-  position: absolute;
-  max-width: 30%;
+@media only screen and (min-width: 1080px) {
+  aside {
+    margin-left: -35%;
+    top: 3em;
+    float: left;
+    position: absolute;
+    max-width: 30%;
+  }
+
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
