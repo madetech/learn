@@ -1,6 +1,6 @@
 # Rhino
 
-This assessment is in three parts, and usually takes between 30 minutes and 2 hours to complete.
+This assessment is in three parts, and can take up to three hours to complete.
 
 ## Semantic HTML
 
