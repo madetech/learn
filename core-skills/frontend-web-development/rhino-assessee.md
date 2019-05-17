@@ -14,10 +14,9 @@ You'll also need to **explain**, for each new tag, why you chose it.
 
 ## Basic CSS
 
-You're provided with some [unstyled HTML][rhino-unstyled-html-page],
-which you'll need to add styles such that it looks like the below screenshot.
+You need to produce a web page that looks like the picture below. It doesn't need to be pixel perfect, but the whitespace around the content should look similar.
 
-*Note the whitespace around the content.*
+You can either start from [this unstyled HTML][rhino-unstyled-html-page], or bring a pre-prepared page to the assessment.
 
 ![How the webpage should look](resources/rhino-expected-styles.png)
 
