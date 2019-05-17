@@ -4,12 +4,11 @@ This assessment is in three parts, and usually takes between 30 minutes and 2 ho
 
 ## Semantic HTML
 
+First, open [this link][rhino-semantic-html-page]. It's HTML and a preview of what it would look like in a browser.
 
-We have [prepared a HTML page][rhino-semantic-html-page],
-and you will need to change the HTML for more semantic version.
+You'll need to **change five of the HTML tags** so they're more semantic. This might change the page's look slightly.
 
-Replace the existing tags with 5 more semantic ones.
-For each change, explain what meaning you thought the original HTML was to convey, and why you chose the semantic tag.
+You'll also need to **explain**, for each new tag, why you chose it.
 
 [rhino-semantic-html-page]: https://codepen.io/kjdchapman/pen/zXzQYw
 
