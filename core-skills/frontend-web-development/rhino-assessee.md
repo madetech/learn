@@ -42,4 +42,4 @@ These are the pages:
 [rhino-delivery-healthchecks]: https://codepen.io/anon/pen/WBOQXV
 [rhino-control-panel]: https://codepen.io/anon/pen/xNrZbW
 [rhino-click-heres]: https://codepen.io/anon/pen/WBOQLb
-[rhino-favourite-number]: https://codepen.io/anon/pen/BbvdMy
+[rhino-favourite-number]: https://codepen.io/anon/pen/YbQwbP
