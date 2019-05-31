@@ -6,6 +6,8 @@ This skill is intended for developers who have already completed the TDD core sk
 Through this course, we'll be making some assumptions that you're already familiar with at least one programming language (static typed or dynamic).
 
 ## Summary
+On achieving the following badges, we'd expect you to have gained the following skills:
+
 ### Mantis Shrimp
 1. Can set up a working project in .NET using an IDE
 2. Can install and manage dependencies for the project
@@ -20,10 +22,10 @@ Through this course, we'll be making some assumptions that you're already famili
 5. Can effectively debug using the interactive debugger (IDE)
 
 ### Eagle
-1. Demonstrate an understanding of functional programming in C#
+1. Can demonstrate an understanding of functional programming in C#
 2. Understanding of the .NET virtual machine
 3. Understanding the impact of choices on performance
-4. Demonstrate ability to combine understanding of the above into a working API in C# with .NET
+4. Can demonstrate ability to combine understanding of the above into a working API in C# with .NET
 
 ## Resources
 Coming soon
@@ -39,7 +41,7 @@ Coming soon
 - Can explain the concept of interfaces with examples of usage
 - Can explain the concept of inheritance with examples of usage
 
-- Can create a new project in an IDE
+- Can create a new C# project
 - Can install and manage external project dependancies
 - Can build and run the project
 - Can manage internal project dependancies
@@ -70,15 +72,14 @@ Expected deliverable - HTTP API that can take a request and persist some data fr
 Disclaimer - The C# skill is not a core skill, it is advanced learning. If the goal is to know enough to join a delivery, this is satisfied having achieved Goat.
 Eagle is a space to demonstrate a deeper understanding of OO programming and implementing clean, maintainable code in C#.
 
-- TODO: This line is here to remind us to flesh out and write the requirement for explaining and understanding some common ways that complexity can creep into .NET projects and why, and what we can do to try and avoid this.
+- Can write implementation code and tests that facilitate maintenance and change, using TDD and Clean Architecture. Implementation should follow SOLID principles.
 
 - Can explain at a high level how the .NET virtual machine works
  - Can explain memory management and garbage collection
  - Can explain intermediate language and compilation
-- Can explain common performance detriments in C# code and some potential ways to write performant C#
+- Can explain common performance detriments in C# code and some potential ways to write performant C#, particularly in the context of APIs serving web requests.
 
 - Can demonstrate some functional programming in C#
  - Can demonstrate use of delegates
-- Can demonstrate writing code that follows SOLID principles in C#, using for example, Clean Architecture
 
-Expected deliverable - A C# application that showcases some understanding of all the above points (this is intentionally open ended to allow for some flexing!)
+Expected deliverable - A C# application that showcases an understanding of all the above points (this is intentionally open ended to allow for some flexing! Refer to the marking guide and look for clean, SOLID code with good testing strategies).
