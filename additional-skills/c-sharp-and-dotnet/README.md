@@ -32,7 +32,7 @@ Coming soon
 ### Mantis Shrimp
 
 - Can explain the difference between .NET, .NET Core and Framework
-- Can explain what the .NET Standard is 
+- Can explain what the .NET Standard is
 - Can explain the difference between C#, Visual Basic and F#
 - Can explain what assemblies and artefacts are
 - Can explain the concept of classes with examples of usage
@@ -61,7 +61,7 @@ Expected deliverable - simple application with a test that satisfies the above
 - Can demonstrate understanding and implementation of exception handling
 - Can demonstrate understanding and implementation of asynchronous programming
 - Can demonstrate understanding and implementation of LINQ query syntax and method syntax
-- Can demonstrate understanding and implementation of data persistence
+- Can demonstrate understanding and implementation of data persistence using a database
 - Can demonstrate effectively debugging using an interactive debugging tool
 
 Expected deliverable - HTTP API that can take a request and persist some data from that request demonstrating the above
