@@ -15,3 +15,30 @@ Demonstrate understanding of:
 3. Principle of Least Privilege
 4. Zero-downtime deployments
 
+## Marking Scheme
+
+### Level 1
+
+#### Brief
+
+#### Assessment
+
+#### Practical
+
+
+### Level 2
+
+#### Brief
+
+#### Assessment
+
+#### Practical
+
+### Level 3
+
+#### Brief
+
+#### Assessment
+
+#### Practical
+
