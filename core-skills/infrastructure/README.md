@@ -15,22 +15,37 @@ Demonstrate understanding of:
 3. Principle of Least Privilege
 4. Zero-downtime deployments
 
-## Marking Scheme
+## Assessments
 
 ### Level 1
 
 #### Brief
 
-#### Assessment
+Be able to set up a highly available, internet facing web application.
+
+#### Theory
+
+1. What are IaaS, PaaS, and FaaS?
+   1. For each of these; Discuss a scenario where the technology is appropriate
+   2. For each of these; Discuss a scenario where the technology is not appropriate
+2. What is the importance of having a highly available service?
 
 #### Practical
+
+You will be provided a Linux Container Image, though you can use your own if you wish.
+
+- Run the image with your choice of IaaS.
+- Make the service highly available
+- Draw a diagram of your infrastructure
+- Demonstrate that you can remove an instance without causing any downtime.
+  A [script][downtime-script] has been provided for your convenience
 
 
 ### Level 2
 
 #### Brief
 
-#### Assessment
+#### Theory
 
 #### Practical
 
@@ -38,7 +53,26 @@ Demonstrate understanding of:
 
 #### Brief
 
-#### Assessment
+#### Theory
 
 #### Practical
 
+
+## Appendix
+
+### Downtime Script
+
+```sh
+target="<your endpoint>"
+while :; do
+ if (curl -m 1 "$target" &>/dev/null); then
+   printf '.'
+ else
+   echo "target is down"
+   break
+ fi
+ sleep 0.5
+done
+```
+
+[downtime-script]: #downtime-script
