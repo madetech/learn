@@ -47,3 +47,4 @@ They are designed to be used as a tool to help mentors and mentees ensure that c
 
 * [Git + GitHub](./additional-skills/git)
 * [The Made Tech Productionisation Checklist](https://github.com/madetech/productionisation/blob/master/README.md)
+* [C# and .NET Core](./additional-skills/c-sharp-and-dotnet)
