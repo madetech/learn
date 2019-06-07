@@ -46,3 +46,4 @@ These more lightweight assessments are intended to test knowledge at the end of 
 They are designed to be used as a tool to help mentors and mentees ensure that content has been covered.
 
 * [Git + GitHub](./additional-skills/git)
+* [The Made Tech Productionisation Checklist](https://github.com/madetech/productionisation/blob/master/README.md)
