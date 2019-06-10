@@ -2,11 +2,11 @@
 
 Docker is a tool that provides **containerisation**. 
 
-When you run an application in Docker you are running your application in a **container**.
+When you run an application in Docker, you are running your application in a **container**.
 
 ## Why oh why?
 
-Docker adds an additional layer of complexity into your workflow. So why oh why do we bother?
+Docker adds an additional layer of complexity into your workflow. So, why oh why do we bother?
 
 [Let me tell you a story...](./story.md)
 
@@ -14,7 +14,7 @@ Docker adds an additional layer of complexity into your workflow. So why oh why 
 
 We will be using Docker in conjunction with Docker Compose.
 
-Some useful links
+Some useful links:
 
 * [Docker Hub](https://hub.docker.com/) for Docker images
 * [Dockerfile Docs](https://docs.docker.com/engine/reference/builder/) 
@@ -22,12 +22,12 @@ Some useful links
 
 ### CoW all the way down.
 
-Docker images package up a full Linux distribution as part of the container image
+Docker images package up a full Linux distribution as part of the container image.
 
-What this means that we can build a Docker image for our application and base that image off of Ubuntu (which is roughly 300 megabytes).
-This gives us the ability to build our application around Ubuntu's packages, and particular quirks.
+What this means is that we can build a Docker image for our application and base that image off of Ubuntu (which is roughly 300 megabytes).
+This gives us the ability to build our application around Ubuntu's packages and particular quirks.
 
-Docker uses a Copy-on-Write file system to build a series of layers, in order to save space.
+Docker uses a Copy-on-Write (CoW) file system to build a series of layers, in order to save space.
 
 Let's examine a full example to find out how that works...
 
@@ -35,11 +35,11 @@ Let's examine a full example to find out how that works...
 
 Alpine Linux is a lightweight distribution (about 30MB), which is a popular choice for applications run inside containers (to save space).
 
-Take a look at the [Alpine Linux 3.7's Dockerfile here](https://github.com/gliderlabs/docker-alpine/blob/master/versions/library-3.7/x86_64/Dockerfile).
+Take a look at the [Alpine Linux 3.9's Dockerfile here](https://github.com/gliderlabs/docker-alpine/blob/master/versions/library-3.9/x86_64/Dockerfile).
 
 You will notice it specifies `FROM scratch` as the parent Docker image, [which you can read more about here](https://hub.docker.com/_/scratch/).
 
-* Why do you think Alpine 3.7 specifies `FROM scratch`?
+* Why do you think Alpine 3.9 specifies `FROM scratch`?
 
 It then `ADD`'s the full file system, which is the full Alpine linux operating system that has been compiled outside of Docker.
 
@@ -47,31 +47,31 @@ After that, it sets the default `CMD` to `sh` so that you get a shell interface 
 
 #### Ruby Dockerfile
 
-Looking at the [Dockerfile for Ruby 2.5.1 built ontop of Alpine 3.7](https://github.com/docker-library/ruby/blob/master/2.5/alpine3.7/Dockerfile).
+Looking at the [Dockerfile for Ruby 2.6.2 built ontop of Alpine 3.9](https://github.com/docker-library/ruby/blob/master/2.6/alpine3.9/Dockerfile).
 
-You will notice it specifies `FROM alpine:3.7` as the parent Docker image, which we just saw.
+You will notice it specifies `FROM alpine:3.9` as the parent Docker image, which we just saw.
 
-Docker will automatically pull down that `alpine:3.7` image from Docker Hub, and then pull down the `ruby:alpine3.7` layer from Docker Hub.
+Docker will automatically pull down that `alpine:3.9` image from Docker Hub, and then pull down the `ruby:alpine3.9` layer from Docker Hub.
 
-Once it has done so, it can then reconstruct the full filesystem to be able to create containers based off the `ruby:alpine3.7` image.
+Once it has done so, it can then reconstruct the full filesystem to be able to create containers based off the `ruby:alpine3.9` image.
 
 You can find the [Ruby Docker image here](https://hub.docker.com/_/ruby/).
 
 #### Ok, ok, but what does CoW mean?
 
-When the Ruby docker image is built, it makes changes to the filesystem. It copies files related to Ruby.
+When the Ruby Docker image is built, it makes changes to the filesystem. It copies files related to Ruby.
 
 It could also make changes to files that were created by the Alpine Dockerfile.
 
 What Docker does is it creates a lightweight layer that contains only the changes made by each consecutive Dockerfile.
 
-In practice, if you build the Ruby docker image yourself, it will first pull down a prebuilt Alpine image and layer Ruby on top.
+In practice, if you build the Ruby Docker image yourself, it will first pull down a prebuilt Alpine image and layer Ruby on top.
 
-Multiple images can be layered ontop of Alpine - you can have `python:alpine3.7` and `ruby:alpine3.7` and they will both share the same Alpine image on your disk.
+Multiple images can be layered ontop of Alpine - you can have `python:alpine3.9` and `ruby:alpine3.9` and they will both share the same Alpine image on your disk.
 
-This not only saves disk space, but it means that you don't have to rebuild Alpine or Ruby every time you build your own Dockerfiles.
+This not only saves disk space, but it means that you don't have to rebuild Alpine or Ruby every time you build your own Dockerfile(s).
 
-* If I run a container using `ruby:alpine3.7` and I then run `python:alpine3.7` how much total disk space will be used?
+* If I run a container using `ruby:alpine3.9` and I then run `python:alpine3.9`, how much total disk space will be used?
 
 ### Dockerfile
 
@@ -80,7 +80,7 @@ As we've seen, Dockerfiles are used to specify the contents of a single Docker i
 A typical Dockerfile will look something like this:
 
 ```Dockerfile
-FROM ruby:2.5.1-alpine3.7
+FROM ruby:2.6.2-alpine3.9
 
 WORKDIR /app
 COPY Gemfile ./
@@ -102,7 +102,7 @@ Docker Compose is used to link multiple containers together to create useful uni
 
 For example, if you wanted to run a web application, using a local Dockerfile linked to a local PostgreSQL container...
 
-A typical docker-compose.yml file will look something like this:
+A typical `docker-compose.yml` file will look something like this:
 
 ```yaml
 version: '3'
