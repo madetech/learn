@@ -57,6 +57,27 @@ You will be provided a Linux Container Image, though you can use your own if you
 
 #### Practical
 
+## Limitations
+
+### Provider requirements
+
+There are certain providers, usually PaaS only providers, that do not offer the
+functionality we require for testing people on all the above aspects.
+
+As such, we recommend avoiding solutions that hide:
+
+- load balancing
+- autoscaling
+- networking rules (routing, Firewalls)
+
+Providers that can definitely be used are:
+
+- AWS
+  - ECS with FARGATE is fine, though be prepared for increased theory work around deployment processes
+  - Lambda is not recommended, as it hides a lot of networking rules, autoscaling, and deployment processes
+  - Elastic Beanstalk is not allowed, as it does everything for you, but in a way that makes it hard to adapt after the fact.
+- Azure
+- GCP
 
 ## Appendix
 
