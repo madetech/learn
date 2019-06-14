@@ -68,7 +68,7 @@ The candidate can describe:
 - A lifecycle method that you can hook into and perform actions on
 - How to manage state shared between multiple components, avoiding passing state between many components
 {% endcapture %}
-{% include assessment_container.html name="Hedgehog" description=hedgehog_description img="./hedgehog.jpg" %}
+{% include assessment_container.html name="Hedgehog" description=hedgehog_description img="./hedgehog.png" %}
 
 {% capture fox_description %}
 #### Getting crafty with React - Creating some components for your users
@@ -97,7 +97,7 @@ The candidate can describe:
 
 - What the `key` prop is used for.
 {% endcapture %}
-{% include assessment_container.html name="Fox" description=fox_description img="./fox.jpg" %}
+{% include assessment_container.html name="Fox" description=fox_description img="./fox.png" %}
 
 {% capture owl_description %}
 #### Getting wise with React - Integrating with remote services
@@ -132,4 +132,4 @@ The candidate should create a React application which satisfies the following.
   - Candidate should showcase their use of test specific html attributes in the test suite
     to achieve this.
 {% endcapture %}
-{% include assessment_container.html name="Owl" description=owl_description img="./owl.jpg" %}
+{% include assessment_container.html name="Owl" description=owl_description img="./owl.png" %}
