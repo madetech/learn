@@ -37,8 +37,9 @@ You will be provided a Linux Container Image, though you can use your own if you
 - Run the image with your choice of IaaS.
 - Make the service highly available
 - Draw a diagram of your infrastructure
-- Demonstrate that you can remove an instance without causing any downtime.
-  A [script][downtime-script] has been provided for your convenience
+- Demonstrate that you can remove an instance, and your infrastructure will self heal
+- Demonstrate that you can roll out a new deployment without causing any downtime.
+  Use the provided [downtime detection script][downtime-script].
 
 
 ### Level 2
