@@ -286,6 +286,9 @@ main {
   font-size: 2em;
 }
 
+.Assessment:not([open]) summary {
+  text-align: center;
+}
 /*When hovering over the summary*/
 .Assessment:not([open]) summary .BadgeImg {
   padding: 10%;
