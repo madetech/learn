@@ -6,7 +6,7 @@
   <div class="col">
     <div class="card-body card-border">
       <h5 class="card-title">Overview</h5>
-      <p class="card-text">Understand more about digital services.</p>
+      <p class="card-text">Understand more about delivery of digital services.</p>
       <a href="#" class="btn btn-success">Overview</a>
     </div>
   </div>
