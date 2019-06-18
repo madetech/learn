@@ -26,3 +26,14 @@
 		</div>
 	</div>
 </div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="card-body card-border">
+				<h5 class="card-title">Business Values</h5>
+				<p class="card-text">These are the people who make a delivery run smoothly</p>
+			</div>
+		</div>
+	</div>
+</div>
