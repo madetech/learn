@@ -270,3 +270,12 @@ main {
 .container img {
   max-width: 100%;
 }
+
+.card-border {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
