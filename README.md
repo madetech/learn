@@ -9,16 +9,16 @@
       <div class="card-body card-border">
         <h5 class="card-title">Overview</h5>
         <p class="card-text">Understand more about delivery of digital services within your organisation.</p>
-        <a href="#" class="btn btn-success">Overview</a>
+        <a href="./digital" class="btn btn-success">Overview</a>
       </div>
     </div>
     <div class="col">
       <div class="card-body card-border">
         <h5 class="card-title">Contribution</h5>
         <p class="card-text">Understand how product, design and technology contribute to a delivery.</p>
-        <a href="#" class="btn btn-success">Product</a>
-        <a href="#" class="btn btn-success">Design</a>
-        <a href="#" class="btn btn-success">Technology</a>
+        <a href="./design#contribute" class="btn btn-success">Product</a>
+        <a href="./product#contribute" class="btn btn-success">Design</a>
+        <a href="./technology#contribute" class="btn btn-success">Technology</a>
       </div>
     </div>
   </div>
@@ -28,16 +28,16 @@
       <div class="card-body card-border">
         <h5 class="card-title">Collaboration</h5>
         <p class="card-text">Understand how product, design and technology work together.</p>
-        <a href="#" class="btn btn-success">Product</a>
-        <a href="#" class="btn btn-success">Design</a>
-        <a href="#" class="btn btn-success">Technology</a>
+        <a href="./design#collaborate" class="btn btn-success">Product</a>
+        <a href="./product#collaborate" class="btn btn-success">Design</a>
+        <a href="./technology#collaborate" class="btn btn-success">Technology</a>
       </div>
     </div>
     <div class="col">
       <div class="card-body card-border">
         <h5 class="card-title">Implementation</h5>
         <p class="card-text">Implement delivery of digital services within your organisation.</p>
-        <a href="#" class="btn btn-success">Technology</a>
+        <a href="./technology#implement" class="btn btn-success">Technology</a>
       </div>
     </div>
   </div>

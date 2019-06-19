@@ -4,13 +4,13 @@ In order to do deliberate learning, it's important to:
 
 - set a goal for what it is you are going to learn (it must be **Goal Directed**)
 - get feedback from a mentor (it must include opportunity for **Feedback**)
-- reflect on what you have learned and improve it (you must do **Self-reflection**) 
+- reflect on what you have learned and improve it (you must do **Self-reflection**)
 
-Once you achieve these three things; you will realise that in order to really learn you cannot simply _absorb knowledge_ you must also **create knowledge**. 
+Once you achieve these three things; you will realise that in order to really learn you cannot simply _absorb knowledge_ you must also **create knowledge**.
 
-This new knowledge can be small and discrete, or it can be complex and far reaching. 
+This new knowledge can be small and discrete, or it can be complex and far reaching.
 
-Finally, to really solidify your learning - Mentor others. 
+Finally, to really solidify your learning - Mentor others.
 
 **And remember, you do not need to know everything to be a successful mentor.**
 
@@ -21,10 +21,10 @@ you will spend some time with a mentor focussing on skills relevant to delivery 
 
 As a high level summary, we will cover the following -
 
-1. Watch the [introduction to TDD screencast](../screencasts/tennis.md).
-2. (Pair or mob with a mentor on) [code katas](../katas) using [Test Driven Development](../core-skills/tdd/) discipline.
+1. Watch the [introduction to TDD screencast](../screencasts/tennis).
+2. (Pair or mob with a mentor on) [code katas](../katas) using [Test Driven Development](../core-skills/tdd) discipline.
 3. (Pair or mob with a mentor on) subcutaneous acceptance testing, and ATDD discipline.
-4. Explore the three central components Clean Architecture 
+4. Explore the three central components Clean Architecture
   - Use Cases
   - Gateways (Adapter Pattern)
   - Domain Driven Design
@@ -67,4 +67,3 @@ Please feel free to use this list as a guide to help you and your mentors set go
 Our team has put together a set of [Core Skills with associated animal badges](../#recognition), which are [continuously evolving](https://github.com/madetech/learn/issues).
 
 These are designed to enable new joiners deliberately practice skills which are valuable to delivery teams.
-
