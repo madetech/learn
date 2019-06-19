@@ -15,19 +15,19 @@ There are exercises on this website that challenge Software Engineers [starting 
 
 A collection of katas, workshops and other learning materials.
 
-* [Articles](./articles) for reading about various topics.
-* [Goals](./goals) for goal directed learning.
-* [Katas](./katas) for focussed practice.
-* [Koans](./koans) for learning new programming languages.
-* [Lots of ideas](./ideas) for stretching skills.
-* [Screencasts](./screencasts) for observing others practice skills.
-* [Seminars](./seminars) for delivering theoretical knowledge.
-* [Sparring](./sparring) for practicing with simulated real world problems.
-* [Workshops](./workshops) for learning specific skills.
+* [Articles](/articles) for reading about various topics.
+* [Goals](/goals) for goal directed learning.
+* [Katas](/katas) for focussed practice.
+* [Koans](/koans) for learning new programming languages.
+* [Lots of ideas](/ideas) for stretching skills.
+* [Screencasts](/screencasts) for observing others practice skills.
+* [Seminars](/seminars) for delivering theoretical knowledge.
+* [Sparring](/sparring) for practicing with simulated real world problems.
+* [Workshops](/workshops) for learning specific skills.
 
 ## Events
 
-* [Event plans](./event-plans) for running learning oriented events.
+* [Event plans](/event-plans) for running learning oriented events.
 
 ## Recognition
 
@@ -35,9 +35,9 @@ These assessments are the first step on our shared path to mastery.
 
 With carefully designed assessments that are aimed to ensure a strong set of practical skills, we want to recognise progress of note towards mastery.
 
-* [Test Driven Development](./core-skills/tdd/README.md)
-* [Web Application Development with React](./core-skills/web-application-development-with-react/README.md)
-* [Frontend Development](./core-skills/frontend-web-development/)
+* [Test Driven Development](/core-skills/tdd/README.md)
+* [Web Application Development with React](/core-skills/web-application-development-with-react/README.md)
+* [Frontend Development](/core-skills/frontend-web-development/)
 
 ## Additional Skills
 
@@ -45,6 +45,6 @@ These more lightweight assessments are intended to test knowledge at the end of 
 
 They are designed to be used as a tool to help mentors and mentees ensure that content has been covered.
 
-* [Git + GitHub](./additional-skills/git)
+* [Git + GitHub](/additional-skills/git)
 * [The Made Tech Productionisation Checklist](https://github.com/madetech/productionisation/blob/master/README.md)
-* [C# and .NET Core](./additional-skills/c-sharp-and-dotnet)
+* [C# and .NET Core](/additional-skills/c-sharp-and-dotnet)
