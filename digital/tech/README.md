@@ -9,7 +9,7 @@ Modern technologies are used to build products that are tailored to the needs of
 {% include digital_element_header.html title=title text=text %}
 
 {% capture resources %}
-* [Core Skills](../../technology/core-skills) for learining.
+* [Core Skills](technology/core-skills) for learining.
 {% endcapture %}
 
 {% capture content %}
@@ -50,7 +50,7 @@ We dedicate Friday afternoons towards developing teams using LearnTech. This is 
     <div class="card-body card-border">
       <h5 class="card-title">Core Skills</h5>
       <p class="card-text">Skills designed to widen your technical expertise</p>
-      <a href="../../technology/core-skills" class="btn btn-success">Learn more</a>
+      <a href="technology/core-skills" class="btn btn-success">Learn more</a>
     </div>
   </div>
   <div class="col-sm">
