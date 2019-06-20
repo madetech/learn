@@ -62,6 +62,55 @@ We dedicate Friday afternoons towards developing teams using LearnTech. This is 
   </div>
 </div>
 
+## Core Skills
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h5 class="card-title">Test Driven Development</h5>
+      <p class="card-text">The number one way to ensure reliable software</p>
+      <a href="/core-skills/tdd" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h5 class="card-title">Web Application Development</h5>
+      <p class="card-text">Developing applications using React.js</p>
+      <a href="/core-skills/web-application-development" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h5 class="card-title">Frontend Web Development</h5>
+      <p class="card-text">Gain an in depth understanding of modern HTML and CSS</p>
+      <a href="/core-skills/frontend-web-development/" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+</div>
+## Additional Skills
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h5 class="card-title">Infrastructure</h5>
+      <p class="card-text">Building and maintaining infrastructure for applications</p>
+      <a href="/core-skills/tdd" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h5 class="card-title">C#</h5>
+      <p class="card-text">Developing applications in C# with .NET Core</p>
+      <a href="/additional-skills/c-sharp-and-dotnet" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h5 class="card-title">Source Control</h5>
+      <p class="card-text">Understand how to use Git and manage your source code</p>
+      <a href="/additional-skills/git" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+</div>
+
 {% endcapture %}
 
 {% include digital_element_container.html resources=resources content=content %}
