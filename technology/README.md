@@ -20,7 +20,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Tutorials</h3>
       <p class="card-text">
-        Learn practical skills such as setting up your development environment, debugging stacktraces and refactoring your code.
+        Learn practical skills such as setting up your development environment, debugging and refactoring your code.
       </p>
       <a href="/tutorials" class="btn btn-success">Learn more</a>
     </div>
@@ -29,7 +29,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Videos</h3>
       <p class="card-text">
-        Watch our in-depth video guides to get to grips with disciplines such as clean architecture and test-driven development.
+        Watch our video guides to get to grips with disciplines such as clean architecture and test-driven development.
       </p>
       <a href="/videos" class="btn btn-success">Learn more</a>
     </div>
@@ -40,7 +40,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Katas</h3>
       <p class="card-text">
-        Develop your programming skills using these solo training exercises; Ideal for those looking to improve their test-driven development.
+        Develop your skills using these training exercises; Ideal for those looking to improve their test-driven development.
       </p>
       <a href="/katas" class="btn btn-success">Learn more</a>
     </div>
@@ -49,7 +49,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Koans</h3>
       <p class="card-text">
-        Gain a deep understanding of a wide range of programming languages in an enjoyable practice environment.
+        Gain a deep understanding of a range of programming languages in an enjoyable practice environment.
       </p>
       <a href="/koans" class="btn btn-success">Learn more</a>
     </div>
@@ -68,7 +68,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Test-driven development</h3>
       <p class="card-text">
-        Build reliable and maintainable applications using the discipline of TDD.
+        Build reliable and maintainable applications using TDD.
       </p>
       <a href="/core-skills/tdd" class="btn btn-success">Learn more</a>
     </div>
@@ -78,7 +78,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Infrastructure</h3>
       <p class="card-text">
-        Use code to describe and build your cloud infrastructure in a repeatable and scalable way.
+        Use code to describe and build your cloud infrastructure.
       </p>
       <a href="/core-skills/infrastructure" class="btn btn-success">Learn more</a>
     </div>
@@ -88,7 +88,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Frontend development</h3>
       <p class="card-text">
-        Learn the fundamental building blocks of the web, modern HTML and CSS.
+        Learn the fundamental building blocks of the web.
       </p>
       <a href="/core-skills/frontend-development" class="btn btn-success">Learn more</a>
     </div>
@@ -107,7 +107,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">React</h3>
       <p class="card-text">
-        Develop applications using a testable component-based architecture.
+        Develop applications using a component-based architecture.
       </p>
       <a href="/core-skills/react" class="btn btn-success">Learn more</a>
     </div>
