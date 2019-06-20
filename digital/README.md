@@ -7,9 +7,9 @@
   </div>
 </heading>
 
-<div class="py-3">
-  <h2 class="text-center container">What is Digital Delivery?</h2>
-  <p class="text-center container">Delivering a digital service that meets the needs of users, when a service is provided via a mobile or web application the user does not have to go through the trouble of travelling or navigating a phone system.
+<div class="py-3 text-center ">
+  <h2 class="container">What is Digital Delivery?</h2>
+  <p class="container">Delivering a digital service that meets the needs of users, when a service is provided via a mobile or web application the user does not have to go through the trouble of travelling or navigating a phone system.
 </p>
 </div>
 
