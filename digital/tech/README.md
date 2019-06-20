@@ -82,14 +82,14 @@ Modern technologies are used to build products that are tailored to the needs of
 <div class="row">
   <div class="col-sm">
     <div class="card-body card-border">
-      <h3 class="card-title mt-0">Web Application Development</h3>
+      <h3 class="card-title mt-0">React.js</h3>
       <p class="card-text">Developing applications using React.js</p>
       <a href="/core-skills/web-application-development" class="btn btn-success">Learn more</a>
     </div>
   </div>
   <div class="col-sm">
     <div class="card-body card-border">
-      <h3 class="card-title mt-0">C#</h3>
+      <h3 class="card-title mt-0">C# & .NET Core</h3>
       <p class="card-text">Developing applications in C# with .NET Core</p>
       <a href="/additional-skills/c-sharp-and-dotnet" class="btn btn-success">Learn more</a>
     </div>
