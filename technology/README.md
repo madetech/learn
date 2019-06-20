@@ -1,50 +1,116 @@
-# Getting Started
+{% capture title %}
+Technology
+{% endcapture %}
 
-> “In this way you must understand how laughable it is to say, ‘Tell me what to do!’
-> What advice could I possibly give?
-> No, a far better request is,
-> ‘Train my mind to adapt to any circumstance.’ […]
-> In this way, if circumstances take you off script […]
-> you won’t be desperate for new prompting.“
+{% capture text %}
+Modern technologies are used to build products that are tailored to the needs of you and your business.
+{% endcapture %}
 
-> – Epictetus, _Discourses_, 2.2.20b-1;24b-25a (~108 CE)
+{% include digital_element_header.html title=title text=text %}
+{% capture content %}
+<div class="container col-md-10 text-center">
+  <h2>Hone your skills</h2>
+  <p class="lead">
+    Below are a number of resources for improving your programming and general technical ability, lovingly crafted by the team at Made Tech.
+  </p>
+</div>
 
-There are exercises on this website that challenge Software Engineers [starting their career](https://www.madetech.com/careers/academy), and also those who are writing the [best code of their career, but are still learning every day](https://www.madetech.com/careers/lead-engineer).
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Katas</h3>
+      <p class="card-text">Solo training exercises</p>
+      <a href="/katas" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Workshops</h3>
+      <p class="card-text">Practical deep dives</p>
+      <a href="/workshops" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Videos</h3>
+      <p class="card-text">Walkthroughs, guides, tutorials</p>
+      <a href="/screencasts" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+</div>
 
-## Learn
+<div class="container col-md-10 text-center">
+  <h2>Core skills</h2>
+  <p class="lead">
+    Language agnostic skills revelant to all developers
+  </p>
+</div>
 
-A collection of katas, workshops and other learning materials.
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Test Driven Development</h3>
+      <p class="card-text">The number one way to ensure reliable software</p>
+      <a href="/core-skills/tdd" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
 
-* [Articles](/articles) for reading about various topics.
-* [Goals](/goals) for goal directed learning.
-* [Katas](/katas) for focussed practice.
-* [Koans](/koans) for learning new programming languages.
-* [Lots of ideas](/ideas) for stretching skills.
-* [Screencasts](/screencasts) for observing others practice skills.
-* [Seminars](/seminars) for delivering theoretical knowledge.
-* [Sparring](/sparring) for practicing with simulated real world problems.
-* [Workshops](/workshops) for learning specific skills.
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Infrastructure</h3>
+      <p class="card-text">Building and maintaining infrastructure for applications</p>
+      <a href="/core-skills/infrastructure" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
 
-## Events
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Frontend Web Development</h3>
+      <p class="card-text">Gain an in depth understanding of modern HTML and CSS</p>
+      <a href="/core-skills/frontend-web-development/" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+</div>
 
-* [Event plans](/event-plans) for running learning oriented events.
+<div class="container col-md-10 text-center">
+  <h2>Additional skills</h2>
+  <p class="lead">
+    More niche skills
+  </p>
+</div>
 
-## Recognition
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">React.js</h3>
+      <p class="card-text">Developing applications using React.js</p>
+      <a href="/core-skills/web-application-development-with-react/" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">C#/.NET Core</h3>
+      <p class="card-text">Developing applications in C# with .NET Core</p>
+      <a href="/additional-skills/c-sharp-and-dotnet" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Source Control</h3>
+      <p class="card-text">Understand how to use Git and manage your source code</p>
+      <a href="/additional-skills/git" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+</div>
 
-These assessments are the first step on our shared path to mastery.
+## Other resources
+* [Articles](/articles) - Light reading  
+* [Goals](/goals) - For goal directed learning  
+* [Koans](/koans) - Learn the intricacies of programming languages  
+* [Ideas](/ideas) - Ideas for self-directed learning  
+* [Seminars](/seminars) - Seminars for mentors  
+* [Sparring](/sparring) - Programming practice  
 
-With carefully designed assessments that are aimed to ensure a strong set of practical skills, we want to recognise progress of note towards mastery.
+{% endcapture %}
 
-* [Test Driven Development](/core-skills/tdd/README.md)
-* [Web Application Development with React](/core-skills/web-application-development-with-react/README.md)
-* [Frontend Development](/core-skills/frontend-web-development/)
-
-## Additional Skills
-
-These more lightweight assessments are intended to test knowledge at the end of a period of mentoring.
-
-They are designed to be used as a tool to help mentors and mentees ensure that content has been covered.
-
-* [Git + GitHub](/additional-skills/git)
-* [The Made Tech Productionisation Checklist](https://github.com/madetech/productionisation/blob/master/README.md)
-* [C# and .NET Core](/additional-skills/c-sharp-and-dotnet)
+{% include digital_element_container.html content=content %}
