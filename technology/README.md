@@ -27,7 +27,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Tutorials</h3>
       <p class="card-text">Learn practical skills such as setting up your development environment, debugging stacktraces and refactoring your code</p>
-      <a href="/workshops" class="btn btn-success">Learn more</a>
+      <a href="/tutorials" class="btn btn-success">Learn more</a>
     </div>
   </div>
 </div>
@@ -36,7 +36,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Videos</h3>
       <p class="card-text">Watch our in-depth video guides to get to grips with disciplines such as clean architecture and test-driven development</p>
-      <a href="/screencasts" class="btn btn-success">Learn more</a>
+      <a href="/videos" class="btn btn-success">Learn more</a>
     </div>
   </div>
   <div class="col-sm">
@@ -76,7 +76,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Frontend development</h3>
       <p class="card-text">Learn the fundamental building blocks of the web, modern HTML and CSS</p>
-      <a href="/core-skills/frontend-web-development/" class="btn btn-success">Learn more</a>
+      <a href="/core-skills/frontend-development" class="btn btn-success">Learn more</a>
     </div>
   </div>
 </div>
@@ -93,7 +93,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">React</h3>
       <p class="card-text">Develop applications using a testable component-based architecture</p>
-      <a href="/core-skills/web-application-development-with-react/" class="btn btn-success">Learn more</a>
+      <a href="/core-skills/react" class="btn btn-success">Learn more</a>
     </div>
   </div>
   <div class="col-sm">
