@@ -8906,4 +8906,8 @@ blockquote::before {
   margin-bottom: 20px;
 }
 
+.padding-left {
+  margin-left: 50px;
+}
+
 /*# sourceMappingURL=madetech-frontend.css.map */
