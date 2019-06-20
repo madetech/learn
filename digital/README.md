@@ -7,13 +7,18 @@
   </div>
 </heading>
 
+<div class="py-3 text-center ">
+  <h2 class="container">What is Digital Delivery?</h2>
+  <p class="container">Delivering a digital service that meets the needs of users, when a service is provided via a mobile or web application the user does not have to go through the trouble of travelling or navigating a phone system.
+</p>
+</div>
+
 <main>
   <div class="container">
     <div class="row my-3">
       <div class="col-md-6">
         <img src="//placehold.it/400" alt="">
       </div>
-
       <div class="col-md-6">
         <p>
           <h5 class="card-title">Delivery</h5>
