@@ -79,34 +79,19 @@ Use these resources to empower your teams so that they can focus on delivering o
               To ensure the needs of users are met, continuous delivery is used. Continuous delivery is a practice which we use to provide value as quickly and efficiently as possible.
             </p>
         </p>
-        <!-- <a href="#" class="btn btn-success">Learn more</a> -->
       </div>
     </div>
     <div class="row my-3">
       <div class="col-md-6">
         <p>
           <h5 class="card-title">Product</h5>
-          <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Identifying and prioritising needs and opportunities</li>
-                <li>Identifies feasibility within the business context</li>
-                <li>Remains pragmatic about budget</li>
-                <li>Defining a product backlog</li>
-                <li>Defining a release plan &amp; scope</li>
-                <li>Align people around outcomes</li>
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>Meet user needs</li>
-                <li>Maximise outcomes and impact</li>
-                <li>Sharing context and vision</li>
-              </ul>
-            </li>
-          </ul>
+            <p>
+              Product is used to identify and prioritise needs as well as opportunities. In addition, product also aligns teams around outcomes.
+            </p>
+            <p>
+              It is crucial that teams are aware of context and vision of the product in order to meet user needs. This will empower teams to maximise outcomes and impact.
+            </p>
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
       </div>
       <div class="col-md-6">
         <img src="//placehold.it/400" alt="">
@@ -119,28 +104,13 @@ Use these resources to empower your teams so that they can focus on delivering o
       <div class="col-md-6">
         <p class="card-text">
           <h5 class="card-title">Design</h5>
-          <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Framing the problem</li>
-                <li>Understanding users needs and existing solutions</li>
-                <li>Envisioning new solutions</li>
-                <li>Defining solution hypotheses</li>
-                <li>Validating user needs through user research</li>
-                <li>Validating solutions through user research</li>
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>User centred design</li>
-                <li>Iterative user research</li>
-                <li>Minimising waste - saying no to ideas</li>
-                <li>Designing the test - prototypes, dummy pages</li>
-              </ul>
-            </li>
-          </ul>
+           <p>
+              Design is framing the problem in order to understand user needs and existing/new digital services. User research is conducted to validate digital services to meet user needs.
+            </p>
+            <p>
+              Digital services must be designed with users in mind alongside iterative user research. We consistently test our designs using prototypes.
+            </p>
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
       </div>
     </div>
     <div class="row my-3">
