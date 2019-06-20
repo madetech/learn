@@ -67,7 +67,7 @@ Use these resources to empower your teams so that they can focus on delivering o
   <div class="container">
     <div class="row my-3">
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
+        <img src="images/delivery.jpg" alt="" style="width: 500px; height: 300px">
       </div>
       <div class="col-md-6">
         <p>
@@ -94,12 +94,12 @@ Use these resources to empower your teams so that they can focus on delivering o
         </p>
       </div>
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
+        <img src="images/product.jpg" alt="" style="width: 500px; height: 300px">
       </div>
     </div>
     <div class="row my-3">
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
+        <img src="images/design.jpg" alt="" style="width: 500px; height: 300px">
       </div>
       <div class="col-md-6">
         <p class="card-text">
@@ -123,30 +123,10 @@ Use these resources to empower your teams so that they can focus on delivering o
             <p>
               Digital services are simple and they meet user needs. Risk of change is reduced as digital services are reliable and scalable.
             </p>
-          <!-- <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Technical approach / architecture</li>
-                <li>Using/building technology to meet user needs</li>
-                <li>Iterative/incremental releases</li>
-                <li>Maintainable and reliable software</li>
-                <li>Ongoing support</li>
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>Simplest solution that meets user needs</li>
-                <li>Evolutionary architecture / ADRs</li>
-                <li>Decomposing monoliths</li>
-                <li>Reliable and scalable software</li>
-                <li>Reducing risk of change</li>
-              </ul>
-            </li>
-          </ul> -->
         </p>
       </div>
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
+        <img src="images/technology.jpg" alt="" style="width: 500px; height: 300px">
       </div>
     </div>
   </div>
