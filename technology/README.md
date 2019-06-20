@@ -82,7 +82,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
 </div>
 
 <div class="container col-md-10 text-center">
-  <h2>Technology Specific Skills</h2>
+  <h2>Technology specific skills</h2>
   <p class="lead">
     Skills specific to particular technology stacks, whether frontend, backend or infrastructure.
   </p>
