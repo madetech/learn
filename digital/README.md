@@ -117,7 +117,13 @@ Use these resources to empower your teams so that they can focus on delivering o
       <div class="col-md-6">
         <p>
           <h5 class="card-title">Technology</h5>
-          <ul>
+            <p>
+              Using technical approaches and architecture, technology is built to meet user needs. Digital service releases are incremental, maintainable and reliable.
+            </p>
+            <p>
+              Digital services are simple and they meet user needs. Risk of change is reduced as digital services are reliable and scalable.
+            </p>
+          <!-- <ul>
             <li>What does this component do?<br/>
               <ul>
                 <li>Technical approach / architecture</li>
@@ -136,9 +142,8 @@ Use these resources to empower your teams so that they can focus on delivering o
                 <li>Reducing risk of change</li>
               </ul>
             </li>
-          </ul>
+          </ul> -->
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
       </div>
       <div class="col-md-6">
         <img src="//placehold.it/400" alt="">
