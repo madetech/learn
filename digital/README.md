@@ -9,8 +9,57 @@
 
 <div class="py-3 text-center ">
   <h2 class="container">What is Digital Delivery?</h2>
-  <p class="container">Delivering a digital service that meets the needs of users, when a service is provided via a mobile or web application the user does not have to go through the trouble of travelling or navigating a phone system.
-</p>
+  <p class="container">Delivering a digital service that meets the needs of users, when a service is provided via a mobile or web application the user does not       have to go through the trouble of travelling or navigating a phone system.
+  </p>
+</div>
+
+<div class="py-3 container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card-body card-border">
+        <h5 class="card-title">User-centred Design</h5>
+        <p class="card-text">FILL ME IN</p>
+        <a href="https://www.madetech.com/blog/mob-programming-at-made" class="btn btn-success">Learn more</a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card-body card-border">
+        <h5 class="card-title">Viable, desirable and feasible product</h5>
+        <p class="card-text">FILL ME IN</p>
+        <a href="technology/core-skills" class="btn btn-success">Learn more</a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card-body card-border">
+        <h5 class="card-title">Functional digital services</h5>
+        <p class="card-text">FILL ME IN</p>
+        <a href="https://productionisation.io" class="btn btn-success">Learn more</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card-body card-border">
+        <h5 class="card-title">Digital service continuity</h5>
+        <p class="card-text">FILL ME IN</p>
+        <a href="https://www.madetech.com/blog/mob-programming-at-made" class="btn btn-success">Learn more</a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card-body card-border">
+        <h5 class="card-title">Outcomes and impacts</h5>
+        <p class="card-text">FILL ME IN</p>
+        <a href="technology/core-skills" class="btn btn-success">Learn more</a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card-body card-border">
+        <h5 class="card-title">User research</h5>
+        <p class="card-text">FILL ME IN</p>
+        <a href="https://productionisation.io" class="btn btn-success">Learn more</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <main>
