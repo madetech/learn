@@ -7,11 +7,6 @@ Modern technologies are used to build products that are tailored to the needs of
 {% endcapture %}
 
 {% include digital_element_header.html title=title text=text %}
-
-{% capture resources %}
-* [Core Skills](technology/core-skills) for learning.
-{% endcapture %}
-
 {% capture content %}
 <div class="text-center" markdown="1">
 ## Hone your skills
@@ -101,4 +96,4 @@ Below are a number of resources for improving your programming and general techn
 
 {% endcapture %}
 
-{% include digital_element_container.html resources=resources content=content %}
+{% include digital_element_container.html content=content %}
