@@ -13,8 +13,10 @@ Modern technologies are used to build products that are tailored to the needs of
 {% endcapture %}
 
 {% capture content %}
+<div class="text-center" markdown="1">
 ## Hone your skills
 Below are a number of resources for improving your programming and general technical ability, lovingly crafted by the team at MadeTech.
+</div>
 
 <div class="row">
   <div class="col-sm">
