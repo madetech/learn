@@ -49,7 +49,7 @@ Use these resources to build reliable and maintainable digital services, APIs an
     <div class="card-body card-border">
       <h3 class="card-title mt-0">Koans</h3>
       <p class="card-text">
-        Gain a deep understanding of a wide range of programming languages in a gamified testing environment.
+        Gain a deep understanding of a wide range of programming languages in an enjoyable practice environment.
       </p>
       <a href="/koans" class="btn btn-success">Learn more</a>
     </div>
