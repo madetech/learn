@@ -62,6 +62,14 @@ We dedicate Friday afternoons towards developing teams using LearnTech. This is 
   </div>
 </div>
 
+## Other resources
+[Articles](/articles) - Light reading  
+[Goals](/goals) - For goal directed learning  
+[Koans](/koans) - Learn the intricacies of programming languages  
+[Ideas](/ideas) - Ideas for self-directed learning  
+[Seminars](/seminars) - Seminars for mentors  
+[Sparring](/sparring) - Programming practice  
+
 {% endcapture %}
 
 {% include digital_element_container.html resources=resources content=content %}
