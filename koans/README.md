@@ -1,3 +1,4 @@
+{% capture content %}
 # Koans
 
 The word Koan comes from Zen Practice, there it is used to provoke the "great doubt" and test a student's progress in Zen practice.
@@ -19,3 +20,5 @@ You can usually find Koans for languages by Googling "\<language name\> koans", 
 * [Elm](https://github.com/robertjlooby/elm-koans)
 * [Erlang](https://github.com/patrickgombert/erlang-koans)
 * [Python](https://github.com/gregmalcolm/python_koans)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

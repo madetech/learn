@@ -1,3 +1,4 @@
+{% capture content %}
 # Web Performance
 
 ### Useful Links
@@ -12,3 +13,5 @@ https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 
 - https://imageoptim.com/online
 - https://imagecompressor.com/
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

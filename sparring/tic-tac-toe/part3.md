@@ -1,3 +1,4 @@
+{% capture content %}
 # Tic Tac Toe: Part 3
 
 Implement the Misère variant of Tic-Tac-Toe
@@ -13,4 +14,5 @@ Implement the Misère variant of Tic-Tac-Toe
 # Part 4
 
 Coming soon!
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

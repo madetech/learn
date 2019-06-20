@@ -1,3 +1,4 @@
+{% capture content %}
 # F# MLD: Worksheet
 
 **You aren’t expected to finish all these exercises.**
@@ -16,4 +17,5 @@ Build a solution to the [Tennis kata](../../katas/tennis/) in F#.
 
 - F# is a multi-paradigm language, well-known for it's functional programming features. What benefit does type-inference provide?
 - Consider your Tennis solution. In what ways could you make it more functional?
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

@@ -1,3 +1,4 @@
+{% capture content %}
 # Payroll
 
 This is an exercise in Software Design and Changing Requirements.
@@ -32,7 +33,7 @@ Should contain:
 * Total gross pay for tax period (week, month).
 * List of deducted amounts pre-tax incl. rates.
 * List of deducated amounts post-tax incl. what for.
-* The length of the tax period, with start and end dates. 
+* The length of the tax period, with start and end dates.
 
 ## Out of scope
 
@@ -42,3 +43,5 @@ Should contain:
 # Next
 
 Coming soon!
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

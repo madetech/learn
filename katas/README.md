@@ -1,3 +1,4 @@
+{% capture content %}
 # Katas
 
 * [Bowling](./bowling)
@@ -11,3 +12,5 @@
 * [Test Framework](./test-framework)
 * [Video Store](./video-store)
 * [Mars Rover](./mars-rover)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

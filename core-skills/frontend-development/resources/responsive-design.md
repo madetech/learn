@@ -1,3 +1,4 @@
+{% capture content %}
 # Responsive Design
 
 ## What does it mean for a design to be 'responsive'?
@@ -39,3 +40,5 @@ Even if your site isn't heavily used on mobile right now, it's still worth consi
 Ethan Marcotte, coiner of the term "Responsive Design", [going into some detail about why it's important](https://alistapart.com/article/responsive-web-design).
 
 A [Government Digital Service blog post](https://gds.blog.gov.uk/2012/11/02/designing-for-different-devices) diving into how to use some of the techniques.
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

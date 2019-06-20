@@ -1,3 +1,4 @@
+{% capture content %}
 # C# and .NET Core
 
 ## Who is this skill for?
@@ -83,3 +84,5 @@ Eagle is a space to demonstrate a deeper understanding of OO programming and imp
  - Can demonstrate use of delegates
 
 Expected deliverable - A C# application that showcases an understanding of all the above points (this is intentionally open ended to allow for some flexing! Refer to the marking guide and look for clean, SOLID code with good testing strategies).
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

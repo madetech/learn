@@ -1,8 +1,9 @@
+{% capture content %}
 # Eloquent Functions
 
 [Presentation](https://docs.google.com/presentation/d/139E2O0SShJ8tSKGiLPxlda2QHMpPYG8jEN_abciGONA/edit#slide=id.g1d0b0611da_0_55)
 
-* Short 
+* Short
 * Do one thing
 * One Level of Abstraction
 * Switch statements / polymorphism
@@ -10,3 +11,5 @@
 * Argument objects
 * Side-effects
 * CQS
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

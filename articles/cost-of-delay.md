@@ -1,3 +1,4 @@
+{% capture content %}
 # Cost of Delay
 
 **Counterpoint:** [Late Start Benefits](./late-start-benefits.md)
@@ -21,7 +22,7 @@ It is the difference between the value that would be available if a work item we
 
 In reality, it is rare to be able to calculate both the Value and Cost (and therefore also Cost of Delay), so we estimate them.
 
-Teams can use Cost of Delay estimation to prioritise and schedule work items as part of [WSJF](./weighted-shortest-job-first.md) priortisation. 
+Teams can use Cost of Delay estimation to prioritise and schedule work items as part of [WSJF](./weighted-shortest-job-first.md) priortisation.
 
 There are a number of standard plots to Cost vs Time on a graph, here are some described with examples.
 
@@ -56,4 +57,5 @@ Mostly flat linear cost, but a possibility of an extreme cost in future.
 Example: You have the capability to innovate new technology Y, you do not, a competitor releases Y which impacts your revenue.
 
 Potential Course of Action: Prioritise an amount of R&D work.
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

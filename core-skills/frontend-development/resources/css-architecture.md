@@ -1,3 +1,4 @@
+{% capture content %}
 # CSS Architecture
 
 A well-written set of stylesheets balance a number of factors including
@@ -64,8 +65,9 @@ Another criticism is that CSS frameworks allow you to do things their way, but p
 ## CSS Layout
 
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout
-- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats 
-- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox 
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

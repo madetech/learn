@@ -1,3 +1,4 @@
+{% capture content %}
 # React Fundamentals
 
 ## Summary
@@ -19,3 +20,5 @@ The first two sections of React's documentation, [JSX](https://reactjs.org/docs/
 - Handling Application State
   - To handle application state, you can either use something like the [React Context API](https://reactjs.org/docs/context.html),
     or look into a library such as [Redux](https://redux.js.org/introduction)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

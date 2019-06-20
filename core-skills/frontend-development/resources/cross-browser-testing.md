@@ -1,10 +1,11 @@
+{% capture content %}
 # Cross Browser Testing
 
 A software engineer should be able to validate their front end across multiple browsers and devices in order to ensure that their HTML/CSS looks correct in many browsers.
 
 An engineer should use tools like [caniuse.com](https://caniuse.com/) to ensure the CSS properties they want to use will be supported by all their target browsers, before even cutting some CSS.
 
-Often an engineer will be missing some of the browsers they need to test against [Mainly IE] for this they'd install a Virtual Machine (VM). Microsoft make their VMs available on [modern.ie](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). 
+Often an engineer will be missing some of the browsers they need to test against [Mainly IE] for this they'd install a Virtual Machine (VM). Microsoft make their VMs available on [modern.ie](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/).
 
 An easy approach is to use a SaaS tool such a [BrowserStack](https://www.browserstack.com) which allows testing on a myriad of real devices and browsers, without requiring physical access to those devices or those browsers installed on your own machine.
 
@@ -32,3 +33,5 @@ While we should always strive to realise a Designer’s vision, there will be so
 When working closely with Designers, it is beneficial to help them understand the technical limitations of HTML & CSS. Often, for aspects of a design where perfect typography matters, a designer should be advised to provide SVG assets instead.
 
 Using the example of Typography an engineer should match the common sense things like `line-height`, `font-size`, `font-family`, there are some things they wont be able to control in a scenario where dynamic text is being used. Kerning is the best example of this. An engineer can broadly apply a `letter-spacing` to all the letters but doing this on a per letter basis is not scalable when the copy is liable to change.
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

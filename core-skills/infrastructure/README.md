@@ -1,3 +1,4 @@
+{% capture content %}
 # Infrastructure
 
 ## Goal
@@ -98,3 +99,5 @@ done
 ```
 
 [downtime-script]: #downtime-script
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

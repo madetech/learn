@@ -1,3 +1,4 @@
+{% capture content %}
 # Test Framework
 
 For this Kata you need to build a test framework from scratch.
@@ -17,4 +18,5 @@ Obviously, you should TDD your solution. (Some creativity required!).
 ## Useful Links
 
 * [Destroy all software: building rspec from scratch](https://www.destroyallsoftware.com/screencasts/catalog/building-rspec-from-scratch)
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

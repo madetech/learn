@@ -1,3 +1,4 @@
+{% capture content %}
 # Icons
 
 ### Useful links
@@ -9,3 +10,5 @@
 ### Useful tools
 
 - [IcoMoon](https://icomoon.io/app/#/select)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

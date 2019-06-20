@@ -1,11 +1,12 @@
+{% capture content %}
 # Test suite performance
 
-TDD relies on quick feedback cycles, 
-therefore Delivery Teams SHOULD make it possible to run 
-individual test suites within the ecosystem of an application 
-in under 30 seconds. Furthermore, it SHOULD be possible to run 
-the test suites of an entire application in under 5 minutes. 
-If this time limit is exceeded, 
+TDD relies on quick feedback cycles,
+therefore Delivery Teams SHOULD make it possible to run
+individual test suites within the ecosystem of an application
+in under 30 seconds. Furthermore, it SHOULD be possible to run
+the test suites of an entire application in under 5 minutes.
+If this time limit is exceeded,
 Delivery Teams SHOULD plan in effort to reduce test suite run times.
 
 Test suite performance is also an indicator of structural defects.
@@ -22,4 +23,5 @@ Test suite performance is also an indicator of structural defects.
 * Can identify structural defects that result in poor test suite performance.
 * Can identify that a test suite has poor test suite performance.
 * Can improve the performance of a slow test suite.
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

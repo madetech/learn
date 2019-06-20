@@ -1,3 +1,4 @@
+{% capture content %}
 # Frontend web development [HTML/CSS]
 
 ## Aim
@@ -100,7 +101,5 @@ While presenting your page, you should be able to explain the following:
 - How did you keep your form accessible whilst applying custom styling?
 - If you had to stop flash of unstyled content (FOUC) how would you have gone about it?
 - If a customer requested the page structure to remain consistant while the page loaded how would you do that?
-
-
-
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

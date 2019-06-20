@@ -1,3 +1,4 @@
+{% capture content %}
 # Video Store
 
 Write a system that can build a `statement`, when given `rentals`.
@@ -34,4 +35,5 @@ You earn 1 frequent renter point no matter the length of the rental.
 # References
 
 This Kata is based upon an example in Martin Fowler's Refactoring book, and is also covered in Episode 3 of [Clean Coders](https://cleancoders.com).
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

@@ -1,3 +1,4 @@
+{% capture content %}
 # Semantic HTML
 
 ## What do we mean by 'Semantic'?
@@ -18,3 +19,5 @@ This is in contrast to markup that focuses on _presentation_ or _visual structur
 [This article](https://internetingishard.com/html-and-css/semantic-html/) has excellent examples of using the HTML5 semantic elements to produce more meaningful markup.
 
 Mozilla highlights [some of these new elements](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantic_elements), and has [references and tutorials around their use](https://developer.mozilla.org/en-US/docs/Web/HTML)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

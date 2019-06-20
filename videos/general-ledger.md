@@ -1,3 +1,4 @@
+{% capture content %}
 # Build a General Ledger in .NET Core using Clean Architecture
 
 This series is designed to demonstrate using ATDD discipline to build a .NET Core General Ledger using Clean Architecture.
@@ -9,4 +10,5 @@ This series is designed to demonstrate using ATDD discipline to build a .NET Cor
 3. [Part 3 - Second passing acceptance test!](https://drive.google.com/open?id=12lIbf598kHet5m0-LdHstvJVEdzQw4Xv)
 4. [Part 4 - Another Use Case?](https://drive.google.com/open?id=1seqKZi9JRM8BEYsKIPuRM9TV3aiLCfOk)
 5. _coming soon_
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

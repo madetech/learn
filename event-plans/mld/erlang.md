@@ -1,3 +1,4 @@
+{% capture content %}
 # Erlang MLD: Worksheet
 
 **You aren’t expected to finish all these exercises.**
@@ -10,7 +11,7 @@ Goto [craigjbass/erlang-koans](https://github.com/craigjbass/erlang-koans) and f
 
 You are expected to practice TDD for this exercise
 
-Create a process that can 
+Create a process that can
 
 * Store a piece of data and assign it a unique key
 * Lookup a piece of data by it’s key
@@ -22,5 +23,5 @@ Create a process that can
 
 * Is your public API easy to use? Any improvements?
 * Is your test suite designed well? How coupled is it to the public API?
-
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

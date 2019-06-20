@@ -1,9 +1,10 @@
+{% capture content %}
 # Well-designed tests
 
 An Engineer with this core skill must be able to demonstrate good Test Design.
 
 * Avoid tight coupling between test code and production code
-* Conciseness of test suite 
+* Conciseness of test suite
 	* Maximizing behaviours tested by 1 suite
 	* Minimizing audiences that a test suite speaks to
 
@@ -17,7 +18,7 @@ Engineers that consider coupling avoid causing unnecessary code churn induced by
 
 If there is one call-site to a particular function then that function is easy to change
 
-It is desirable to ensure that the public interface of production code can evolve at a different rate to the test cases. 
+It is desirable to ensure that the public interface of production code can evolve at a different rate to the test cases.
 
 Conversely it is not desirable to need to update all your test cases to change the public interface
 
@@ -30,4 +31,5 @@ Conversely it is not desirable to need to update all your test cases to change t
 * Can identify smells within code they have written.
 * Can identify smells within somebody else's code.
 * Can explain the balancing act of achieving conciseness of a test suite
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

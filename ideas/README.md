@@ -1,3 +1,4 @@
+{% capture content %}
 # Learning Ideas
 
 No matter how much experience, there is always more to learn or practice.
@@ -33,7 +34,7 @@ It goes without saying, but code katas are meant to be repeated.
 
 Each time, you should focus on honing a particular part of your skill set.
 
-You will pick up new knowledge as you finish workshops and seminars. 
+You will pick up new knowledge as you finish workshops and seminars.
 
 Focus on applying that new knowledge in practice.
 
@@ -75,7 +76,7 @@ Do you need to follow the guide, or can you remember what to do?
 
 ### Shadow others
 
-If you're currently not on a delivery team. 
+If you're currently not on a delivery team.
 If possible, arrange to shadow a team actively developing software.
 
 ### Code Review
@@ -99,5 +100,6 @@ Remember:
 * ATDD your code
 * Refactor relentlessly
 * Put into practice your ever growing knowledge
-* Ask for help when stuck 
-
+* Ask for help when stuck
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

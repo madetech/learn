@@ -1,8 +1,9 @@
+{% capture content %}
 # Part 2
 
 You may have chosen to implement a web interface or a command line user interface, or perhaps another type of UI.
 
-These UIs can be divided into two categories, server-side (e.g. web interface) and client-side (e.g. command line). 
+These UIs can be divided into two categories, server-side (e.g. web interface) and client-side (e.g. command line).
 
 Implement a UI from the opposite category.
 
@@ -15,4 +16,5 @@ Implement a UI from the opposite category.
 ## Next Steps
 
 Once you have implemented your alternative UI, go [here](./part3.md).
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

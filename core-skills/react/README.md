@@ -1,3 +1,4 @@
+{% capture content %}
 # Web Application Development with React
 
 ## Aim
@@ -102,7 +103,7 @@ The candidate can describe:
 
 #### Getting wise with React - Integrating with remote services
 
-For this level you are expected to demonstrate the ability to test both your React 
+For this level you are expected to demonstrate the ability to test both your React
 components and any business logic used for communicating with remote services. It will
 also cover demonstrating best practice around the separation of business logic and UI
 logic.
@@ -124,7 +125,7 @@ The candidate should create a React application which satisfies the following.
   - Candidate should open the network tools and show that on form submission, a request is
     made by the browser to the API endpoint with a JSON encoded request body containing
     the form data.
-  - Candidate should walk assessor through tests which give maintainers confidence 
+  - Candidate should walk assessor through tests which give maintainers confidence
     that the component submits the data from the form to the API.
 - There should be a JS layer of indirection between the components and the API
   - Candidate should showcase standalone code which makes HTTP API requests, and tests which
@@ -133,3 +134,5 @@ The candidate should create a React application which satisfies the following.
 - The application should have component tests that have minimal coupling to markup they render.
   - Candidate should showcase their use of test specific html attributes in the test suite
     to achieve this.
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

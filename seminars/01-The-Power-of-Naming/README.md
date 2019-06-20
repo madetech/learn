@@ -1,3 +1,4 @@
+{% capture content %}
 # The Power of Naming
 
 [Presentation](https://docs.google.com/presentation/d/1-yh9S1I4wdVXJcrOhftJshmlFuDQmq3Rt7vrdfpVvEY/edit?usp=sharing)
@@ -16,3 +17,5 @@
 * Avoid Entertaining Names
 * Avoid Multiple Names for the Same Concept
 * Avoid Multiple Concepts with the Same Name
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

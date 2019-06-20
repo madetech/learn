@@ -1,3 +1,4 @@
+{% capture content %}
 # Triangulation
 
 Given a method f which has the production code as follows:
@@ -27,4 +28,5 @@ end
 * Can describe the situations where using triangulation helps improve test quality.
 * Can demonstrate examples of where they have used triangulation.
 * Can demonstrate triangulation when TDDing an example piece of code.
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

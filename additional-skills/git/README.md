@@ -1,8 +1,9 @@
+{% capture content %}
 # Git + GitHub
 
 All sections are required.
 
-## Initializing 
+## Initializing
 
 * Demonstrate initializing a new git repository.
 * Demonstrate creating an empty root commit.
@@ -16,7 +17,7 @@ All sections are required.
 * Demonstrate committing a subset of changed files using staged and unstaged files.
 * Demonstrate using stash and stash pop.
 
-## Commits, refs, and labels 
+## Commits, refs, and labels
 
 * Can explain what a commit ref is.
 * Can explain what a tag is.
@@ -53,7 +54,7 @@ All sections are required.
 * Demonstrate performing an interactive rebase of a branch.
   * Demonstrate using all possible rebase options.
 
-## Cherry Picking 
+## Cherry Picking
 
 * Demonstrate cherry picking a single commit from another branch.
 * Demonstrate recording the original commit hash in the commit message.
@@ -111,5 +112,5 @@ All sections are required.
 * Demonstrate writing commit messages that explain "why" and "what".
 * Demonstrate giving commit messages short and long descriptions using a text editor.
 * Demonstrate changing the default text editor that git uses.
-
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

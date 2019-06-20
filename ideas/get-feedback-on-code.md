@@ -1,3 +1,4 @@
+{% capture content %}
 # Get feedback on code
 
 ## Find a mentor
@@ -11,4 +12,5 @@ Show & Tell your code at Learn Tech. Ask for constructive feedback.
 ## Wider team
 
 Share your code with the team on slack in an appropriate channel #engineering, #learntech, #python etc.
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

@@ -1,4 +1,5 @@
-# Turnstile 
+{% capture content %}
+# Turnstile
 
 ## Finite State Machines
 
@@ -23,3 +24,5 @@ Build a finite state machine from scratch, that replicates the following Finite 
 ![Turnstile FSM](https://yuml.me/diagram/plain;dir:LR/activity/(Locked)-coin[unlock]%3E(Unlocked),%20(Unlocked)-pass[lock]%3E(Locked),%20(Unlocked)-pass[alarm]%3E(Unlocked),%20(Locked)-coin[thanks]%3E(Locked))
 
 Once you have completed that, continue on to part 2 (remember the point is to learn about the impact of changing requirements, so no peeking!) [you can find part 2 here](./part2.md)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

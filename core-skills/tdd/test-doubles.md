@@ -1,8 +1,9 @@
+{% capture content %}
 # Test Doubles
 
-At Made Tech we have adopted the Martin Fowler terminology of test doubles. 
+At Made Tech we have adopted the Martin Fowler terminology of test doubles.
 You can read an in depth explanation of test doubles on his website.  
-When using one of these test doubles you should be able to 
+When using one of these test doubles you should be able to
 explain which type you are using.
 
 * Dummy
@@ -22,4 +23,5 @@ explain which type you are using.
 * Can hand-write each of the test doubles.
 * Can explain when you should and shouldn’t use test doubles.
 * Can explain why minimizing the number of test doubles a single test case uses is desirable
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

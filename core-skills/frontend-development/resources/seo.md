@@ -1,3 +1,4 @@
+{% capture content %}
 # SEO
 
 ### Useful links
@@ -13,3 +14,5 @@
 ### Useful tools
 
 - https://search.google.com/structured-data/testing-tool/u/0/
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

@@ -1,3 +1,4 @@
+{% capture content %}
 # Bowling
 
 Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game. Here are some things that the program will not do:
@@ -19,6 +20,8 @@ Each game, or “line” of bowling, includes ten turns, or “frames” for the
 * If the bowler gets a spare or strike in the last (tenth) frame, the bowler gets to throw one or two more bonus balls, respectively. These bonus throws are taken as part of the same turn. If the bonus throws knock down all the pins, the process does not repeat: the bonus throws are only used to calculate the score of the final frame.
 * The game score is the total of all frame scores.
 
-## References 
+## References
 
 [codingdojo.org](https://codingdojo.org/kata/Bowling/)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

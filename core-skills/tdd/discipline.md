@@ -1,3 +1,4 @@
+{% capture content %}
 # Demonstrating the Discipline
 
 An Engineer with this core skill must be able to demonstrate the ability to follow this discipline religiously.
@@ -20,6 +21,7 @@ Test-Driven Development is defined as a discipline with three rules:
 * Watches the failing test fail for right reason before writing production code
 * Writes only the minimum production code for a test to pass
 * Watches the passing test pass before moving onto refactoring
-* Refactors tests 
+* Refactors tests
 * Refactors production code
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

@@ -1,9 +1,10 @@
+{% capture content %}
 # Facilitators Guide
 
 ## Introduction Presentation
 
 - Agenda
-- Models of Learning 
+- Models of Learning
   - Comfort - Learning - Panic zone
   - Deliberate Practice
 - Pomodoro Technique
@@ -32,7 +33,7 @@ Figure out target mentor group e.g. if doing a MLD on TDD, this could be all the
 The format is 25 minute pomodoros on a global clock, with 5 minute breaks in between.
 
 - You should enforce that everyone stands up, hands off keyboards.
-- Using loud projected voice to get people's attention. 
+- Using loud projected voice to get people's attention.
   - Feel free to use Japanese words such as Hajime and Yame.
 - Encourage people to mingle and chat about their progress.
 - Allow people to discuss other things too.
@@ -62,5 +63,7 @@ Have a screen ready to make it possible for people to show code.
 
 - This could be to show their favourite feature
 - Could be to show some code
-- Could be to talk about things that they don't like or found surprising. 
-- Could be to get criticism on code written during the day 
+- Could be to talk about things that they don't like or found surprising.
+- Could be to get criticism on code written during the day
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

@@ -1,3 +1,4 @@
+{% capture content %}
 # Sparring
 
 The name comes from Martial Arts; sparring is a form of practice that allows students of a martial art to try out the sum total of all their knowledge in practice.
@@ -12,4 +13,5 @@ While doing these exercises you should retrospect on your previous decisions.
 
 * [Tic Tac Toe](./tic-tac-toe)
 * [Payroll](./payroll)
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

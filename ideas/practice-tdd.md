@@ -1,3 +1,4 @@
+{% capture content %}
 # Practice TDD
 
 Once you understand the basics of Test Driven Development, you'll need to practice to gain experience.
@@ -8,7 +9,7 @@ However, the most beneficial practice, is "Deliberate Practice" which must be:
 
 * Goal Directed, and have opportunity for:
 * Feedback, and
-* Self-reflection 
+* Self-reflection
 
 It may be difficult to find opportunity to get all of these things in your every day work.
 
@@ -19,7 +20,7 @@ If that is the case, then you must find other opportunities.
 Practice simple design:
 
 1. Passes its tests
-2. Minimizes duplication (of concepts) 
+2. Minimizes duplication (of concepts)
 3. Maximizes clarity (revealing intent)
 4. Has fewer elements (exactly what you need)
 
@@ -178,7 +179,7 @@ Other primitives
 16. Test – no assert
 17. Test – too many paths
 
-During this session the facilitator is very intrusive. The facilitator is the Benevolent Dictator that cares about good quality code. While coding the facilitator will stop you whenever (s)he spots a coding smell, from the list above. Adding functionalities is forbidden until the pair refactors the smell away. The pair is allowed to add new functionality only when the code smell removal was approved by the facilitator. 
+During this session the facilitator is very intrusive. The facilitator is the Benevolent Dictator that cares about good quality code. While coding the facilitator will stop you whenever (s)he spots a coding smell, from the list above. Adding functionalities is forbidden until the pair refactors the smell away. The pair is allowed to add new functionality only when the code smell removal was approved by the facilitator.
 
 I use post-its on which I write the coding smell, and stick it on the desk of that pair. When the pair has removed the coding smell away I encourage them to rip the post-it with an evil laughter and say “I killed you, evil coding smell!”
 
@@ -203,4 +204,5 @@ See more:
 Object Oriented Programming to Event Driven Development
 
 All the connections between structures are done with events
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

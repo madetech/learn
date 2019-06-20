@@ -1,3 +1,4 @@
+{% capture content %}
 # Rhino
 
 This assessment is in three parts, and can take up to three hours to complete.
@@ -43,3 +44,5 @@ These are the pages:
 [rhino-control-panel]: https://codepen.io/anon/pen/xNrZbW
 [rhino-click-heres]: https://codepen.io/anon/pen/WBOQLb
 [rhino-favourite-number]: https://codepen.io/anon/pen/YbQwbP
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

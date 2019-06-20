@@ -1,3 +1,4 @@
+{% capture content %}
 # Learn to TDD
 
 ## Learn the basics
@@ -29,4 +30,5 @@ In the end, you'll want to improve your software design knowledge to unlock the 
 ## Practice
 
 Ultimately, it's all about [practice](./practice-tdd.md).
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

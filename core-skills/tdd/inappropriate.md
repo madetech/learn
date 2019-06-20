@@ -1,3 +1,4 @@
+{% capture content %}
 # Inappropriate TDD
 
 Graphical UIs are not suitable for TDD, they are usually defined in a markup language which can only be asserted for correctness by visually inspecting the rendered output.
@@ -9,3 +10,5 @@ State machines are configuration? Unit testing is still important, but the disci
 ## Marking Scheme
 
 Does not TDD markup.
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

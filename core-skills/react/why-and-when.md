@@ -1,3 +1,4 @@
+{% capture content %}
 # React - Why and when should I use it?
 
 An Engineer with this core skill should be able to make well informed decisions on whether or not
@@ -17,4 +18,5 @@ Things to think about when making the decision as to whether you should use Reac
 - Could your application benefit from selective reloading? I.e. does anything on the page need to react?
 - Is an existing customer development team already using React or NodeJS?
 - Does your application require a lot of DOM manipulation?
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

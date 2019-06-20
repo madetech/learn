@@ -1,3 +1,4 @@
+{% capture content %}
 # Learn Software Architecture
 
 A good software architecture keeps options open, allows you to defer decisions about tools and frameworks, and keep the cost of change low.
@@ -22,4 +23,5 @@ Learn Tech is a good opportunity to learn software architecture by practicing al
 * Refactoring (Martin Fowler)
 * Working Effectively with Legacy Code (Michael C. Feathers)
 * Practical Object Oriented Design in Ruby (Sandi Metz)
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

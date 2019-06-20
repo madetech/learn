@@ -1,3 +1,4 @@
+{% capture content %}
 # Roman Numerals
 
 Given an integer input, produce output in [Roman Numeral](https://en.wikipedia.org/wiki/Roman_numerals) format.
@@ -17,6 +18,8 @@ Given an integer input, produce output in [Roman Numeral](https://en.wikipedia.o
 * What's the best way to verify your tests are correct?
 * Compare your solutions to others
 
-## Reference 
+## Reference
 
 [codingdojo.org](https://codingdojo.org/kata/RomanNumerals/)
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

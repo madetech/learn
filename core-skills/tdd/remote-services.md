@@ -1,3 +1,4 @@
+{% capture content %}
 # Testing remote services
 
 A remote services is any cross process communication.  Let’s look at some examples:
@@ -8,7 +9,7 @@ A remote services is any cross process communication.  Let’s look at some exam
 
 In each case you want to be able to test that your communication with this remote service is set up correctly.  However your approach to each will likely be very different.
 
-### Running your tests against the service 
+### Running your tests against the service
 
 Your MySQL integration will usually be tested by running a copy of MySQL configured as closely to your production instance as possible.
 
@@ -36,7 +37,8 @@ Simulators are designed to allow you to easily configure how the remote service 
 
 ## Other Notes
 
-Strategies for other types of protocols e.g. AMQP, RADIUS, UDP-packets? 
+Strategies for other types of protocols e.g. AMQP, RADIUS, UDP-packets?
 
 Can explain what testing technique they would recommend to use for a remote service.
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

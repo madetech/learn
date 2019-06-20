@@ -1,3 +1,4 @@
+{% capture content %}
 # Test Driven Development
 
 ## Summary
@@ -127,3 +128,5 @@ Review, refactor and improve an existing test suite.
   - Required - Does not change the production code before the test suite has been written.
   - Required - Demonstrates that the tests written allow developers to now safely refactor
     the production code.
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

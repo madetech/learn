@@ -1,3 +1,4 @@
+{% capture content %}
 # Well-written tests
 
 An Engineer with this core skill must be able to demonstrate how to write readable tests.
@@ -25,3 +26,5 @@ To avoid repetition use of helper methods, common setup/teardown before/after bl
 * Can write tests which follow the AAAT
 * Can describe expected behaviours from the perspective of the user
 * Can refactor poorly written test suite to remove duplication
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

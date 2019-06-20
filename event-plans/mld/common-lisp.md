@@ -1,3 +1,4 @@
+{% capture content %}
 # Common Lisp MLD: Worksheet
 
 **You aren’t expected to finish all these exercises.**
@@ -18,4 +19,5 @@ Build a solution to the [Tennis kata](../../katas/tennis/) in Common Lisp.
 
 - Common Lisp has many dialects. Why do you think that is? What benefit does that provide?
 - Consider how a UI might use your Tennis game implementation. Do you think you could make any improvements?
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}

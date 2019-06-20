@@ -1,3 +1,4 @@
+{% capture content %}
 # GNU Smalltalk MLD: Worksheet
 
 **You aren’t expected to finish all these exercises.**
@@ -18,4 +19,5 @@ Build a solution to the [Tennis kata](../../katas/tennis/) in GNU Smalltalk.
 
 - GNU Smalltalk is a really old language (first release was in 1972!). What can we learn from such an old programming language?
 - Consider how a UI might use your Tennis game implementation. Do you think you could make any improvements?
-
+{% endcapture %}
+{% include legacy_markdown_container.html content=content %}
