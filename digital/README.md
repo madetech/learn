@@ -72,25 +72,16 @@ Use these resources to empower your teams so that they can focus on delivering o
       <div class="col-md-6">
         <p>
           <h5 class="card-title">Delivery</h5>
-          <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Deliver outcomes</li>
-                <li>Team well being</li>
-                <li>Team organisation</li>
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>Continuous delivery</li>
-              </ul>
-            </li>
-          </ul>
+            <p>
+              Delivery as a discipline is to deliver outcomes while considering the wellbeing and organisation of the team.
+            </p>
+            <p>
+              To ensure the needs of users are met, continuous delivery is used. Continuous delivery is a practice which we use to provide value as quickly and efficiently as possible.
+            </p>
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
+        <!-- <a href="#" class="btn btn-success">Learn more</a> -->
       </div>
     </div>
-
     <div class="row my-3">
       <div class="col-md-6">
         <p>
@@ -104,7 +95,6 @@ Use these resources to empower your teams so that they can focus on delivering o
                 <li>Defining a product backlog</li>
                 <li>Defining a release plan &amp; scope</li>
                 <li>Align people around outcomes</li>
-
               </ul>
             </li>
             <li>What does good look like?<br/>
@@ -118,17 +108,14 @@ Use these resources to empower your teams so that they can focus on delivering o
         </p>
         <a href="#" class="btn btn-success">Learn more</a>
       </div>
-
       <div class="col-md-6">
         <img src="//placehold.it/400" alt="">
       </div>
     </div>
-
     <div class="row my-3">
       <div class="col-md-6">
         <img src="//placehold.it/400" alt="">
       </div>
-
       <div class="col-md-6">
         <p class="card-text">
           <h5 class="card-title">Design</h5>
@@ -156,7 +143,6 @@ Use these resources to empower your teams so that they can focus on delivering o
         <a href="#" class="btn btn-success">Learn more</a>
       </div>
     </div>
-
     <div class="row my-3">
       <div class="col-md-6">
         <p>
@@ -184,29 +170,8 @@ Use these resources to empower your teams so that they can focus on delivering o
         </p>
         <a href="#" class="btn btn-success">Learn more</a>
       </div>
-
       <div class="col-md-6">
         <img src="//placehold.it/400" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div>
-      <div class="col-md-6-3-12">
-        <div class="card-body card-border">
-          <h5 class="card-title">What Good Looks Like</h5>
-          <p class="card-text">
-            <ul>
-              <li>User-centred design and technology</li>
-              <li>Ensure your product is viable, desirable and feasible</li>
-              <li>Functional digital services - usage, reliable and maintainable</li>
-              <li>Digital service continuity, digital services lifecycle</li>
-              <li>Measuring outcomes and impacts</li>
-              <li>Opportunities, user research</li>
-            </ul>
-          </p>
-        </div>
       </div>
     </div>
   </div>
