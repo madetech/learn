@@ -67,146 +67,66 @@ Use these resources to empower your teams so that they can focus on delivering o
   <div class="container">
     <div class="row my-3">
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
+        <img src="images/delivery.jpg" alt="" style="width: 500px; height: 300px">
       </div>
       <div class="col-md-6">
         <p>
           <h5 class="card-title">Delivery</h5>
-          <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Deliver outcomes</li>
-                <li>Team well being</li>
-                <li>Team organisation</li>
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>Continuous delivery</li>
-              </ul>
-            </li>
-          </ul>
+            <p>
+              Delivery as a discipline is to deliver outcomes while considering the wellbeing and organisation of the team.
+            </p>
+            <p>
+              To ensure the needs of users are met, continuous delivery is used. Continuous delivery is a practice which we use to provide value as quickly and efficiently as possible.
+            </p>
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
       </div>
     </div>
-
     <div class="row my-3">
       <div class="col-md-6">
         <p>
           <h5 class="card-title">Product</h5>
-          <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Identifying and prioritising needs and opportunities</li>
-                <li>Identifies feasibility within the business context</li>
-                <li>Remains pragmatic about budget</li>
-                <li>Defining a product backlog</li>
-                <li>Defining a release plan &amp; scope</li>
-                <li>Align people around outcomes</li>
-
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>Meet user needs</li>
-                <li>Maximise outcomes and impact</li>
-                <li>Sharing context and vision</li>
-              </ul>
-            </li>
-          </ul>
+            <p>
+              Product is used to identify and prioritise needs as well as opportunities. In addition, product also aligns teams around outcomes.
+            </p>
+            <p>
+              It is crucial that teams are aware of context and vision of the product in order to meet user needs. This will empower teams to maximise outcomes and impact.
+            </p>
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
       </div>
-
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
+        <img src="images/product.jpg" alt="" style="width: 500px; height: 300px">
       </div>
     </div>
-
     <div class="row my-3">
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
+        <img src="images/design.jpg" alt="" style="width: 500px; height: 300px">
       </div>
-
       <div class="col-md-6">
         <p class="card-text">
           <h5 class="card-title">Design</h5>
-          <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Framing the problem</li>
-                <li>Understanding users needs and existing solutions</li>
-                <li>Envisioning new solutions</li>
-                <li>Defining solution hypotheses</li>
-                <li>Validating user needs through user research</li>
-                <li>Validating solutions through user research</li>
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>User centred design</li>
-                <li>Iterative user research</li>
-                <li>Minimising waste - saying no to ideas</li>
-                <li>Designing the test - prototypes, dummy pages</li>
-              </ul>
-            </li>
-          </ul>
+           <p>
+              Design is framing the problem in order to understand user needs and existing/new digital services. User research is conducted to validate digital services to meet user needs.
+            </p>
+            <p>
+              Digital services must be designed with users in mind alongside iterative user research. We consistently test our designs using prototypes.
+            </p>
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
       </div>
     </div>
-
     <div class="row my-3">
       <div class="col-md-6">
         <p>
           <h5 class="card-title">Technology</h5>
-          <ul>
-            <li>What does this component do?<br/>
-              <ul>
-                <li>Technical approach / architecture</li>
-                <li>Using/building technology to meet user needs</li>
-                <li>Iterative/incremental releases</li>
-                <li>Maintainable and reliable software</li>
-                <li>Ongoing support</li>
-              </ul>
-            </li>
-            <li>What does good look like?<br/>
-              <ul>
-                <li>Simplest solution that meets user needs</li>
-                <li>Evolutionary architecture / ADRs</li>
-                <li>Decomposing monoliths</li>
-                <li>Reliable and scalable software</li>
-                <li>Reducing risk of change</li>
-              </ul>
-            </li>
-          </ul>
+            <p>
+              Using technical approaches and architecture, technology is built to meet user needs. Digital service releases are incremental, maintainable and reliable.
+            </p>
+            <p>
+              Digital services are simple and they meet user needs. Risk of change is reduced as digital services are reliable and scalable.
+            </p>
         </p>
-        <a href="#" class="btn btn-success">Learn more</a>
       </div>
-
       <div class="col-md-6">
-        <img src="//placehold.it/400" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div>
-      <div class="col-md-6-3-12">
-        <div class="card-body card-border">
-          <h5 class="card-title">What Good Looks Like</h5>
-          <p class="card-text">
-            <ul>
-              <li>User-centred design and technology</li>
-              <li>Ensure your product is viable, desirable and feasible</li>
-              <li>Functional digital services - usage, reliable and maintainable</li>
-              <li>Digital service continuity, digital services lifecycle</li>
-              <li>Measuring outcomes and impacts</li>
-              <li>Opportunities, user research</li>
-            </ul>
-          </p>
-        </div>
+        <img src="images/technology.jpg" alt="" style="width: 500px; height: 300px">
       </div>
     </div>
   </div>
