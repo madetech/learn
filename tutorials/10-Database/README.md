@@ -12,18 +12,18 @@ For example, we can use the tool `pgcli`.
 
 In your own time you can figure out how to install postgresql and pgcli.
 
-For the purposes of this workshop we have provided a premade docker setup that provide an out of the box sandbox.
+For the purposes of this tutorial we have provided a premade docker setup that provide an out of the box sandbox.
 
 #### To Do
 
-* Clone [madetech/relational-database-workshop](https://github.com/madetech/relational-database-workshop)
+* Clone [madetech/relational-database-tutorial](https://github.com/madetech/relational-database-tutorial)
 * Follow the README for pgcli. **We will get to the Koans later.**
 
-![Screencapture of Workshop](./screen-cap-workshop.gif)
+![Screencapture of Tutorial](./screen-cap-tutorial.gif)
 
 ### Create a database
 
-The sandbox environment comes out of the box with a database premade, called `workshop_one`.
+The sandbox environment comes out of the box with a database premade, called `tutorial_one`.
 
 You can also create your own database
 
@@ -31,7 +31,7 @@ You can also create your own database
 CREATE DATABASE my_fancy_database;
 ```
 
-By default you will be connected to `workshop_one` database.
+By default you will be connected to `tutorial_one` database.
 
 You can `USE` your new database by doing the following
 
@@ -73,7 +73,7 @@ You can see this table by rerunning `\dt`. You should see something like the fol
 +------+-----+-----+--------+
 |Schema|Name |Type |Owner   |
 |------+-----+-----+--------|
-|public|fruit|table|workshop|
+|public|fruit|table|tutorial|
 +------+-----+-----+--------+
 ```
 
@@ -415,7 +415,7 @@ You can read about this in more depth on the postgres docs.
 
 We will be using a gem called `sequel` to provide a nice API to interact with PostgreSQL.
 
-Follow the section in the [madetech/relational-database-workshop](https://github.com/madetech/relational-database-workshop) repository readme to start working on the Koans.
+Follow the section in the [madetech/relational-database-tutorial](https://github.com/madetech/relational-database-tutorial) repository readme to start working on the Koans.
 
 ### Useful Documentation Links
 

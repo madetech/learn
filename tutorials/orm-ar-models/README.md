@@ -1,4 +1,4 @@
-# ORM/ActiveRecord/Models Workshop
+# ORM/ActiveRecord/Models Tutorial
 
 ## Resources
 
@@ -8,7 +8,7 @@
 - https://www.schneems.com/post/25503708759/databases-rails-week-2-modeling-relationships-and
 - https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec
 
-## Workshop
+## Tutorial
 
 How could you write the following SQL statements in ActiveRecord format?
 - `SELECT * FROM movies`
@@ -36,11 +36,11 @@ What do `db:create`, `db:setup`, `db:seed`, `db:schema:load` and `db:migrate` do
 
 ## Exercise
 
-Fork the [academy-workshop-application](https://github.com/madetech/academy-workshop-application) repo
+Fork the [academy-tutorial-application](https://github.com/madetech/academy-tutorial-application) repo
 
 Set up the database and ensure any existing tests are passing
 
-Use the ActiveRecord queries you came up with in the workshop in the `rails console` and make sure data is returned
+Use the ActiveRecord queries you came up with in the tutorial in the `rails console` and make sure data is returned
 
 Create a migration for a Directors table and associate them with the existing Movies table (make sure to actually write your migration in the file)
 

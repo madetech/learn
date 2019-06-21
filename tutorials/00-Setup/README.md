@@ -1,4 +1,4 @@
-# Setup Workshop
+# Setup Tutorial
 
 One of the most under-taught skills is how to setup a good development environment.
 
