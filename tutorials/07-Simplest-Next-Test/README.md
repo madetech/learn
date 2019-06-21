@@ -1,6 +1,6 @@
 # Simplest Next Test
 
-This workshop assumes that you have practiced the discipline of Test Driven Development.
+This tutorial assumes that you have practiced the discipline of Test Driven Development.
 
 We already know that in TDD there are three stages which are repeated until the code is complete.
 

@@ -1,4 +1,4 @@
-# Git Workshop
+# Git Tutorial
 
 You will use Git a lot in your professional career as a Software Engineer.
 

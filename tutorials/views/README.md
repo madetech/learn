@@ -1,4 +1,4 @@
-# Views Workshop
+# Views Tutorial
 
 ## Resources
 
@@ -11,7 +11,7 @@
 - https://github.com/teamcapybara/capybara
 - https://robots.thoughtbot.com/how-we-test-rails-applications
 
-## Workshop
+## Tutorial
 
 What ways do we have of making something in the controller available to the view?
 
@@ -27,7 +27,7 @@ Can you name and discuss any built in view helpers?
 
 ## Exercise
 
-In your academy-workshop-repo
+In your academy-tutorial-repo
 
 Write tests to handle viewing a Movie's page and showing it's title and year of release and make them pass
 
@@ -35,7 +35,7 @@ Write tests to handle viewing a Movie's page and showing it's director and make 
 
 Write tests to handle viewing a Movie's page and showing it's average rating (if it has any) and make them pass
 
-Write tests to handle creating a new movie from a form (using the create action you implemented in the controller/routing workshop) and make them pass. You can assign the director randomly for now.
+Write tests to handle creating a new movie from a form (using the create action you implemented in the controller/routing tutorial) and make them pass. You can assign the director randomly for now.
 
 In the same view add tests and the ability to select an existing director when creating a movie
 

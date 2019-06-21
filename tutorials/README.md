@@ -1,15 +1,14 @@
-# Workshops
+# Tutorials
 
-* [Setup Workshop](./00-Setup-Workshop) _macOS, terminal, rbenv, ruby_
-* [Command Line Workshop](./01-Command-Line-Workshop) _bash_ 
-* [Git Workshop](./02-Git-Workshop) _git, bash_
-* [Debugging Workshop](./03-Debugging-Workshop) _ruby, debugging, testing_
-* [Retrospective Planning Workshop](./04-Retrospective-Planning-Workshop) _retrospectives, liberating structures_
-* [Refactoring Workshop](./05-Refactoring-Workshop) _refactoring_
-* [Gem Packaging Workshop](./06-Gem-Packaging-Workshop) _gems_, _bundler_
-* [Simplest Next Test Workshop](./07-Simplest-Next-Test-Workshop) _tdd_
-* [Continuous Integration Workshop](./08-Continuous-Integration-Workshop) _ci_  
-* [Polymorphism Workshop](./09-Polymorphism-Workshop) _oo, polymorphism_
-* [Database Workshop](./10-Database-Workshop) _relational, sql, database, migration, postgresql_
-* [Docker Workshop](./11-Docker-Workshop) _docker, containerization, docker-compose_
-
+* [Setup Tutorial](./00-Setup) _macOS, terminal, rbenv, ruby_
+* [Command Line Tutorial](./01-Command-Line) _bash_
+* [Git Tutorial](./02-Git) _git, bash_
+* [Debugging Tutorial](./03-Debugging) _ruby, debugging, testing_
+* [Retrospective Planning Tutorial](./04-Retrospective-Planning) _retrospectives, liberating structures_
+* [Refactoring Tutorial](./05-Refactoring) _refactoring_
+* [Gem Packaging Tutorial](./06-Gem-Packaging) _gems_, _bundler_
+* [Simplest Next Test Tutorial](./07-Simplest-Next-Test) _tdd_
+* [Continuous Integration Tutorial](./08-Continuous-Integration) _ci_  
+* [Polymorphism Tutorial](./09-Polymorphism) _oo, polymorphism_
+* [Database Tutorial](./10-Database) _relational, sql, database, migration, postgresql_
+* [Docker Tutorial](./11-Docker) _docker, containerization, docker-compose_

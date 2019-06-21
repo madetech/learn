@@ -1,4 +1,4 @@
-# Controllers and Routing Workshop
+# Controllers and Routing Tutorial
 
 ## Resources
 
@@ -14,7 +14,7 @@
 - https://relishapp.com/rspec/rspec-rails/docs/controller-specs
 - https://relishapp.com/rspec/rspec-rails/v/3-6/docs/request-specs/request-spec
 
-## Workshop
+## Tutorial
 
 What are the 3 main components of HTTP systems?
 
@@ -52,7 +52,7 @@ How can you handle returning responses to a user if there isn't a view?
 
 ## Exercise
 
-In your academy-workshop-repo
+In your academy-tutorial-repo
 
 Manually create a new controller and spec for handling requests related to Movies
 

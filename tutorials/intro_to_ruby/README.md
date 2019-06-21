@@ -1,4 +1,4 @@
-# Intro to Ruby Workshop
+# Intro to Ruby Tutorial
 
 ## Resources
 
@@ -14,7 +14,7 @@
 - http://ruby-doc.org/docs/Tutorial/
 - https://ruby-doc.org/core-2.4.1/Enumerable.html
 
-## Workshop
+## Tutorial
 
 What are:
   - Classes?
@@ -30,7 +30,7 @@ Can you discuss the difference between an Array and a Hash?
 In a hash of:
 
 ```ruby
-  workshop_hash = { foo: 1, bar: '5', 'baz': 'yolo', 'qux' => 24  }
+  tutorial_hash = { foo: 1, bar: '5', 'baz': 'yolo', 'qux' => 24  }
 ```
 
 how could you extract the values for each item individually? How could you get all the values at once?
@@ -48,7 +48,7 @@ what would be returned?
 In the following array:
 
 ```ruby
-  workshop_array = [ 1, 'foo', 5, 'bar', :baz ]
+  tutorial_array = [ 1, 'foo', 5, 'bar', :baz ]
 ```
 
 What are some ways to extract the first, third and fifth values?

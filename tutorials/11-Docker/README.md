@@ -110,9 +110,9 @@ services:
   postgres:
     image: postgres:11-alpine
     environment:
-      POSTGRES_USER: workshop
+      POSTGRES_USER: tutorial
       POSTGRES_PASSWORD: secretpassword
-      POSTGRES_DB: workshop_one
+      POSTGRES_DB: tutorial_one
   web:
     build: .
     links: 
@@ -123,11 +123,11 @@ services:
       - "4567:4567"
     privileged: true
     environment:
-      DB_URL: postgresql://workshop:secretpassword@postgres/workshop_one
-      POSTGRES_USER: workshop
+      DB_URL: postgresql://tutorial:secretpassword@postgres/tutorial_one
+      POSTGRES_USER: tutorial
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
-      POSTGRES_DB: workshop_one
+      POSTGRES_DB: tutorial_one
       POSTGRES_PASSWORD: secretpassword
 ```
 
