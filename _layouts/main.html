@@ -9,7 +9,6 @@
 {% seo %}
 
   <link rel="stylesheet" href="{{ "/assets/css/madetech-frontend.css?v=" | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" }}">
 </head>
 
 <body>
@@ -63,13 +62,7 @@
     </div>
   </header>
 
-  <main class="container">
-    <div class="row">
-      <div class="col-md-8 offset-md-2">
-        {{ content }}
-      </div>
-    </div>
-  </main>
+  {{ content }}
 
   <footer class="footer">
     <div class="container">

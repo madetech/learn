@@ -75,7 +75,7 @@ The candidate can describe:
 
 For this level you will be expected to bring along with you an application which contains a set of components which meet the marking criteria.
 
-During the assessment, the reviewer will go through your application with you, asking for demonstrations of the crtieria, and ask some follow up questions.
+During the assessment, the reviewer will go through your application with you, asking for demonstrations of the criteria, and ask some follow up questions.
 
 #### Application - Mark scheme
 
