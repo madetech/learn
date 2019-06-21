@@ -8910,4 +8910,11 @@ blockquote::before {
   margin-left: 50px;
 }
 
+.ven-diagram-section {
+  background-color: #fcfcfc;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 0;
+  height: 300px;
+}
+
 /*# sourceMappingURL=madetech-frontend.css.map */
