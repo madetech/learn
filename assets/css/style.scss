@@ -1,0 +1,64 @@
+---
+---
+@charset "UTF-8";
+
+.container img {
+  max-width: 100%;
+}
+
+.Assessment {
+  margin: 1%;
+  display: inline-block;
+  max-width: 29%;
+}
+.Assessment[open] {
+  max-width: 100%;
+}
+.Assessment[open] .BadgeImg {
+  max-width: 50%;
+}
+.Assessment[open] .Name {
+  font-size: 2em;
+}
+
+.Assessment:not([open]) summary {
+  text-align: center;
+}
+/*When hovering over the summary*/
+.Assessment:not([open]) summary .BadgeImg {
+  padding: 10%;
+}
+.Assessment:not([open]) summary:hover .BadgeImg {
+  padding: 0;
+}
+
+/* Hides default decoration for summaries */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary {
+  list-style-type: none;
+}
+
+.Assessment > ul > li {
+  margin-top: -0.5em;
+  padding: 0.5em;
+}
+.Assessment li li {
+  font-style: italic;
+}
+
+@media only screen and (min-width: 1080px) {
+  aside {
+    margin-left: -35%;
+    top: 3em;
+    float: left;
+    position: absolute;
+    max-width: 30%;
+  }
+
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
