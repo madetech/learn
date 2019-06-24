@@ -2,7 +2,7 @@
 ---
 @charset "UTF-8";
 
-.DeliveryImage {
+.DeliveryImage, .ProductImage, .DesignImage, .TechnologyImage {
   width: 500px;
   max-width: 100%;
 }
@@ -51,6 +51,11 @@ details > summary {
 }
 .Assessment li li {
   font-style: italic;
+}
+
+.ven-diagram{
+  height: 350px;
+  margin-top: 1%;
 }
 
 @media only screen and (min-width: 1080px) {
