@@ -26,7 +26,7 @@ Print out the full path to your home directory e.g. get your command line to out
 
 Show the path of the directory you're currently in.
 
-Navigate to the "Challenge 1" directory. (This exists in the repository under `tutorials/01-Command-Line`)
+Navigate to the "Challenge 1" directory. (This exists in the repository under `guides/01-Command-Line`)
 
 Create a new directory titled "New".
 
