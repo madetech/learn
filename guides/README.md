@@ -1,4 +1,4 @@
-# Tutorials
+# Guides
 
 * [Setup Tutorial](./00-Setup) _macOS, terminal, rbenv, ruby_
 * [Command Line Tutorial](./01-Command-Line) _bash_
