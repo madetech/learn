@@ -58,6 +58,26 @@ details > summary {
   margin-top: 1%;
 }
 
+.card-border {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.padding-left {
+  margin-left: 50px;
+}
+
+.ven-diagram-section {
+  background-color: #fcfcfc;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 0;
+  height: 400px;
+}
+
 @media only screen and (min-width: 1080px) {
   aside {
     margin-left: -35%;
