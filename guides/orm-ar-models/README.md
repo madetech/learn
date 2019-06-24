@@ -6,7 +6,7 @@
 - https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-basics
 - http://guides.rubyonrails.org/active_model_basics.html
 - https://www.schneems.com/post/25503708759/databases-rails-week-2-modeling-relationships-and
-- https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec
+- https://semaphoreci.com/community/guides/how-to-test-rails-models-with-rspec
 
 ## Tutorial
 

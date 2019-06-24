@@ -89,7 +89,7 @@ Compare `git diff` to `git diff --staged`
 ## Resources
 
 - https://www.learnenough.com/git-tutorial
-- https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+- https://www.atlassian.com/git/guides/merging-vs-rebasing
 - https://try.github.io/levels/1/challenges/1
 - https://www.codecademy.com/learn/learn-git
 - https://thoughtbot.com/upcase/mastering-git
