@@ -1,8 +1,8 @@
-# Command Line Workshop
+# Command Line Tutorial
 
 ## Prerequisite Practice
 
-This workshop assumes you have already worked through the `Setup Workshop`.
+This tutorial assumes you have already worked through the `Setup Tutorial`.
 
 If you haven't, work through sections 1 and 2 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
 
@@ -26,7 +26,7 @@ Print out the full path to your home directory e.g. get your command line to out
 
 Show the path of the directory you're currently in.
 
-Navigate to the "Challenge 1" directory. (This exists in the repository under `workshops/01-Command-Line-Workshop`)
+Navigate to the "Challenge 1" directory. (This exists in the repository under `tutorials/01-Command-Line`)
 
 Create a new directory titled "New".
 
@@ -99,4 +99,3 @@ Create a directory "Challenge 1/No Change" and remove the permission that allows
 Create a file "Challenge 1/hello.rb" and add the line "puts 'hello, world!'" into it using command line only. Run it by passing its name as an argument to ruby. Make sure it doesn't throw an error.
 
 Now execute it by running it directly (hint: you'll need a ruby shebang + specific permissions).
-

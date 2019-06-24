@@ -1,8 +1,8 @@
 # Continuous Integration
 
-This workshop assumes you are already familiar with Git, and the concept of Pull Requests.
+This tutorial assumes you are already familiar with Git, and the concept of Pull Requests.
 
-In this workshop we assume that you have locally configured your shared git remote to be named `origin`.
+In this tutorial we assume that you have locally configured your shared git remote to be named `origin`.
 
 ## Prerequisites
 
@@ -48,7 +48,7 @@ This is the investment needed to make Continuous Integration work.
 * Use an automated build tool (e.g. Jenkins, Travis, Gitlab CI, CircleCI, etc) to run tests every time a new commit is pushed to `origin/master`
 * Use an automated build tool to run tests every time a new commit is pushed to a Pull Request branch, and also run the tests as an "Integration" with master. (More on this later) 
 
-**Not covered in this workshop**
+**Not covered in this tutorial**
 
 * Have automated deployment into a 1-click deploy.
 * Use [branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html) and [feature toggles](https://martinfowler.com/bliki/FeatureToggle.html) to decouple release from deployment.
@@ -57,7 +57,7 @@ This is the investment needed to make Continuous Integration work.
 
 We're going to use Travis CI to automate some tests.
 
-First, you'll need to pick a project to automate tests on. **If you have built this project with someone else, pair or mob with them through this part of the workshop.**
+First, you'll need to pick a project to automate tests on. **If you have built this project with someone else, pair or mob with them through this part of the tutorial.**
 
 If your project is open-sourced you can use a cloud-hosted build tool such as Travis CI for free, otherwise you'll need to pay a subscription.
 
