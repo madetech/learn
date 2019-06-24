@@ -1,7 +1,7 @@
 #!/bin/bash
 
-for i in `seq 1 40`; do
-  if (($i <= 20)) 
+for i in `seq 1 4500`; do
+  if (($i <= 600)) 
   then
             random=$((1 + RANDOM % 39))
             if (( $random % 2 ))
