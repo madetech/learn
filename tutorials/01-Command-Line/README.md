@@ -50,7 +50,7 @@ Remove the "New" directory.
 
 # 1.2 Working with files
 
-Navigate into the "Text Files" directory.
+Navigate into the "Text Files" directory and run the `./generate.sh` script to generate files for this exercise 
 
 Create another copy of "More Text" and call it "Learn to code".
 
