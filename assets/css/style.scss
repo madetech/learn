@@ -58,11 +58,8 @@ details > summary {
   margin-top: 1%;
 }
 
-.card-border {
-  border-style: solid;
-  border-color: lightgray;
-  border-width: 1px;
-  border-radius: 0px;
+.card {
+  border: none!important;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -71,10 +68,33 @@ details > summary {
   margin-left: 50px;
 }
 
+.jumbotron {
+  margin-bottom: 60px !important;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+h3, h5 {
+  font-size: 1rem !important;
+  text-decoration: underline;
+  color: #535353 !important;
+}
+
+.container.text-center:not(:first-child) {
+  margin-top: 100px;
+}
+
+.container.text-center {
+  margin-bottom: 100px;
+}
+
 .ven-diagram-section {
   background-color: #fcfcfc;
-  border: 1px solid #e0e0e0;
-  margin-bottom: 0;
+  border: none;
+  margin-bottom: 60px;
+  margin-top: 20px;
   height: 400px;
 }
 
