@@ -6,15 +6,15 @@ jobs:
     steps:
       - run:
           name: check links
-          command: npx broken-link-checker http://learn.madetech.com --exclude microsoft --exclude 'ext/linkedin' --exclude codewars.com -ro  
+          command: npx broken-link-checker http://learn.madetech.com --exclude microsoft --exclude linkedin --exclude codewars.com -ro  
 workflows:
   version: 2
-  on_commit:
-    jobs:
-      - check_links:
-          filters:
-            branches:
-              only: add_link_checker
+  # on_commit:
+  #   jobs:
+  #     - check_links:
+  #         filters:
+  #           branches:
+  #             only: master
   weekly_checks:
     triggers:
       - schedule:
