@@ -21,7 +21,7 @@ you will spend some time with a mentor focussing on skills relevant to delivery 
 
 As a high level summary, we will cover the following -
 
-1. Watch the [introduction to TDD screencast](../screencasts/tennis.md).
+1. Watch the [introduction to TDD screencast](../videos/tennis.md).
 2. (Pair or mob with a mentor on) [code katas](../katas) using [Test Driven Development](../core-skills/tdd/) discipline.
 3. (Pair or mob with a mentor on) subcutaneous acceptance testing, and ATDD discipline.
 4. Explore the three central components Clean Architecture
@@ -49,7 +49,7 @@ In order of priority, here is a (non-exhaustive) short-list of some skills that 
 3. Acceptance Testing
 4. Software Architecture
 5. [Web Application Development with React](../core-skills/react/)
-6. [Frontend Development](../core-skills/frontend-web-development/)
+6. [Frontend Development](../core-skills/frontend-development)
 7. Continuous Delivery / Continuous Integration / DevOps
   - Using a PaaS
   - Using CI Tooling

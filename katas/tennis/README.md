@@ -27,4 +27,4 @@ The scoring system is as follows:
 
 ## Reference
 
-[codingdojo.org](https://codingdojo.org/kata/Tennis/)
+[codingdojo.org](http://codingdojo.org/kata/Tennis/)

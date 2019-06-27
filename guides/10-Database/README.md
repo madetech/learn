@@ -16,14 +16,14 @@ For the purposes of this tutorial we have provided a premade docker setup that p
 
 #### To Do
 
-* Clone [madetech/relational-database-tutorial](https://github.com/madetech/relational-database-tutorial)
+* Clone [madetech/relational-database-workshop](https://github.com/madetech/relational-database-workshop)
 * Follow the README for pgcli. **We will get to the Koans later.**
 
-![Screencapture of Tutorial](./screen-cap-tutorial.gif)
+![Screencapture of Workshop](./screen-cap-workshop.gif)
 
 ### Create a database
 
-The sandbox environment comes out of the box with a database premade, called `tutorial_one`.
+The sandbox environment comes out of the box with a database premade, called `workshop_one`.
 
 You can also create your own database
 
@@ -31,7 +31,7 @@ You can also create your own database
 CREATE DATABASE my_fancy_database;
 ```
 
-By default you will be connected to `tutorial_one` database.
+By default you will be connected to `workshop_one` database.
 
 You can `USE` your new database by doing the following
 
@@ -73,7 +73,7 @@ You can see this table by rerunning `\dt`. You should see something like the fol
 +------+-----+-----+--------+
 |Schema|Name |Type |Owner   |
 |------+-----+-----+--------|
-|public|fruit|table|tutorial|
+|public|fruit|table|workshop|
 +------+-----+-----+--------+
 ```
 
@@ -415,7 +415,7 @@ You can read about this in more depth on the postgres docs.
 
 We will be using a gem called `sequel` to provide a nice API to interact with PostgreSQL.
 
-Follow the section in the [madetech/relational-database-tutorial](https://github.com/madetech/relational-database-tutorial) repository readme to start working on the Koans.
+Follow the section in the [madetech/relational-database-workshop](https://github.com/madetech/relational-database-workshop) repository readme to start working on the Koans.
 
 ### Useful Documentation Links
 
