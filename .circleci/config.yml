@@ -9,12 +9,6 @@ jobs:
           command: npx broken-link-checker https://learn.madetech.com --exclude microsoft --exclude linkedin --exclude codewars.com -ro  
 workflows:
   version: 2
-  # on_commit:
-  #   jobs:
-  #     - check_links:
-  #         filters:
-  #           branches:
-  #             only: master
   weekly_checks:
     triggers:
       - schedule:
