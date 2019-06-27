@@ -2,9 +2,16 @@
 ---
 @charset "UTF-8";
 
-.DeliveryImage, .ProductImage, .DesignImage, .TechnologyImage {
+.DeliveryImage, .ProductImage, .DesignImage {
   width: 500px;
   max-width: 100%;
+}
+
+.TechnologyImage {
+  width: 500px;
+  max-width: 100%;
+  height: 325px;
+  max-height: 100%;
 }
 
 .container img {
