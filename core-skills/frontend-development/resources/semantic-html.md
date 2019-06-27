@@ -11,7 +11,7 @@ This is in contrast to markup that focuses on _presentation_ or _visual structur
 
 - It helps you, your team, and any of the next readers of your code, as they will find it easier to understand your original intent.
 
-- It has benefits for [accessibility](/core-skills/frontend-web-development/resources/web-accessibility) - not everyone will consume your content the same way, so describing things more clearly will help.
+- It has benefits for [accessibility](/core-skills/frontend-development/resources/web-accessibility) - not everyone will consume your content the same way, so describing things more clearly will help.
 
 ## Examples
 
