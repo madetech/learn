@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  check_links:
     docker:
       - image: circleci/node:lts
     steps:
