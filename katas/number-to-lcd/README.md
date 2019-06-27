@@ -20,4 +20,4 @@ Note: Please do *NOT* read the second part before completing the first. Part of 
 
 ## References
 
-[codingdojo.org](https://codingdojo.org/kata/NumberToLCD/)
+[codingdojo.org](http://codingdojo.org/kata/NumberToLCD/)

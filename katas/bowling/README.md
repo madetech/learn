@@ -21,4 +21,4 @@ Each game, or “line” of bowling, includes ten turns, or “frames” for the
 
 ## References 
 
-[codingdojo.org](https://codingdojo.org/kata/Bowling/)
+[codingdojo.org](http://codingdojo.org/kata/Bowling/)
