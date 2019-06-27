@@ -5,8 +5,8 @@ jobs:
       - image: circleci/node:lts
     steps:
       - run:
-        name: check links
-        command: npx broken-link-checker http://learn.madetech.com --exclude microsoft --exclude 'ext/linkedin' --exclude codewars.com -ro  
+          name: check links
+          command: npx broken-link-checker http://learn.madetech.com --exclude microsoft --exclude 'ext/linkedin' --exclude codewars.com -ro  
 workflows:
   version: 2
   on_commit:
