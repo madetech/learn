@@ -35,7 +35,7 @@ _Hint_
 
 ## To Do
 
-* Work through section 1.2 and 1.3 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Our first command").
+* Work through section 1.2 and 1.3 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Man pages").
 * Install xcode cli tools
 * Install Homebrew
 
