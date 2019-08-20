@@ -1,6 +1,6 @@
 # Install a version of Ruby
 
-Installing a version of ruby can be done by using rbenv. We should use version 2.5.0
+Installing a version of ruby can be done by using rbenv. We should use version 2.6.3
 
 Lets see if you can put together the command for that yourself. 
 
@@ -10,7 +10,7 @@ _Hint_ you might find `rbenv` doesn't have a man page. If you find this the case
 
 You can set your default ruby version by creating a file `~/.ruby-version` with the version number in it.
 
-`cd ~ ; echo "2.5.0" >> ~/.ruby-version`
+`cd ~ ; echo "2.6.3" >> ~/.ruby-version`
 
 ## Stop and understand
 
