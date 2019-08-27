@@ -1,4 +1,4 @@
-# AWS Certified Cloud Practitioner
+# AWS Certified Cloud Practitioner Playbook
 
 If you are looking to learn about cloud fundamentals and gain an insight into AWS Cloud, you have come to the right place. This guide will help and support you through your journey to becoming an AWS Certified Cloud Practitioner.
 
@@ -76,7 +76,7 @@ We found the following list of practice tests to be useful and recommend attempt
 
 ### Schedule your exam
 
-Exam information
+#### Exam information
 * Name: AWS Certified Cloud Practitioner
 * Cost: 100 USD (100 GBP incl. VAT)
 * Languages: English, Japanese, Korean and Simplified Chinese
@@ -102,6 +102,6 @@ Exam information
 12. After having filled out the payment details, continue with the checkout while making sure all of the details you have entered are accurate
 13. That is it, you are done! You will receive an email with a confirmation of payment and also an email with information pertaining to your test centre
 
-If you are a Made Tech employee, please refer to the Made Tech Handbook to submit an expense: https://github.com/madetech/handbook/blob/master/guides/compensation/expenses.md 
+If you are a Made Tech employee, please refer to the Made Tech Handbook to submit an expense: [Expenses](https://github.com/madetech/handbook/blob/master/guides/compensation/expenses.md)
 
 Good luck!
