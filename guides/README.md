@@ -12,4 +12,4 @@
 * [Polymorphism Tutorial](./09-Polymorphism) _oo, polymorphism_
 * [Database Tutorial](./10-Database) _relational, sql, database, migration, postgresql_
 * [Docker Tutorial](./11-Docker) _docker, containerization, docker-compose_
-* [AWS Certified Cloud Practitioner Playbook](./aws/cloud-practitioner) _fundamental cloud concepts, schedule an exam_
+* [AWS Certified Cloud Practitioner Playbook](./aws/cloud-practitioner) _cloud concepts_
