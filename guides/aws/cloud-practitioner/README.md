@@ -19,6 +19,11 @@ You can use the following list to check where you are in terms of studying for t
 
 ### Study for your exam
 
+Our recommended learning path: 
+> **watch videos** > **take practice exams** > **review key areas that need focus** > **retake practice exams**
+
+If and once you are achieving **>85%** in your practice exams, we believe you are ready to [schedule](#schedule-your-exam) your exam!
+
 The key areas covered by the exam are:
 
 * **Domain 1:** Cloud Concepts (28%)
@@ -45,7 +50,7 @@ The key areas covered by the exam are:
 
 #### Resources
 
-To answer the questions above, we have compiled a list of resources that we think are useful for the AWS Certified Cloud Practitioner exam. 
+To answer the questions above, we have compiled a list of resources that we think are useful for the AWS Certified Cloud Practitioner exam.
 
 It is important to note that there are different methodologies of studying. Hence, choose whichever resources you think would work best for you.
 
