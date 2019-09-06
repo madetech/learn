@@ -1,7 +1,7 @@
 # Test Driven Development
 
 {% capture criteria %}
-Test driven development is a practice we make ample use of here at Made Tech. By the end of this course you should be able to:  
+Test driven development is a practice we make ample use of here at Made Tech. By the end of this course you should be able to:
 1. Practically demonstrate disciplined TDD.
 2. Describe a broad range of strategies to achieve an acceptable test-suite performance.
 3. Describe the family of Test Doubles and can demonstrate how to hand-roll those Test Doubles. Can describe the problems introduced by Test Doubles on Test Design.
@@ -37,10 +37,10 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
   - Required - Several examples
 
 - Writes only the minimum production code for a test to pass
-  - Required - Several examples of:  
-    - Sliming production code  
-    - Writing very minimal production code, until necessary to change by future tests  
-  - Required - Examples of writing small tests to expose these  
+  - Required - Several examples of:
+    - Sliming production code
+    - Writing very minimal production code, until necessary to change by future tests
+  - Required - Examples of writing small tests to expose these
 
 - Watches the passing test pass before moving onto refactoring
   - Required - Several examples
@@ -51,11 +51,11 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
 - Refactors production code
   - Required - One example of refactoring production code.
   - Required - Can write tests which follow AAAT (Arrange, Act, Assert, Teardown)
-  - Required - Demonstration of:  
-    - Setting up some state first  
-    - Making an action  
-    - Asserting on that action  
-    - Teardown (if applicable)  
+  - Required - Demonstration of:
+    - Setting up some state first
+    - Making an action
+    - Asserting on that action
+    - Teardown (if applicable)
 
 - Can describe expected behaviours from the perspective of the user.
   - Required - Can write test names which describe the behaviour of the software from a user’s perspective.
@@ -116,7 +116,8 @@ Review, refactor and improve an existing test suite.
 
 - Can identify causes of poor performance in a test suite.
   - Required - Identify two of the secret causes of poor performance.
-  - Required - Explain one potential structural cause of bad performance in a test suite.
+  - Required - Explain the trade offs that factor into deciding what level of testing to use.
+  - Required - Describes some architecture technique(s) which can make testing more flexible.
 
 - Can improve the performance of a slow test suite.
   - Required - Test suite run time is reduced 80% while maintaining the same amount of coverage.
