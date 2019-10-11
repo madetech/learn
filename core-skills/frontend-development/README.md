@@ -1,31 +1,9 @@
-# Frontend web development [HTML/CSS]
+# Frontend development
 
 ## Aim
 This course is intended to guide learning to a level where you can write and contribute semantic, and maintainable HTML and CSS to a project.
 
-The course guides you through a typical "first page" build of any green field project. This encompasses selecting/creating a responsive CSS grid, building core shared components for your new application, and finally delivering an accessible, SEO optimised, lightning fast loading product detail page.
-
-## Assessment Style
-This core skill assessment is split into two parts. Firstly, you'll take a design from PSD to HTML/CSS during Learn Tech. This is assessed over three levels; Rhino, Narwhal, and Unicorn. Secondly, before completing each level as HTML/CSS is quite subjective you'll be asked to talk about the decisions you made whilst building out the deliverables for each level.
-
-In addition to the deliverables, at each level you are expected to demonstrate:
-
-- Pixel Perfect HTML/CSS (Your preferred browser)
-- Responsive Design
-- Cross Browser testing (Chrome/Firefox/Edge/Safari)
-- Semantic HTML (i.e. no [Tag Soup](https://en.wikipedia.org/wiki/Tag_soup) )
-- Logical CSS naming
-
-It is up to the assessor to determine whether or not you have adequately achieved the above in addition to the deliverables for each level.
-
-As this isn't an assessment about scaffolding an application, and gathering resources we have built the (base application)[https://github.com/madetech/core-skill-frontend]. At this time this repo is private to Made Tech members, we're working to open source this too.
-
-All PSDs and assets can be downloaded from [the core skill drive](https://drive.google.com/open?id=1Qz7CXgspS7XYVpSXJEUcrrWwHklqNtb7)
-
-## Core Concepts
-Each of the sections below contain reading material and links to related resources and tools to help you on your way. Some of them wont be assessed but are good things to know about.
-
-- [Working with Photoshop](./resources/working-with-photoshop.md)
+{% capture resources %}
 - [Grids](./resources/grids.md)
 - [Semantic HTML](./resources/semantic-html.md)
 - [Responsive Design](./resources/responsive-design.md)
@@ -38,69 +16,55 @@ Each of the sections below contain reading material and links to related resourc
 - [Progressive Enhancement](./resources/progressive-enhancement.md)
 - [Web Performance](./resources/web-performance.md)
 - [SEO](./resources/seo.md)
-
-## Assessment Levels
-
-For every level, as we should be "production ready" at every stage a you must deliver:
-
-- Responsive, mobile-first, HTML/CSS for Mobile (320px) & Desktop (1024px)
-- Pixel perfect components in their main browser at defined breakpoints, however when resizing the built html should reflow.
-- Cross Browser tested
-- Semantic HTML
-- Maintainable well architected CSS
-
-**Javascript is not required to complete any level.**
-
-### Rhino
-
-To obtain rhino you must present the following:
-
-- A grid, either bespoke or off the shelf.
-- A sticky header (remembering we're after a CSS solution)
-- Footer
-- Creation of any additional assets
-
-While presenting your page, you should be able to explain the following:
-
-- What are the different values of `position` and what do they do, and when you would use them.
-- What are the different values of `display` and what do they do, and when you would use them.
-- What tools if any did you use to make the icons?
-- Their initial CSS structure, and how they plan to keep it maintainable?
-- Their choice to use (or not use) an off the shelf grid?
-
-### Narwhal
-
-To obtain Narwhal you must present the following:
-
-- Related Products
-- Promotions area
-- Main product image, and thumbnails
-- SEO
-
-While presenting your page, you should be able to explain the following:
-
-- Did you have to DRY up any CSS as you found common patterns?
-- What additional SEO features have you added? (HINT: Microformats)?
-- How would open graph meta tags help discoverability?
-- Which image format have you chosen to use? How would you optimize them if you had to?
-- The customer wants a new promotion on the page and the design shows white text on a very light background. What would you recommend in this situation? If anything?
-
-### Unicorn
-
-To obtain unicorn you must present the following:
-
-- Cart form
-- Accessible
-- Page load optimisations
-
-While presenting your page, you should be able to explain the following:
-
-- Did you have to change any of your previous HTML to follow accessibility guidelines?
-- What techniques did you use to speed up the page load?
-- How did you keep your form accessible whilst applying custom styling?
-- If you had to stop flash of unstyled content (FOUC) how would you have gone about it?
-- If a customer requested the page structure to remain consistant while the page loaded how would you do that?
+{% endcapture %}
+{% include skill_resources.html resources=resources %}
 
 
+## Badges
 
+{% capture rhino_description %}
+This assessment is in three parts, and can take up to three hours to complete.
 
+## Semantic HTML
+
+First, open [this link][rhino-semantic-html-page].
+
+You'll need to **change five of the HTML tags** so they're more semantic. This might change the page's look slightly.
+
+You'll also need to **explain why you chose each new tag**.
+
+[rhino-semantic-html-page]: https://codepen.io/kjdchapman/pen/zXzQYw
+
+## Basic CSS
+
+You need to add styles to [this prepared HTML][rhino-unstyled-html-page], so that it looks like the picture below.
+
+It doesn't need to be pixel perfect, but the whitespace around the content should look similar.
+
+![How the webpage should look](resources/rhino-expected-styles.png)
+
+[rhino-unstyled-html-page]: https://codepen.io/kjdchapman/pen/mgwYKZ
+
+## Accessibility
+
+You'll need to **identify who** would find using each page difficult.
+
+Next, you'll need to make a change to **make the page easier** to use.
+
+Finally, you'll need to **explain why your changes make it better**.
+
+These are the pages:
+
+* [Example one][rhino-big-button]
+* [Example two][rhino-delivery-healthchecks]
+* [Example three][rhino-control-panel]
+* [Example four][rhino-click-heres]
+* [Example five][rhino-favourite-number]
+
+[rhino-big-button]: https://codepen.io/anon/pen/YbQyEL
+[rhino-delivery-healthchecks]: https://codepen.io/anon/pen/WBOQXV
+[rhino-control-panel]: https://codepen.io/anon/pen/xNrZbW
+[rhino-click-heres]: https://codepen.io/anon/pen/WBOQLb
+[rhino-favourite-number]: https://codepen.io/anon/pen/YbQwbP
+{% endcapture %}
+{% include assessment_container.html name="Rihno" description=rhino_description img="./rhino.jpg" %}
