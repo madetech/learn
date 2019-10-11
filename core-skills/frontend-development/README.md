@@ -67,4 +67,4 @@ These are the pages:
 [rhino-click-heres]: https://codepen.io/anon/pen/WBOQLb
 [rhino-favourite-number]: https://codepen.io/anon/pen/YbQwbP
 {% endcapture %}
-{% include assessment_container.html name="Rihno" description=rhino_description img="./rhino.jpg" %}
+{% include assessment_container.html name="Rhino" description=rhino_description img="./rhino.jpg" %}
