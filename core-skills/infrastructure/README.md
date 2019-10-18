@@ -43,12 +43,31 @@ You will be provided a Linux Container Image, though you can use your own if you
 
 
 ### Level 2
+Be able to make secure cloud applications and services.
 
 #### Brief
 
+Resouces:
+- http://progressivecoder.com/understanding-aws-security-groups-and-best-practices-to-use-them/
+- https://www.jakoblell.com/blog/2013/08/13/quick-blind-tcp-connection-spoofing-with-syn-cookies/
+- - no need to read this entire article ^ section V is relevent
+
 #### Theory
 
+
+There is a cloud-hosted public web server that talks to a backend APIin a  private network. The private server's network allows the IP of the public server via a whitelist rule on its Firewall.
+
+1. Explain what maintenance overhead IP Whitelisting adds for future developers?
+2 .Explain the security problems with using only IP Whitelisting for authentication? 
+3. In a cloud environment, what way other ways (other than IP whitelisting) can be used to grant a server access through a firewall?
+
+
 #### Practical
+
+- Create infrastructure as code project (e.g. terraform) that can setup and teardown the following:
+  - 2 file storage buckets (or azure blob storage containers)
+  - A new user with a set of access credentials that only has permission to retrieve (not list or modify) files in **one** bucket
+  - Enable request monitoring on the bucket so that the assessor can get the number of HTTP GET requests made to bucket over time.
 
 ### Level 3
 
@@ -66,7 +85,7 @@ There are certain providers, usually PaaS only providers, that do not offer the
 functionality we require for testing people on all the above aspects.
 
 As such, we recommend avoiding solutions that hide:
-
+ 
 - load balancing
 - autoscaling
 - networking rules (routing, Firewalls)
