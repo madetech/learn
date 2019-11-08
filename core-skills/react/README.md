@@ -40,7 +40,7 @@ or one that already exists, see: [https://github.com/toddmotto/public-apis](http
 ## Mark Scheme
 
 {% capture hedgehog_description %}
-Learning the fundamentals - How not to hurt yourself with React
+#### Learning the fundamentals - How not to hurt yourself with React
 
 #### Application
 
