@@ -33,7 +33,8 @@ Coming soon
 ## Mark Scheme
 ### Mantis Shrimp
 
-- Can explain the difference between .NET, .NET Core and Framework
+- Can explain what .NET is
+- Can explain the difference between .NET Core and Framework
 - Can explain what the .NET Standard is
 - Can explain the difference between C#, Visual Basic and F#
 - Can explain what assemblies and artefacts are
