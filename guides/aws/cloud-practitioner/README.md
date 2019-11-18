@@ -55,7 +55,7 @@ To answer the questions above, we have compiled a list of resources that we thin
 It is important to note that there are different methodologies of studying. Hence, choose whichever resources you think would work best for you.
 
 ##### AWS Whitepapers
-* [Overview of Amazon Web Services](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
+* [Overview of Amazon Web Services](https://d1.awsstatic.com/whitepapers/aws-overview.pdf?did=wp_card&trk=wp_card)
 * [Architecting for the Cloud: AWS Best Practices](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
 * [How AWS Pricing Works](http://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
 * [Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans)
