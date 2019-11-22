@@ -106,7 +106,7 @@ You will need to TDD a feature which interacts with a remote service of your cho
 {% include assessment_container.html name="Wolf" description=wolf_description img="./wolf.jpg" %}
 
 {% capture dragon_description %}
-Review, refactor and improve an existing test suite.
+Review, refactor and improve an [existing test suite](https://github.com/madetech/core-skill-tdd/tree/master/ruby-chirper).
 
 - Can identify smells within the sample apps test code.
   - Required - Can list and explain three valid smells per the invigilator's guide.
