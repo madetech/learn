@@ -34,6 +34,7 @@ or one that already exists, see: [https://github.com/toddmotto/public-apis](http
 1. [React - Why and when?](./why-and-when.md)
 2. [Setting up a React project](./setup.md)
 3. [React Fundamentals](./fundamentals/README.md)
+4. [Functional and Class Components](./functional-and-class.md)
 {% endcapture %}
 {% include skill_resources.html resources=resources %}
 
