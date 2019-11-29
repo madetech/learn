@@ -81,10 +81,11 @@ During the assessment, the reviewer will go through your application with you, a
 
 - The candidate has created an application which contains a component:
     - That uses makes use of the `key` prop
-    - Without any props of state
     - Which makes use of a function passed in as a prop
     - Which renders differently based on state
+    - Without any state
     - Which changes state in response to an onClick event
+    - Which makes use of `useState()` within a functional component
     - Which has been styled without the use of global styles
     - A component which renders differently based on the following prop types being passed in:
       - A boolean
