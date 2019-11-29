@@ -20,11 +20,11 @@ during Learn Tech and brought along with you, and the second being questions to 
 Each section of the mark scheme will be separated into their respective categories.
 
 Example answers for the questions can be found on the hidden marking guide; however, we do not require exact matches. It
-is up to the assessor to determine whether or not the candidate has adequetly answered the question.
+is up to the assessor to determine whether or not the candidate has adequately answered the question.
 
 ### The Application
 
-Build an app which communicates with an API, either one you write your own (you dont need to implement the API)
+Build an app which communicates with an API, either one you write your own (you don't need to implement the API)
 or one that already exists, see: [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis)
 
 {% endcapture %}
@@ -118,6 +118,7 @@ The candidate should create a React application which satisfies the following.
   - Candidate should showcase their component to assessor.
   - Candidate should walk assessor through tests which give maintainers confidence
     that the component displays data from an API.
+  - This should be a functional component
 - Has a form component which takes information from the user and submits said information
   to an API.
   - Showcase the form component to the assessor.
