@@ -59,6 +59,7 @@ The candidate can describe:
 
 - Situations where React would be beneficial
 - What a React component is
+- The difference between a functional and class component
 - What component props are
 - What component state is
 - What `props.children` refers to
@@ -66,6 +67,7 @@ The candidate can describe:
 - One approach to styling react components
 - What causes a component to rerender
 - A lifecycle method that you can hook into and perform actions on
+- What methods might you use in a functional component to hook into the component lifecycle
 - How to manage state shared between multiple components, avoiding passing state between many components
 {% endcapture %}
 {% include assessment_container.html name="Hedgehog" description=hedgehog_description img="./hedgehog.png" %}
