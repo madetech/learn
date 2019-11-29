@@ -1,11 +1,11 @@
 # Setup
 
-NB: Whilst there is always many alternatives to the following tools, they are the ones we use most often and have the most experience with, and will be using in our examples. 
+NB: Whilst there is always many alternatives to the following tools, they are the ones we use most often and have the most experience with, and will be using in our examples.
 
 ## Testing tools
 
 If you have created your application with [Create React App](https://facebook.github.io/create-react-app/)
-you may already have some of the following tools installed. 
+you may already have some of the following tools installed.
 
 - [Jest](https://jestjs.io/en/)
   - This our main testing framework

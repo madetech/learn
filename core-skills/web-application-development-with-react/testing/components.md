@@ -27,7 +27,9 @@ test failures.
 
 ### Enzyme - Mount vs Shallow
 
-<< mount vs shallow, mount is more consistent as shallow is similar to mocking classes you don't own >>
+Using shallow only renders the component you have specified and does not render any of the child components. This method of rendering for tests is preferred as it allows us test the behaviour of a component in isolation.
+
+Using mount will render the full DOM along with the child components of the component we are testing.
 
 ## Testing Examples
 
@@ -56,12 +58,12 @@ export default props => <div data-test="name">{props.name}</div>;
 
 ```jsx
 import React from "react";
-import { mount } from "enzyme";
+import { shallow } from "enzyme";
 import NameDisplay from ".";
 
 describe("<NameDisplay>", () => {
   it("Displays the name on the page", () => {
-    let display = mount(<NameDisplay name="Test" />);
+    let display = shallow(<NameDisplay name="Test" />);
 
     expect(display.find({ "data-test": "name" }).text()).toEqual("Test");
   });
@@ -119,18 +121,18 @@ export default class ClickCounter extends React.Component {
 
 ```jsx
 import React from "react";
-import { mount } from "enzyme";
+import { shallow } from "enzyme";
 import ClickCounter from ".";
 
 describe("<ClickCounter>", () => {
   it("Displays an initial count of 0", () => {
-    let counter = mount(<ClickCounter />);
+    let counter = shallow(<ClickCounter />);
 
     expect(counter.find({ "data-test": "total-count" }).text()).toEqual("0");
   });
 
   it("Increments the count when clicking the button", () => {
-    let counter = mount(<ClickCounter />);
+    let counter = shallow(<ClickCounter />);
 
     counter.find({ "data-test": "increment-button" }).simulate("click");
 
