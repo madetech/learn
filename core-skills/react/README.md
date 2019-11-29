@@ -46,7 +46,6 @@ or one that already exists, see: [https://github.com/toddmotto/public-apis](http
 
 The candidate has:
 
-- Created an application that is independent of the node install on the candidates machine
 - A make recipe for serve, which runs the application in development mode
 - A make recipe for test, which runs the tests for the application
 - A sandbox environment which allows them to quickly prototype components
