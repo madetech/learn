@@ -58,7 +58,7 @@ The candidate has:
 The candidate can describe:
 
 - Situations where React would be beneficial
-- What a React component is
+- What React components are
 - The difference between a functional and class component
 - What component props are
 - What component state is
