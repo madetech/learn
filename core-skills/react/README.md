@@ -82,7 +82,7 @@ During the assessment, the reviewer will go through your application with you, a
 #### Application - Mark scheme
 
 - The candidate has created an application which contains a component:
-    - That uses makes use of the `key` prop
+    - That makes use of the `key` prop
     - Which makes use of a function passed in as a prop
     - Which renders differently based on state
     - Without any state
@@ -98,7 +98,8 @@ During the assessment, the reviewer will go through your application with you, a
 
 The candidate can describe:
 
-- What the `key` prop is used for.
+- What the `key` prop is used for
+- The difference between state in functional components versus class components
 {% endcapture %}
 {% include assessment_container.html name="Fox" description=fox_description img="./fox.png" %}
 
