@@ -24,7 +24,7 @@ is up to the assessor to determine whether or not the candidate has adequately a
 
 ### The Application
 
-Build an app which communicates with an API, either one you write your own (you don't need to implement the API)
+Build an app which communicates with an API, either one you write yourself or an external one (you don't need to implement the API)
 or one that already exists, see: [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis)
 
 {% endcapture %}
