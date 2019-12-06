@@ -55,7 +55,7 @@ Expected deliverable - simple application with a test that satisfies the above
 ### Goat
 
 - Can explain the concept of generics and generic type constraints with examples of usage
-- Can explain the concept of abstraction with examples of usage
+- Can explain the usage of the abstract, virtual, and override keywords with examples
 - Can explain the concept of polymorphism with examples of usage
 
 - Can demonstrate using the `dotnet` command line utility to build and run the project and tests
