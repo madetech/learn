@@ -29,7 +29,7 @@ test failures.
 
 Using shallow only renders the component you have specified and does not render any of the child components. This method of rendering for tests is preferred as it allows us test the behaviour of a component in isolation.
 
-Using mount will render the full DOM along with the child components of the component we are testing.
+Using mount will render the full DOM along with the child components of the component we are testing. Mount is typically best used when you want to test component lifecycle methods.
 
 ## Testing Examples
 
