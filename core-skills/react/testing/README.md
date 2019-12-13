@@ -7,5 +7,3 @@ requires strategies you'd apply to more typical frontend testing.
 
 1. [Setup](./setup.md)
 2. [Unit testing react components](./components.md)
-<!-- 3. [Unit testing vanilla Javascript](./vanilla.md) -->
-<!-- 4. [Acceptance testing your application](./acceptance.md) -->
