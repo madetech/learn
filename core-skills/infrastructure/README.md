@@ -59,8 +59,7 @@ There is a cloud-hosted public web server that talks to a backend API in a  priv
 
 1. Explain what maintenance overhead IP Whitelisting adds for future developers?
 2. Explain the security problems with using only IP Whitelisting for authentication? 
-3. In a cloud environment, what way other ways (other than IP whitelisting) can be used to grant a server access through a firewall?
-
+3. What are the benefits of investing in monitoring and alerting in software environments? 
 
 #### Practical
 
