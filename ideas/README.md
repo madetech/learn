@@ -23,7 +23,7 @@ Go and do some Katas, either the ones [in this repository](../katas).
 
 Or from one of the following sources:
 
-* [Coding Dojo Kata](https://codingdojo.org/kata/)
+* [Coding Dojo Kata](http://codingdojo.org/kata/)
 * [sleepyfox London Code Dojo](https://github.com/sleepyfox?utf8=%E2%9C%93&tab=repositories&q=dojo)
 * [Code Kata](http://codekata.com/)
 
@@ -33,7 +33,7 @@ It goes without saying, but code katas are meant to be repeated.
 
 Each time, you should focus on honing a particular part of your skill set.
 
-You will pick up new knowledge as you finish workshops and seminars. 
+You will pick up new knowledge as you finish guides and seminars.
 
 Focus on applying that new knowledge in practice.
 
@@ -67,15 +67,15 @@ Watch screencasts and other programming related videos
 * [Clean Coders](https://cleancoders.com/videos)
 * [Rails Casts](http://railscasts.com/) some _free videos are outdated_
 
-### Go back over workshops
+### Go back over guides
 
-Can you apply the knowledge you picked up in a previous workshop or seminar in a new project.
+Can you apply the knowledge you picked up in a previous tutorial or seminar in a new project.
 
 Do you need to follow the guide, or can you remember what to do?
 
 ### Shadow others
 
-If you're currently not on a delivery team. 
+If you're currently not on a delivery team.
 If possible, arrange to shadow a team actively developing software.
 
 ### Code Review
@@ -99,5 +99,4 @@ Remember:
 * ATDD your code
 * Refactor relentlessly
 * Put into practice your ever growing knowledge
-* Ask for help when stuck 
-
+* Ask for help when stuck

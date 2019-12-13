@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  check_links:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - run:
+          name: check links
+          command: npx broken-link-checker https://learn.madetech.com --exclude microsoft --exclude linkedin --exclude codewars.com -ro  
+workflows:
+  version: 2
+  weekly_checks:
+    triggers:
+      - schedule:
+          cron: "0 0 * * 0"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - check_links

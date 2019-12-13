@@ -6,4 +6,4 @@ Like a word processor, break the line by replacing the last space in a line with
 
 ## References
 
-[codingdojo.org](https://codingdojo.org/kata/WordWrap/)
+[codingdojo.org](http://codingdojo.org/kata/WordWrap/)

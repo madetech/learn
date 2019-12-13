@@ -4,41 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico?v=" | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
 
 {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/madetech-frontend.min.css?v=" | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <![endif]-->
+
+  <link rel="stylesheet" href="{{ "/assets/css/madetech-frontend.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" }}">
 </head>
 
 <body>
   <div class="top_bar">
     <div class="top_bar__inner">
       <div class="container">
-        <div class="d-md-flex justify-content-md-between">
-          <div class="d-none d-md-block">
-            Improving software delivery in every organisation
-          </div>
+        <div class="row d-md-flex justify-content-center justify-content-md-between">
+          <div class="d-none d-md-block">Improving software delivery in every organisation</div>
 
           <nav>
-            <span class="top_bar__item">
-              <a href="https://www.madetech.com">Who are Made Tech?</a>
-            </span>
-
-            <span class="top_bar__item">
-              <a href="https://www.madetech.com/blog">Blog</a>
-            </span>
-
-            <span class="top_bar__item">
-              <a href="https://learn.madetech.com">Learn</a>
-            </span>
-
-            <span class="top_bar__item">
-              <a href="https://www.madetech.com/careers">Careers</a>
-            </span>
+            <span class="top_bar__item"><a href="https://www.madetech.com/">Who are Made Tech?</a></span>
+            <span class="top_bar__item"><a href="https://www.madetech.com/blog">Blog</a></span>
+            <span class="top_bar__item"><a href="https://www.madetech.com/careers">Careers</a></span>
+            <span class="top_bar__item"><a href="https://www.madetech.com/contact">Contact Us</a></span>
           </nav>
         </div>
       </div>
@@ -47,33 +32,38 @@
 
   <header class="header">
     <div class="header__inner">
-      <div class="navbar navbar-expand p-0 flex-column flex-lg-row">
-        <div class="navbar-brand mr-lg-auto">
-          <a href="{{ "/" | relative_url }}" class="header__logo_link">
-            <span class="header_logo_type">
-              <span class="header_logo_type__text">Learn&hairsp;Tech</span>
-              <span class="px-3">by</span>
-              <img alt="Made Tech" itemProp="logo" src="{{ "/assets/images/made-tech-logo-colour.png" | relative_url }}" width="120px" />
-            </span>
-          </a>
+      <nav class="p-0 flex-column flex-lg-row navbar navbar-expand">
+        <div class="mr-lg-auto">
+          <div class="header__logo">
+            <a href="{{ "/" | relative_url }}" class="header__logo_link">
+              <div class="header_logo_type--by">
+                <span class="header_logo_type__text">Learn Tech</span>
+                <span class="px-3">by</span>
+                <span class="position-relative" style="top: -2px;">
+                  <img alt="Made Tech" itemprop="logo" src="{{ "/assets/images/made-tech-logo-colour.png" | relative_url }}" width="120px">
+                </span>
+              </div>
+            </a>
+          </div>
         </div>
-
         <div class="header_nav">
-          <nav class="navbar-nav align-items-center">
-            <a href='{{ "/" | absolute_url }}' class='nav-link'>
-              Getting Started
-            </a>
+          <div class="header_nav__inner">
+            <nav class="navbar-nav align-items-center">
+              <a href="{{ "/" | relative_url }}" class="nav-link">
+                Home
+              </a>
 
-            <a href='{{ site.github.repository_url }}' class='nav-link'>
-              GitHub
-            </a>
-          </nav>
+              <a href="{{ site.github.repository_url }}" class="nav-link">
+                GitHub
+              </a>
+            </nav>
+          </div>
         </div>
-      </div>
+      </nav>
     </div>
   </header>
 
-  <main class="container mt-5">
+  <main class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         {{ content }}
@@ -81,27 +71,20 @@
     </div>
   </main>
 
-  <div class="sales-banner">
-    <h3>How effective is your business at software delivery?</h3>
-    <p>
-      Answer these 20 questions and find out where the principal software delivery challenges lie within your organisation.
-    </p>
-    <a href="https://madetech.typeform.com/to/d2Emvz" class="cta-button">Get started now</a>
-  </div>
-
   <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
-          © <span itemProp="copyrightYear">2018</span> <span itemProp="copyrightHolder" itemScope itemType="http://schema.org/Organization"><span itemProp="name">Made Tech Limited.</span></span>
+          © <span itemprop="copyrightYear">2019</span>
+          <span itemprop="copyrightHolder" itemscope="" itemtype="http://schema.org/Organization">
+            <span itemprop="name">Made Tech Limited.</span>
+          </span>
         </div>
-
         <div class="col-7 col-lg-4 text-left text-lg-center">
           <a class="footer__logo" href="https://www.madetech.com" rel="home">
-            <img src="{{ "/assets/images/made-tech-logo-wht.png" | relative_url }}" height="25" alt="Made Tech" />
+            <img src="{{ "/assets/images/made-tech-logo-wht.png" | relative_url }}" height="25" alt="Made Tech">
           </a>
         </div>
-
         <nav class="col-5 col-lg-4 text-right">
           <a class="footer__social_link" href="https://www.madetech.com/ext/linkedin">
             <img src="{{ "/assets/images/icons/linkedin.svg" | relative_url }}" alt="LinkedIn" height="25" />
@@ -124,16 +107,5 @@
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous"></script>
   <script src="{{ "/assets/js/madetech-frontend.js" | relative_url }}"></script>
-
-  {% if site.google_analytics %}
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google_analytics }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-  {% endif %}
 </body>
 </html>

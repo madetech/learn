@@ -2,271 +2,100 @@
 ---
 @charset "UTF-8";
 
-.navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
-  color: #000;
+.DeliveryImage, .ProductImage, .DesignImage {
+  width: 500px;
+  max-width: 100%;
 }
 
-main {
-  > .highlighter-rouge {
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 6%;
-    padding-right: 6%;
-    background-color: rgba(136, 226, 101, 0.122);
-
-    .highlight {
-      background: transparent;
-    }
-  }
-
-  @media only screen and (max-width: 900px) {
-    > .highlighter-rouge {
-      padding-left: 12%;
-      padding-right: 12%;
-    }
-  }
-}
-
-.sales-banner {
-  background: linear-gradient(to bottom right, #439a63 0%,#00ce5f 100%);
-  margin: 0;
-  padding: 40px 20px;
-  text-align: center;
-  color: #fff;
-
-  p {
-    margin-left: 12%;
-    margin-right: 12%;
-  }
-
-  .cta-button {
-    border: 1px solid rgba(255,255,255,0.5);
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 20px;
-    height: 50px;
-    line-height: 50px;
-    padding: 12px 23px;
-    color: white;
-    &:hover {
-      background: white;
-      color: #439a63;
-    }
-  }
-}
-
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
-.highlight .cm {
-  color: #999988;
-  font-style: italic;
-}
-.highlight .cp {
-  color: #999999;
-  font-weight: bold;
-}
-.highlight .c1 {
-  color: #999988;
-  font-style: italic;
-}
-.highlight .cs {
-  color: #999999;
-  font-weight: bold;
-  font-style: italic;
-}
-.highlight .c, .highlight .cd {
-  color: #999988;
-  font-style: italic;
-}
-.highlight .err {
-  color: #a61717;
-  background-color: #e3d2d2;
-}
-.highlight .gd {
-  color: #000000;
-  background-color: #ffdddd;
-}
-.highlight .ge {
-  color: #000000;
-  font-style: italic;
-}
-.highlight .gr {
-  color: #aa0000;
-}
-.highlight .gh {
-  color: #999999;
-}
-.highlight .gi {
-  color: #000000;
-  background-color: #ddffdd;
-}
-.highlight .go {
-  color: #888888;
-}
-.highlight .gp {
-  color: #555555;
-}
-.highlight .gs {
-  font-weight: bold;
-}
-.highlight .gu {
-  color: #aaaaaa;
-}
-.highlight .gt {
-  color: #aa0000;
-}
-.highlight .kc {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .kd {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .kn {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .kp {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .kr {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .kt {
-  color: #445588;
-  font-weight: bold;
-}
-.highlight .k, .highlight .kv {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .mf {
-  color: #009999;
-}
-.highlight .mh {
-  color: #009999;
-}
-.highlight .il {
-  color: #009999;
-}
-.highlight .mi {
-  color: #009999;
-}
-.highlight .mo {
-  color: #009999;
-}
-.highlight .m, .highlight .mb, .highlight .mx {
-  color: #009999;
-}
-.highlight .sb {
-  color: #d14;
-}
-.highlight .sc {
-  color: #d14;
-}
-.highlight .sd {
-  color: #d14;
-}
-.highlight .s2 {
-  color: #d14;
-}
-.highlight .se {
-  color: #d14;
-}
-.highlight .sh {
-  color: #d14;
-}
-.highlight .si {
-  color: #d14;
-}
-.highlight .sx {
-  color: #d14;
-}
-.highlight .sr {
-  color: #009926;
-}
-.highlight .s1 {
-  color: #d14;
-}
-.highlight .ss {
-  color: #990073;
-}
-.highlight .s {
-  color: #d14;
-}
-.highlight .na {
-  color: #008080;
-}
-.highlight .bp {
-  color: #999999;
-}
-.highlight .nb {
-  color: #0086B3;
-}
-.highlight .nc {
-  color: #445588;
-  font-weight: bold;
-}
-.highlight .no {
-  color: #008080;
-}
-.highlight .nd {
-  color: #3c5d5d;
-  font-weight: bold;
-}
-.highlight .ni {
-  color: #800080;
-}
-.highlight .ne {
-  color: #990000;
-  font-weight: bold;
-}
-.highlight .nf {
-  color: #990000;
-  font-weight: bold;
-}
-.highlight .nl {
-  color: #990000;
-  font-weight: bold;
-}
-.highlight .nn {
-  color: #555555;
-}
-.highlight .nt {
-  color: #000080;
-}
-.highlight .vc {
-  color: #008080;
-}
-.highlight .vg {
-  color: #008080;
-}
-.highlight .vi {
-  color: #008080;
-}
-.highlight .nv {
-  color: #008080;
-}
-.highlight .ow {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .o {
-  color: #000000;
-  font-weight: bold;
-}
-.highlight .w {
-  color: #bbbbbb;
-}
-.highlight {
-  background-color: #f8f8f8;
+.TechnologyImage {
+  width: 500px;
+  max-width: 100%;
+  height: 325px;
+  max-height: 100%;
 }
 
 .container img {
   max-width: 100%;
+}
+
+.Assessment {
+  margin: 1%;
+  display: inline-block;
+  max-width: 29%;
+}
+.Assessment[open] {
+  max-width: 100%;
+}
+.Assessment[open] .BadgeImg {
+  max-width: 50%;
+}
+.Assessment[open] .Name {
+  font-size: 2em;
+}
+
+.Assessment:not([open]) summary {
+  text-align: center;
+}
+/*When hovering over the summary*/
+.Assessment:not([open]) summary .BadgeImg {
+  padding: 10%;
+}
+.Assessment:not([open]) summary:hover .BadgeImg {
+  padding: 0;
+}
+
+/* Hides default decoration for summaries */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary {
+  list-style-type: none;
+}
+
+.Assessment > ul > li {
+  margin-top: -0.5em;
+  padding: 0.5em;
+}
+.Assessment li li {
+  font-style: italic;
+}
+
+.ven-diagram{
+  height: 350px;
+  margin-top: 1%;
+}
+
+.card-border {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.padding-left {
+  margin-left: 50px;
+}
+
+.ven-diagram-section {
+  background-color: #fcfcfc;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 0;
+  height: 400px;
+}
+
+@media only screen and (min-width: 1080px) {
+  aside {
+    margin-left: -35%;
+    top: 3em;
+    float: left;
+    position: absolute;
+    max-width: 30%;
+  }
+
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
