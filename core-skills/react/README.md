@@ -20,11 +20,11 @@ during Learn Tech and brought along with you, and the second being questions to 
 Each section of the mark scheme will be separated into their respective categories.
 
 Example answers for the questions can be found on the hidden marking guide; however, we do not require exact matches. It
-is up to the assessor to determine whether or not the candidate has adequetly answered the question.
+is up to the assessor to determine whether or not the candidate has adequately answered the question.
 
 ### The Application
 
-Build an app which communicates with an API, either one you write your own (you dont need to implement the API)
+Build an app which communicates with an API, either one you write yourself or an external one (you don't need to implement the API)
 or one that already exists, see: [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis)
 
 {% endcapture %}
@@ -47,7 +47,6 @@ or one that already exists, see: [https://github.com/toddmotto/public-apis](http
 
 The candidate has:
 
-- Created an application that is independent of the node install on the candidates machine
 - A make recipe for serve, which runs the application in development mode
 - A make recipe for test, which runs the tests for the application
 - A sandbox environment which allows them to quickly prototype components
@@ -59,7 +58,8 @@ The candidate has:
 The candidate can describe:
 
 - Situations where React would be beneficial
-- What a React component is
+- What React components are
+- The difference between a functional and class component
 - What component props are
 - What component state is
 - What `props.children` refers to
@@ -67,6 +67,7 @@ The candidate can describe:
 - One approach to styling react components
 - What causes a component to rerender
 - A lifecycle method that you can hook into and perform actions on
+- What methods might you use in a functional component to hook into the component lifecycle
 - How to manage state shared between multiple components, avoiding passing state between many components
 {% endcapture %}
 {% include assessment_container.html name="Hedgehog" description=hedgehog_description img="./hedgehog.png" %}
@@ -81,11 +82,13 @@ During the assessment, the reviewer will go through your application with you, a
 #### Application - Mark scheme
 
 - The candidate has created an application which contains a component:
-    - That uses makes use of the `key` prop
-    - Without any props of state
+    - That makes use of the `key` prop
     - Which makes use of a function passed in as a prop
     - Which renders differently based on state
+    - Without any state
     - Which changes state in response to an onClick event
+    - Which makes use of `useState()` within a functional component
+    - Which overloads life cycle methods within a class component
     - Which has been styled without the use of global styles
     - A component which renders differently based on the following prop types being passed in:
       - A boolean
@@ -96,7 +99,8 @@ During the assessment, the reviewer will go through your application with you, a
 
 The candidate can describe:
 
-- What the `key` prop is used for.
+- What the `key` prop is used for
+- The difference between state in functional components versus class components
 {% endcapture %}
 {% include assessment_container.html name="Fox" description=fox_description img="./fox.png" %}
 
@@ -119,6 +123,7 @@ The candidate should create a React application which satisfies the following.
   - Candidate should showcase their component to assessor.
   - Candidate should walk assessor through tests which give maintainers confidence
     that the component displays data from an API.
+  - This should be a functional component
 - Has a form component which takes information from the user and submits said information
   to an API.
   - Showcase the form component to the assessor.
