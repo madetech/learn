@@ -138,3 +138,7 @@ describe("<ClickCounter>", () => {
   });
 });
 ```
+
+### Example three - Separating logic from rendering
+
+Testing a component which fetches data from an API and renders that data.
