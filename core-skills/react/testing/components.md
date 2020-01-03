@@ -34,13 +34,9 @@ Using mount will render the full DOM along with the child components of the comp
 ## Testing Examples
 
 Here are some examples of components and their tests, ranging from very simple (A stateless component
-which simply renders out text), to more complex components.
+which simply renders out text), to more complex components. In addition, example 3 shows a strategy of separating components into logic handling and rendering, in order to more easily test them.
 
 Before reading these it would be a good idea to familiarise yourself with Enzyme, as we will be using that heavily in these examples.
-
-These tests are also hosted on [Github]('https://github.com/madetech/react-testing-examples')
-
-<< note: pull the techniques (eg data test) into a separate section/file? >>
 
 ### Example one - A component which displays a name
 
