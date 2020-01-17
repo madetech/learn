@@ -65,7 +65,7 @@ There is a cloud-hosted public web server that talks to a backend API in a  priv
 
 #### Practical
 
-- Create infrastructure as code project (e.g. terraform) that can setup and teardown the following:
+- You will need to shown and demonstare a infrastructure as code project (e.g. terraform) that can setup and teardown the following:
   - 2 file storage buckets (or azure blob storage containers)
   - A new user with a set of access credentials that only has permission to retrieve (not list or modify) files in **one** bucket
   - Enable request monitoring on the bucket so that the assessor can get the number of HTTP GET requests made to bucket over time.
