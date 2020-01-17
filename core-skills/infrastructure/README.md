@@ -17,11 +17,13 @@ Demonstrate understanding of:
 
 ## Assessments
 
-### Level 1
+*The infra badge assessments are designed to be undertaken in any order, Spider is recommended to be taken first*
+
+### Ant (Level 1)
 
 #### Brief
 
-Be able to set up a highly available, internet facing web application.
+Be able to set up a highly available, internet-facing web application.
 
 #### Theory
 
@@ -37,20 +39,20 @@ You will be provided a Linux Container Image, though you can use your own if you
 - Run the image with your choice of IaaS.
 - Make the service highly available
 - Draw a diagram of your infrastructure
-- Demonstrate that you can remove an instance, and your infrastructure will self heal
+- Demonstrate that you can remove an instance, and your infrastructure will self-heal
 - Demonstrate that you can roll out a new deployment without causing any downtime.
   Use the provided [downtime detection script][downtime-script].
 
 
-### Level 2
+### Spider (Level 2)
 Be able to make secure cloud applications and services.
 
 #### Brief
 
-Resouces:
+Resources:
 - http://progressivecoder.com/understanding-aws-security-groups-and-best-practices-to-use-them/
 - https://www.jakoblell.com/blog/2013/08/13/quick-blind-tcp-connection-spoofing-with-syn-cookies/
-- - no need to read this entire article ^ section V is relevent
+- - no need to read this entire article ^ section V is relevant
 
 #### Theory
 
@@ -68,7 +70,7 @@ There is a cloud-hosted public web server that talks to a backend API in a  priv
   - A new user with a set of access credentials that only has permission to retrieve (not list or modify) files in **one** bucket
   - Enable request monitoring on the bucket so that the assessor can get the number of HTTP GET requests made to bucket over time.
 
-### Level 3
+### Bee (Level 3)
 
 #### Brief
 
@@ -81,7 +83,7 @@ There is a cloud-hosted public web server that talks to a backend API in a  priv
 ### Provider requirements
 
 There are certain providers, usually PaaS only providers, that do not offer the
-functionality we require for testing people on all the above aspects.
+the functionality we require for testing people on all the above aspects.
 
 As such, we recommend avoiding solutions that hide:
  
