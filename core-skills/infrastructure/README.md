@@ -69,6 +69,7 @@ There is a cloud-hosted public web server that talks to a backend API in a  priv
   - 2 file storage buckets (or azure blob storage containers)
   - A new user with a set of access credentials that only has permission to retrieve (***not list or modify**) files in **one** bucket
   - Enable request monitoring on the bucket so that the assessor can get the number of HTTP GET requests made to bucket over time.
+  - You will be asked to setup and take down you infa
 
 ### Bee (Level 3)
 
