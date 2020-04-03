@@ -12,9 +12,9 @@ Test suite performance is also an indicator of structural defects.
 
 ## Reading Materials
 
-* http://blog.ploeh.dk/2012/05/24/TDDtestsuitesshouldrunin10secondsorless/
-* https://qualitycoding.org/slow-tests/
-* https://www.amazon.co.uk/dp/0131177052
+* [http://blog.ploeh.dk/2012/05/24/TDDtestsuitesshouldrunin10secondsorless/](http://blog.ploeh.dk/2012/05/24/TDDtestsuitesshouldrunin10secondsorless/)
+* [quality coding slow tests (link currently broken - april 2020)](https://qualitycoding.org/slow-tests/)
+* [Working Effectively with Legacy Code - book on amazon.co.uk](https://www.amazon.co.uk/dp/0131177052)
 
 ## Marking scheme
 
