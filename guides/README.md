@@ -12,4 +12,5 @@
 * [Polymorphism Tutorial](./09-Polymorphism) _oo, polymorphism_
 * [Database Tutorial](./10-Database) _relational, sql, database, migration, postgresql_
 * [Docker Tutorial](./11-Docker) _docker, containerization, docker-compose_
+* [Pull Requests](./12-Pull-Requests) _git, github_
 * [AWS Certified Cloud Practitioner Playbook](./aws/cloud-practitioner) _cloud concepts_
