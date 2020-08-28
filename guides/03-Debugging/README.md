@@ -1,8 +1,29 @@
-# Troubleshooting and Debugging
+# Debugging
+*"90% of coding is debugging. The other 10% is writing bugs" - Bram Cohen*  
+
+Code is seldom correct the first time it's written, so we must employ 
+debugging techniques in order to understand why code is misbehaving.
+This guide will help you to gain an understanding of why bugs happen, and
+to get comfortable debugging your code as well as code others have written.
+
+## To Do
+You'll want to pair up with someone so that you can discuss your learning 
+and share ideas when working through the exercises, two heads are better
+than one!  
+
+Make sure you have the `make` utility installed:
+ - On MacOS you'll need to install Xcode Command Line Tools you can do this 
+ by entering the command `xcode-select --install`
+ - On Ubuntu GNU Make is bundled as part of the Build Essentials package,
+  you can install this by entering the command
+  `sudo apt-get install build-essential`
+
+# Exercises
 
 ## 1. Stacktraces
 
-In the given stacktrace identify the most likely source of the error:
+Identify the most likely source of error based on the following
+ stacktrace:
 ```console
 NoMethodError: undefined method `title' for nil:NilClass
   from lib/acme_limited/use_cases/all_resources.rb:10:in `block in call'
@@ -24,17 +45,18 @@ NoMethodError: undefined method `title' for nil:NilClass
   from action_controller/metal/instrumentation.rb:32:in `block in process_action'
 ```
 
-Outline the process you would follow to try to resolve the above error.
+Outline the process you would follow to try to resolve the above error. 
+Take a minute to speculate as to what caused the programmer to introduce
+ this bug, put yourself in their shoes.
 
 ## 2. Practice
 
-It's possible you will encounter legacy projects which you need to run, and may contain bugs.
+You will inevitably encounter legacy projects with bugs. In some cases, you
+may not be able to trust the code as naming and behaviour may not line up. A
+`read_file()` method may do something unexpected, such as reading *and* writing back to a file, or reading from a database.
 
-In some cases, you may not be able to trust the code - naming and behaviour might not line up. A `read_file` method might read AND write back to a file, or read from a database instead.
-
-Assumptions are dangerous. If the results you are getting are confusing, try to examine and investigate what you might be assuming.
-
-Use a disciplined approach - ask yourself if you've made an assumption, and test those assumptions one by one.
+Assumptions can be dangerous, if the results you're getting are confusing
+think about the assumptions you're making and test them one by one.
 
 ## 2.1 Understand and get it running
 
@@ -48,15 +70,13 @@ Use Make to run the tests, fix the code as you see fit.
 
 ### Make?
 
-Woah, we've just introduced a new tool: `Make`.
-
-Run `$ man make` and have a read.
-
-* Describe to your pair what you think it does. Do you both agree?
+Run the command `man make` and have a read. Discuss what you think it does,
+do you both agree?
 
 ## 2.2 Deliver some value
 
-Now you have it running, and the tests are passing have a look at how it looks in the browser.
+Now that you have it running and the tests are passing, have a look at how
+it looks in the browser.
 
 Identify issues and create a backlog of problems on post it notes.
 
@@ -64,16 +84,17 @@ Work through the issue you think is of the highest priority to a potential user.
 
 # 3. Build deeper knowledge 
 
-What are some steps you could take to resolve errors in a gem?
+What are some steps you could take to resolve errors and why? How can you 
+decide which steps to take first?
 
-Identify some methods of debugging errors in production application.
+Identify some methods of debugging errors in production applications. 
 
 ## Resources
 
-- https://gorails.com/episodes/debugging-how-to-interpret-a-stacktrace
-- https://rollbar.com/blog/ruby-exception-handling-guide/
-- http://railscasts.com/episodes/24-the-stack-trace
-- https://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer.html
-- https://gist.github.com/lfender6445/9919357
-- http://www.jackkinsella.ie/articles/a-comprehensive-guide-to-debugging-rails
-- http://guides.rubyonrails.org/debugging_rails_applications.html
+- [How to Interpret a Stacktrace](https://gorails.com/episodes/debugging-how-to-interpret-a-stacktrace)
+- [Debugging Rails Applications](http://guides.rubyonrails.org/debugging_rails_applications.html)
+- [I am a puts debuggerer](https://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer.html)
+- [Primer for Dealing with Errors in Ruby](https://rollbar.com/blog/ruby-exception-handling-guide/)
+- [The Stack Trace](http://railscasts.com/episodes/24-the-stack-trace)
+- [Pry Cheat Sheet](https://gist.github.com/lfender6445/9919357)
+- [A Comprehensive Guide To Debugging Rails](http://www.jackkinsella.ie/articles/a-comprehensive-guide-to-debugging-rails)
