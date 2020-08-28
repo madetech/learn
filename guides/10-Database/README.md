@@ -1,6 +1,11 @@
 # Relational Databases
+A large portion of applications use relational databases to store information as
+they allow us to work with large amounts of data efficiently. The general idea 
+is that you can create tables and relations between values in those tables. 
 
 ## Raw SQL
+Structured Query Language (SQL) comes in many dialects, since we're using
+PostgreSQL as our relational database we'll be using the PostgreSQL dialect.
 
 Lets explore databases by directly communicating with them.
 
@@ -427,4 +432,3 @@ These specific pages might be useful to you.
 * [Migrations](http://sequel.jeremyevans.net/rdoc/files/doc/migration_rdoc.html)
 * [Dataset Basics](http://sequel.jeremyevans.net/rdoc/files/doc/dataset_basics_rdoc.html) 
 * [Virtual Row Blocks](http://sequel.jeremyevans.net/rdoc/files/doc/virtual_rows_rdoc.html)
-
