@@ -102,4 +102,3 @@ Compare `git diff` to `git diff --staged`
 - https://git-scm.com/docs/git-bisect
 - https://robots.thoughtbot.com/git-bisect
 - https://robots.thoughtbot.com/code-sleuthing-with-git
-
