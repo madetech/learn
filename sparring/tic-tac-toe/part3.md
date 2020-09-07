@@ -1,6 +1,6 @@
 # Tic Tac Toe: Part 3
 
-Implement the Misère variant of Tic-Tac-Toe
+Implement the [Misère](https://en.wikipedia.org/wiki/Tic-tac-toe_variants#Misere_Tic-tac-toe) variant of Tic-Tac-Toe
 
 ## Rules
 
@@ -8,9 +8,8 @@ Implement the Misère variant of Tic-Tac-Toe
 
 ## Game Features
 
-* The human player should be able to choose between Standard and Misère tic-tac-toe.
+* The user should be able to choose between Standard and Misère tic-tac-toe.
 
 # Part 4
 
-Coming soon!
-
+Once you've implemented Misère continue to [part 4](./part4.md).
