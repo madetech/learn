@@ -1,4 +1,15 @@
 # Command Line Tutorial
+The command line (also referred to as the shell) is a program that allows
+you to enter commands for your computer to run, primarily those that will
+execute other programs.
+
+The command line is the key to the kingdom so to speak, being able to 
+manipulate commands on the command line allows you to an amount of 
+flexibility and speed not available through your system's graphical shell
+at the expense of discoverability.
+
+The command line is typically run within a terminal emulator such as MacOS'
+Terminal.app or Linux's Xterm.
 
 ## Prerequisite Practice
 
@@ -86,7 +97,9 @@ Check that a given environment variable exists by printing its value.
 
 Open a new shell session and check whether the variable still exists.
 
-Modify your `~/.zshrc` file to permanently set an env variable and check that it works in a new shell session.
+Modify your shell's rc file (e.g: `~/.bashrc` for bash) to
+permanently set an env variable and check that it works in a new shell
+session.
 
 List all processes on the system ("ps" command with some extra flags), find out how many processes of Google Chrome are running using grep and wc. Save this number to a file "Challenge 1/chrome.list" using command-line only (redirect the output stream to a file).
 
@@ -99,3 +112,9 @@ Create a directory "Challenge 1/No Change" and remove the permission that allows
 Create a file "Challenge 1/hello.rb" and add the line "puts 'hello, world!'" into it using command line only. Run it by passing its name as an argument to ruby. Make sure it doesn't throw an error.
 
 Now execute it by running it directly (hint: you'll need a ruby shebang + specific permissions).
+
+## Resources
+
+- [Command line vs graphical shells](https://en.wikipedia.org/wiki/Shell_(computing))
+- [rc - The Jargon File](http://www.catb.org/jargon/html/R/rc-file.html)
+- [Xterm](https://en.wikipedia.org/wiki/Xterm)
