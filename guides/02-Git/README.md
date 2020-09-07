@@ -1,6 +1,12 @@
 # Git Tutorial
 
-You will use Git a lot in your professional career as a Software Engineer.
+Writing code is collaborative and requires large amounts of editing sometimes at
+a blistering pace, naturally a number of problems arise as a result of this and
+for those problems we have source control.
+
+Git is a program that provides source control originally written Linus Torvalds
+to replace the controversial use of BitKeeper in the development of Linux. Other
+than Git, you may also encounter Subversion on occasion.
 
 ## To Do
 
@@ -11,11 +17,11 @@ You will use Git a lot in your professional career as a Software Engineer.
 
 What is the purpose of source control?
 
-How does git differ from other source control tools?
+How does Git differ from other source control tools?
 
-Explain the git tree visually
+Explain the Git tree visually
 
-Draw a git tree that has 8 commits, where a branch was created off of the second commit and merged back in after 3 further commits.
+Draw a Git tree that has 8 commits, where a branch was created off of the second commit and merged back in after 3 further commits.
 
 Explain what the difference between `git pull` and `git fetch` is
 
@@ -27,11 +33,11 @@ Draw and explain how `git merge` works compared to `git rebase`
 
 Create a new directory
 
-Create a new git repository
+Create a new Git repository
 
 Add a file with the text "Hello" from the command line
 
-Add this file and commit it using git
+Add this file and commit it using Git
 
 ### 1.1 "Pushing" to GitHub
 
@@ -88,17 +94,13 @@ Compare `git diff` to `git diff --staged`
 
 ## Resources
 
-- https://www.learnenough.com/git-tutorial
-- https://www.atlassian.com/git/guides/merging-vs-rebasing
-- https://try.github.io/levels/1/challenges/1
-- https://www.codecademy.com/learn/learn-git
-- https://thoughtbot.com/upcase/mastering-git
-- https://git-scm.com/
-
-### Additional tools/reading
-
-- https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
-- https://github.com/jonas/tig
-- https://git-scm.com/docs/git-bisect
-- https://robots.thoughtbot.com/git-bisect
-- https://robots.thoughtbot.com/code-sleuthing-with-git
+- [Git](https://git-scm.com/)
+- [Git tutorial](https://www.learnenough.com/git-tutorial)
+- [Merging vs Rebasing](https://www.atlassian.com/git/guides/merging-vs-rebasing)
+- [Git challenges](https://try.github.io/levels/1/challenges/1)
+- [Codecademy - Learn Git](https://www.codecademy.com/learn/learn-git)
+- [Mastering Git](https://thoughtbot.com/upcase/mastering-git)
+- [5 Useful Tips For A Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
+- [Tig - TUI for Git](https://github.com/jonas/tig)
+- [`git bisect` Documentation](https://git-scm.com/docs/git-bisect)
+- [Code Sleuthing with Git](https://robots.thoughtbot.com/code-sleuthing-with-git)
