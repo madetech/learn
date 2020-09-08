@@ -8,8 +8,7 @@ manipulate commands on the command line allows you to an amount of
 flexibility and speed not available through your system's graphical shell
 at the expense of discoverability.
 
-The command line is typically run within a terminal emulator such as MacOS'
-Terminal.app or Linux's Xterm.
+The command line is typically run within a terminal emulator such as MacOS' Terminal.app or Linux's Xterm.
 
 ## Prerequisite Practice
 
