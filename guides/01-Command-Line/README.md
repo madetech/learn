@@ -1,4 +1,4 @@
-# Command Line Tutorial
+# Command Line Guide
 The command line (also referred to as the shell) is a program that allows
 you to enter commands for your computer to run, primarily those that will
 execute other programs.
@@ -10,15 +10,9 @@ at the expense of discoverability.
 
 The command line is typically run within a terminal emulator such as MacOS' Terminal.app or Linux's Xterm.
 
-## Prerequisite Practice
-
-This tutorial assumes you have already worked through the [Setup Tutorial](/guides/00-Setup/README.md).
-
-If you haven't, work through sections 1 and 2 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
-
 ## To Do
-
-* Work through sections 3 & 4 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
+* If you haven't already, work through the [Setup Tutorial](/guides/00-Setup/README.md)
+and sections 1.1-1.4 of [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
 * Test your knowledge by working through the exercises below
 
 Don't forget to use man! For example: `man grep`
