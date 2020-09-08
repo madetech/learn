@@ -12,7 +12,7 @@ The command line is typically run within a terminal emulator such as MacOS' Term
 
 ## To Do
 * If you haven't already, work through the [Setup Tutorial](/guides/00-Setup)
-and sections 1.1 to 1.7 of [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
+and sections 1.1 to 2.4 of [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
 * Test your knowledge by working through the exercises below
 
 Don't forget to use man! For example: `man grep`
@@ -42,7 +42,9 @@ Change into the "Text Files" directory.
 
 Change into a directory one level above (the parent directory).
 
-Create a hierarchy of directories at `./Foo/Bar/folders` in one command (read the man page on mkdir to find out how).
+Create a hierarchy of directories at `./Foo/Bar/folders` in one command. You can read the man page on `mkdir` to find out how to do this. You can find an explanation of `mkdir` [here](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html).
+
+See if you can guess what `rmdir` does. You can find an explanation of `rmdir` [here](http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html). Have a go at using it.
 
 List a directory in a short format.
 

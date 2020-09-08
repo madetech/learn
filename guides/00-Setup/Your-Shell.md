@@ -26,7 +26,7 @@ There is an exhaustive guide [here](https://rick.cogley.info/post/use-homebrew-z
 
 ## To Do
 
-* Work through section 1.4, 1.5 and 1.6 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Summary").
+* Work through section 1.4, 1.5 and 1.6, 2.1, 2.2 and 2.3 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Summary").
 * Install an alternative shell (zsh)
 * Install some plugins (oh-my-zsh)
 * Make zsh your default shell
