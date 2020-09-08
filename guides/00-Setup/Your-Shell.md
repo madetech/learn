@@ -26,7 +26,7 @@ There is an exhaustive guide [here](https://rick.cogley.info/post/use-homebrew-z
 
 ## To Do
 
-* Work through section 1.4, 1.5 and 1.6, 2.1, 2.2 and 2.3 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Summary").
+* Work through section [1.4](https://www.learnenough.com/command-line-tutorial/basics#sec-man_pages), [1.5](https://www.learnenough.com/command-line-tutorial/basics#sec-editing_the_line) and [1.6](https://www.learnenough.com/command-line-tutorial/basics#sec-cleaning_up), [2.1](https://www.learnenough.com/command-line-tutorial/manipulating_files#sec-redirecting_and_appending), [2.2](https://www.learnenough.com/command-line-tutorial/manipulating_files#sec-listing) and [2.3](https://www.learnenough.com/command-line-tutorial/manipulating_files#sec-renaming_copying_deleting) in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) (just before "Summary").
 * Install an alternative shell (zsh)
 * Install some plugins (oh-my-zsh)
 * Make zsh your default shell
