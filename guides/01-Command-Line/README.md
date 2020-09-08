@@ -11,7 +11,7 @@ at the expense of discoverability.
 The command line is typically run within a terminal emulator such as MacOS' Terminal.app or Linux's Xterm.
 
 ## To Do
-* If you haven't already, work through the [Setup Tutorial](/guides/00-Setup/README.md)
+* If you haven't already, work through the [Setup Tutorial](/guides/00-Setup)
 and sections 1.1-1.4 of [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
 * Test your knowledge by working through the exercises below
 
