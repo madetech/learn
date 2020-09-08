@@ -13,7 +13,7 @@ Terminal.app or Linux's Xterm.
 
 ## Prerequisite Practice
 
-This tutorial assumes you have already worked through the `Setup Tutorial`.
+This tutorial assumes you have already worked through the [Setup Tutorial](/guides/00-Setup/README.md).
 
 If you haven't, work through sections 1 and 2 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
 
