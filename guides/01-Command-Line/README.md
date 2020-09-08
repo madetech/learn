@@ -12,7 +12,7 @@ The command line is typically run within a terminal emulator such as MacOS' Term
 
 ## Prerequisite Practice
 
-This tutorial assumes you have already worked through the [Setup Tutorial](/guides/00-Setup/README.md).
+This tutorial assumes you have already worked through the [Setup Tutorial](/guides/00-Setup).
 
 If you haven't, work through sections 1 and 2 in [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial)
 
