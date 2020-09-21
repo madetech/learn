@@ -9,7 +9,7 @@ implements them. Generally other git hosting platforms implement them
 similarly.
 
 ## To do
-If you aren't familiar with Git have a look at the [Git tutorial](/02-Git)
+If you aren't familiar with Git have a look at the [Git tutorial](guides/02-Git)
 
 You'll want to pair up so that you can practice the workflow.
 
