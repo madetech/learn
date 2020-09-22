@@ -2,7 +2,7 @@
 
 You may have chosen to implement a web interface or a command line user interface, or perhaps another type of UI.
 
-These UIs can be divided into two categories, server-side (e.g. web interface) and client-side (e.g. command line). 
+These UIs can be divided into two categories, client-side (e.g. web interface) and server-side (e.g. command line). 
 
 Implement a UI from the opposite category.
 
