@@ -4,7 +4,7 @@ Implement the [Misère](https://en.wikipedia.org/wiki/Tic-tac-toe_variants#Miser
 
 ## Rules
 
-* The player wins if their opponent gets n in a row.
+* The player wins if their opponent gets 3 in a row.
 
 ## Game Features
 
