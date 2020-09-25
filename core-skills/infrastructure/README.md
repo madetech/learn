@@ -57,10 +57,10 @@ Resources:
 #### Theory
 
 
-There is a cloud-hosted public web server that talks to a backend API in a  private network. The private server's network allows the IP of the public server via a whitelist rule on its Firewall.
+There is a cloud-hosted public web server that talks to a backend API in a  private network. The private server's network allows the IP of the public server via an allow list rule on its Firewall.
 
-1. Explain what maintenance overhead IP Whitelisting adds for future developers?
-2. Explain the security problems with using only IP Whitelisting for authentication? 
+1. Explain what maintenance overhead IP allow-listing adds for future developers?
+2. Explain the security problems with using only IP allow-listing for authentication? 
 3. What are the benefits of investing in monitoring and alerting in software environments? 
 
 #### Practical
