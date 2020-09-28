@@ -2,13 +2,13 @@
 
 In Ruby we use Gems to "distribute reusable components". What this means is that we can share portions of code so that we can reuse them in many projects.
 
-Common Ruby libraries or framework (e.g. Sinatra, Rails, Rubocop, ActiveRecord, etc) are all Gems.
+Common Ruby libraries or frameworks (e.g. Sinatra, Rails, Rubocop, ActiveRecord, etc) are all Gems.
 
-You've already seen Gem that have been created by others, for example, `rspec` is distributed as a Gem and we have already used that.
+You've already seen Gems that have been created by others, for example, `rspec` is distributed as a Gem and we have already used that.
 
-When we install a gem by invoking `$ gem install rspec` it downloads a package (a .gem file) from RubyGems.org and stores this on your computer.
+When we install a Gem by invoking `$ gem install rspec`, it downloads a package (a .gem file) from RubyGems.org and stores this on your computer.
 
-Ruby knows where to find these Gems, and once installed you can "require" them (roughly equivilent to import) in our code. 
+Ruby knows where to find these Gems, and once installed we can "require" them (roughly equivilent to import) in our code. 
 
 For example:
 
@@ -70,12 +70,12 @@ If we're pushing this to rubygems.org what changes should we make?
 
 Once you can successfully run `$ bundle install` to install the dependencies, you should also be able to run `$ bundle exec rake spec`.
 
-A useful guide is [creating a gem](https://bundler.io/v1.16/guides/creating_gem.html#how-to-create-a-ruby-gem-with-bundler). Note that they are using aruba and cucumber for testing, which we are not.
+A useful guide is [creating a gem](https://bundler.io/v1.16/guides/creating_gem.html#how-to-create-a-ruby-gem-with-bundler). Note that they are using `aruba` and `cucumber` for testing, which we are not.
 
 You should be pretty familiar with the Word Wrap kata by now. 
 
 * TDD a Word Wrap solution, or copy a solution you already have.
-* Keep in mind that you want to release it on rubygems.org, make any changes you think are appropriate
+* Keep in mind that you want to release it on rubygems.org, make any changes you think are appropriate.
 
 ## Releasing
 
