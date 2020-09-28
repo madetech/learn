@@ -18,7 +18,7 @@ require 'chronic'
 date = Chronic.parse('may seventh '97 at three in the morning')
 ```
 
-Although we are able to install Gems using `$ gem install <gem name>`, we usually want to tie our project to specific version of a Gem.
+Although we are able to install Gems using `$ gem install <gem name>`, we usually want to tie our project to a specific version of a Gem.
 
 ## Bundler to the rescue
 
