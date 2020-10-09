@@ -10,7 +10,7 @@ Implement a UI from the opposite category.
 
 * Avoid testing the same logic from multiple test suites
 * Avoid coupling your business logic to specifics of different UIs (e.g. if ui == 'cli' then ... else ...).
-* Can you deploy your UI independently of your game rules? Could it be [packaged up into a separate Gem](../../guides/06-Gem-Packaging/)?
+* Can you deploy your game rules independently of your UI? Could your game rules be [packaged up into a separate Gem](../../guides/06-Gem-Packaging/)?
 
 ## Next Steps
 
