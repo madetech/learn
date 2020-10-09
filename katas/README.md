@@ -6,6 +6,7 @@ We use Code Katas which are programming exercises to develop our skills. This co
 * [Mumbling](./mumbling)
 * [Number to LCD](./number-to-lcd)
 * [Roman numerals](./roman-numerals)
+* [Snake](./snake)
 * [Tennis](./tennis)
 * [Tennis Refactoring](./tennis-refactoring)
 * [Turnstile](./turnstile)
