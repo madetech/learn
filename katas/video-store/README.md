@@ -15,19 +15,19 @@ You earned 3 frequent renter points
 
 ## Regular Movies
 
-Are 2 for the first 2 days, and 1.5 for each day thereafter.
+Are £2 for the first 2 days, and £1.50 for each day thereafter.
 
 You earn 1 frequent renter point no matter the length of the rental.
 
 ## New Release Movies
 
-Are 3 per day.
+Are £3 per day.
 
 You earn 1 frequent renter point for a 1 day rental, and 2 for any rental of 2 days or more.
 
 ## Childrens Movies
 
-Are 1.5 for the first 3 days, and 1.5 for each day thereafter.
+Are £1.50 for the first 3 days, and £1.50 for each day thereafter.
 
 You earn 1 frequent renter point no matter the length of the rental.
 
