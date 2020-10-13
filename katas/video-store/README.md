@@ -6,10 +6,10 @@ When there are 3 regular movie rentals for 1, 2 and 3 days respectively, the sta
 
 ```
 Rental Record for Customer Name
-  Crazynotes  2.0
-  Teeth  2.0
-  The Web  3.5
-You owe 7.5
+  Crazynotes  £2.0
+  Teeth  £2.0
+  The Web  £3.5
+You owe £7.5
 You earned 3 frequent renter points
 ```
 
