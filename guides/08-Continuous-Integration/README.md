@@ -20,7 +20,7 @@ In this guide we assume that you have locally configured your shared git remote 
 
 You will need a project hosted on GitHub (preferably open-sourced, and without an automated build tool configured for it) and accounts on Heroku and Travis.
 
-You will need to install the Heroku and Travis command line clients.
+You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) and [Travis](https://github.com/travis-ci/travis.rb#installation) command line clients.
 
 Before continuing, make sure that you can:
 
@@ -51,9 +51,9 @@ its job.
 
 ### Some Rules
 
-* `origin/master` should pass it's tests at all times. _All commits in master should compile and pass all tests._
+* `origin/master` should pass its tests at all times. _All commits in master should compile and pass all tests._
 * `origin/master` should be deployable at all times. _All commits in master should be of sufficient quality to be deployed._
-* Where necessary, release should be decoupled from deploy. _It should be possible to deploy master, and turn on new features independently_.
+* Where necessary, release should be decoupled from deploy. _It should be possible to deploy master, and turn on new features independently_. For instance the latest deployment contains a new feature, but your users can't actually see or use that feature yet - ie it hasn't been _released_. This approach is commonly referred to as ["feature toggling" or "feature flagging"](https://martinfowler.com/articles/feature-toggles.html).
 * Pull requests should be short lived (\~4 working hours maximum), and short (\~400 lines of code maximum). _Pull requests should be simple to review_.
 * Pull requests should pass all tests, and not have any linter warnings (where appropriate). _Pull requests should be tested before merging_.
 
