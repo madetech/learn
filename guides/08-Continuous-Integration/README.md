@@ -83,7 +83,7 @@ rvm:
   - 2.5.0
 ```
 
-(Note that the above travis.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile).)
+Note that the above travis.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
 
 If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI build will be at `travis-ci.org/craigjbass/tictactoe`.
 
@@ -102,11 +102,16 @@ If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI b
 
 ## Automating Deployment
 Using Travis CI and Heroku you can configure your application to be
-automatically deployed. To do this, run the following command:
+automatically deployed. To do this, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
 
 ```
-travis encrypt $(heroku auth:token) --add deploy.api_key
+travis login --pro
+travis encrypt $(heroku auth:token) --add deploy.api_key --com
 ```
+
+This will add some stuff to `.travis.yml`, which you will then have to push to the remote (`git push`).
+
+Now scroll down to step 4 - "Create an account on Heroku and link with the repository" - in [these instructions](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) to link your code base to Heroku.
 
 ## Resources
  - [Branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
