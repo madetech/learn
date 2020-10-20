@@ -74,7 +74,7 @@ If your project is open-source you can use a cloud-hosted build tool such as Tra
 
 * Follow [the instructions over at Travis CI's website](https://docs.travis-ci.com/user/getting-started/#to-get-started-with-travis-ci).
 
-If you are using RSpec your `.travis.yml` file can be as simple as:
+If you are using RSpec, all you need to know is your Ruby version for the `rvm` section (use `ruby -v` on the command line), and then your `.travis.yml` file can be as simple as:
 
 ```ruby
 language: ruby
