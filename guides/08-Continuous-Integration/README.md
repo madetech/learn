@@ -11,7 +11,7 @@ deploys applications so long as the steps complete successfully.
 
 ## Prerequisites
 
-If you have built this project with other people pair or mob with them through 
+If you have built this project with other people, pair or mob with them through 
 this guide.
 
 This guide assumes you are already familiar with Git, and the concept of Pull Requests.
