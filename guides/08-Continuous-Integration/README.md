@@ -22,14 +22,66 @@ You will need a project hosted on GitHub (preferably open-sourced, and without a
 
 You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) and [Travis](https://github.com/travis-ci/travis.rb#installation) command line clients.
 
-Before continuing, make sure that you can:
+## Automating Tests
 
-* Draw out a simple Git branch with commits that apply on top of each other.
-* Draw out what happens when a Git branch is merged with two parent commits.
-* Draw out what happens when a Git branch is rebased ontop of a branch with commits.
-* Explain what `HEAD`, `master` and `origin/master` refer to.
+We're going to use Travis CI to automate some tests.
 
-**Speak to your mentor if you need a refresher.**
+First, you'll need to pick a project to automate tests on.
+
+If your project is open-source you can use a cloud-hosted build tool such as Travis CI for free, otherwise you'll need to pay a subscription.
+
+* Follow [the instructions over at Travis CI's website](https://docs.travis-ci.com/user/getting-started/#to-get-started-with-travis-ci).
+
+If you are using RSpec, all you need to know is your Ruby version for the `rvm` section (use `ruby -v` on the command line), and then your `.travis.yml` file can be as simple as:
+
+```ruby
+language: ruby
+script: bundle exec rspec
+rvm:
+  - 2.5.0
+```
+
+Note that the above travis.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
+
+If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI build will be at `travis-ci.org/craigjbass/tictactoe`.
+
+* Trigger a build on Travis CI. Does it pass?
+* Does it run tests if you push to your main branch in GitHub?
+* Does it run tests if you open a pull request? Note that you will only be dealing with pull requests if you are using branches in your branching strategy - see [Git Branching](#git-branching) below.
+  * To open a pull request:
+  * Create a branch (`git checkout -b branch_name`)
+  * Commit some code
+  * Push the branch (it will prompt you to run `git push --set-upstream origin branch_name` first)
+  * At [GitHub](https://GitHub.com), go to your repo and click Pull Requests at the top
+  * Click **Compare & pull request** next to "branch_name had recent pushes n minutes ago" (If you don't see that, you might need to select your branch from the dropdown on the right).
+  * Enter a description, and click to create the pull request
+  * You should see it running tests in Travis
+  * You can now click **Merge pull request** to get your changes merged into the main branch.
+* What happens if you open a pull request from a branch with failing tests? Can you still merge the request? What changes?
+
+## Automating Deployment
+Using Travis CI and Heroku you can configure your application to be automatically deployed to the web. 
+However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](), and deploy that repo using Heroku.
+To do this, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
+
+```
+travis login --pro
+travis encrypt $(heroku auth:token) --add deploy.api_key --com
+```
+
+This will add some stuff to `.travis.yml`, which you will then have to push to the remote (`git push`).
+
+Now scroll down to step 4 - "Create an account on Heroku and link with the repository" - in [these instructions](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) to link your code base to Heroku.
+
+## Troubleshooting
+
+- Use the [travis docs](https://docs.travis-ci.com/user/languages/ruby) to help you identify problems
+- If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`
+- If you get errors about Bundler versions, add the following to `.travis.yml` (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20)):
+```yml
+before_install:
+  - gem install bundler
+```
 
 ## Git Branching
 
@@ -64,66 +116,16 @@ its job.
 * Use an automated build tool to run tests every time a new commit is pushed to a Pull Request branch, and also run the tests as an "Integration" with master. (More on this later) 
 * Use your automated build tool to deploy successful builds
 
-## Automating Tests
+### Feature Branches
 
-We're going to use Travis CI to automate some tests.
+If you do plan on using feature branches, you might eant to refresh your understanding of git merges. Make sure that you can:
 
-First, you'll need to pick a project to automate tests on.
+* Draw out a simple Git branch with commits that apply on top of each other.
+* Draw out what happens when a Git branch is merged with two parent commits.
+* Draw out what happens when a Git branch is rebased ontop of a branch with commits.
+* Explain what `HEAD`, `master` and `origin/master` refer to.
 
-If your project is open-source you can use a cloud-hosted build tool such as Travis CI for free, otherwise you'll need to pay a subscription.
-
-* Follow [the instructions over at Travis CI's website](https://docs.travis-ci.com/user/getting-started/#to-get-started-with-travis-ci).
-
-If you are using RSpec, all you need to know is your Ruby version for the `rvm` section (use `ruby -v` on the command line), and then your `.travis.yml` file can be as simple as:
-
-```ruby
-language: ruby
-script: bundle exec rspec
-rvm:
-  - 2.5.0
-```
-
-Note that the above travis.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
-
-If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI build will be at `travis-ci.org/craigjbass/tictactoe`.
-
-* Trigger a build on Travis CI. Does it pass?
-* Does it run tests if you push to your main branch in GitHub?
-* Does it run tests if you open a pull request?
-  * To open a pull request:
-  * Create a branch (`git checkout -b branch_name`)
-  * Commit some code
-  * Push the branch (it will prompt you to run `git push --set-upstream origin branch_name` first)
-  * At [GitHub](https://GitHub.com), go to your repo and click Pull Requests at the top
-  * Click **Compare & pull request** next to "branch_name had recent pushes n minutes ago" (If you don't see that, you might need to select your branch from the dropdown on the right).
-  * Enter a description, and click to create the pull request
-  * You should see it running tests in Travis
-  * You can now click **Merge pull request** to get your changes merged into the main branch.
-* What happens if you open a pull request from a branch with failing tests? Can you still merge the request? What changes?
-
-## Automating Deployment
-Using Travis CI and Heroku you can configure your application to be automatically deployed to the web. 
-However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment.
-To do this, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
-
-```
-travis login --pro
-travis encrypt $(heroku auth:token) --add deploy.api_key --com
-```
-
-This will add some stuff to `.travis.yml`, which you will then have to push to the remote (`git push`).
-
-Now scroll down to step 4 - "Create an account on Heroku and link with the repository" - in [these instructions](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) to link your code base to Heroku.
-
-## Troubleshooting
-
-- Use the [travis docs](https://docs.travis-ci.com/user/languages/ruby) to help you identify problems
-- If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`
-- If you get errors about Bundler versions, add the following to `.travis.yml` (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20)):
-```yml
-before_install:
-  - gem install bundler
-```
+**Speak to your mentor if you need a refresher.**
 
 ## Resources
  - [Branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
