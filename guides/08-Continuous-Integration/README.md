@@ -88,13 +88,14 @@ Note that the above travis.yml assumes you have a `Gemfile` - which can be as si
 If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI build will be at `travis-ci.org/craigjbass/tictactoe`.
 
 * Trigger a build on Travis CI. Does it pass?
+* Does it run tests if you push to your main branch in GitHub?
 * Does it run tests if you open a pull request?
   * To open a pull request:
   * Create a branch (`git checkout -b branch_name`)
   * Commit some code
   * Push the branch (it will prompt you to run `git push --set-upstream origin branch_name` first)
   * At [GitHub](https://GitHub.com), go to your repo and click Pull Requests at the top
-  * Click **Compare & pull request** next to "branch_name had recent pushes n minutes ago"
+  * Click **Compare & pull request** next to "branch_name had recent pushes n minutes ago" (If you don't see that, you might need to select your branch from the dropdown on the right).
   * Enter a description, and click to create the pull request
   * You should see it running tests in Travis
   * You can now click **Merge pull request** to get your changes merged into the main branch.
@@ -112,6 +113,16 @@ travis encrypt $(heroku auth:token) --add deploy.api_key --com
 This will add some stuff to `.travis.yml`, which you will then have to push to the remote (`git push`).
 
 Now scroll down to step 4 - "Create an account on Heroku and link with the repository" - in [these instructions](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) to link your code base to Heroku.
+
+## Troubleshooting
+
+- Use the [travis docs](https://docs.travis-ci.com/user/languages/ruby) to help you identify problems
+- If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`
+- If you get errors about Bundler versions, add the following to `.travis.yml` (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20)):
+```yml
+before_install:
+  - gem install bundler
+```
 
 ## Resources
  - [Branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
