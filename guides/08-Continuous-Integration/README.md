@@ -34,8 +34,8 @@ Before continuing, make sure that you can:
 ## Git Branching
 
 Have a read through of Martin Fowler's article on the 
-[various approaches to branching](https://martinfowler.com/bliki/FeatureBranch.html)
-to get an understanding of the pros and cons of each approach.
+[various approaches to branching](martinfowler.com/articles/branching-patterns.html)
+to get an understanding of the pros and cons of each approach. It's a long article though, so you might want to jump straight to the section on [continuous integration](martinfowler.com/articles/branching-patterns.html#continuous-integration).
 
 At Made Tech we practice Continuous Integration, as we have come to the
 agreement that the pros of this approach outweigh the cons.
