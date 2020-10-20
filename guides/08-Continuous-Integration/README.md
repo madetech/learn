@@ -71,7 +71,7 @@ travis encrypt $(heroku auth:token) --add deploy.api_key --com
 
 This will add some stuff to `.travis.yml`, which you will then have to push to the remote (`git push`).
 
-Now scroll down to step 4 - "Create an account on Heroku and link with the repository" - in [these instructions](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) to link your code base to Heroku.
+Now scroll down to step 4 - "Create an account on Heroku and link with the repository" - in [these instructions](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) to link your code base to Heroku. Keep going with steps 5, 6 and 7 - you'll notice that one of the steps (creating an api key) you've already done.
 
 ## Troubleshooting
 
