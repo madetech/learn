@@ -62,6 +62,7 @@ If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI b
 ## Automating Deployment
 Using Travis CI and Heroku you can configure your application to be automatically deployed to the web. 
 However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](https://www.learnenough.com/course/learn_enough_ruby/hello_world/ruby_web), and deploy that repo using Heroku.
+
 To get started with Heroku, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
 
 ```
@@ -113,7 +114,7 @@ Continuous integration is a branching style with more stringent rules than other
 
 ### Feature Branches
 
-If you do plan on using feature branches, you might eant to refresh your understanding of git merges. Make sure that you can:
+If you do plan on using feature branches, you might want to refresh your understanding of git merges. Make sure that you can:
 
 * Draw out a simple Git branch with commits that apply on top of each other.
 * Draw out what happens when a Git branch is merged with two parent commits.
