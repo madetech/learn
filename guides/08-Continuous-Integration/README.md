@@ -83,10 +83,22 @@ rvm:
   - 2.5.0
 ```
 
+(Note that the above travis.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile).)
+
 If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI build will be at `travis-ci.org/craigjbass/tictactoe`.
 
 * Trigger a build on Travis CI. Does it pass?
-* Open a pull request, does it run your tests?
+* Does it run tests if you open a pull request?
+  * To open a pull request:
+  * Create a branch (`git checkout -b branch_name`)
+  * Commit some code
+  * Push the branch (it will prompt you to run `git push --set-upstream origin branch_name` first)
+  * At [GitHub](https://GitHub.com), go to your repo and click Pull Requests at the top
+  * Click **Compare & pull request** next to "branch_name had recent pushes n minutes ago"
+  * Enter a description, and click to create the pull request
+  * You should see it running tests in Travis
+  * You can now click **Merge pull request** to get your changes merged into the main branch.
+* What happens if you open a pull request from a branch with failing tests? Can you still merge the request? What changes?
 
 ## Automating Deployment
 Using Travis CI and Heroku you can configure your application to be
