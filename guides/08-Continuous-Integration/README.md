@@ -102,8 +102,9 @@ If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI b
 * What happens if you open a pull request from a branch with failing tests? Can you still merge the request? What changes?
 
 ## Automating Deployment
-Using Travis CI and Heroku you can configure your application to be
-automatically deployed. To do this, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
+Using Travis CI and Heroku you can configure your application to be automatically deployed to the web. 
+However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment.
+To do this, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
 
 ```
 travis login --pro
