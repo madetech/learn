@@ -61,8 +61,8 @@ If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI b
 
 ## Automating Deployment
 Using Travis CI and Heroku you can configure your application to be automatically deployed to the web. 
-However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](), and deploy that repo using Heroku.
-To do this, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
+However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](https://www.learnenough.com/course/learn_enough_ruby/hello_world/ruby_web), and deploy that repo using Heroku.
+To get started with Heroku, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
 
 ```
 travis login --pro
@@ -85,21 +85,16 @@ before_install:
 
 ## Git Branching
 
-Have a read through of Martin Fowler's article on the 
-[various approaches to branching](martinfowler.com/articles/branching-patterns.html)
-to get an understanding of the pros and cons of each approach. It's a long article though, so you might want to jump straight to the section on [continuous integration](martinfowler.com/articles/branching-patterns.html#continuous-integration).
+Have a read through of Martin Fowler's article on the [various approaches to branching](martinfowler.com/articles/branching-patterns.html) to get an understanding of the pros and cons of each approach. It's a long article though, so you might want to jump straight to the section on [continuous integration](martinfowler.com/articles/branching-patterns.html#continuous-integration).
 
-At Made Tech we practice Continuous Integration, as we have come to the
-agreement that the pros of this approach outweigh the cons.
+At Made Tech we practice Continuous Integration, as we have come to the agreement that the pros of this approach outweigh the cons.
 
 * Why do you think that is?
 * Discuss scenarios where Continuous Integration wouldn't be appropriate
 
 ## The Trade-off
 
-Continuous integration is a branching style with more stringent rules than
-others and so requires a level of commitment from developers in order to do
-its job.
+Continuous integration is a branching style with more stringent rules than others and so requires a level of commitment from developers in order to do its job.
 
 ### Some Rules
 
