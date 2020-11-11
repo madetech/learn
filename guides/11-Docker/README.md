@@ -39,7 +39,7 @@ Take a look at an [Alpine Linux Dockerfile here](https://github.com/gliderlabs/d
 
 You will notice it specifies `FROM scratch` as the parent Docker image, [which you can read more about here](https://hub.docker.com/_/scratch/).
 
-* Why do you think Alpine 3.9 specifies `FROM scratch`?
+* Why do you think Alpine specifies `FROM scratch`?
 
 It then `ADD`'s the full file system, which is the full Alpine linux operating system that has been compiled outside of Docker.
 
