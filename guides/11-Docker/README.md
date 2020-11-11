@@ -20,11 +20,11 @@ Some useful links:
 * [Dockerfile Docs](https://docs.docker.com/engine/reference/builder/) 
 * [Docker Compose Docs](https://docs.docker.com/compose/compose-file/)
 
-### CoW all the way down.
+### CoW (Copy-on-Write) all the way down.
 
 Docker images package up a full Linux distribution as part of the container image.
 
-What this means is that we can build a Docker image for our application and base that image off of Ubuntu (which is roughly 300 megabytes).
+What this means is that we can build a Docker image for our application and base that image on Ubuntu (which is roughly 300 megabytes).
 This gives us the ability to build our application around Ubuntu's packages and particular quirks.
 
 Docker uses a Copy-on-Write (CoW) file system to build a series of layers, in order to save space.
