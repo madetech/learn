@@ -18,6 +18,8 @@ Some useful links:
 
 * [Docker Hub](https://hub.docker.com/) for Docker images
 * [Dockerfile Docs](https://docs.docker.com/engine/reference/builder/) 
+* [Docker commands](https://docs.docker.com/engine/reference/run/)
+* [Summary of common Docker commands](https://www.edureka.co/blog/docker-commands/)
 * [Docker Compose Docs](https://docs.docker.com/compose/compose-file/)
 
 ### CoW (Copy-on-Write) all the way down.
