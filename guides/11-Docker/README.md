@@ -145,7 +145,18 @@ docker-compose run --rm --service-ports web bundle exec rspec
 * Research what `docker-compose up` does.
 * Research what `docker-compose down` does.
 
-## Challenge
+## Add Docker to a Ruby project
 
-* Add Docker to a Ruby project and get it running.
+(If you want you can skip to the .Net step below, depending on what technology you are most interested in.)
 
+* Follow the [tutorial here](https://www.codewithjason.com/dockerize-sinatra-application/) to create a Ruby Sinatra project with Docker.
+* Follow the [instructions here](https://devcenter.heroku.com/articles/container-registry-and-runtime) to deploy your container to Heroku
+    * ! Note that there is a missing instruction from that tutorial - after running `heroku login` you also need to run `heroku container:login`
+* CHALLENGE: Add Docker to an existing Ruby project of your own, and deploy to the web in a Docker container.
+
+## Add Docker to a .Net project
+
+* Follow the [tutorial here](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows) to get a .Net project with Docker.
+* Follow the [instructions here](https://devcenter.heroku.com/articles/container-registry-and-runtime) to deploy your container to Heroku
+    * ! Note that there is a missing instruction from that tutorial - after running `heroku login` you also need to run `heroku container:login`
+* CHALLENGE: Add Docker to an existing .Net project of your own, and deploy to the web in a Docker container.
