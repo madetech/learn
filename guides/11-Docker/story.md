@@ -94,6 +94,7 @@ It aims to be a fast way to run your applications in the same environment, every
 * Easy to configure and manage - configuration as code!
 * Production parity - run your Dockerfile everywhere
 * Supported throughout all the different cloud and CI/CD tools
+* The operating system your code runs in can be a lightweight Linux distro, instead of (for instance) always having to run in Windows - even though your developers may be running Windows locally.
 
 The downside is that we have to use Docker everywhere - which means adding overhead to our development process.
 
