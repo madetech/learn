@@ -162,6 +162,7 @@ docker-compose run --rm --service-ports web bundle exec rspec
 * Follow the "Getting started" part of the [instructions here](https://devcenter.heroku.com/articles/container-registry-and-runtime) to deploy a pre-made container to Heroku
 * So far you have used the commands `docker run`, `docker build`, `docker login` and `docker push`. Now [use the reference here](https://www.edureka.co/blog/docker-commands/) to help you explore the following commands: 
   * `docker ps`
+  * `docker ps -a`
   * `docker exec`
   * `docker stop`
   * `docker kill`
