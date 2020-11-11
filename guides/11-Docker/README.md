@@ -147,16 +147,25 @@ docker-compose run --rm --service-ports web bundle exec rspec
 
 ## Add Docker to a Ruby project
 
-(If you want you can skip to the .Net step below, depending on what technology you are most interested in.)
+(If you want you can skip to the .Net step below, depending on which technology you are most interested in.)
 
-* Follow the [tutorial here](https://www.codewithjason.com/dockerize-sinatra-application/) to create a Ruby Sinatra project with Docker.
-* Follow the [instructions here](https://devcenter.heroku.com/articles/container-registry-and-runtime) to deploy your container to Heroku
-    * ! Note that there is a missing instruction from that tutorial - after running `heroku login` you also need to run `heroku container:login`
-* CHALLENGE: Add Docker to an existing Ruby project of your own, and deploy to the web in a Docker container.
+* Follow the [tutorial here](https://www.codewithjason.com/dockerize-sinatra-application/) to create a Ruby Sinatra project with Docker. 
 
 ## Add Docker to a .Net project
 
 * Follow the [tutorial here](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows) to get a .Net project with Docker.
-* Follow the [instructions here](https://devcenter.heroku.com/articles/container-registry-and-runtime) to deploy your container to Heroku
-    * ! Note that there is a missing instruction from that tutorial - after running `heroku login` you also need to run `heroku container:login`
-* CHALLENGE: Add Docker to an existing .Net project of your own, and deploy to the web in a Docker container.
+
+## Do More With Docker
+
+* Follow the "Getting started" part of the [instructions here](https://devcenter.heroku.com/articles/container-registry-and-runtime) to deploy a pre-made container to Heroku
+* So far you have used the commands `docker run`, `docker build`, `docker login` and `docker push`. Now [use the reference here](https://www.edureka.co/blog/docker-commands/) to help you explore the following commands: 
+  * `docker ps`
+  * `docker exec`
+  * `docker stop`
+  * `docker kill`
+  * `docker commit`
+  * `docker images`
+  * `docker rm`
+  * `docker rmi`
+* CHALLENGE 1: Deploy the dockerised project you made before (.Net or Sinatra Ruby) to Heroku.
+* CHALLENGE 2: Add Docker to a pre-existing existing project of your own, and deploy to the web in a Docker container.
