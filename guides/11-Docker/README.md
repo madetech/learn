@@ -151,11 +151,14 @@ docker-compose run --rm --service-ports web bundle exec rspec
 
 (If you want you can skip to the .Net step below, depending on which technology you are most interested in.)
 
-* Follow the [tutorial here](https://www.codewithjason.com/dockerize-sinatra-application/) to create a Ruby Sinatra project with Docker. 
+* Follow the [tutorial here](https://www.codewithjason.com/dockerize-sinatra-application/) to create a dockerised Ruby Sinatra app. 
 
 ## Add Docker to a .Net project
 
-* Follow the [tutorial here](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows) to get a .Net project with Docker.
+Note: Even if you are more interested in dockerising a .Net web app than a console app, it's still worth following the first tutorial below because it has a lot of useful extra information about Docker in general.
+
+* Follow the [tutorial here](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows) to create a dockerised .Net Core console app.
+* Follow the [tutorial here](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-5.0) to create a dockerised ASP.Net web app. 
 
 ## Do More With Docker
 
@@ -171,4 +174,5 @@ docker-compose run --rm --service-ports web bundle exec rspec
   * `docker rm`
   * `docker rmi`
 * CHALLENGE 1: Deploy the dockerised project you made before (.Net or Sinatra Ruby) to Heroku.
+  * Hint: For Sinatra, you need to make changes to the way ports are handled. See [this repo](https://github.com/claresudbery/sinatra-docker) for an example Dockerfile.
 * CHALLENGE 2: Add Docker to a pre-existing existing project of your own, and deploy to the web in a Docker container.
