@@ -14,7 +14,7 @@ They both find themselves doing a lot of manual installations of services like p
 
 They copy lots of configuration files with a year of knowledge baked into them.
 
-Finally three days in, they get the whole thing working on the second programmers machine. All is well again. 
+Finally three days in, they get the whole thing working on the second programmer's machine. All is well again. 
 
 **And another...**
 
@@ -47,7 +47,7 @@ We'd still need to:
 
 ## Virtual Machine
 
-Eventually the desire to obtain full production parity - and remove operating system level differences - led us to [VirtualBox](https://www.virtualbox.org/) (or similar).
+Eventually the desire to obtain full production parity - and remove operating system level differences - might lead you to [VirtualBox](https://www.virtualbox.org/) (or similar).
 
 What VirtualBox does is it emulates a full system architecture inside your Operating System, so you can run the same Linux distribution or macOS, Windows or your favorite Linux flavor.
 
@@ -64,24 +64,26 @@ The trouble with virtual machines
 * They use a lot of disk space (a whole operating system).
 * They will drain your battery.
 
-You also can't (easily) rely on your Virtual Machine setup to machine production.
+You also can't (easily) rely on your Virtual Machine setup to mimic your production environment.
 
 ## LXC
 
 Before Docker there was [LXC](https://en.wikipedia.org/wiki/LXC), which provides a way to spin up a whole "Virtual Machine" with none of the overhead. 
 
-Early versions of Docker even relied on LXC as the containerization engine!
+Early versions of Docker even relied on LXC as the containerization engine.
 
 Coming from Virtual Machines, LXC was amazing since you could have a whole Linux distribution running inside 4MB of RAM!
 
 **Downsides...**
 
 * Only ran on Linux
-* Required really arbitrarily specific versions of Linux kernels 
+* Required really arbitrarily specific versions of Linux kernels. 
 * \*Really\* complex to configure, maintain and manage.
-* Production parity, but hard to manage and deploy configurations
+* You could have parity with your production environment, but it was hard to manage and deploy configurations.
 
 ## Then Docker came along
+
+Docker provides a simple lightweight way for all of your developers to run their code in an identical environment. Like LXC, it gives you something that looks and feels like a virtual environment, but without the need to have a whole separate operating system running inside your host machine. As it says on the tin, it gives you a *container* in which your code will run. But it has better tooling than LXC, and is easier to configure.
 
 It aims to be a fast way to run your applications in the same environment, everywhere.
 
@@ -91,6 +93,7 @@ It aims to be a fast way to run your applications in the same environment, every
 * Runs on Windows, macOS and Linux
 * Easy to configure and manage - configuration as code!
 * Production parity - run your Dockerfile everywhere
+* Supported throughout all the different cloud and CI/CD tools
 
 The downside is that we have to use Docker everywhere - which means adding overhead to our development process.
 
