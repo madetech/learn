@@ -177,4 +177,5 @@ Note: Even if you are more interested in dockerising a .Net web app than a conso
   * Hint: You need to make changes to the way ports are handled in `Dockerfile`, because Heroku does not support the `EXPOSE` command: 
     * For Sinatra, see [this repo](https://github.com/claresudbery/sinatra-docker) for an example Dockerfile.
     * For .Net, see [this blog post](https://medium.com/@vnqmai.hcmue/deploy-asp-net-core-to-heroku-for-free-using-docker-bd6d6fc161ae)
+      * Here's [an example](https://github.com/claresudbery/dotnet-docker-clare) of a successfully-deployed simple ASP.Net app
 * CHALLENGE 2: Add Docker to a pre-existing existing project of your own, and deploy to the web in a Docker container.
