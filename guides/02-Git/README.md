@@ -88,7 +88,7 @@ Make changes to both files
 
 Using `git diff` identify your changes
 
-Add one of the file but do not commit it
+Add one of the files but do not commit it
 
 Compare `git diff` to `git diff --staged`
 
