@@ -18,34 +18,41 @@ This guide assumes you are already familiar with Git, and the concept of Pull Re
 
 In this guide we assume that you have locally configured your shared git remote to be named `origin`.
 
-You will need a project hosted on GitHub (preferably open-sourced, and without an automated build tool configured for it) and accounts on Heroku and Travis.
+You will need a project hosted on GitHub (preferably open-sourced, and without an automated build tool configured for it) and accounts on Heroku and CircleCI.
 
-You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) and [Travis](https://github.com/travis-ci/travis.rb#installation) command line clients.
+You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) command line client.
 
 ## Automating Tests
 
-We're going to use Travis CI to automate some tests.
+We're going to use CircleCI to automate some tests.
 
 First, you'll need to pick a project to automate tests on.
 
-If your project is open-source you can use a cloud-hosted build tool such as Travis CI for free, otherwise you'll need to pay a subscription.
+* Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/).
 
-* Follow [the instructions over at Travis CI's website](https://docs.travis-ci.com/user/getting-started/#to-get-started-with-travis-ci).
-
-If you are using RSpec, all you need to know is your Ruby version for the `rvm` section (use `ruby -v` on the command line), and then your `.travis.yml` file can be as simple as:
-
-```ruby
-language: ruby
-script: bundle exec rspec
-rvm:
-  - 2.5.0
+If you are using RSpec, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line), and then your `config.yml` file can be as simple as:
 ```
+version: 2.1
+orbs:
+  ruby: circleci/ruby@0.1.2 
 
-Note that the above travis.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6.3-stretch-node
+    executor: ruby/default
+    steps:
+      - checkout
+      - ruby/bundle-install
+      - run: bundle exec rspec
+```
+If you are using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the `Setting up CircleCI` step of the instructions linked above.
 
-If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI build will be at `travis-ci.org/craigjbass/tictactoe`.
+Note that the above config.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
 
-* Trigger a build on Travis CI. Does it pass?
+If your GitHub project is at `github.com/craigjbass/tictactoe`, your CircleCI build will be at `app.circleci.com/pipelines/github/craigjbass/tictactoe`.
+
+* Trigger a build on CircleCI. Does it pass?
 * Does it run tests if you push to your main branch in GitHub?
 * Does it run tests if you open a pull request? Note that you will only be dealing with pull requests if you are using branches in your branching strategy - see [Git Branching](#git-branching) below.
   * To open a pull request:
@@ -55,33 +62,29 @@ If your GitHub project is at `github.com/craigjbass/tictactoe`, your Travis CI b
   * At [GitHub](https://GitHub.com), go to your repo and click Pull Requests at the top
   * Click **Compare & pull request** next to "branch_name had recent pushes n minutes ago" (If you don't see that, you might need to select your branch from the dropdown on the right).
   * Enter a description, and click to create the pull request
-  * You should see it running tests in Travis
+  * You should see it running tests in CircleCI
   * You can now click **Merge pull request** to get your changes merged into the main branch.
 * What happens if you open a pull request from a branch with failing tests? Can you still merge the request? What changes?
 
 ## Automating Deployment
-Using Travis CI and Heroku you can configure your application to be automatically deployed to the web. However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](https://www.learnenough.com/course/learn_enough_ruby/hello_world/ruby_web), and deploy that repo using Heroku. The instructions [here](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) should help with getting that working.
+Using CircleCI and Heroku you can configure your application to be automatically deployed to the web. However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](https://www.learnenough.com/course/learn_enough_ruby/hello_world/ruby_web), or you can fork [this](https://github.com/rebeccafitzsimmons1/simple-sinatra-app-to-deploy/) simple Sinatra app.
 
-To get started with Heroku, navigate to your repo folder and run the following commands (if on Windows, you might need to use Windows Terminal):
+Follow the Creating an application on Heroku, Configuring Heroku access on CircleCI and Adding the deploy configuration sections [here](https://circleci.com/blog/continuous-deployment-to-heroku/) to deploy your app to Heroku. Note that the `config.yml` file referenced in the Adding the deploy configuration section is the same one that you created in the Automating Tests step above, so you can just add to the existing file.
 
-```
-travis login --pro
-travis encrypt $(heroku auth:token) --add deploy.api_key --com
-```
-
-This will add your encrypted Heroku API key to `.travis.yml`, which you will then have to push to the remote (`git push`). It's important to note that this API key is encrypted. You should never push unencrypted API keys / secrets to source control, particularly not for open source projects. Instead, do something like use a .env file and configure the secret in Travis rather than exposing it in source code.
-
-Now scroll down to step 4 - "Create an account on Heroku and link with the repository" - in [these instructions](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f) to link your code base to Heroku. Keep going with steps 5, 6 and 7 - you'll notice that one of the steps (creating an api key) you've already done.
-
+ ### Things to think about
+* Does the app still deploy if the tests fail? If so, see the `requires` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to make a step dependent on a previous step.
+* If you are using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to only deploy for a specific branch.
+* An alternative way to deploy to Heroku is that you could remove the `heroku/deploy-via-git` job from the CircleCI `config.yml` and try configuring the deployment through Heroku by [integrating with GitHub directly](https://devcenter.heroku.com/articles/github-integration). Note in particular the Enabling GitHub integration section and the Wait for CI to pass before deploy checkbox detailed in the Automatic deploys section.
 ## Troubleshooting
 
-- Use the [travis docs](https://docs.travis-ci.com/user/languages/ruby) to help you identify problems
-- If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`
-- If you get errors about Bundler versions, add the following to `.travis.yml` (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20)):
+- Use the [CircleCI language docs](https://circleci.com/docs/2.0/language-ruby/) and the [CircleCI deployment docs](https://circleci.com/docs/2.0/deployment-integrations/) to help you identify problems.
+- If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`.
+- If you get errors about Bundler versions, add the following to `config.yml` on the line before the `ruby/bundle-install` step (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20) - note that this explanation is in reference to travis, but it's the same principle):
 ```yml
-before_install:
-  - gem install bundler
+  - run: gem install bundler
 ```
+- If you're using a Rack-based framework such as Sinatra and are experiencing issues when deploying to Heroku, this [article](https://devcenter.heroku.com/articles/rack) about the `config.ru` file may be helpful.
+
 
 ## Git Branching
 
@@ -125,4 +128,5 @@ If you do plan on using feature branches, you might want to refresh your underst
 ## Resources
  - [Branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
  - [Feature toggles](https://martinfowler.com/bliki/FeatureToggle.html)
- - [Heroku deployment - Travis CI](https://docs.travis-ci.com/user/deployment/heroku/)
+ - [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
+ - [Continuous Delivery and Continuous Deployment](https://martinfowler.com/bliki/ContinuousDelivery.html)
