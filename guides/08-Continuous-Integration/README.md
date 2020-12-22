@@ -75,14 +75,17 @@ Follow the Creating an application on Heroku, Configuring Heroku access on Circl
 * Does the app still deploy if the tests fail? If so, see the `requires` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to make a step dependent on a previous step.
 * If you are using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to only deploy for a specific branch.
 * An alternative way to deploy to Heroku is that you could remove the `heroku/deploy-via-git` job from the CircleCI `config.yml` and try configuring the deployment through Heroku by [integrating with GitHub directly](https://devcenter.heroku.com/articles/github-integration). Note in particular the Enabling GitHub integration section and the Wait for CI to pass before deploy checkbox detailed in the Automatic deploys section.
+
 ## Troubleshooting
 
 - Use the [CircleCI language docs](https://circleci.com/docs/2.0/language-ruby/) and the [CircleCI deployment docs](https://circleci.com/docs/2.0/deployment-integrations/) to help you identify problems.
 - If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`.
-- If you get errors about Bundler versions, add the following to `config.yml` on the line before the `ruby/bundle-install` step (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20) - note that this explanation is in reference to travis, but it's the same principle):
+- If you get errors about Bundler versions, add the following to `config.yml` on the line before the `ruby/bundle-install` step (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20) - note that this explanation is in reference to travis, but it's the same principle):  
+
 ```yml
   - run: gem install bundler
 ```
+
 - If you're using a Rack-based framework such as Sinatra and are experiencing issues when deploying to Heroku, this [article](https://devcenter.heroku.com/articles/rack) about the `config.ru` file may be helpful.
 
 
