@@ -8,7 +8,6 @@
 * Reveal Intent / Avoid Disinformation
 * Avoid Lack of Specificity
 * No Comments
-* Avoid encoding schemes (hungarian notation, prefixes)
 * The Scope Rule
 * Searchable
 * System Metaphor
