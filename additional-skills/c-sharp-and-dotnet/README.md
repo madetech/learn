@@ -30,9 +30,9 @@ On achieving the following badges, we'd expect you to have gained the following 
 ## Resources
 Coming soon
 
-## Mark Scheme
-### Mantis Shrimp
-
+## Mark Schemes
+{% capture mantis_description %}
+The candidate:
 - Can explain what .NET is
 - Can explain the difference between .NET Core and Framework
 - Can explain what the .NET Standard is
@@ -51,9 +51,11 @@ Coming soon
 - Demonstrates the use of scope/access modifiers
 
 Expected deliverable - simple application with a test that satisfies the above
+{% endcapture %}
+{% include assessment_container.html name="Mantis Shrimp" description=mantis_description img="./mantis.jpg" %}
 
-### Goat
-
+{% capture goat_description %}
+The candidate:
 - Can explain the concept of generics and generic type constraints with examples of usage
 - Can explain the usage of the abstract, virtual, and override keywords with examples
 - Can explain the concept of polymorphism with examples of usage
@@ -68,11 +70,14 @@ Expected deliverable - simple application with a test that satisfies the above
 - Can demonstrate effectively debugging using an interactive debugging tool
 
 Expected deliverable - HTTP API that can take a request and persist some data from that request demonstrating the above
+{% endcapture %}
+{% include assessment_container.html name="Goat" description=goat_description img="./goat.jpg" %}
 
-### Eagle
+{% capture eagle_description %}
 Disclaimer - The C# skill is not a core skill, it is advanced learning. If the goal is to know enough to join a delivery, this is satisfied having achieved Goat.
 Eagle is a space to demonstrate a deeper understanding of OO programming and implementing clean, maintainable code in C#.
 
+The candidate:
 - Can write implementation code and tests that facilitate maintenance and change, using TDD and Clean Architecture. Implementation should follow SOLID principles.
 
 - Can explain at a high level how the .NET virtual machine works
@@ -84,3 +89,5 @@ Eagle is a space to demonstrate a deeper understanding of OO programming and imp
  - Can demonstrate use of delegates
 
 Expected deliverable - A C# application that showcases an understanding of all the above points (this is intentionally open ended to allow for some flexing! Refer to the marking guide and look for clean, SOLID code with good testing strategies).
+{% endcapture %}
+{% include assessment_container.html name="Eagle" description=eagle_description img="./eagle.jpg" %}
