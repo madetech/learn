@@ -27,9 +27,6 @@ On achieving the following badges, we'd expect you to have gained the following 
 3. Understanding the impact of choices on performance
 4. Can demonstrate ability to combine understanding of the above into a working API in C# with .NET
 
-## Resources
-Coming soon
-
 ## Mark Schemes
 {% capture mantis_description %}
 The candidate:
