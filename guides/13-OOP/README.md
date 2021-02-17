@@ -9,18 +9,19 @@ Classes can also contain functions, called methods available only to objects of 
 
 An example would be setters and getter methods, which are to get and change the value of the attribute. A setter would set the value of the attribute whilst a getter method would get the value of that attribute.  
 
-#To Do
+# To Do
 
-Go through the exercises to build out a program that will go through the fundamental concepts of object oriented programming. The tips below are written in Ruby, though the concepts introduced here are language agonistic. 
+Go through the exercises to build out a program that will go through the fundamental concepts of object oriented programming. The tips below are written in Ruby, though the concepts introduced here are language agonistic. Two useful concepts to keep in mind is:
+
+- private - Only the current class will have access to the field or method.
+- public - Any class can refer to the field or call the method.
 
 Before continuing through these exercises please read through these four pillars of OOP:
 
-private - Only the current class will have access to the field or method.
-public - Any class can refer to the field or call the method.
-Inheritance: child classes inherit data and behaviors from parent class
-Encapsulation: containing information in an object, exposing only selected information
-Abstraction: only exposing high level public methods for accessing an object
-Polymorphism: the provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types.
+- Inheritance: child classes inherit data and behaviors from parent class
+- Encapsulation: containing information in an object, exposing only selected information (public and private methods)
+- Abstraction: only exposing high level public methods for accessing an object
+- Polymorphism: the provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types.
 
 # Excercises 
 
@@ -30,7 +31,7 @@ A leading supermarket wants to create a program to more easily identify its diff
 
 Create a new class called `Customer`.
 
-The class should contain the attributes name and age. It should also have the method subscription, which prints out the string `standard`.
+The class should contain the attributes name and age. It should also have the method subscription, which prints out the string 'standard'.
 
 The attribute name should be a string and the age attribute should return a date. 
 
@@ -61,7 +62,7 @@ To test whether this class has been successfully created print out the attribute
 
 # 2.0 Inheritance 
 
-Above the task was to create a class that would contain all the necessary attributes. This is now your `parent` class, the class which all other types of customer classes will inherit from. An example would be with a parent class of bird, now penguin is a type of bird but will have unique attributes not shared by other types of birds. So you create a `child` class called penguin, which will have attributes of its parent class bird but also additional attributes.  
+Above the task was to create a class that would contain all the necessary attributes. This is now your parent class, the class which all other types of customer classes will inherit from. An example would be with a parent class of bird, now penguin is a type of bird but will have unique attributes not shared by other types of birds. So you create a child class called penguin, which will have attributes of its parent class bird but also additional attributes.  
 
 Create a child class called `FreeCustomer` and another called `PremiumCustomer`.
 
@@ -69,7 +70,7 @@ These classes should inherit from the parent class `Customer`.
 
 Then create an instance of both these child classes.
 
-Then create a new attribute to the parent class `city` indicating which city they live in. Then re-initalise the instances with the values of what city the different customers live in. 
+Then create a new attribute to the parent class, city, indicating which city they live in. Then re-initalise the instances with the values of what city the different customers live in. 
 
 For example:
 ```ruby
@@ -86,7 +87,7 @@ class ChildClass < ParentClass
 
 There is many advantages of polymorphism (please click [here](https://teachcomputerscience.com/polymorphism/) for a much more detailed explanation), but for the moment one of its many advantages it helps programmers to reuse the code, classes, methods written once, tested and implemented.
 
-Create a subscription method for your child classes, in the child class `FreeCustomer` it should print out `free` whilst `PremiumCustomer` should print out `premium`.  
+Create a subscription method for your child classes, in the child class `FreeCustomer` it should print out 'free' whilst `PremiumCustomer` should print out 'premium'.  
 
 Depending on what object you initalise the same method will print out different messages.
 
@@ -99,7 +100,7 @@ customer02.subscription # => “premium”
 
 # 4.0 Bonus Work
 
-- I want it so that  when I pass in the string `cancelled` to the method subscription to the PremiumCustomer class it will print out the sound attribute of the parent class not the `PremiumCustomer` class
+- I want it so that  when I pass in the string 'cancelled' to the method subscription to the PremiumCustomer class it will print out the sound attribute of the parent class not the `PremiumCustomer` class
 
 - I want a function that whatever object I pass in, it will print out the name of that customer.
 
