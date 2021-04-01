@@ -20,17 +20,17 @@ macOS does not come with it's own package manager (like Linux does), however the
 
 You can install it by running
 
-`$ curl -fsS 'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby`
+`$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ### Stop and understand
 
-* Describe what `-fsS` does
-* Describe what the `|` operator does
+* Describe what `-fsSL` does
+* Describe what `-c` does
 
 _Hint_
 
-* `$ man curl` - look up the flags
-* `$ man bash` - look up pipelines
+* `$ man curl` - look up the curl flags
+* `$ man bash` - look up the bash flag
 
 
 ## To Do
