@@ -12,6 +12,13 @@ React is a web framework we make use of here at Made Tech. By the end of this co
 6. Demonstrate applying sensible styling to React components
 7. Demonstrate strategies and tools to run tests against an API within a React application
 
+## Sections
+
+1. [React - Why and when should I use it?](./why-and-when.md)
+2. [Setting up a React project](./setup.md)
+3. [React Fundamentals](./fundamentals/README.md)
+4. [Testing in React](./testing/README.md)
+
 ## Assessment Style
 
 This core skill assessment is split into two parts. The first of which being an application which will be written
