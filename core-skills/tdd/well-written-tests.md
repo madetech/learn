@@ -18,7 +18,8 @@ To avoid repetition use of helper methods, common setup/teardown before/after bl
 ## Reading material
 
 * [Four-Phase Test - Gerard Meszaros](http://xunitpatterns.com/Four%20Phase%20Test.html)
-* https://blog.codecentric.de/en/2016/01/writing-better-tests-junit/
+* [https://blog.codecentric.de/en/2016/01/writing-better-tests-junit/](https://blog.codecentric.de/en/2016/01/writing-better-tests-junit/)
+  * Nice primer but does contain broken links.
 
 ## Marking scheme
 
