@@ -29,10 +29,10 @@ This indicates that:
 
 For the above input of "X 45 4/ 32", the score would be 46 - scored as follows:
 
-* The first frame is a strike, which scores 10 + all rolls from the following frame = 10 + 4 + 5 = 19
-* The second frame scores 4 + 5 = 9
-* The third frame is a spare, which scores 10 + the first roll from the following frame = 10 + 3 = 13
-* The fourth frame scores 3 + 2 = 5
+* The first frame is a strike, which scores `10 + (all rolls from the following frame) = 10 + 4 + 5 = 19`
+* The second frame scores `4 + 5 = 9`
+* The third frame is a spare, which scores `10 + (the first roll from the following frame) = 10 + 3 = 13`
+* The fourth frame scores `3 + 2 = 5`
 
 For detailed scoring rules, see [below](#summarised-scoring).
 
