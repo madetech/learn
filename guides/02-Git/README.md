@@ -10,8 +10,8 @@ than Git, you may also encounter Subversion on occasion.
 
 ## To Do
 
-* Work through [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
-* Test your knowledge by working through the exercises below
+1. Work through [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
+2. If you get to the end of the Learn Enough tutorial (you might not - that's fine), you can test what you've learnt by working through the exercises below
 
 ## Stop and Understand
 
