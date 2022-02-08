@@ -10,14 +10,14 @@ Create a program, which, given a valid sequence of rolls for one line of America
 For instance, for a game that is partway through, your input might be "X 45 4/ 32". This indicates that:
 
 * Four frames have been played
-* The first frame was a "strike" (all 10 pins knocked over in one roll)
-* The second frame consisted of the maximum two rolls
+* The first frame was a "strike" (all 10 pins knocked over in one roll - symbolised by "X")
+* The second frame ("45") consisted of the maximum two rolls
    * The first roll knocked down 4 pins 
    * The second roll knocked down 5 pins
-* The third frame was a "spare" (all 10 pins knocked down in two rolls)
+* The third frame was a "spare" (all 10 pins knocked down in two rolls - symbolised by "/" on the second roll)
    * The first roll knocked down 4 pins
    * The second roll knocked down the remaining 6 pins
-* The fourth frame consisted of two rolls
+* The fourth frame ("32") consisted of two rolls
    * The first roll knocked down 3 pins 
    * The second roll knocked down 2 pins
 
