@@ -7,7 +7,11 @@ Create a program, which, given a valid sequence of rolls for one line of America
 
 ## Example input
 
-For instance, for a game that is partway through, your input might be "X 45 4/ 32". This indicates that:
+For instance, for a game that is partway through, your input might be:
+
+> "X 45 4/ 32"
+
+This indicates that:
 
 * Four frames have been played
 * The first frame was a "strike" (all 10 pins knocked over in one roll - symbolised by "X")
