@@ -101,5 +101,5 @@ details > summary {
 }
 
 .container-fullHeight {
-  min-height: calc(100vh - 205px);
+  min-height: calc(100vh - 205px); // 205px -> Height of the header-nav, Header, and Footer
 }
