@@ -99,3 +99,7 @@ details > summary {
     margin-right: 10%;
   }
 }
+
+.container-fullHeight {
+  min-height: calc(100vh - 205px);
+}
