@@ -29,7 +29,7 @@ In this guide we assume that you have locally configured your shared git remote 
 
 ## Automating Tests
 
-We're going to use CircleCI to automate some tests.
+You're going to use CircleCI to automate some tests - that is, set things up so that every time you push your code to GitHub, your tests will be run for you automatically in what's known as a "pipeline".
 
 You'll need to pick a project to automate tests on. You have three choices:  
 - You can use a project you already have.     
