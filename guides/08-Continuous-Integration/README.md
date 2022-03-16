@@ -38,7 +38,7 @@ You'll need to pick a project to automate tests on. You have three choices:
         - There is also a [deployed version of this project](https://github.com/rf-mt/simple-sinatra-app) which you can refer to for reference.
         - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).  
 
-Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/) to run thrugh a simple little tutorial that walks you through the CircleCI basics.
+Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/) to run through a simple little tutorial that walks you through the CircleCI basics.
 
 If you're using `RSpec`, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line), and then your `config.yml` file can be as simple as:
 ```
