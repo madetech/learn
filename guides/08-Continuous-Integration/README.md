@@ -11,7 +11,9 @@ deploys applications so long as the steps complete successfully.
 
 ## Prerequisites
 
-If you have built a project with other people, pair or mob with them through this guide.
+You will need a project hosted on GitHub (preferably open-sourced, and without an automated build tool configured for it). If you have built this project with other people, pair or mob/ensemble with them through this guide.
+
+You will need accounts on [Heroku](https://devcenter.heroku.com) and [CircleCI](https://circleci.com/signup/) - they both offer free accounts as of March 2022.
 
 This guide assumes you are already familiar with Git, and the concept of Pull Requests.
 
@@ -22,8 +24,6 @@ In this guide we assume that you have locally configured your shared git remote 
         fetch = +refs/heads/*:refs/remotes/origin/*
         remote = origin
 ```
-
-You will need a project hosted on GitHub (preferably open-sourced, and without an automated build tool configured for it) and accounts on Heroku and CircleCI.
 
 You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) command line client.
 
