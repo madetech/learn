@@ -15,6 +15,8 @@ You will need a project hosted on GitHub (preferably open-sourced, and without a
 
 You will need accounts on [Heroku](https://devcenter.heroku.com) and [CircleCI](https://circleci.com/signup/) - they both offer free accounts as of March 2022.
 
+You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) command line client - do that now if you haven't already.
+
 This guide assumes you are already familiar with Git, and the concept of Pull Requests.
 
 In this guide we assume that you have locally configured your shared git remote to be named `origin`. This is the default, so you probably have. To check, run the following command in the root of your project: `cat .git/config | grep remote`. You should see something like this - the first line indicates that the remote is named `origin`:
@@ -24,8 +26,6 @@ In this guide we assume that you have locally configured your shared git remote 
         fetch = +refs/heads/*:refs/remotes/origin/*
         remote = origin
 ```
-
-You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) command line client.
 
 ## Automating Tests
 
