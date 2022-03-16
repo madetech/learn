@@ -11,12 +11,17 @@ deploys applications so long as the steps complete successfully.
 
 ## Prerequisites
 
-If you have built this project with other people, pair or mob with them through 
-this guide.
+If you have built a project with other people, pair or mob with them through this guide.
 
 This guide assumes you are already familiar with Git, and the concept of Pull Requests.
 
-In this guide we assume that you have locally configured your shared git remote to be named `origin`.
+In this guide we assume that you have locally configured your shared git remote to be named `origin`. This is the default, so you probably have. To check, run the following command in the root of your project: `cat .git/config | grep remote`. You should see something like this - the first line indicates that the remote is named `origin`:
+
+```
+[remote "origin"]
+        fetch = +refs/heads/*:refs/remotes/origin/*
+        remote = origin
+```
 
 You will need a project hosted on GitHub (preferably open-sourced, and without an automated build tool configured for it) and accounts on Heroku and CircleCI.
 
