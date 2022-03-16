@@ -31,11 +31,16 @@ In this guide we assume that you have locally configured your shared git remote 
 
 We're going to use CircleCI to automate some tests.
 
-First, you'll need to pick a project to automate tests on.
+You'll need to pick a project to automate tests on. You have three choices:  
+- You can use a project you already have.     
+- You can create an empty repo to practise with - Circle CI walks you through this process in the link below.
+- You can use [this sample project](https://github.com/rf-mt/simple-sinatra-app-to-deploy) which has been created for you for this purpose. 
+        - There is also a [deployed version of this project](https://github.com/rf-mt/simple-sinatra-app) which you can refer to for reference.
+        - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).  
 
-* Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/).
+Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/) to run thrugh a simple little tutorial that walks you through the CircleCI basics.
 
-If you are using RSpec, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line), and then your `config.yml` file can be as simple as:
+If you're using `RSpec`, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line), and then your `config.yml` file can be as simple as:
 ```
 version: 2.1
 orbs:
@@ -76,7 +81,7 @@ Using CircleCI and Heroku you can configure your application to be automatically
 
 Follow the Creating an application on Heroku, Configuring Heroku access on CircleCI and Adding the deploy configuration sections [here](https://circleci.com/blog/continuous-deployment-to-heroku/) to deploy your app to Heroku. Note that the `config.yml` file referenced in the Adding the deploy configuration section is the same one that you created in the Automating Tests step above, so you can just add to the existing file.
 
- ### Things to think about
+### Things to think about
 * Does the app still deploy if the tests fail? If so, see the `requires` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to make a step dependent on a previous step.
 * If you are using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to only deploy for a specific branch.
 * An alternative way to deploy to Heroku is that you could remove the `heroku/deploy-via-git` job from the CircleCI `config.yml` and try configuring the deployment through Heroku by [integrating with GitHub directly](https://devcenter.heroku.com/articles/github-integration). Note in particular the Enabling GitHub integration section and the Wait for CI to pass before deploy checkbox detailed in the Automatic deploys section.
