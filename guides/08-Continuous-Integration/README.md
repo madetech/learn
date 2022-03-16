@@ -32,37 +32,45 @@ In this guide we assume that you have locally configured your shared git remote 
 You're going to use CircleCI to automate some tests - that is, set things up so that every time you push your code to GitHub, your tests will be run for you automatically in what's known as a "pipeline".
 
 You'll need to pick a project to automate tests on. You have three choices:  
-- You can use a project you already have.     
-- You can create an empty repo to practise with - Circle CI walks you through this process in the link below.
-- You can use [this sample project](https://github.com/rf-mt/simple-sinatra-app-to-deploy) which has been created for you for this purpose. 
-        - There is also a [deployed version of this project](https://github.com/rf-mt/simple-sinatra-app) which you can refer to for reference.
-        - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).  
+  
 
-Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/) to run through a simple little tutorial that walks you through the CircleCI basics.
+1. Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/) to run through a simple little tutorial that walks you through the CircleCI basics.
+2. Now get Circle CI working with a simple Ruby Sinatra app. 
+        - You have a couple of options for your source code:
+                - You can use a project you already have.     
+                - ...or you can use [this sample project](https://github.com/rf-mt/simple-sinatra-app-to-deploy) which has been created for you for this purpose. 
+                        - There is also a [deployed version of this project](https://github.com/rf-mt/simple-sinatra-app) which you can refer to for reference.
+                        - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).
+        - This will mean you need to add a `.circleci` folder to the root of your project
+        - Then create a `config.yml` file in that folder (see example below)
+        - To find out more about the `config.yml` file, see [documentation here](https://circleci.com/docs/2.0/configuration-reference)
 
-If you're using `RSpec`, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line), and then your `config.yml` file can be as simple as:
+To create your `config.yml` file: If you're using `RSpec`, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line - you can see in the example below the version is `2.6.3`), and then your `config.yml` file can be as simple as:
 ```
 version: 2.1
 orbs:
-  ruby: circleci/ruby@0.1.2 
+  ruby: circleci/ruby@0.1.2
 
 jobs:
-  build:
+  build_and_test:
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
     executor: ruby/default
     steps:
       - checkout
+      - run: gem install bundler
       - ruby/bundle-install
       - run: bundle exec rspec
 ```
-If you are using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the `Setting up CircleCI` step of the instructions linked above.
+If you are using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/rf-mt/simple-sinatra-app/blob/master/.circleci/config.yml) for reference.
 
-Note that the above config.yml assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
+Note that the above `config.yml` assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
 
-If your GitHub project is at `github.com/craigjbass/tictactoe`, your CircleCI build will be at `app.circleci.com/pipelines/github/craigjbass/tictactoe`.
+You can go direct to your CircleCI build in the browser. For instance, if your GitHub project is at `github.com/craigjbass/tictactoe`, your CircleCI build will be at `app.circleci.com/pipelines/github/craigjbass/tictactoe`.
 
-* Trigger a build on CircleCI. Does it pass?
+3. Follow the following steps: 
+
+* Trigger a build on CircleCI (by pushing a code change to your GitHub repo). Does it pass?
 * Does it run tests if you push to your main branch in GitHub?
 * Does it run tests if you open a pull request? Note that you will only be dealing with pull requests if you are using branches in your branching strategy - see [Git Branching](#git-branching) below.
   * To open a pull request:
@@ -77,11 +85,19 @@ If your GitHub project is at `github.com/craigjbass/tictactoe`, your CircleCI bu
 * What happens if you open a pull request from a branch with failing tests? Can you still merge the request? What changes?
 
 ## Automating Deployment
-Using CircleCI and Heroku you can configure your application to be automatically deployed to the web. However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](https://www.learnenough.com/course/learn_enough_ruby/hello_world/ruby_web), or you can fork [this](https://github.com/rebeccafitzsimmons1/simple-sinatra-app-to-deploy/) simple Sinatra app.
 
-Follow the Creating an application on Heroku, Configuring Heroku access on CircleCI and Adding the deploy configuration sections [here](https://circleci.com/blog/continuous-deployment-to-heroku/) to deploy your app to Heroku. Note that the `config.yml` file referenced in the Adding the deploy configuration section is the same one that you created in the Automating Tests step above, so you can just add to the existing file.
+You've used CircleCI to run your tests in the cloud automatically every time you push a codechange to GuitHub. Now you can add Heroku into the mix so that not only do you run your tests, but when they pass you deploy your app to the web.
+
+Using CircleCI and Heroku you can configure your application to be automatically deployable. However, note that if your app has a command-line interface (rather than a web interface), then you don't gain much from Heroku deployment. In that case I would recommend you create a new repo with a simple Sinatra app as described at the beginning of Learn Enough Ruby [here](https://www.learnenough.com/course/learn_enough_ruby/hello_world/ruby_web), or you can fork [this simple Sinatra app](https://github.com/rebeccafitzsimmons1/simple-sinatra-app-to-deploy/).
+
+Run through the following sections [here](https://circleci.com/blog/continuous-deployment-to-heroku/) to deploy your app to Heroku (scroll past the node sections):
+- Creating an application on Heroku
+- Configuring Heroku access on CircleCI
+- Using the Heroku orb to deploy the app
+Note that the `config.yml` file referenced in the Adding the deploy configuration section is the same one that you created in the Automating Tests step above, so you can just add to the existing file.
 
 ### Things to think about
+
 * Does the app still deploy if the tests fail? If so, see the `requires` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to make a step dependent on a previous step.
 * If you are using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to only deploy for a specific branch.
 * An alternative way to deploy to Heroku is that you could remove the `heroku/deploy-via-git` job from the CircleCI `config.yml` and try configuring the deployment through Heroku by [integrating with GitHub directly](https://devcenter.heroku.com/articles/github-integration). Note in particular the Enabling GitHub integration section and the Wait for CI to pass before deploy checkbox detailed in the Automatic deploys section.
