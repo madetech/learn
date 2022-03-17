@@ -35,8 +35,8 @@ You're going to use CircleCI to automate some tests - that is, set things up so 
 2. Now get Circle CI working with a simple Ruby Sinatra app.  
 - You have a couple of options for your source code:  
   - You can use a project you already have.     
-  - ...or you can use [this sample project](https://github.com/rf-mt/simple-sinatra-app-to-deploy) which has been created for you for this purpose (although it was created in early 2021 so is not up to date).  
-    - There is also a [deployed version of this project](https://github.com/rf-mt/simple-sinatra-app) which you can refer to for reference.  
+  - ...or you can use [this sample project](https://github.com/madetech/learn/tree/master/guides/08-Continuous-Integration/simple-sinatra-app-to-deploy) which has been created for you for this purpose (although it was created in early 2021 so is not up to date).  
+    - There is also a [deployed version of this project](https://github.com/madetech/learn/tree/master/guides/08-Continuous-Integration/simple-sinatra-app) which you can refer to for reference.  
     - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).  
 - This will mean you need to add a `.circleci` folder to the root of your project  
 - Then create a `config.yml` file in that folder (see example below)  
@@ -62,7 +62,7 @@ workflows:
     jobs:
       - build_and_test
 ```
-If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/rf-mt/simple-sinatra-app/blob/master/.circleci/config.yml) for reference (although it was created in early 2021 so may not be up to date).
+If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/madetech/learn/blob/master/guides/08-Continuous-Integration/simple-sinatra-app/.circleci/config.yml) for reference (although it was created in early 2021 so may not be up to date).
 
 In case this guide and the sample repo are out of date, you should be able to see an up to date sample `config.yml` for Ruby [here](https://circleci.com/developer/orbs/orb/circleci/ruby), or go [here](https://circleci.com/developer/orbs) and find the most up to date Ruby orb.
 
