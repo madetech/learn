@@ -31,19 +31,16 @@ In this guide we assume that you have locally configured your shared git remote 
 
 You're going to use CircleCI to automate some tests - that is, set things up so that every time you push your code to GitHub, your tests will be run for you automatically in what's known as a "pipeline".
 
-You'll need to pick a project to automate tests on. You have three choices:  
-  
-
 1. Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/) to run through a simple little tutorial that walks you through the CircleCI basics.
-2. Now get Circle CI working with a simple Ruby Sinatra app. 
-        - You have a couple of options for your source code:
+2. Now get Circle CI working with a simple Ruby Sinatra app.  
+        - You have a couple of options for your source code:  
                 - You can use a project you already have.     
-                - ...or you can use [this sample project](https://github.com/rf-mt/simple-sinatra-app-to-deploy) which has been created for you for this purpose. 
-                        - There is also a [deployed version of this project](https://github.com/rf-mt/simple-sinatra-app) which you can refer to for reference.
-                        - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).
-        - This will mean you need to add a `.circleci` folder to the root of your project
-        - Then create a `config.yml` file in that folder (see example below)
-        - To find out more about the `config.yml` file, see [documentation here](https://circleci.com/docs/2.0/configuration-reference)
+                - ...or you can use [this sample project](https://github.com/rf-mt/simple-sinatra-app-to-deploy) which has been created for you for this purpose.  
+                        - There is also a [deployed version of this project](https://github.com/rf-mt/simple-sinatra-app) which you can refer to for reference.  
+                        - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).  
+        - This will mean you need to add a `.circleci` folder to the root of your project  
+        - Then create a `config.yml` file in that folder (see example below)  
+        - To find out more about the `config.yml` file, see [documentation here](https://circleci.com/docs/2.0/configuration-reference)  
 
 To create your `config.yml` file: If you're using `RSpec`, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line - you can see in the example below the version is `2.6.3`), and then your `config.yml` file can be as simple as:
 ```
@@ -62,7 +59,7 @@ jobs:
       - ruby/bundle-install
       - run: bundle exec rspec
 ```
-If you are using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/rf-mt/simple-sinatra-app/blob/master/.circleci/config.yml) for reference.
+If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/rf-mt/simple-sinatra-app/blob/master/.circleci/config.yml) for reference.
 
 Note that the above `config.yml` assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
 
@@ -99,7 +96,7 @@ Note that the `config.yml` file referenced in the Adding the deploy configuratio
 ### Things to think about
 
 * Does the app still deploy if the tests fail? If so, see the `requires` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to make a step dependent on a previous step.
-* If you are using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to only deploy for a specific branch.
+* If you're using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to only deploy for a specific branch.
 * An alternative way to deploy to Heroku is that you could remove the `heroku/deploy-via-git` job from the CircleCI `config.yml` and try configuring the deployment through Heroku by [integrating with GitHub directly](https://devcenter.heroku.com/articles/github-integration). Note in particular the Enabling GitHub integration section and the Wait for CI to pass before deploy checkbox detailed in the Automatic deploys section.
 
 ## Troubleshooting
