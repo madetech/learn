@@ -1,18 +1,20 @@
+# Note that this was originally created in early 2021.
+# The Ruby orb has been updated since then...
+# But the heroku orb may still be out of date.
+
 version: 2.1
 orbs:
-  ruby: circleci/ruby@0.1.2
+  ruby: circleci/ruby@1.4.0
   heroku: circleci/heroku@0.0.10
 
 jobs:
   build_and_test:
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
-    executor: ruby/default
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
-      - run: gem install bundler
-      - ruby/bundle-install
-      - run: bundle exec rspec
+      - ruby/install-deps
+      - ruby/rspec-test
 
 workflows:
   build_and_test_deploy:
