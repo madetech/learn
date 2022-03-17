@@ -37,7 +37,7 @@ You're going to use CircleCI to automate some tests - that is, set things up so 
   - You can use a project you already have.     
   - ...or you can use [this sample project](https://github.com/madetech/learn/tree/master/guides/08-Continuous-Integration/simple-sinatra-app-to-deploy) which has been created for you for this purpose (although it was created in early 2021 so is not up to date).  
     - There is also a [deployed version of this project](https://github.com/madetech/learn/tree/master/guides/08-Continuous-Integration/simple-sinatra-app) which you can refer to for reference.  
-    - It's [deployed here](https://super-simple-sinatra-app.herokuapp.com/).  
+    - It's [deployed here](https://ci-example-academy.herokuapp.com/).  
 - This will mean you need to add a `.circleci` folder to the root of your project  
 - Then create a `config.yml` file in that folder (see example below)  
 - To find out more about the `config.yml` file, see [documentation here](https://circleci.com/docs/2.0/configuration-reference)  
@@ -58,7 +58,7 @@ jobs:
       - ruby/rspec-test
 
 workflows:
-  build_and_test_workflow:
+  build_and_test_deploy:
     jobs:
       - build_and_test
 ```
