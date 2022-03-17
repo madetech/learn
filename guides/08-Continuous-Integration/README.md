@@ -98,7 +98,8 @@ Run through the following sections [here](https://circleci.com/blog/continuous-d
 - Creating an application on Heroku
 - (you can skip past "Setting up the project on CircleCI")
 - Configuring Heroku access on CircleCI
-- Using the Heroku orb to deploy the app
+- Using the Heroku orb to deploy the app  
+
 Note that the `config.yml` file referenced in the Adding the deploy configuration section is the same one that you created in the Automating Tests step above, so you can just add to the existing file. The `heroku orb` is [documented here](https://circleci.com/developer/orbs/orb/circleci/heroku), or go [here](https://circleci.com/developer/orbs) and find the most up to date Heroku orb.
 
 ### Things to think about
