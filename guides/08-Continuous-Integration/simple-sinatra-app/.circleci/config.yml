@@ -1,6 +1,6 @@
 # Note that this was originally created in early 2021.
 # The Ruby orb has been updated since then...
-# But the heroku orb may still be out of date.
+# I'm currently working on the heroku orb - so it might be working...
 
 version: 2.1
 orbs:
