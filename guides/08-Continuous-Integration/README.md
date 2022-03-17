@@ -46,20 +46,27 @@ To create your `config.yml` file: If you're using `RSpec`, all you need to know 
 ```
 version: 2.1
 orbs:
-  ruby: circleci/ruby@0.1.2
+  ruby: circleci/ruby@1.4.0
 
 jobs:
   build_and_test:
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
-    executor: ruby/default
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
-      - run: gem install bundler
-      - ruby/bundle-install
-      - run: bundle exec rspec
+      - ruby/install-deps
+      - ruby/rspec-test
+
+workflows:
+  build_and_test_workflow:
+    jobs:
+      - build_and_test
 ```
 If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/rf-mt/simple-sinatra-app/blob/master/.circleci/config.yml) for reference.
+
+In case this guide and the sample repo are out of date, you should be able to see an up to date sample `config.yml` for Ruby [here](https://circleci.com/developer/orbs/orb/circleci/ruby), or go [here](https://circleci.com/developer/orbs) and find the most up to date Ruby orb.
+
+Check the [troubleshooting section below](#troubleshooting) if any problems.
 
 Note that the above `config.yml` assumes you have a `Gemfile` - which can be as simple as [this one](https://github.com/claresudbery/mars-rover-kata-ruby/blob/fdff2aefca3456dddab635f494fd885b63aa965e/Gemfile). You'll also need a `Gemfile.lock` later on to get Heroku working - you can create one by running `bundle install` after you've added your `Gemfile`.
 
@@ -91,7 +98,7 @@ Run through the following sections [here](https://circleci.com/blog/continuous-d
 - Creating an application on Heroku
 - Configuring Heroku access on CircleCI
 - Using the Heroku orb to deploy the app
-Note that the `config.yml` file referenced in the Adding the deploy configuration section is the same one that you created in the Automating Tests step above, so you can just add to the existing file.
+Note that the `config.yml` file referenced in the Adding the deploy configuration section is the same one that you created in the Automating Tests step above, so you can just add to the existing file. The `heroku orb` is [documented here](https://circleci.com/developer/orbs/orb/circleci/heroku), or go [here](https://circleci.com/developer/orbs) and find the most up to date Heroku orb.
 
 ### Things to think about
 
@@ -102,6 +109,7 @@ Note that the `config.yml` file referenced in the Adding the deploy configuratio
 ## Troubleshooting
 
 - Use the [CircleCI language docs](https://circleci.com/docs/2.0/language-ruby/) and the [CircleCI deployment docs](https://circleci.com/docs/2.0/deployment-integrations/) to help you identify problems.
+- If you get a CircleCI error saying no jobs or workflows are defined, check your indentation. Every section should have nested indentation where each nested section is tabbed in one tab more than its parent.
 - If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`.
 - If you get errors about Bundler versions, add the following to `config.yml` on the line before the `ruby/bundle-install` step (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20) - note that this explanation is in reference to travis, but it's the same principle):  
 
