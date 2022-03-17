@@ -8,3 +8,4 @@ gem "rspec"
 gem "sinatra"
 gem 'capybara'
 gem 'puma'
+gem 'rspec_junit_formatter'
