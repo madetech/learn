@@ -1,4 +1,4 @@
-require 'capybara/rspec'
+require 'rspec'
 require 'sinatra'
 require 'index'
 
