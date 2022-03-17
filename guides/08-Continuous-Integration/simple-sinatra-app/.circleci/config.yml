@@ -1,8 +1,6 @@
 # Note that this was originally created in early 2021.
 # The Ruby orb was updated March 17th 2022
 # The Heroku orb was updated March 17th 2022
-# Both seem to be working, but there are issues with tests.
-# Maybe caused by outdated gems that are preventing tests from running? Investigating now...
 
 version: 2.1
 orbs:
