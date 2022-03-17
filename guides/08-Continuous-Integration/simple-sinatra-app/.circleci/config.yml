@@ -1,0 +1,27 @@
+version: 2.1
+orbs:
+  ruby: circleci/ruby@0.1.2
+  heroku: circleci/heroku@0.0.10
+
+jobs:
+  build_and_test:
+    docker:
+      - image: circleci/ruby:2.6.3-stretch-node
+    executor: ruby/default
+    steps:
+      - checkout
+      - run: gem install bundler
+      - ruby/bundle-install
+      - run: bundle exec rspec
+
+workflows:
+  build_and_test_deploy:
+    jobs:
+      - build_and_test
+      - heroku/deploy-via-git:
+          requires:
+            - build_and_test
+          filters:
+            branches:
+              only: master
+
