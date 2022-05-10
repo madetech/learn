@@ -27,7 +27,7 @@ Result = “22020”
 ### Character in wrong position
 ```
 Target = “stair”
-Guess = “chore”
+Guess  = “chore”
 Result = “00010”
 ```
 
