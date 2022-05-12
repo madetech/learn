@@ -13,7 +13,7 @@ Create a program, which, given a 5 character string as a target word, and a 5 ch
 ### No matching characters
 ```
 Target = “ropes”
-Guess  = “charm”
+Guess  = “child”
 Result = “00000”
 ```
 
