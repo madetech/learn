@@ -10,4 +10,4 @@ For the MT academy - demonstrating continuous integration
 
 # To deploy via Circle CI and Heroku
 
-Follow instructions [here](https://learn.madetech.com/guides/08-Continuous-Integration/).
+Follow instructions [here](https://learn.madetech.com/technology/guides/08-Continuous-Integration/).

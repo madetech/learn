@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Content Moved
-published: 28 June 2023
+published: 21 July 2023
 ---
 
 {% capture title %}

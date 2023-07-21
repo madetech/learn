@@ -60,7 +60,7 @@ think about the assumptions you're making and test them one by one.
 
 ## 2.1 Understand and get it running
 
-Open "[BuggyProject](https://github.com/madetech/learn/tree/master/technology/guides/03-Debugging/BuggyProject)" up in a text editor
+Open "[BuggyProject](https://github.com/madetech/learn/tree/master/guides/03-Debugging/BuggyProject)" up in a text editor
 
 Read the contents of the project and understand it's purpose. _Hint: start with the tests._
 

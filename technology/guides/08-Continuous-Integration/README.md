@@ -65,7 +65,7 @@ workflows:
     jobs:
       - build_and_test
 ```
-If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/madetech/learn/blob/technology/guides/08-Continuous-Integration/simple-sinatra-app/.circleci/config.yml) for reference (it was last updated in March 2022 - the orbs may need updating).
+If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/madetech/learn/blob/master/technology/guides/08-Continuous-Integration/simple-sinatra-app/.circleci/config.yml) for reference (it was last updated in March 2022 - the orbs may need updating).
 
 In case this guide and the sample repo are out of date, you should be able to see an up to date sample `config.yml` for Ruby [here](https://circleci.com/developer/orbs/orb/circleci/ruby), or go [here](https://circleci.com/developer/orbs) and find the most up to date Ruby orb.
 
