@@ -1,0 +1,59 @@
+---
+layout: main
+title: Training Calendar
+---
+
+{% capture title %}
+Training Opportunities
+{% endcapture %}
+
+{% capture text %}
+A list of upcoming training sessions and courses being run for Made Tech employees.
+{% endcapture %}
+
+{% include digital_element_header.html title=title text=text %}
+{% capture content %}
+
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Clean Code 101</h3>
+      <h4 class="card-title mt-0">Manchester, Tuesday Sept 5th</h4>
+      <p class="card-text">
+        A one day bootcamp covering programming concepts, suitable for all Engineering levels. This course is <em>in-person</em> only.
+      </p>
+      <a href="https://forms.gle/o7vsZf8rUcQQYfqd8" class="btn btn-success">Register</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Clean Code 101</h3>
+      <h4 class="card-title mt-0">Bristol, Tuesday Sept 12th</h4>
+      <p class="card-text">
+        A one day bootcamp covering programming concepts, suitable for all Engineering levels. This course is <em>in-person</em> only.
+      </p>
+      <a href="https://forms.gle/Nrs5H34osYicsUrf8" class="btn btn-success">Register</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Clean Code 101</h3>
+      <h4 class="card-title mt-0">Future Sessions</h4>
+      <p class="card-text">
+        We're hoping to repeat Clean Code 101 a few times per year. To help us understand interest in this course, please register interest below.
+      </p>
+      <a href="https://forms.gle/1QkvWK7LtpYLVwhL7" class="btn btn-success">Register Interest</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  
+</div>
+
+
+
+{% endcapture %}
+
+{% include digital_element_container.html content=content %}
