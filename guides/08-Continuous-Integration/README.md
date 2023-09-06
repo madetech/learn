@@ -35,12 +35,12 @@ You're going to use CircleCI to automate some tests - that is, set things up so 
 2. Now get Circle CI working with a simple Ruby Sinatra app.  
 - You have a couple of options for your source code:  
   - You can use a project you already have.     
-  - ...or you can use [this sample project](https://github.com/madetech/learn/tree/master/guides/08-Continuous-Integration/simple-sinatra-app-to-deploy) which has been created for you for this purpose (it was last updated in March 2022 - the orbs may need updating).  
-    - There is also a [deployed version of this project](https://github.com/madetech/learn/tree/master/guides/08-Continuous-Integration/simple-sinatra-app) which you can refer to for reference.  
+  - ...or you can use [this sample project](https://github.com/madetech/learn/tree/master/technology/guides/08-Continuous-Integration/simple-sinatra-app-to-deploy) which has been created for you for this purpose (it was last updated in March 2022 - the orbs may need updating).  
+    - There is also a [deployed version of this project](https://github.com/madetech/learn/tree/master/technology/guides/08-Continuous-Integration/simple-sinatra-app) which you can refer to for reference.  
     - It's [deployed here](https://ci-example-academy.herokuapp.com/).  
     - Both these code bases are in sub-folders within the `learn-tech` code base. To clone the code, follow these instructions:
     - Run `git clone git@github.com:madetech/learn.git`
-    - You'll find both code bases in the following folder: `cd learn/guides/08-Continuous-Integration/`
+    - You'll find both code bases in the following folder: `cd learn/technology/guides/08-Continuous-Integration/`
 - To get Circle CI working, you need to add a `.circleci` folder to the root of your project  
 - Then create a `config.yml` file in that folder (see example below)  
 - To find out more about the `config.yml` file, see [documentation here](https://circleci.com/docs/2.0/configuration-reference)  
@@ -65,7 +65,7 @@ workflows:
     jobs:
       - build_and_test
 ```
-If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/madetech/learn/blob/master/guides/08-Continuous-Integration/simple-sinatra-app/.circleci/config.yml) for reference (it was last updated in March 2022 - the orbs may need updating).
+If you're using a Ruby project, note that this config should be very similar to the pre-populated `config.yml` file you got in the CircleCI tutorial linked above. You also have [this deployed Ruby project](https://github.com/madetech/learn/blob/technology/guides/08-Continuous-Integration/simple-sinatra-app/.circleci/config.yml) for reference (it was last updated in March 2022 - the orbs may need updating).
 
 In case this guide and the sample repo are out of date, you should be able to see an up to date sample `config.yml` for Ruby [here](https://circleci.com/developer/orbs/orb/circleci/ruby), or go [here](https://circleci.com/developer/orbs) and find the most up to date Ruby orb.
 
