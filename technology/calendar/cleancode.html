@@ -1,0 +1,83 @@
+---
+layout: main
+title: Training Calendar
+---
+
+{% capture title %}
+Training Opportunities
+{% endcapture %}
+
+{% capture text %}
+A list of upcoming training sessions and courses being run for Made Tech employees.
+{% endcapture %}
+
+{% include digital_element_header.html title=title text=text %}
+{% capture content %}
+
+<div class="row">
+  <div class="container col-md-10 text-center">
+    <h2>Clean Code</h2>
+    <p class="lead">
+      This workshop is a chance to learn and discuss what we consider to be "Clean Code" at Made Tech, learn some coding principles, as well as practice some TDD & Pairing.
+    </p>
+    <p>
+      This is suitable for <em>any</em> level of Engineer at Made Tech, and will involve lots of discussion, pairing and coding.
+    </p>
+    <p>
+      Please bear in mind that the workshop has been designed to be an <em>in-person</em> experience, although we will try out best to run a remote workshop if there is enough interest.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Day One</h3>
+      <h4 class="card-title mt-0">London, Thursday October 5th</h4>
+      <p class="card-text">
+        A one day bootcamp covering programming concepts, suitable for all Engineering levels. This course is <em>in-person</em> only.
+      </p>
+      <p class="card-text"><em>Unfortunately this event is now full. Please register interest in a future session.</em></p>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Day One</h3>
+      <h4 class="card-title mt-0">Bristol, Tuesday December 5th</h4>
+      <p class="card-text">
+        First day of a bootcamp covering programming concepts, suitable for all Engineering levels. This course is <em>in-person</em> only.
+      </p>
+      <a href="https://forms.gle/HpwLPsgQaaZoGZnX6" class="btn btn-success">Register</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h3 class="card-title mt-0">Days Two & Three</h3>
+      <h4 class="card-title mt-0">Bristol, Wednesday December 6th &amp; 7th</h4>
+      <p class="card-text">
+        A continuation of the Clean Code bootcamp covering programming concepts, suitable for all Engineering levels. This course is <em>in-person</em> only.</p>
+        <p>It is <em>highly recommended</em> that you attend Day One if you have not been on the course before.</p>
+      </p>
+      <a href="https://forms.gle/6nrLYoGrXR8DE32W8" class="btn btn-success">Register</a>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h4 class="card-title mt-0">Future Sessions</h4>
+      <p class="card-text">
+        We're hoping to repeat Clean Code 101 a few times per year. To help us understand interest in this course, please register interest below.
+      </p>
+      <a href="https://forms.gle/1QkvWK7LtpYLVwhL7" class="btn btn-success">Register Interest</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  
+</div>
+
+
+
+{% endcapture %}
+
+{% include digital_element_container.html content=content %}
