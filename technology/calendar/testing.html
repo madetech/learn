@@ -1,0 +1,49 @@
+---
+layout: main
+title: Training Calendar
+---
+
+{% capture title %}
+Training Opportunities
+{% endcapture %}
+
+{% capture text %}
+A list of upcoming training sessions and courses being run for Made Tech employees.
+{% endcapture %}
+
+{% include digital_element_header.html title=title text=text %}
+{% capture content %}
+
+<div class="row">
+  <div class="container col-md-10 text-center">
+    <h2>Recapping TDD and Testing Along the Spectrum</h2>
+    <p class="lead">
+        You <em>know</em> you should TDD, but do you struggle where to start? What's the difference between a unit, integration and end-to-end testing? And how do you write tests for existing code?
+        Throughout this workshop we'll explore these ideas and more. Hopefully you'll come away with a greater appreciation for TDD, and more ways to embed it into your coding practice.
+    </p>
+    <p>
+      This is suitable for <em>any</em> level of Engineer at Made Tech, and will involve lots of discussion, pairing and coding.
+    </p>
+    <p>
+      Please bear in mind that the workshop will focus strongly on the  <em>in-person</em> experience.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm">
+    <div class="card-body card-border">
+      <h4 class="card-title mt-0">London, Tuesday PM 24th October (online) and Wednesday 25th October (in person)</h4>
+      <p class="card-text">
+        A 1.5 day bootcamp aimed to build confidence in TDD, use different tools across different areas of testing, and how to bug fix through testing.
+        Suitable for all levels. 
+        <em>Part 1 will be online, Parts 2 and 3 will be in person. You need to be able to attend all three parts.</em>      </p>
+      <a href="https://forms.gle/zUacLmYpP1WiTZJy7" class="btn btn-success">Register</a> 
+    </div>
+  </div>
+
+
+
+
+{% endcapture %}
+
+{% include digital_element_container.html content=content %}
