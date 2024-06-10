@@ -4,7 +4,7 @@ title: Training Calendar
 ---
 
 {% capture title %}
-Training Opportunities
+Training Opportunities - Clean Code
 {% endcapture %}
 
 {% capture text %}
@@ -12,72 +12,38 @@ A list of upcoming training sessions and courses being run for Made Tech employe
 {% endcapture %}
 
 {% include digital_element_header.html title=title text=text %}
+
 {% capture content %}
+{% for course in site.data.tech-courses %}
+{% if course.type == 'clean-code' %}
 
 <div class="row">
   <div class="container col-md-10 text-center">
-    <h2>Clean Code</h2>
+    <h2>{{ course.title }}</h2>
     <p class="lead">
-      This workshop is a chance to learn and discuss what we consider to be "Clean Code" at Made Tech, learn some coding principles, as well as practice some TDD & Pairing.
+      This workshop is a chance to learn and discuss what we consider to be "Clean Code" at Made Tech, learn some coding
+      principles, as well as practice some TDD & Pairing.
     </p>
     <p>
-      This is suitable for <em>any</em> level of Engineer at Made Tech, and will involve lots of discussion, pairing and coding.
+      This is suitable for <em>any</em> level of Engineer at Made Tech, and will involve lots of discussion, pairing and
+      coding.
     </p>
     <p>
-      Please bear in mind that the workshop has been designed to be an <em>in-person</em> experience, although we run a remote version of this course we will prioritise those who are <em>unable</em> to attend in-person sessions at an office.
+      Please bear in mind that the workshop has been designed to be an <em>in-person</em> experience, although we run a
+      remote version of this course we will prioritise those who are <em>unable</em> to attend in-person sessions at an
+      office.
     </p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm">
-    <div class="card-body card-border">
-      <h3 class="card-title mt-0">Bristol</h3>
-      <h4 class="card-title mt-0">Upcoming</h4>
-      <p class="card-text">
-        Days 1 to 3. Covers programming concepts, pairing and TDD. Suitable for all Engineering levels. This course is <em>in-person</em> only.
-      </p>
-      <!-- <a href="#" class="btn btn-success">Register</a> -->
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm">
-    <div class="card-body card-border">
-      <h3 class="card-title mt-0">London</h3>
-      <h4 class="card-title mt-0">Upcoming</h4>
-      <p class="card-text">
-        Days 1 to 3. Covers programming concepts, pairing and TDD. Suitable for all Engineering levels. This course is <em>in-person</em> only.
-      </p>
-      <!-- <a href="#" class="btn btn-success">Register</a> -->
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm">
-    <div class="card-body card-border">
-      <h3 class="card-title mt-0">Manchester</h3>
-      <h4 class="card-title mt-0">Upcoming</h4>
-      <p class="card-text">
-        Days 1 to 3. Covers programming concepts, pairing and TDD. Suitable for all Engineering levels. This course is <em>in-person</em> only.
-      </p>
-      <!-- <a href="#" class="btn btn-success">Register</a> -->
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm">
-    <div class="card-body card-border">
-      <h3 class="card-title mt-0">Remote</h3>
-      <h4 class="card-title mt-0">Wednesday 17th July - Friday 19th July</h4>
-      <p class="card-text">
-        Days 1 to 3. Covers programming concepts, pairing and TDD. Suitable for all Engineering levels. This course is being offered as a <em>remote</em> option and we will attempt to prioritise those who are unable to attend in-person sessions at an office.
-      </p>
-      <a href="https://forms.gle/inX5HHgWYkPjTsUS7" class="btn btn-success">Register</a>
-    </div>
   </div>
 </div>
 
+{% for date in course.dates %}
 
+{% include tech_course_listing.html course=date %}
+
+{% endfor %}
+
+{% endif %}
+{% endfor %}
 
 {% endcapture %}
 

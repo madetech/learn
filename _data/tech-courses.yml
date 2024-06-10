@@ -1,0 +1,68 @@
+- type: clean-code
+  title: Clean Code
+  booking-page: cleancode.html
+  bookable: true
+  summary: |-
+        A bootcamp covering programming concepts, lots of discussion and practical exercises. 
+        Suitable for all Engineering levels.
+  dates:
+    - title: Clean Code
+      location: Bristol
+      available: false
+      subtitle: Days 1 to 3
+      date: Upcoming
+      description: |-
+         Days 1 to 3. Covers programming concepts, pairing and TDD. 
+         Suitable for all Engineering levels. This course is *in-person* only.
+      button-url: '#'
+
+    - title: Clean Code
+      location: London
+      available: false
+      subtitle: Days 1 to 3
+      date: Upcoming
+      description: |-
+        Days 1 to 3. Covers programming concepts, pairing and TDD. 
+        Suitable for all Engineering levels. This course is *in-person* only.
+      button-url: '#'
+
+    - title: Clean Code
+      location: Manchester
+      available: false
+      subtitle: Days 1 to 3
+      date: Upcoming
+      description: |-
+        Days 1 to 3. Covers programming concepts, pairing and TDD. 
+        Suitable for all Engineering levels. This course is *in-person* only.
+      button-url: '#'
+      
+    - title: Clean Code - Remote
+      location: Remote
+      available: true
+      subtitle: Days 1 to 3
+      date: Wednesday 17th July - Friday 19th July
+      description: |-
+        Days 1 to 3. Covers programming concepts, pairing and TDD.
+        Suitable for all Engineering levels. 
+
+        This course is being offered as a *remote* option and we will attempt to prioritise those who are unable to attend in-person sessions at an office.
+      button-url: 'https://forms.gle/inX5HHgWYkPjTsUS7'
+
+- type: consulting101
+  title: What is Consulting and how should I do it at Made Tech?
+  booking-page: ''
+  bookable: false
+  summary: |-
+    A one day bootcamp covering the consulting market, how Made Tech fits into that market, how to approach account strategy &amp; influence your client, as well as dealing with difficult scenarios. 
+    Suitable for all billable roles. This course is *in-person* only.
+  dates: []
+
+- type: tdd
+  title: Recapping TDD and Testing Along the Spectrum
+  booking-page: 'testing.html'
+  bookable: false
+  summary: |-
+    A 1.5 day bootcamp aimed to build confidence in TDD, use different tools across different areas of testing, and how to bug fix through testing.
+    Suitable for all levels. 
+    *Please note: Part 1 will be online, Parts 2 and 3 will be in person. You need to be able to attend all three parts.*    
+  dates: []

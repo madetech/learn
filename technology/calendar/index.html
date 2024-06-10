@@ -12,54 +12,20 @@ A list of upcoming training sessions and courses being run for Made Tech employe
 {% endcapture %}
 
 {% include digital_element_header.html title=title text=text %}
+
 {% capture content %}
 
 <div class="row">
-  <div class="col-sm">
-    <div class="card-body card-border">
-      <h3 class="card-title mt-0">Clean Code</h3>
-      <p class="card-text">
-        A bootcamp covering programming concepts, lots of discussion and practical exercises. Suitable for all Engineering levels.
-        <p>
-          <strong>Bristol - Days 1 to 3 - Tuesday 30th April - 2nd May</strong><br />
-          <strong>Remote - Day 1 - Monday 13th May</strong>
-        </p>
-      </p>
-      <a href="cleancode.html" class="btn btn-success">More information & Register</a>
-    </div>
-  </div>
-  <!--<div class="col-sm">
-    <div class="card-body card-border">
-      <h3 class="card-title mt-0">What is Consulting and how should I do it at Made Tech?</h3>
-      <p class="card-text">
-        A one day bootcamp covering the consulting market, how Made Tech fits into that market, how to approach account strategy &amp; influence your client, as well as dealing with difficult scenarios. Suitable for all billable roles. This course is <em>in-person</em> only.
-      </p>
-      <p>
-        <strong>Bristol - Tuesday 31st October</strong>
-        <strong>Manchester - Tuesday 14th November</strong>
-        <strong>London - Monday 11th December</strong>
-      </p>
-      <a href="https://forms.gle/UKy1xuJgQ8bKwAqr6" class="btn btn-success">Register</a>
-    </div>
-  </div>-->
-  <!--<div class="col-sm">
-    <div class="card-body card-border">
-      <h3 class="card-title mt-0">Recapping TDD and Testing Along the Spectrum</h3>
-      <p class="card-text">
-        A 1.5 day bootcamp aimed to build confidence in TDD, use different tools across different areas of testing, and how to bug fix through testing.
-        Suitable for all levels. 
-        <em>Please note: Part 1 will be online, Parts 2 and 3 will be in person. You need to be able to attend all three parts.</em>
-      </p>
-      <p>
-        <strong>London - Tuesday PM 24th October &amp; Wednesday 25th October</strong>
-      </p>
-      <a href="testing.html" class="btn btn-success">More information & Register</a>
-    </div>
-  </div>-->
+
+  {% for course in site.data.tech-courses %}
+  {% if course.bookable %}
+  {% include tech_course_summary.html course=course %}
+  {% endif %}
+  {% endfor %}
+
 </div>
 <div class="row">
 </div>
-
 
 
 {% endcapture %}
