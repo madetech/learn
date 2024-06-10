@@ -1,0 +1,17 @@
+<div class="col-sm">
+  <div class="card-body card-border">
+    <h3 class="card-title mt-0">{{ include.course.title }}</h3>
+    <p class="card-text">
+      {{ include.course.summary }}
+      <p>
+        {% for date in include.course.dates %}
+        <strong>{{ date.location }} - {{ date.subtitle }} - {{ date.date }}</strong><br />
+        {% endfor %}
+      </p>
+    </p>
+    <a 
+    href="{{ include.course.booking-page }}" 
+    class="btn btn-success"
+    >More information & Register</a>
+  </div>
+</div>
