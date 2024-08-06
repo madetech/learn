@@ -7,7 +7,7 @@
         {{ include.course.description | markdownify }}
       </div>
       {% if include.course.available %}
-      <a href="{{ include.course.url }}" class="btn btn-success">Register</a>
+      <a href="{{ include.course.register-url }}" class="btn btn-success">Register</a>
       {% endif %}
     </div>
   </div>
