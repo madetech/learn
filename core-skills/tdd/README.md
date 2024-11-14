@@ -28,7 +28,7 @@ Test driven development is a practice we make ample use of here at Made Tech. By
 ## Badges
 
 {% capture giraffe_description %}
-TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark scheme below.
+TDD a [kata](../../technology/katas) or feature of your choice.  Keeping in mind the mark scheme below.
 
 - Writes a failing test before writing production code
   - Required - Several examples
