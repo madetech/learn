@@ -10,7 +10,7 @@
       location: Bristol
       available: false
       subtitle: Days 1 to 3
-      date: Upcoming
+      date: Upcoming (March 2025)
       description: |-
          Days 1 to 3. Covers programming concepts, pairing and TDD. 
          Suitable for all Engineering levels. This course is *in-person* only.
@@ -18,23 +18,34 @@
 
     - title: Clean Code
       location: Bristol
-      available: true
+      available: false
       subtitle: Days 4 and 5
-      date: Tuesday 20th August - Wednesday 21st August
+      date: Upcoming
       description: |-
          Days 4 to 5. More programming concepts, pairing and TDD, following on from Clean Code Days 1-3. 
          Suitable for all Engineering levels. This course is *in-person* only.
          You must have attended Clean Code Days 1 to 3 before attending this course.
-      register-url: 'https://forms.gle/AQynRPVRUYSbavAx7'
+      register-url: '#'
+
+    - title: Clean Code
+      location: London
+      available: true
+      subtitle: Days 1 to 3
+      date: Monday December 9th - Wednesday December 11th
+      description: |-
+        Days 1 to 3. Covers programming concepts, pairing and TDD. 
+        Suitable for all Engineering levels. This course is *in-person* only.
+      register-url: 'https://forms.gle/Wkr5KJ8yxn3dTfrF9'
 
     - title: Clean Code
       location: London
       available: false
-      subtitle: Days 1 to 3
-      date: Upcoming
+      subtitle: Days 4 and 5
+      date: Upcoming (Pester Ben to get this run on December 12th / 13th)
       description: |-
-        Days 1 to 3. Covers programming concepts, pairing and TDD. 
-        Suitable for all Engineering levels. This course is *in-person* only.
+         Days 4 to 5. More programming concepts, pairing and TDD, following on from Clean Code Days 1-3. 
+         Suitable for all Engineering levels. This course is *in-person* only.
+         You must have attended Clean Code Days 1 to 3 before attending this course.
       register-url: '#'
 
     - title: Clean Code
