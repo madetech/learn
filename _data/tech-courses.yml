@@ -62,13 +62,13 @@
       location: Remote
       available: false
       subtitle: Days 1 to 3
-      date: Upcoming
+      date: Monday 27th January - Wednesday 29th January 2025
       description: |-
         Days 1 to 3. Covers programming concepts, pairing and TDD.
         Suitable for all Engineering levels. 
 
         This course is being offered as a *remote* option and we will attempt to prioritise those who are unable to attend in-person sessions at an office.
-      register-url: #
+      register-url: 'https://forms.gle/ogLdmaWTDE5JnX7Q9'
 
 - type: consulting101
   title: What is Consulting and how should I do it at Made Tech?
