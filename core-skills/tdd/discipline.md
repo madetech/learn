@@ -10,9 +10,9 @@ Test-Driven Development is defined as a discipline with three rules:
 
 ## Reading material
 
-[Red-Green-Refactor definition, explanation; The Art of Agile - James Shore](http://www.jamesshore.com/Blog/Red-Green-Refactor.html)
-[Code wars - Library of programming exercises](http://www.codewars.com)
-[Transformation Priority Premise](https://en.wikipedia.org/wiki/Transformation_Priority_Premise)
+- [Red-Green-Refactor definition, explanation; The Art of Agile - James Shore](http://www.jamesshore.com/Blog/Red-Green-Refactor.html)
+- [Code wars - Library of programming exercises](http://www.codewars.com)
+- [Transformation Priority Premise](https://en.wikipedia.org/wiki/Transformation_Priority_Premise)
 
 ## Marking Scheme
 
