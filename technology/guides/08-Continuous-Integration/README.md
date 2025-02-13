@@ -148,7 +148,7 @@ Continuous integration is a branching style with more stringent rules than other
 
 ### Some Practices
 
-* Build new functionality in small increments, by employing a good software architecture and a [comprehensive suite of tests](https://www.madetech.com/blog/semantically-stable-test-suites).
+* Build new functionality in small increments, by employing a good software architecture and a comprehensive suite of tests.
 * Use an automated build tool (e.g. Jenkins, Travis, Gitlab CI, CircleCI, etc) to run tests every time a new commit is pushed to `origin/master`
 * Use an automated build tool to run tests every time a new commit is pushed to a Pull Request branch, and also run the tests as an "Integration" with master. (More on this later) 
 * Use your automated build tool to deploy successful builds

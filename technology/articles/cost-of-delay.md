@@ -2,10 +2,6 @@
 
 **Counterpoint:** Late Start Benefits
 
-**Blogs:**
-
-- [Made Tech: Cost of Delay](https://www.madetech.com/blog/cost-of-delay)
-
 ## Definition
 
 Cost of Delay ignores Sunk Costs, includes all future costs and benefits, and is measured as a unit of value (e.g. £).
