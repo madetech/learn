@@ -14,7 +14,6 @@ The first two sections of React's documentation, [JSX](https://reactjs.org/docs/
 
 - [Components and Props](https://reactjs.org/docs/components-and-props.html)
 - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
-- [Children](https://mxstbr.blog/2017/02/react-children-deepdive/)
 - [Event Handling](https://reactjs.org/docs/handling-events.html)
 - Handling Application State
   - To handle application state, you can either use something like the [React Context API](https://reactjs.org/docs/context.html),

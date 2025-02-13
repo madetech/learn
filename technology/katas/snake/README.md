@@ -15,5 +15,5 @@ This kata is based on the classic snake game that you may be familiar from the o
 * The snake should only turn one unit at a time, hard turns are not allowed. For instance, the snake is facing N; it should be able to turn W or E but NOT towards S.
 
 ## References
-* [Nokia Wiki](https://nokia.fandom.com/wiki/Snakea)
+* [Nokia Wiki](https://nokia.fandom.com/wiki/Snake)
 * [Snake Wiki](https://en.wikipedia.org/wiki/Snake_(video_game_genre))
