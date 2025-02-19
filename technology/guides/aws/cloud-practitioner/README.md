@@ -63,7 +63,6 @@ It is important to note that there are different methodologies of studying. Henc
 ##### Courses/Videos
 * [AWS Cloud Practitioner Essentials (Second Edition)](https://www.aws.training/Details/Curriculum?id=27076)
 * [A Cloud Guru - AWS Certified Cloud Practitioner 2019](https://acloud.guru/learn/aws-certified-cloud-practitioner)
-* [LinuxAcademy - AWS Cloud Practitioner (CLF-C01)](https://linuxacademy.com/course/aws-cloud-practitioner)
 
 ##### Practice Tests
 
@@ -72,7 +71,6 @@ We found the following list of practice tests to be useful and recommend attempt
 * [A Cloud Guru - AWS Certified Cloud Practitioner Exam](https://acloud.guru/exam-simulator/start?courseId=aws-certified-cloud-practitioner)
 * [AWS Certified Cloud Practitioner – Foundational (CLF-C01) Sample Exam Questions](https://d1.awsstatic.com/training-and-certification/Docs%20-%20Cloud%20Practitioner/AWS%20Certified%20Cloud%20Practioner_Sample%20Questions_v1.1_FINAL.PDF)
 * [AWS Cloud Practitioner Essentials (Second Edition): Final Course Knowledge Check](https://www.aws.training/Details/eLearning?id=37545)
-* [LinuxAcademy - AWS Certified Cloud Practitioner](https://beta.linuxacademy.com/#/challenges/details/25ef6f9b-cf3e-4bd4-aac4-4cc334584698)
 * [Whizlabs - AWS Certified Cloud Practitioner](https://www.whizlabs.com/learn/course/aws-certified-cloud-practitioner-practice-tests)
 
 ##### Websites
