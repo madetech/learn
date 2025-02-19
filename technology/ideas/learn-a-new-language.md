@@ -1,6 +1,6 @@
 # Learn a new language
 
-We have found that [Koans](../koans) have worked well for us.
+We have found that [Koans](../koans/) have worked well for us.
 Enabling us to gain a broad understanding of a new language's syntax in a very short window.
 
 ## Also to consider

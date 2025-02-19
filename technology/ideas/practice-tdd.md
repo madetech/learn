@@ -2,7 +2,7 @@
 
 Once you understand the basics of Test Driven Development, you'll need to practice to gain experience.
 
-You can do that by practicing code [katas](../katas), by [sparring](../sparring) or by using it in your everyday work.
+You can do that by practicing code [katas](../katas/), by [sparring](../sparring/) or by using it in your everyday work.
 
 However, the most beneficial practice, is "Deliberate Practice" which must be:
 
@@ -25,7 +25,7 @@ Practice simple design:
 
 ## Constraints
 
-A good way to get more value out of code [katas](../katas) is to place constraints on how you solve it.
+A good way to get more value out of code [katas](../katas/) is to place constraints on how you solve it.
 
 [Adrian Bolboaca](http://blog.adrianbolboaca.ro/) has put together a very useful list of constraints in this [Coderetreat list of constraints](https://drive.google.com/drive/folders/0B3idvASFqaEbN2RkNDYyYjktYTlkZi00ZjFiLWFmMDEtNjJhYTBkYzM2ZDlh).
 

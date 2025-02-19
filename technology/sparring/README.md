@@ -10,6 +10,6 @@ While doing these exercises you should retrospect on your previous decisions.
 
 **These exercises are split into multiple parts, it's important to not skip ahead**
 
-* [Tic Tac Toe](./tic-tac-toe)
-* [Payroll](./payroll)
+* [Tic Tac Toe](./tic-tac-toe/)
+* [Payroll](./payroll/)
 

@@ -19,7 +19,7 @@ If you have some free time to learn by yourself, or in a pair, or even a mob, he
 
 ### Code Katas
 
-Go and do some Katas, either the ones [in this repository](/technology/katas).
+Go and do some Katas, either the ones [in this repository](/technology/katas/).
 
 Or from one of the following sources:
 
