@@ -1,4 +1,4 @@
-# Part 2
+# Tic Tac Toe: Part 2
 
 You may have chosen to implement a web interface or a command line user interface, or perhaps another type of UI.
 
