@@ -102,6 +102,8 @@ You will need to TDD a feature which interacts with a remote service of your cho
 {% capture dragon_description %}
 Review, refactor and improve an [existing test suite](https://github.com/madetech/core-skill-tdd/tree/master/ruby-chirper).
 
+Assessing Dragon requires access to the [invigilator's guide](https://docs.google.com/document/d/1v_i1LiMmV9xhOT1OpYvMuP3a06aMe4GQhRSkn2Xt3-A/).
+
 - Can identify smells within the sample apps test code.
   - Required - Can list and explain three valid smells per the invigilator's guide.
 
@@ -109,7 +111,7 @@ Review, refactor and improve an [existing test suite](https://github.com/madetec
   - Required - See invigilator's guide.
 
 - Can identify causes of poor performance in a test suite.
-  - Required - Identify two of the secret causes of poor performance.
+  - Required - Identify two of the causes of poor performance.
   - Required - Explain one potential structural cause of bad performance in a test suite.
 
 - Can improve the performance of a slow test suite.
