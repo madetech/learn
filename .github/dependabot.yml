@@ -6,13 +6,3 @@ updates:
     interval: daily
     timezone: Europe/London
   open-pull-requests-limit: 99
-  ignore:
-  - dependency-name: github-pages
-    versions:
-    - "211"
-    - "212"
-    - "213"
-  - dependency-name: nokogiri
-    versions:
-    - 1.11.1
-    - 1.11.2
