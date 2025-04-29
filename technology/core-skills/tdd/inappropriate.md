@@ -15,7 +15,7 @@ State machines are configuration. Unit testing is still important, but the disci
 Some software is hard to test because of inadequate test tooling.
 A slow test driven development cycle is painful and unproductive.
 Appropriate TDD makes your development cycle faster via fewer defects, and testable code.
-Weight up the benefits of test driven development vs the cost of delaying your development in this scenario.
+Weigh up the benefits of test driven development vs the cost of delaying your development in this scenario.
 
 Investing time into researching how to create fast feedback cycles can have huge gains in productivity.
 
