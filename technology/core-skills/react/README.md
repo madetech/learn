@@ -38,10 +38,13 @@ or one that already exists, see: [https://github.com/toddmotto/public-apis](http
 {% endcapture %}
 {% include skill_resources.html resources=resources %}
 
-## Mark Scheme
+## Badges
 
-{% capture hedgehog_description %}
-#### Learning the fundamentals - How not to hurt yourself with React
+### Hedgehog
+
+<img class="BadgeImg" alt="Hedgehog" src="./hedgehog.png" />
+
+Learning the fundamentals - How not to hurt yourself with React
 
 #### Application
 
@@ -69,11 +72,12 @@ The candidate can describe:
 - A lifecycle method that you can hook into and perform actions on
 - What methods might you use in a functional component to hook into the component lifecycle
 - How to manage state shared between multiple components, avoiding passing state between many components
-{% endcapture %}
-{% include assessment_container.html name="Hedgehog" description=hedgehog_description img="./hedgehog.png" %}
 
-{% capture fox_description %}
-#### Getting crafty with React - Creating some components for your users
+### Fox
+
+<img class="BadgeImg" alt="Fox" src="./fox.png" />
+
+Getting crafty with React - Creating some components for your users
 
 For this level you will be expected to bring along with you an application which contains a set of components which meet the marking criteria.
 
@@ -101,10 +105,11 @@ The candidate can describe:
 
 - What the `key` prop is used for
 - The difference between state in functional components versus class components
-{% endcapture %}
-{% include assessment_container.html name="Fox" description=fox_description img="./fox.png" %}
 
-{% capture owl_description %}
+### Owl
+
+<img class="BadgeImg" alt="Owl" src="./owl.png" />
+
 #### Getting wise with React - Integrating with remote services
 
 For this level you are expected to demonstrate the ability to test both your React
@@ -137,5 +142,3 @@ The candidate should create a React application which satisfies the following.
 - Component tests should have minimal coupling to the markup they render.
   - Candidate should showcase their use of test specific html attributes in the test suite
     to achieve this.
-{% endcapture %}
-{% include assessment_container.html name="Owl" description=owl_description img="./owl.png" %}
