@@ -1,4 +1,4 @@
-# Inappropriate TDD
+# When is TDD inappropriate
 
 ## Validation of correctness cannot be obtained via an automated check.
 
