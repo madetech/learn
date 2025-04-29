@@ -11,7 +11,7 @@
 
 ### Reading materials
 
- - [https://alistapart.com/topic/accessibility](https://alistapart.com/topic/accessibility)
+ - [https://alistapart.com/blog/topic/accessibility/](https://alistapart.com/blog/topic/accessibility/)
  - [https://alistapart.com/article/color-accessibility-workflows](https://alistapart.com/article/color-accessibility-workflows)
  - [https://www.w3.org/WAI/gettingstarted/tips/developing](https://www.w3.org/WAI/gettingstarted/tips/developing)
 

@@ -17,5 +17,4 @@ You’re part of the team that explores Mars by sending remotely controlled vehi
 
 ## References
 
-* [Victor Farcic](https://technologyconversations.com/2014/10/17/java-tutorial-through-katas-mars-rover/)
 * [Kata Log Rocks: Mars Rover](http://kata-log.rocks/mars-rover-kata)

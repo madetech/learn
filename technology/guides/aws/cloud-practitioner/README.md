@@ -105,6 +105,6 @@ We found the following list of practice tests to be useful and recommend attempt
 12. After having filled out the payment details, continue with the checkout while making sure all of the details you have entered are accurate
 13. That is it, you are done! You will receive an email with a confirmation of payment and also an email with information pertaining to your test centre
 
-If you are a Made Tech employee, please refer to the Made Tech Handbook to submit an expense: [Expenses](https://github.com/madetech/handbook/blob/master/technology/guides/compensation/expenses.md)
+If you are a Made Tech employee, please refer to the Made Tech Handbook to submit an expense: [Expenses](https://github.com/madetech/handbook/blob/main/guides/compensation/expenses.md)
 
 Good luck!

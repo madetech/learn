@@ -53,7 +53,7 @@ What VirtualBox does is it emulates a full system architecture inside your Opera
 
 **Vagrant!**
 
-[Vagrant](https://www.vagrantup.com/docs/) lets you define a `Vagrantfile` in the root of your project which will automatically setup a Virtual Machine.
+[Vagrant](https://developer.hashicorp.com/vagrant/docs) lets you define a `Vagrantfile` in the root of your project which will automatically setup a Virtual Machine.
 
 **Virtual Machines...**
 

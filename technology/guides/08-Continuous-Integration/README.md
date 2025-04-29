@@ -13,7 +13,7 @@ deploys applications so long as the steps complete successfully.
 
 You will need a project hosted on GitHub (preferably open-sourced, and without an automated build tool configured for it). If you have built this project with other people, pair or mob/ensemble with them through this guide.
 
-You will need accounts on [Heroku](https://devcenter.heroku.com) and [CircleCI](https://circleci.com/signup/) - they both offer free accounts as of March 2022.
+You will need accounts on [Heroku](https://devcenter.heroku.com) and [CircleCI](https://circleci.com/signup) - they both offer free accounts as of March 2022.
 
 You will need to install the [Heroku](https://devcenter.heroku.com/articles/heroku-cli) command line client - do that now if you haven't already.
 
@@ -31,7 +31,7 @@ In this guide we assume that you have locally configured your shared git remote 
 
 You're going to use CircleCI to automate some tests - that is, set things up so that every time you push your code to GitHub, your tests will be run for you automatically in what's known as a "pipeline".
 
-1. Follow [the instructions over at CircleCI's website](https://circleci.com/docs/2.0/getting-started/) to run through a simple little tutorial that walks you through the CircleCI basics.
+1. Follow [the instructions over at CircleCI's website](https://circleci.com/docs/getting-started/) to run through a simple little tutorial that walks you through the CircleCI basics.
 2. Now get Circle CI working with a simple Ruby Sinatra app.  
 - You have a couple of options for your source code:  
   - You can use a project you already have.     
@@ -43,7 +43,7 @@ You're going to use CircleCI to automate some tests - that is, set things up so 
     - You'll find both code bases in the following folder: `cd learn/technology/guides/08-Continuous-Integration/`
 - To get Circle CI working, you need to add a `.circleci` folder to the root of your project  
 - Then create a `config.yml` file in that folder (see example below)  
-- To find out more about the `config.yml` file, see [documentation here](https://circleci.com/docs/2.0/configuration-reference)  
+- To find out more about the `config.yml` file, see [documentation here](https://circleci.com/docs/configuration-reference/)  
 
 To create your `config.yml` file: If you're using `RSpec`, all you need to know is your Ruby version for the docker image section (use `ruby -v` on the command line - you can see in the example below the version is `2.6.3`), and then your `config.yml` file can be as simple as:
 ```
@@ -107,13 +107,13 @@ Note that the `config.yml` file referenced in the Adding the deploy configuratio
 
 ### Things to think about
 
-* Does the app still deploy if the tests fail? If so, see the `requires` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to make a step dependent on a previous step.
-* If you're using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/2.0/deployment-integrations/) to only deploy for a specific branch.
+* Does the app still deploy if the tests fail? If so, see the `requires` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/deployment-overview/) to make a step dependent on a previous step.
+* If you're using branches, are changes to all branches deployed? If so, is this desirable? See the `filters` step in the `heroku_deploy` workflow [here](https://circleci.com/docs/deployment-overview/) to only deploy for a specific branch.
 * An alternative way to deploy to Heroku is that you could remove the `heroku/deploy-via-git` job from the CircleCI `config.yml` and try configuring the deployment through Heroku by [integrating with GitHub directly](https://devcenter.heroku.com/articles/github-integration). Note in particular the Enabling GitHub integration section and the Wait for CI to pass before deploy checkbox detailed in the Automatic deploys section.
 
 ## Troubleshooting
 
-- Use the [CircleCI language docs](https://circleci.com/docs/2.0/language-ruby/) and the [CircleCI deployment docs](https://circleci.com/docs/2.0/deployment-integrations/) to help you identify problems.
+- Use the [CircleCI deployment docs](https://circleci.com/docs/deployment-overview/) to help you identify problems.
 - If you get a CircleCI error saying no jobs or workflows are defined, check your indentation. Every section should have nested indentation where each nested section is tabbed in one tab more than its parent.
 - If you're on Windows and you get the error "Your bundle only supports platforms ["x86-mingw32"]", then replace `x86-mingw32` with `ruby` in the `PLATFORMS` section in `Gemfile.lock`.
 - If you get errors about Bundler versions, add the following to `config.yml` on the line before the `ruby/bundle-install` step (explanation [here](https://docs.travis-ci.com/user/languages/ruby/#bundler-20) - note that this explanation is in reference to travis, but it's the same principle):  

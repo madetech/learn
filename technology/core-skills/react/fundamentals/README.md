@@ -10,11 +10,11 @@ An Engineer who has passed this core skill would be expected to understand what 
 parts are, and when to use one over the other (i.e. When should you put something in a prop instead
 of the state).
 
-The first two sections of React's documentation, [JSX](https://reactjs.org/docs/introducing-jsx.html) and [Rendering](https://reactjs.org/docs/rendering-elements.html) are important reading.
+The first chapter of React's documentation, [Describing the UI](https://react.dev/learn/describing-the-ui) is important reading.
 
-- [Components and Props](https://reactjs.org/docs/components-and-props.html)
-- [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
-- [Event Handling](https://reactjs.org/docs/handling-events.html)
+- [Passing props to a component](https://react.dev/learn/passing-props-to-a-component)
+- [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
+- [Responding to Events](https://react.dev/learn/responding-to-events)
 - Handling Application State
-  - To handle application state, you can either use something like the [React Context API](https://reactjs.org/docs/context.html),
+  - To handle application state, you can either use something like the [React Context API](https://react.dev/learn/passing-data-deeply-with-context),
     or look into a library such as [Redux](https://redux.js.org/introduction)
