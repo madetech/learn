@@ -54,15 +54,15 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
 
 - Refactors tests
   - Required - One example of refactoring tests, describing why they are.
+  - Required - Can write tests which follow AAAT (Arrange, Act, Assert, Teardown)
+  - Required - Demonstration of:
+    - Setting up some state first
+    - Making an action
+    - Asserting on that action
+    - Teardown (if applicable)
 
 - Refactors production code
   - Required - One example of refactoring production code.
-  - Required - Can write tests which follow AAAT (Arrange, Act, Assert, Teardown)
-  - Required - Demonstration of:  
-    - Setting up some state first  
-    - Making an action  
-    - Asserting on that action  
-    - Teardown (if applicable)  
 
 - Can describe expected behaviours from the perspective of the user.
   - Required - Can write test names which describe the behaviour of the software from a user’s perspective.
