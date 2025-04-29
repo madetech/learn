@@ -2,7 +2,7 @@ version: 2
 jobs:
   check_links:
     docker:
-      - image: circleci/node:lts
+      - image: cimg/node:lts
     steps:
       - run:
           name: check links
