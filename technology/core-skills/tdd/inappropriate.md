@@ -21,4 +21,4 @@ Investing time into researching how to create fast feedback cycles can have huge
 
 ## Marking Scheme
 
-* Does not TDD markup.
+* Does not TDD markup (e.g. HTML, LaTeX).
