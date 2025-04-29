@@ -27,8 +27,15 @@ Test driven development is a practice we make ample use of here at Made Tech. By
 
 ## Badges
 
-{% capture giraffe_description %}
+### Giraffe
+
+<img class="BadgeImg" alt="Giraffe" src="./giraffe.jpg" />
+
 TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark scheme below.
+
+<br clear=both />
+
+#### Mark scheme
 
 - Writes a failing test before writing production code
   - Required - Several examples
@@ -66,15 +73,18 @@ TDD a [kata](../../katas) or feature of your choice.  Keeping in mind the mark s
 
 - Can demonstrate triangulation when TDDing an example piece of code.
   - Required - Production code is generalised only when there are failing tests that require generalised production code.
-{% endcapture %}
-{% include assessment_container.html name="Giraffe" description=giraffe_description img="./giraffe.jpg" %}
 
-{% capture wolf_description %}
+### Wolf
+
+<img class="BadgeImg" alt="Wolf" src="./wolf.jpg" />
+
 You will be shown some preprepared test code, and will need to identify the test double used inside it.
 
 You will need to create a test using each of the 5 test doubles, a Dummy, a Stub, a Fake, a True Mock and a Spy.
 
 You will need to TDD a feature which interacts with a remote service of your choice, e.g. a class which retrieves Tweets from twitter.
+
+#### Mark scheme
 
 - Can identify the type of test double from code they haven’t written.
   - Required - an explanation of a single test double in the existing test suite, including what it is and the purpose it serves in the test.
@@ -96,13 +106,17 @@ You will need to TDD a feature which interacts with a remote service of your cho
 - Can implement an appropriate method of testing a remote service.
   - Required - Passing test code which handles a remote service adequately.
 
-{% endcapture %}
-{% include assessment_container.html name="Wolf" description=wolf_description img="./wolf.jpg" %}
+### Dragon
 
-{% capture dragon_description %}
+<img class="BadgeImg" alt="Dragon" src="./dragon.jpg" />
+
 Review, refactor and improve an [existing test suite](https://github.com/madetech/core-skill-tdd/tree/master/ruby-chirper).
 
 Assessing Dragon requires access to the [invigilator's guide](https://docs.google.com/document/d/1v_i1LiMmV9xhOT1OpYvMuP3a06aMe4GQhRSkn2Xt3-A/).
+
+<br clear=both />
+
+#### Mark scheme
 
 - Can identify smells within the sample apps test code.
   - Required - Can list and explain three valid smells per the invigilator's guide.
@@ -126,5 +140,3 @@ Assessing Dragon requires access to the [invigilator's guide](https://docs.googl
   - Required - Does not change the production code before the test suite has been written.
   - Required - Demonstrates that the tests written allow developers to now safely refactor
     the production code.
-{% endcapture %}
-{% include assessment_container.html name="Dragon" description=dragon_description img="./dragon.jpg" %}

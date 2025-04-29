@@ -22,10 +22,15 @@ This course is intended to guide learning to a level where you can write and con
 
 ## Badges
 
-{% capture rhino_description %}
+### Rhino
+
+<img class="BadgeImg" alt="Rhino" src="./rhino.jpg" />
+
 This assessment is in three parts, and can take up to three hours to complete.
 
-## Semantic HTML
+<br clear=both>
+
+#### 1. Semantic HTML
 
 First, open [this link][rhino-semantic-html-page].
 
@@ -35,7 +40,7 @@ You'll also need to **explain why you chose each new tag**.
 
 [rhino-semantic-html-page]: https://codepen.io/kjdchapman/pen/zXzQYw
 
-## Basic CSS
+#### 2. Basic CSS
 
 You need to add styles to [this prepared HTML][rhino-unstyled-html-page], so that it looks like the picture below.
 
@@ -45,7 +50,7 @@ It doesn't need to be pixel perfect, but the whitespace around the content shoul
 
 [rhino-unstyled-html-page]: https://codepen.io/kjdchapman/pen/mgwYKZ
 
-## Accessibility
+#### 3. Accessibility
 
 You'll need to **identify who** would find using each page difficult.
 
@@ -66,5 +71,3 @@ These are the pages:
 [rhino-control-panel]: https://codepen.io/anon/pen/xNrZbW
 [rhino-click-heres]: https://codepen.io/anon/pen/WBOQLb
 [rhino-favourite-number]: https://codepen.io/anon/pen/YbQwbP
-{% endcapture %}
-{% include assessment_container.html name="Rhino" description=rhino_description img="./rhino.jpg" %}

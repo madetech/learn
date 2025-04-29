@@ -27,9 +27,16 @@ On achieving the following badges, we'd expect you to have gained the following 
 3. Understanding the impact of choices on performance
 4. Can demonstrate ability to combine understanding of the above into a working API in C# with .NET
 
-## Mark Schemes
-{% capture mantis_description %}
-The candidate:
+## Badges
+
+### Mantis Shrimp
+
+<img class="BadgeImg" alt="Mantis Shrimp" src="./mantis.jpg" />
+
+The candidate is expected to complete the following requirements through a combination of verbal explanation and building a simple application with tests.
+
+<br clear=both />
+
 - Can explain what .NET is
 - Can explain the difference between .NET Core and Framework
 - Can explain what the .NET Standard is
@@ -38,7 +45,6 @@ The candidate:
 - Can explain the concept of classes with examples of usage
 - Can explain the concept of interfaces with examples of usage
 - Can explain the concept of inheritance with examples of usage
-
 - Can create a new C# project
 - Can install and manage external project dependancies
 - Can build and run the project
@@ -47,44 +53,41 @@ The candidate:
 - Demonstrates use of classes, interfaces and inheritance
 - Demonstrates the use of scope/access modifiers
 
-Expected deliverable - simple application with a test that satisfies the above
-{% endcapture %}
-{% include assessment_container.html name="Mantis Shrimp" description=mantis_description img="./mantis.jpg" %}
+### Goat
 
-{% capture goat_description %}
-The candidate:
+<img class="BadgeImg" alt="Goat" src="./goat.jpg" />
+
+The candidate is expected to complete the following requirements through a combination of verbal explanation and building a basic HTTP API that can take a request and persist some data from that request.
+
+<br clear=both />
+
 - Can explain the concept of generics and generic type constraints with examples of usage
 - Can explain the usage of the abstract, virtual, and override keywords with examples
 - Can explain the concept of polymorphism with examples of usage
-
 - Can demonstrate using the `dotnet` command line utility to build and run the project and tests
 - Can demonstrate the use of IDE tooling for refactoring code
-
 - Can demonstrate understanding and implementation of exception handling
 - Can demonstrate understanding and implementation of asynchronous programming
 - Can demonstrate understanding and implementation of LINQ query syntax and method syntax
 - Can demonstrate understanding and implementation of data persistence using a database
 - Can demonstrate effectively debugging using an interactive debugging tool
 
-Expected deliverable - HTTP API that can take a request and persist some data from that request demonstrating the above
-{% endcapture %}
-{% include assessment_container.html name="Goat" description=goat_description img="./goat.jpg" %}
+### Eagle
 
-{% capture eagle_description %}
+<img class="BadgeImg" alt="Eagle" src="./eagle.jpg" "/>
+
 Disclaimer - The C# skill is not a core skill, it is advanced learning. If the goal is to know enough to join a delivery, this is satisfied having achieved Goat.
 Eagle is a space to demonstrate a deeper understanding of OO programming and implementing clean, maintainable code in C#.
 
-The candidate:
+The candidate is expected to complete the following requirements through a combination of verbal explanation and building a C# application that showcases an understanding.
+This is intentionally open ended to allow for some flexing!
+Refer to the marking guide and look for clean, SOLID code with good testing strategies.
+
+
 - Can write implementation code and tests that facilitate maintenance and change, using TDD and Clean Architecture. Implementation should follow SOLID principles.
-
 - Can explain at a high level how the .NET virtual machine works
- - Can explain memory management and garbage collection
- - Can explain intermediate language and compilation
+  - Can explain memory management and garbage collection
+  - Can explain intermediate language and compilation
 - Can explain common performance detriments in C# code and some potential ways to write performant C#, particularly in the context of APIs serving web requests.
-
 - Can demonstrate some functional programming in C#
- - Can demonstrate use of delegates
-
-Expected deliverable - A C# application that showcases an understanding of all the above points (this is intentionally open ended to allow for some flexing! Refer to the marking guide and look for clean, SOLID code with good testing strategies).
-{% endcapture %}
-{% include assessment_container.html name="Eagle" description=eagle_description img="./eagle.jpg" %}
+  - Can demonstrate use of delegates
