@@ -6,6 +6,7 @@ Sometimes you can find a proxy for "correctness" which will make you feel like T
 If you aren't feeling confident that your tests are guarding against regression, this is a signal that you shouldn't be using TDD.
 
 Graphical UIs are an example of software not suitable for TDD, they are usually defined in a markup language which can only be asserted for correctness by visually inspecting the rendered output.
+There may still be some tests which are useful to add to your UI components, e.g. an automated accessibility checker, but this shouldn't replace a professional accessibility audit of your product.
 
 Configurations are also not suitable for TDD, their correctness can only be ascertained by testing the configuration in conjunction with whatever they are configuring.
 State machines are configuration. Unit testing is still important, but the discipline of TDD is not.
