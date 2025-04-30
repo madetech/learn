@@ -27,6 +27,9 @@ Test driven development is a practice we make ample use of here at Made Tech. By
 
 ## Badges
 
+Any Made Tech employee who wishes to be assessed against any of these badges can request assistance via the
+#tdd-core-skill Slack channel.
+
 ### Giraffe
 
 <img class="BadgeImg" alt="Giraffe" src="./giraffe.jpg" />
