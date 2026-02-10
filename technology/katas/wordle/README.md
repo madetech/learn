@@ -38,11 +38,18 @@ Guess  = “charm”
 Result = “01120”
 ```
 
-### Multiple characters in wrong positions
+### Multiple of the same character
 ```
 Target = “reads”
 Guess  = “elect”
 Result = “10000”
 ```
+In this example, only the first instance of `e` in the guess is given a 1 because there is only one `e` in the answer, and neither matched exactly.
 
 
+```
+Target = “doubt”
+Guess  = “trait”
+Result = “00002”
+```
+In this example, the second instance of `t` in the guess is given a 2 because there is only one `t` in the answer and the second has matched exactly.
