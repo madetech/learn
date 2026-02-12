@@ -22,6 +22,10 @@ def eat_cake(cake)
 end
 ```
 
+## Reading material
+
+* [Triangulation in Test-Driven Development](https://dmitripavlutin.com/triangulation-test-driven-development/)
+
 ## Marking scheme
 
 * Can describe the situations where using triangulation helps improve test quality.
